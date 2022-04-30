@@ -3,12 +3,12 @@
  "builtin_types" :
  [
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIDn",
    "name" : "std::nullptr_t",
    "referenced_type" : "_ZTIDn",
    "self_type" : "_ZTIDn",
-   "size" : 4
+   "size" : 8
   },
   {
    "alignment" : 1,
@@ -23,7 +23,6 @@
   {
    "alignment" : 1,
    "is_integral" : true,
-   "is_unsigned" : true,
    "linker_set_key" : "_ZTIc",
    "name" : "char",
    "referenced_type" : "_ZTIc",
@@ -50,19 +49,29 @@
    "size" : 4
   },
   {
-   "linker_set_key" : "_ZTIv",
-   "name" : "void",
-   "referenced_type" : "_ZTIv",
-   "self_type" : "_ZTIv"
+   "alignment" : 8,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIl",
+   "name" : "long",
+   "referenced_type" : "_ZTIl",
+   "self_type" : "_ZTIl",
+   "size" : 8
   },
   {
    "alignment" : 8,
    "is_integral" : true,
-   "linker_set_key" : "_ZTIx",
-   "name" : "long long",
-   "referenced_type" : "_ZTIx",
-   "self_type" : "_ZTIx",
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIm",
+   "name" : "unsigned long",
+   "referenced_type" : "_ZTIm",
+   "self_type" : "_ZTIm",
    "size" : 8
+  },
+  {
+   "linker_set_key" : "_ZTIv",
+   "name" : "void",
+   "referenced_type" : "_ZTIv",
+   "self_type" : "_ZTIv"
   }
  ],
  "elf_functions" :
@@ -85,11 +94,11 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware5power12WorkDurationEEEiPK7AParcelPvj"
+   "name" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware5power12WorkDurationEEEiPK7AParcelPvm"
   },
   {
    "binding" : "weak",
-   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware5power12WorkDurationEEEiP7AParcelPKvj"
+   "name" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware5power12WorkDurationEEEiP7AParcelPKvm"
   },
   {
    "name" : "_ZN4aidl7android8hardware5power12WorkDuration14readFromParcelEPK7AParcel"
@@ -104,13 +113,13 @@
    "name" : "_ZN4aidl7android8hardware5power13IPowerDefault16isBoostSupportedENS2_5BoostEPb"
   },
   {
-   "name" : "_ZN4aidl7android8hardware5power13IPowerDefault17createHintSessionEiiRKNSt3__16vectorIiNS4_9allocatorIiEEEExPNS4_10shared_ptrINS2_17IPowerHintSessionEEE"
+   "name" : "_ZN4aidl7android8hardware5power13IPowerDefault17createHintSessionEiiRKNSt3__16vectorIiNS4_9allocatorIiEEEElPNS4_10shared_ptrINS2_17IPowerHintSessionEEE"
   },
   {
    "name" : "_ZN4aidl7android8hardware5power13IPowerDefault19getInterfaceVersionEPi"
   },
   {
-   "name" : "_ZN4aidl7android8hardware5power13IPowerDefault27getHintSessionPreferredRateEPx"
+   "name" : "_ZN4aidl7android8hardware5power13IPowerDefault27getHintSessionPreferredRateEPl"
   },
   {
    "name" : "_ZN4aidl7android8hardware5power13IPowerDefault7setModeENS2_4ModeEb"
@@ -182,7 +191,7 @@
    "name" : "_ZN4aidl7android8hardware5power18BpPowerHintSession24reportActualWorkDurationERKNSt3__16vectorINS2_12WorkDurationENS4_9allocatorIS6_EEEE"
   },
   {
-   "name" : "_ZN4aidl7android8hardware5power18BpPowerHintSession24updateTargetWorkDurationEx"
+   "name" : "_ZN4aidl7android8hardware5power18BpPowerHintSession24updateTargetWorkDurationEl"
   },
   {
    "name" : "_ZN4aidl7android8hardware5power18BpPowerHintSession5closeEv"
@@ -218,7 +227,7 @@
    "name" : "_ZN4aidl7android8hardware5power24IPowerHintSessionDefault24reportActualWorkDurationERKNSt3__16vectorINS2_12WorkDurationENS4_9allocatorIS6_EEEE"
   },
   {
-   "name" : "_ZN4aidl7android8hardware5power24IPowerHintSessionDefault24updateTargetWorkDurationEx"
+   "name" : "_ZN4aidl7android8hardware5power24IPowerHintSessionDefault24updateTargetWorkDurationEl"
   },
   {
    "name" : "_ZN4aidl7android8hardware5power24IPowerHintSessionDefault5closeEv"
@@ -293,13 +302,13 @@
    "name" : "_ZN4aidl7android8hardware5power7BpPower16isBoostSupportedENS2_5BoostEPb"
   },
   {
-   "name" : "_ZN4aidl7android8hardware5power7BpPower17createHintSessionEiiRKNSt3__16vectorIiNS4_9allocatorIiEEEExPNS4_10shared_ptrINS2_17IPowerHintSessionEEE"
+   "name" : "_ZN4aidl7android8hardware5power7BpPower17createHintSessionEiiRKNSt3__16vectorIiNS4_9allocatorIiEEEElPNS4_10shared_ptrINS2_17IPowerHintSessionEEE"
   },
   {
    "name" : "_ZN4aidl7android8hardware5power7BpPower19getInterfaceVersionEPi"
   },
   {
-   "name" : "_ZN4aidl7android8hardware5power7BpPower27getHintSessionPreferredRateEPx"
+   "name" : "_ZN4aidl7android8hardware5power7BpPower27getHintSessionPreferredRateEPl"
   },
   {
    "name" : "_ZN4aidl7android8hardware5power7BpPower7setModeENS2_4ModeEb"
@@ -343,11 +352,11 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware5power12WorkDurationENS_9allocatorIS5_EEE8__appendEj"
+   "name" : "_ZNSt3__16vectorIN4aidl7android8hardware5power12WorkDurationENS_9allocatorIS5_EEE8__appendEm"
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEj"
+   "name" : "_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEm"
   }
  ],
  "elf_objects" :
@@ -736,6 +745,14 @@
     {
      "enum_field_value" : 14,
      "name" : "aidl::android::hardware::power::Mode::CAMERA_STREAMING_HIGH"
+    },
+    {
+     "enum_field_value" : 15,
+     "name" : "aidl::android::hardware::power::Mode::GAME"
+    },
+    {
+     "enum_field_value" : 16,
+     "name" : "aidl::android::hardware::power::Mode::GAME_LOADING"
     }
    ],
    "linker_set_key" : "_ZTIN4aidl7android8hardware5power4ModeE",
@@ -743,7 +760,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power4ModeE",
    "self_type" : "_ZTIN4aidl7android8hardware5power4ModeE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/Mode.h",
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/Mode.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -780,7 +797,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power5BoostE",
    "self_type" : "_ZTIN4aidl7android8hardware5power5BoostE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/Boost.h",
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/Boost.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -789,13 +806,13 @@
    [
     {
      "enum_field_value" : 0,
-     "name" : "android::internal::details::ToEmptyString<long long>::value"
+     "name" : "android::internal::details::ToEmptyString<long>::value"
     }
    ],
-   "linker_set_key" : "_ZTIN7android8internal7details13ToEmptyStringIxE6$valueE",
-   "name" : "android::internal::details::ToEmptyString<long long>::(unnamed enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:153:5)",
-   "referenced_type" : "_ZTIN7android8internal7details13ToEmptyStringIxE6$valueE",
-   "self_type" : "_ZTIN7android8internal7details13ToEmptyStringIxE6$valueE",
+   "linker_set_key" : "_ZTIN7android8internal7details13ToEmptyStringIlE6$valueE",
+   "name" : "android::internal::details::ToEmptyString<long>::(unnamed enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:153:5)",
+   "referenced_type" : "_ZTIN7android8internal7details13ToEmptyStringIlE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details13ToEmptyStringIlE6$valueE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
    "underlying_type" : "_ZTIj"
@@ -884,7 +901,7 @@
   },
   {
    "function_name" : "ndk::AParcel_readStdVectorParcelableElement",
-   "linker_set_key" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware5power12WorkDurationEEEiPK7AParcelPvj",
+   "linker_set_key" : "_ZN3ndk38AParcel_readStdVectorParcelableElementIN4aidl7android8hardware5power12WorkDurationEEEiPK7AParcelPvm",
    "parameters" :
    [
     {
@@ -894,7 +911,7 @@
      "referenced_type" : "_ZTIPv"
     },
     {
-     "referenced_type" : "_ZTIj"
+     "referenced_type" : "_ZTIm"
     }
    ],
    "return_type" : "_ZTIi",
@@ -906,7 +923,7 @@
   },
   {
    "function_name" : "ndk::AParcel_writeStdVectorParcelableElement",
-   "linker_set_key" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware5power12WorkDurationEEEiP7AParcelPKvj",
+   "linker_set_key" : "_ZN3ndk39AParcel_writeStdVectorParcelableElementIN4aidl7android8hardware5power12WorkDurationEEEiP7AParcelPKvm",
    "parameters" :
    [
     {
@@ -916,7 +933,7 @@
      "referenced_type" : "_ZTIPKv"
     },
     {
-     "referenced_type" : "_ZTIj"
+     "referenced_type" : "_ZTIm"
     }
    ],
    "return_type" : "_ZTIi",
@@ -940,7 +957,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerDefault::isModeSupported",
@@ -959,7 +976,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerDefault::getInterfaceHash",
@@ -975,7 +992,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerDefault::isBoostSupported",
@@ -994,11 +1011,11 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerDefault::createHintSession",
-   "linker_set_key" : "_ZN4aidl7android8hardware5power13IPowerDefault17createHintSessionEiiRKNSt3__16vectorIiNS4_9allocatorIiEEEExPNS4_10shared_ptrINS2_17IPowerHintSessionEEE",
+   "linker_set_key" : "_ZN4aidl7android8hardware5power13IPowerDefault17createHintSessionEiiRKNSt3__16vectorIiNS4_9allocatorIiEEEElPNS4_10shared_ptrINS2_17IPowerHintSessionEEE",
    "parameters" :
    [
     {
@@ -1015,14 +1032,14 @@
      "referenced_type" : "_ZTIRKNSt3__16vectorIiNS_9allocatorIiEEEE"
     },
     {
-     "referenced_type" : "_ZTIx"
+     "referenced_type" : "_ZTIl"
     },
     {
      "referenced_type" : "_ZTIPNSt3__110shared_ptrIN4aidl7android8hardware5power17IPowerHintSessionEEE"
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerDefault::getInterfaceVersion",
@@ -1038,11 +1055,11 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerDefault::getHintSessionPreferredRate",
-   "linker_set_key" : "_ZN4aidl7android8hardware5power13IPowerDefault27getHintSessionPreferredRateEPx",
+   "linker_set_key" : "_ZN4aidl7android8hardware5power13IPowerDefault27getHintSessionPreferredRateEPl",
    "parameters" :
    [
     {
@@ -1050,11 +1067,11 @@
      "referenced_type" : "_ZTIPN4aidl7android8hardware5power13IPowerDefaultE"
     },
     {
-     "referenced_type" : "_ZTIPx"
+     "referenced_type" : "_ZTIPl"
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerDefault::setMode",
@@ -1073,7 +1090,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerDefault::asBinder",
@@ -1086,7 +1103,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk10SpAIBinderE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerDefault::isRemote",
@@ -1099,7 +1116,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerDefault::setBoost",
@@ -1118,7 +1135,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSession::fromBinder",
@@ -1130,7 +1147,7 @@
     }
    ],
    "return_type" : "_ZTINSt3__110shared_ptrIN4aidl7android8hardware5power17IPowerHintSessionEEE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSession::writeToParcel",
@@ -1145,13 +1162,13 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSession::getDefaultImpl",
    "linker_set_key" : "_ZN4aidl7android8hardware5power17IPowerHintSession14getDefaultImplEv",
    "return_type" : "_ZTIRKNSt3__110shared_ptrIN4aidl7android8hardware5power17IPowerHintSessionEEE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSession::readFromParcel",
@@ -1166,7 +1183,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSession::setDefaultImpl",
@@ -1178,7 +1195,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSession::IPowerHintSession",
@@ -1191,7 +1208,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSession::~IPowerHintSession",
@@ -1204,7 +1221,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSession::~IPowerHintSession",
@@ -1217,7 +1234,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSession::~IPowerHintSession",
@@ -1230,7 +1247,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "access" : "protected",
@@ -1244,7 +1261,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk10SpAIBinderE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BnPowerHintSession::getInterfaceHash",
@@ -1260,7 +1277,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BnPowerHintSession::getInterfaceVersion",
@@ -1276,7 +1293,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BnPowerHintSession::BnPowerHintSession",
@@ -1289,7 +1306,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BnPowerHintSession::~BnPowerHintSession",
@@ -1302,7 +1319,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BnPowerHintSession::~BnPowerHintSession",
@@ -1315,7 +1332,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BnPowerHintSession::~BnPowerHintSession",
@@ -1328,7 +1345,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPowerHintSession::getInterfaceHash",
@@ -1344,7 +1361,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPowerHintSession::getInterfaceVersion",
@@ -1360,7 +1377,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPowerHintSession::reportActualWorkDuration",
@@ -1376,11 +1393,11 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPowerHintSession::updateTargetWorkDuration",
-   "linker_set_key" : "_ZN4aidl7android8hardware5power18BpPowerHintSession24updateTargetWorkDurationEx",
+   "linker_set_key" : "_ZN4aidl7android8hardware5power18BpPowerHintSession24updateTargetWorkDurationEl",
    "parameters" :
    [
     {
@@ -1388,11 +1405,11 @@
      "referenced_type" : "_ZTIPN4aidl7android8hardware5power18BpPowerHintSessionE"
     },
     {
-     "referenced_type" : "_ZTIx"
+     "referenced_type" : "_ZTIl"
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPowerHintSession::close",
@@ -1405,7 +1422,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPowerHintSession::pause",
@@ -1418,7 +1435,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPowerHintSession::resume",
@@ -1431,7 +1448,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPowerHintSession::BpPowerHintSession",
@@ -1447,7 +1464,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPowerHintSession::BpPowerHintSession",
@@ -1463,7 +1480,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPowerHintSession::~BpPowerHintSession",
@@ -1476,7 +1493,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPowerHintSession::~BpPowerHintSession",
@@ -1489,7 +1506,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPowerHintSession::~BpPowerHintSession",
@@ -1502,7 +1519,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSessionDefault::getInterfaceHash",
@@ -1518,7 +1535,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSessionDefault::getInterfaceVersion",
@@ -1534,7 +1551,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSessionDefault::reportActualWorkDuration",
@@ -1550,11 +1567,11 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSessionDefault::updateTargetWorkDuration",
-   "linker_set_key" : "_ZN4aidl7android8hardware5power24IPowerHintSessionDefault24updateTargetWorkDurationEx",
+   "linker_set_key" : "_ZN4aidl7android8hardware5power24IPowerHintSessionDefault24updateTargetWorkDurationEl",
    "parameters" :
    [
     {
@@ -1562,11 +1579,11 @@
      "referenced_type" : "_ZTIPN4aidl7android8hardware5power24IPowerHintSessionDefaultE"
     },
     {
-     "referenced_type" : "_ZTIx"
+     "referenced_type" : "_ZTIl"
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSessionDefault::close",
@@ -1579,7 +1596,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSessionDefault::pause",
@@ -1592,7 +1609,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSessionDefault::resume",
@@ -1605,7 +1622,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSessionDefault::asBinder",
@@ -1618,7 +1635,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk10SpAIBinderE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSessionDefault::isRemote",
@@ -1631,7 +1648,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPower::fromBinder",
@@ -1643,7 +1660,7 @@
     }
    ],
    "return_type" : "_ZTINSt3__110shared_ptrIN4aidl7android8hardware5power6IPowerEEE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPower::writeToParcel",
@@ -1658,13 +1675,13 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPower::getDefaultImpl",
    "linker_set_key" : "_ZN4aidl7android8hardware5power6IPower14getDefaultImplEv",
    "return_type" : "_ZTIRKNSt3__110shared_ptrIN4aidl7android8hardware5power6IPowerEEE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPower::readFromParcel",
@@ -1679,7 +1696,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPower::setDefaultImpl",
@@ -1691,7 +1708,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPower::IPower",
@@ -1704,7 +1721,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPower::~IPower",
@@ -1717,7 +1734,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPower::~IPower",
@@ -1730,7 +1747,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPower::~IPower",
@@ -1743,7 +1760,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "access" : "protected",
@@ -1757,7 +1774,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk10SpAIBinderE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BnPower::getInterfaceHash",
@@ -1773,7 +1790,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BnPower::getInterfaceVersion",
@@ -1789,7 +1806,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BnPower::BnPower",
@@ -1802,7 +1819,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BnPower::~BnPower",
@@ -1815,7 +1832,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BnPower::~BnPower",
@@ -1828,7 +1845,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BnPower::~BnPower",
@@ -1841,7 +1858,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPower::isModeSupported",
@@ -1860,7 +1877,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPower::getInterfaceHash",
@@ -1876,7 +1893,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPower::isBoostSupported",
@@ -1895,11 +1912,11 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPower::createHintSession",
-   "linker_set_key" : "_ZN4aidl7android8hardware5power7BpPower17createHintSessionEiiRKNSt3__16vectorIiNS4_9allocatorIiEEEExPNS4_10shared_ptrINS2_17IPowerHintSessionEEE",
+   "linker_set_key" : "_ZN4aidl7android8hardware5power7BpPower17createHintSessionEiiRKNSt3__16vectorIiNS4_9allocatorIiEEEElPNS4_10shared_ptrINS2_17IPowerHintSessionEEE",
    "parameters" :
    [
     {
@@ -1916,14 +1933,14 @@
      "referenced_type" : "_ZTIRKNSt3__16vectorIiNS_9allocatorIiEEEE"
     },
     {
-     "referenced_type" : "_ZTIx"
+     "referenced_type" : "_ZTIl"
     },
     {
      "referenced_type" : "_ZTIPNSt3__110shared_ptrIN4aidl7android8hardware5power17IPowerHintSessionEEE"
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPower::getInterfaceVersion",
@@ -1939,11 +1956,11 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPower::getHintSessionPreferredRate",
-   "linker_set_key" : "_ZN4aidl7android8hardware5power7BpPower27getHintSessionPreferredRateEPx",
+   "linker_set_key" : "_ZN4aidl7android8hardware5power7BpPower27getHintSessionPreferredRateEPl",
    "parameters" :
    [
     {
@@ -1951,11 +1968,11 @@
      "referenced_type" : "_ZTIPN4aidl7android8hardware5power7BpPowerE"
     },
     {
-     "referenced_type" : "_ZTIPx"
+     "referenced_type" : "_ZTIPl"
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPower::setMode",
@@ -1974,7 +1991,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPower::setBoost",
@@ -1993,7 +2010,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPower::BpPower",
@@ -2009,7 +2026,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPower::BpPower",
@@ -2025,7 +2042,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPower::~BpPower",
@@ -2038,7 +2055,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPower::~BpPower",
@@ -2051,7 +2068,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPower::~BpPower",
@@ -2064,7 +2081,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::WorkDuration::writeToParcel",
@@ -2080,7 +2097,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
   }
  ],
  "global_vars" :
@@ -2089,1032 +2106,1032 @@
    "linker_set_key" : "_ZN4aidl7android8hardware5power12WorkDuration10descriptorE",
    "name" : "aidl::android::hardware::power::WorkDuration::descriptor",
    "referenced_type" : "_ZTIPKc",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
   },
   {
    "linker_set_key" : "_ZN4aidl7android8hardware5power17IPowerHintSession10descriptorE",
    "name" : "aidl::android::hardware::power::IPowerHintSession::descriptor",
    "referenced_type" : "_ZTIPKc",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "access" : "private",
    "linker_set_key" : "_ZN4aidl7android8hardware5power17IPowerHintSession12default_implE",
    "name" : "aidl::android::hardware::power::IPowerHintSession::default_impl",
    "referenced_type" : "_ZTINSt3__110shared_ptrIN4aidl7android8hardware5power17IPowerHintSessionEEE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "linker_set_key" : "_ZN4aidl7android8hardware5power17IPowerHintSession4hashE",
    "name" : "aidl::android::hardware::power::IPowerHintSession::hash",
    "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "linker_set_key" : "_ZN4aidl7android8hardware5power6IPower10descriptorE",
    "name" : "aidl::android::hardware::power::IPower::descriptor",
    "referenced_type" : "_ZTIPKc",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "access" : "private",
    "linker_set_key" : "_ZN4aidl7android8hardware5power6IPower12default_implE",
    "name" : "aidl::android::hardware::power::IPower::default_impl",
    "referenced_type" : "_ZTINSt3__110shared_ptrIN4aidl7android8hardware5power6IPowerEEE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "linker_set_key" : "_ZN4aidl7android8hardware5power6IPower4hashE",
    "name" : "aidl::android::hardware::power::IPower::hash",
    "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   }
  ],
  "lvalue_reference_types" :
  [
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKN3ndk10SpAIBinderE",
    "name" : "const ndk::SpAIBinder &",
    "referenced_type" : "_ZTIKN3ndk10SpAIBinderE",
    "self_type" : "_ZTIRKN3ndk10SpAIBinderE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKN3ndk13ScopedAParcelE",
    "name" : "const ndk::ScopedAParcel &",
    "referenced_type" : "_ZTIKN3ndk13ScopedAParcelE",
    "self_type" : "_ZTIRKN3ndk13ScopedAParcelE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKN3ndk17AParcelableHolderE",
    "name" : "const ndk::AParcelableHolder &",
    "referenced_type" : "_ZTIKN3ndk17AParcelableHolderE",
    "self_type" : "_ZTIRKN3ndk17AParcelableHolderE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcelable_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKN3ndk20ScopedFileDescriptorE",
    "name" : "const ndk::ScopedFileDescriptor &",
    "referenced_type" : "_ZTIKN3ndk20ScopedFileDescriptorE",
    "self_type" : "_ZTIRKN3ndk20ScopedFileDescriptorE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKN4aidl7android8hardware5power12WorkDurationE",
    "name" : "const aidl::android::hardware::power::WorkDuration &",
    "referenced_type" : "_ZTIKN4aidl7android8hardware5power12WorkDurationE",
    "self_type" : "_ZTIRKN4aidl7android8hardware5power12WorkDurationE",
-   "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__110shared_ptrIN4aidl7android8hardware5power17IPowerHintSessionEEE",
    "name" : "const std::shared_ptr<aidl::android::hardware::power::IPowerHintSession> &",
    "referenced_type" : "_ZTIKNSt3__110shared_ptrIN4aidl7android8hardware5power17IPowerHintSessionEEE",
    "self_type" : "_ZTIRKNSt3__110shared_ptrIN4aidl7android8hardware5power17IPowerHintSessionEEE",
-   "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__110shared_ptrIN4aidl7android8hardware5power6IPowerEEE",
    "name" : "const std::shared_ptr<aidl::android::hardware::power::IPower> &",
    "referenced_type" : "_ZTIKNSt3__110shared_ptrIN4aidl7android8hardware5power6IPowerEEE",
    "self_type" : "_ZTIRKNSt3__110shared_ptrIN4aidl7android8hardware5power6IPowerEEE",
-   "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__16vectorIDsNS_9allocatorIDsEEEE",
    "name" : "const std::vector<char16_t, std::allocator<char16_t>> &",
    "referenced_type" : "_ZTIKNSt3__16vectorIDsNS_9allocatorIDsEEEE",
    "self_type" : "_ZTIRKNSt3__16vectorIDsNS_9allocatorIDsEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__16vectorIN4aidl7android8hardware5power12WorkDurationENS_9allocatorIS5_EEEE",
    "name" : "const std::vector<aidl::android::hardware::power::WorkDuration, std::allocator<aidl::android::hardware::power::WorkDuration>> &",
    "referenced_type" : "_ZTIKNSt3__16vectorIN4aidl7android8hardware5power12WorkDurationENS_9allocatorIS5_EEEE",
    "self_type" : "_ZTIRKNSt3__16vectorIN4aidl7android8hardware5power12WorkDurationENS_9allocatorIS5_EEEE",
-   "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__16vectorIbNS_9allocatorIbEEEE",
    "name" : "const std::vector<bool, std::allocator<bool>> &",
    "referenced_type" : "_ZTIKNSt3__16vectorIbNS_9allocatorIbEEEE",
    "self_type" : "_ZTIRKNSt3__16vectorIbNS_9allocatorIbEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__16vectorIdNS_9allocatorIdEEEE",
    "name" : "const std::vector<double, std::allocator<double>> &",
    "referenced_type" : "_ZTIKNSt3__16vectorIdNS_9allocatorIdEEEE",
    "self_type" : "_ZTIRKNSt3__16vectorIdNS_9allocatorIdEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__16vectorIfNS_9allocatorIfEEEE",
    "name" : "const std::vector<float, std::allocator<float>> &",
    "referenced_type" : "_ZTIKNSt3__16vectorIfNS_9allocatorIfEEEE",
    "self_type" : "_ZTIRKNSt3__16vectorIfNS_9allocatorIfEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__16vectorIhNS_9allocatorIhEEEE",
    "name" : "const std::vector<unsigned char, std::allocator<unsigned char>> &",
    "referenced_type" : "_ZTIKNSt3__16vectorIhNS_9allocatorIhEEEE",
    "self_type" : "_ZTIRKNSt3__16vectorIhNS_9allocatorIhEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__16vectorIiNS_9allocatorIiEEEE",
    "name" : "const std::vector<int, std::allocator<int>> &",
    "referenced_type" : "_ZTIKNSt3__16vectorIiNS_9allocatorIiEEEE",
    "self_type" : "_ZTIRKNSt3__16vectorIiNS_9allocatorIiEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__16vectorIjNS_9allocatorIjEEEE",
    "name" : "const std::vector<unsigned int, std::allocator<unsigned int>> &",
    "referenced_type" : "_ZTIKNSt3__16vectorIjNS_9allocatorIjEEEE",
    "self_type" : "_ZTIRKNSt3__16vectorIjNS_9allocatorIjEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRKNSt3__16vectorIxNS_9allocatorIxEEEE",
-   "name" : "const std::vector<long long, std::allocator<long long>> &",
-   "referenced_type" : "_ZTIKNSt3__16vectorIxNS_9allocatorIxEEEE",
-   "self_type" : "_ZTIRKNSt3__16vectorIxNS_9allocatorIxEEEE",
-   "size" : 4,
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKNSt3__16vectorIlNS_9allocatorIlEEEE",
+   "name" : "const std::vector<long, std::allocator<long>> &",
+   "referenced_type" : "_ZTIKNSt3__16vectorIlNS_9allocatorIlEEEE",
+   "self_type" : "_ZTIRKNSt3__16vectorIlNS_9allocatorIlEEEE",
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRKNSt3__16vectorIyNS_9allocatorIyEEEE",
-   "name" : "const std::vector<unsigned long long, std::allocator<unsigned long long>> &",
-   "referenced_type" : "_ZTIKNSt3__16vectorIyNS_9allocatorIyEEEE",
-   "self_type" : "_ZTIRKNSt3__16vectorIyNS_9allocatorIyEEEE",
-   "size" : 4,
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKNSt3__16vectorImNS_9allocatorImEEEE",
+   "name" : "const std::vector<unsigned long, std::allocator<unsigned long>> &",
+   "referenced_type" : "_ZTIKNSt3__16vectorImNS_9allocatorImEEEE",
+   "self_type" : "_ZTIRKNSt3__16vectorImNS_9allocatorImEEEE",
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__18optionalINS_6vectorIDsNS_9allocatorIDsEEEEEE",
    "name" : "const std::optional<std::vector<char16_t, std::allocator<char16_t>>> &",
    "referenced_type" : "_ZTIKNSt3__18optionalINS_6vectorIDsNS_9allocatorIDsEEEEEE",
    "self_type" : "_ZTIRKNSt3__18optionalINS_6vectorIDsNS_9allocatorIDsEEEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__18optionalINS_6vectorIbNS_9allocatorIbEEEEEE",
    "name" : "const std::optional<std::vector<bool, std::allocator<bool>>> &",
    "referenced_type" : "_ZTIKNSt3__18optionalINS_6vectorIbNS_9allocatorIbEEEEEE",
    "self_type" : "_ZTIRKNSt3__18optionalINS_6vectorIbNS_9allocatorIbEEEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__18optionalINS_6vectorIdNS_9allocatorIdEEEEEE",
    "name" : "const std::optional<std::vector<double, std::allocator<double>>> &",
    "referenced_type" : "_ZTIKNSt3__18optionalINS_6vectorIdNS_9allocatorIdEEEEEE",
    "self_type" : "_ZTIRKNSt3__18optionalINS_6vectorIdNS_9allocatorIdEEEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__18optionalINS_6vectorIfNS_9allocatorIfEEEEEE",
    "name" : "const std::optional<std::vector<float, std::allocator<float>>> &",
    "referenced_type" : "_ZTIKNSt3__18optionalINS_6vectorIfNS_9allocatorIfEEEEEE",
    "self_type" : "_ZTIRKNSt3__18optionalINS_6vectorIfNS_9allocatorIfEEEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__18optionalINS_6vectorIhNS_9allocatorIhEEEEEE",
    "name" : "const std::optional<std::vector<unsigned char, std::allocator<unsigned char>>> &",
    "referenced_type" : "_ZTIKNSt3__18optionalINS_6vectorIhNS_9allocatorIhEEEEEE",
    "self_type" : "_ZTIRKNSt3__18optionalINS_6vectorIhNS_9allocatorIhEEEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__18optionalINS_6vectorIiNS_9allocatorIiEEEEEE",
    "name" : "const std::optional<std::vector<int, std::allocator<int>>> &",
    "referenced_type" : "_ZTIKNSt3__18optionalINS_6vectorIiNS_9allocatorIiEEEEEE",
    "self_type" : "_ZTIRKNSt3__18optionalINS_6vectorIiNS_9allocatorIiEEEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__18optionalINS_6vectorIjNS_9allocatorIjEEEEEE",
    "name" : "const std::optional<std::vector<unsigned int, std::allocator<unsigned int>>> &",
    "referenced_type" : "_ZTIKNSt3__18optionalINS_6vectorIjNS_9allocatorIjEEEEEE",
    "self_type" : "_ZTIRKNSt3__18optionalINS_6vectorIjNS_9allocatorIjEEEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRKNSt3__18optionalINS_6vectorIxNS_9allocatorIxEEEEEE",
-   "name" : "const std::optional<std::vector<long long, std::allocator<long long>>> &",
-   "referenced_type" : "_ZTIKNSt3__18optionalINS_6vectorIxNS_9allocatorIxEEEEEE",
-   "self_type" : "_ZTIRKNSt3__18optionalINS_6vectorIxNS_9allocatorIxEEEEEE",
-   "size" : 4,
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKNSt3__18optionalINS_6vectorIlNS_9allocatorIlEEEEEE",
+   "name" : "const std::optional<std::vector<long, std::allocator<long>>> &",
+   "referenced_type" : "_ZTIKNSt3__18optionalINS_6vectorIlNS_9allocatorIlEEEEEE",
+   "self_type" : "_ZTIRKNSt3__18optionalINS_6vectorIlNS_9allocatorIlEEEEEE",
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRKNSt3__18optionalINS_6vectorIyNS_9allocatorIyEEEEEE",
-   "name" : "const std::optional<std::vector<unsigned long long, std::allocator<unsigned long long>>> &",
-   "referenced_type" : "_ZTIKNSt3__18optionalINS_6vectorIyNS_9allocatorIyEEEEEE",
-   "self_type" : "_ZTIRKNSt3__18optionalINS_6vectorIyNS_9allocatorIyEEEEEE",
-   "size" : 4,
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKNSt3__18optionalINS_6vectorImNS_9allocatorImEEEEEE",
+   "name" : "const std::optional<std::vector<unsigned long, std::allocator<unsigned long>>> &",
+   "referenced_type" : "_ZTIKNSt3__18optionalINS_6vectorImNS_9allocatorImEEEEEE",
+   "self_type" : "_ZTIRKNSt3__18optionalINS_6vectorImNS_9allocatorImEEEEEE",
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRKx",
-   "name" : "const long long &",
-   "referenced_type" : "_ZTIKx",
-   "self_type" : "_ZTIRKx",
-   "size" : 4,
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKl",
+   "name" : "const long &",
+   "referenced_type" : "_ZTIKl",
+   "self_type" : "_ZTIRKl",
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRN3ndk10SpAIBinderE",
    "name" : "ndk::SpAIBinder &",
    "referenced_type" : "_ZTIN3ndk10SpAIBinderE",
    "self_type" : "_ZTIRN3ndk10SpAIBinderE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRN3ndk13ScopedAParcelE",
    "name" : "ndk::ScopedAParcel &",
    "referenced_type" : "_ZTIN3ndk13ScopedAParcelE",
    "self_type" : "_ZTIRN3ndk13ScopedAParcelE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRN3ndk13ScopedAStatusE",
    "name" : "ndk::ScopedAStatus &",
    "referenced_type" : "_ZTIN3ndk13ScopedAStatusE",
    "self_type" : "_ZTIRN3ndk13ScopedAStatusE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRN3ndk19ScopedAIBinder_WeakE",
    "name" : "ndk::ScopedAIBinder_Weak &",
    "referenced_type" : "_ZTIN3ndk19ScopedAIBinder_WeakE",
    "self_type" : "_ZTIRN3ndk19ScopedAIBinder_WeakE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRN3ndk20ScopedFileDescriptorE",
    "name" : "ndk::ScopedFileDescriptor &",
    "referenced_type" : "_ZTIN3ndk20ScopedFileDescriptorE",
    "self_type" : "_ZTIRN3ndk20ScopedFileDescriptorE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRN3ndk29ScopedAIBinder_DeathRecipientE",
    "name" : "ndk::ScopedAIBinder_DeathRecipient &",
    "referenced_type" : "_ZTIN3ndk29ScopedAIBinder_DeathRecipientE",
    "self_type" : "_ZTIRN3ndk29ScopedAIBinder_DeathRecipientE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRN3ndk4impl15ScopedAResourceIP7AStatusXadL_Z14AStatus_deleteEELS3_0EEE",
    "name" : "ndk::impl::ScopedAResource<AStatus *, &AStatus_delete, nullptr> &",
    "referenced_type" : "_ZTIN3ndk4impl15ScopedAResourceIP7AStatusXadL_Z14AStatus_deleteEELS3_0EEE",
    "self_type" : "_ZTIRN3ndk4impl15ScopedAResourceIP7AStatusXadL_Z14AStatus_deleteEELS3_0EEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   }
  ],
  "pointer_types" :
  [
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP13AIBinder_Weak",
    "name" : "AIBinder_Weak *",
    "referenced_type" : "_ZTI13AIBinder_Weak",
    "self_type" : "_ZTIP13AIBinder_Weak",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP14AIBinder_Class",
    "name" : "AIBinder_Class *",
    "referenced_type" : "_ZTI14AIBinder_Class",
    "self_type" : "_ZTIP14AIBinder_Class",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_interface_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP23AIBinder_DeathRecipient",
    "name" : "AIBinder_DeathRecipient *",
    "referenced_type" : "_ZTI23AIBinder_DeathRecipient",
    "self_type" : "_ZTIP23AIBinder_DeathRecipient",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP7AParcel",
    "name" : "AParcel *",
    "referenced_type" : "_ZTI7AParcel",
    "self_type" : "_ZTIP7AParcel",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP7AStatus",
    "name" : "AStatus *",
    "referenced_type" : "_ZTI7AStatus",
    "self_type" : "_ZTIP7AStatus",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP8AIBinder",
    "name" : "AIBinder *",
    "referenced_type" : "_ZTI8AIBinder",
    "self_type" : "_ZTIP8AIBinder",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPFiP8AIBinderjPK7AParcelPS1_E",
    "name" : "int (*)(AIBinder *, unsigned int, const AParcel *, AParcel *)",
    "referenced_type" : "_ZTIFiP8AIBinderjPK7AParcelPS1_E",
    "self_type" : "_ZTIPFiP8AIBinderjPK7AParcelPS1_E",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_interface_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK7AParcel",
    "name" : "const AParcel *",
    "referenced_type" : "_ZTIK7AParcel",
    "self_type" : "_ZTIPK7AParcel",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_interface_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPKN3ndk10SpAIBinderE",
    "name" : "const ndk::SpAIBinder *",
    "referenced_type" : "_ZTIKN3ndk10SpAIBinderE",
    "self_type" : "_ZTIPKN3ndk10SpAIBinderE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPKN3ndk13ScopedAParcelE",
    "name" : "const ndk::ScopedAParcel *",
    "referenced_type" : "_ZTIKN3ndk13ScopedAParcelE",
    "self_type" : "_ZTIPKN3ndk13ScopedAParcelE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPKN3ndk13ScopedAStatusE",
    "name" : "const ndk::ScopedAStatus *",
    "referenced_type" : "_ZTIKN3ndk13ScopedAStatusE",
    "self_type" : "_ZTIPKN3ndk13ScopedAStatusE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPKN3ndk17AParcelableHolderE",
    "name" : "const ndk::AParcelableHolder *",
    "referenced_type" : "_ZTIKN3ndk17AParcelableHolderE",
    "self_type" : "_ZTIPKN3ndk17AParcelableHolderE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcelable_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPKN3ndk20ScopedFileDescriptorE",
    "name" : "const ndk::ScopedFileDescriptor *",
    "referenced_type" : "_ZTIKN3ndk20ScopedFileDescriptorE",
    "self_type" : "_ZTIPKN3ndk20ScopedFileDescriptorE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPKN3ndk4impl15ScopedAResourceIP7AParcelXadL_Z14AParcel_deleteEELS3_0EEE",
    "name" : "const ndk::impl::ScopedAResource<AParcel *, &AParcel_delete, nullptr> *",
    "referenced_type" : "_ZTIKN3ndk4impl15ScopedAResourceIP7AParcelXadL_Z14AParcel_deleteEELS3_0EEE",
    "self_type" : "_ZTIPKN3ndk4impl15ScopedAResourceIP7AParcelXadL_Z14AParcel_deleteEELS3_0EEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPKN3ndk4impl15ScopedAResourceIP7AStatusXadL_Z14AStatus_deleteEELS3_0EEE",
    "name" : "const ndk::impl::ScopedAResource<AStatus *, &AStatus_delete, nullptr> *",
    "referenced_type" : "_ZTIKN3ndk4impl15ScopedAResourceIP7AStatusXadL_Z14AStatus_deleteEELS3_0EEE",
    "self_type" : "_ZTIPKN3ndk4impl15ScopedAResourceIP7AStatusXadL_Z14AStatus_deleteEELS3_0EEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPKN4aidl7android8hardware5power12WorkDurationE",
    "name" : "const aidl::android::hardware::power::WorkDuration *",
    "referenced_type" : "_ZTIKN4aidl7android8hardware5power12WorkDurationE",
    "self_type" : "_ZTIPKN4aidl7android8hardware5power12WorkDurationE",
-   "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPKc",
    "name" : "const char *",
    "referenced_type" : "_ZTIKc",
    "self_type" : "_ZTIPKc",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPKv",
    "name" : "const void *",
    "referenced_type" : "_ZTIKv",
    "self_type" : "_ZTIPKv",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN3ndk10SpAIBinderE",
    "name" : "ndk::SpAIBinder *",
    "referenced_type" : "_ZTIN3ndk10SpAIBinderE",
    "self_type" : "_ZTIPN3ndk10SpAIBinderE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN3ndk11ICInterfaceE",
    "name" : "ndk::ICInterface *",
    "referenced_type" : "_ZTIN3ndk11ICInterfaceE",
    "self_type" : "_ZTIPN3ndk11ICInterfaceE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_interface_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN3ndk12BnCInterfaceIN4aidl7android8hardware5power17IPowerHintSessionEEE",
    "name" : "ndk::BnCInterface<aidl::android::hardware::power::IPowerHintSession> *",
    "referenced_type" : "_ZTIN3ndk12BnCInterfaceIN4aidl7android8hardware5power17IPowerHintSessionEEE",
    "self_type" : "_ZTIPN3ndk12BnCInterfaceIN4aidl7android8hardware5power17IPowerHintSessionEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_interface_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN3ndk12BnCInterfaceIN4aidl7android8hardware5power6IPowerEEE",
    "name" : "ndk::BnCInterface<aidl::android::hardware::power::IPower> *",
    "referenced_type" : "_ZTIN3ndk12BnCInterfaceIN4aidl7android8hardware5power6IPowerEEE",
    "self_type" : "_ZTIPN3ndk12BnCInterfaceIN4aidl7android8hardware5power6IPowerEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_interface_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN3ndk12BpCInterfaceIN4aidl7android8hardware5power17IPowerHintSessionEEE",
    "name" : "ndk::BpCInterface<aidl::android::hardware::power::IPowerHintSession> *",
    "referenced_type" : "_ZTIN3ndk12BpCInterfaceIN4aidl7android8hardware5power17IPowerHintSessionEEE",
    "self_type" : "_ZTIPN3ndk12BpCInterfaceIN4aidl7android8hardware5power17IPowerHintSessionEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_interface_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN3ndk12BpCInterfaceIN4aidl7android8hardware5power6IPowerEEE",
    "name" : "ndk::BpCInterface<aidl::android::hardware::power::IPower> *",
    "referenced_type" : "_ZTIN3ndk12BpCInterfaceIN4aidl7android8hardware5power6IPowerEEE",
    "self_type" : "_ZTIPN3ndk12BpCInterfaceIN4aidl7android8hardware5power6IPowerEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_interface_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN3ndk13ScopedAParcelE",
    "name" : "ndk::ScopedAParcel *",
    "referenced_type" : "_ZTIN3ndk13ScopedAParcelE",
    "self_type" : "_ZTIPN3ndk13ScopedAParcelE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN3ndk13ScopedAStatusE",
    "name" : "ndk::ScopedAStatus *",
    "referenced_type" : "_ZTIN3ndk13ScopedAStatusE",
    "self_type" : "_ZTIPN3ndk13ScopedAStatusE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN3ndk13SharedRefBaseE",
    "name" : "ndk::SharedRefBase *",
    "referenced_type" : "_ZTIN3ndk13SharedRefBaseE",
    "self_type" : "_ZTIPN3ndk13SharedRefBaseE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_interface_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN3ndk17AParcelableHolderE",
    "name" : "ndk::AParcelableHolder *",
    "referenced_type" : "_ZTIN3ndk17AParcelableHolderE",
    "self_type" : "_ZTIPN3ndk17AParcelableHolderE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcelable_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN3ndk19ScopedAIBinder_WeakE",
    "name" : "ndk::ScopedAIBinder_Weak *",
    "referenced_type" : "_ZTIN3ndk19ScopedAIBinder_WeakE",
    "self_type" : "_ZTIPN3ndk19ScopedAIBinder_WeakE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN3ndk20ScopedFileDescriptorE",
    "name" : "ndk::ScopedFileDescriptor *",
    "referenced_type" : "_ZTIN3ndk20ScopedFileDescriptorE",
    "self_type" : "_ZTIPN3ndk20ScopedFileDescriptorE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN3ndk29ScopedAIBinder_DeathRecipientE",
    "name" : "ndk::ScopedAIBinder_DeathRecipient *",
    "referenced_type" : "_ZTIN3ndk29ScopedAIBinder_DeathRecipientE",
    "self_type" : "_ZTIPN3ndk29ScopedAIBinder_DeathRecipientE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN3ndk4impl15ScopedAResourceIP13AIBinder_WeakXadL_Z20AIBinder_Weak_deleteEELS3_0EEE",
    "name" : "ndk::impl::ScopedAResource<AIBinder_Weak *, &AIBinder_Weak_delete, nullptr> *",
    "referenced_type" : "_ZTIN3ndk4impl15ScopedAResourceIP13AIBinder_WeakXadL_Z20AIBinder_Weak_deleteEELS3_0EEE",
    "self_type" : "_ZTIPN3ndk4impl15ScopedAResourceIP13AIBinder_WeakXadL_Z20AIBinder_Weak_deleteEELS3_0EEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN3ndk4impl15ScopedAResourceIP23AIBinder_DeathRecipientXadL_Z30AIBinder_DeathRecipient_deleteEELS3_0EEE",
    "name" : "ndk::impl::ScopedAResource<AIBinder_DeathRecipient *, &AIBinder_DeathRecipient_delete, nullptr> *",
    "referenced_type" : "_ZTIN3ndk4impl15ScopedAResourceIP23AIBinder_DeathRecipientXadL_Z30AIBinder_DeathRecipient_deleteEELS3_0EEE",
    "self_type" : "_ZTIPN3ndk4impl15ScopedAResourceIP23AIBinder_DeathRecipientXadL_Z30AIBinder_DeathRecipient_deleteEELS3_0EEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN3ndk4impl15ScopedAResourceIP7AParcelXadL_Z14AParcel_deleteEELS3_0EEE",
    "name" : "ndk::impl::ScopedAResource<AParcel *, &AParcel_delete, nullptr> *",
    "referenced_type" : "_ZTIN3ndk4impl15ScopedAResourceIP7AParcelXadL_Z14AParcel_deleteEELS3_0EEE",
    "self_type" : "_ZTIPN3ndk4impl15ScopedAResourceIP7AParcelXadL_Z14AParcel_deleteEELS3_0EEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN3ndk4impl15ScopedAResourceIP7AStatusXadL_Z14AStatus_deleteEELS3_0EEE",
    "name" : "ndk::impl::ScopedAResource<AStatus *, &AStatus_delete, nullptr> *",
    "referenced_type" : "_ZTIN3ndk4impl15ScopedAResourceIP7AStatusXadL_Z14AStatus_deleteEELS3_0EEE",
    "self_type" : "_ZTIPN3ndk4impl15ScopedAResourceIP7AStatusXadL_Z14AStatus_deleteEELS3_0EEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN4aidl7android8hardware5power12WorkDurationE",
    "name" : "aidl::android::hardware::power::WorkDuration *",
    "referenced_type" : "_ZTIN4aidl7android8hardware5power12WorkDurationE",
    "self_type" : "_ZTIPN4aidl7android8hardware5power12WorkDurationE",
-   "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN4aidl7android8hardware5power13IPowerDefaultE",
    "name" : "aidl::android::hardware::power::IPowerDefault *",
    "referenced_type" : "_ZTIN4aidl7android8hardware5power13IPowerDefaultE",
    "self_type" : "_ZTIPN4aidl7android8hardware5power13IPowerDefaultE",
-   "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN4aidl7android8hardware5power15IPowerDelegatorE",
    "name" : "aidl::android::hardware::power::IPowerDelegator *",
    "referenced_type" : "_ZTIN4aidl7android8hardware5power15IPowerDelegatorE",
    "self_type" : "_ZTIPN4aidl7android8hardware5power15IPowerDelegatorE",
-   "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN4aidl7android8hardware5power17IPowerHintSessionE",
    "name" : "aidl::android::hardware::power::IPowerHintSession *",
    "referenced_type" : "_ZTIN4aidl7android8hardware5power17IPowerHintSessionE",
    "self_type" : "_ZTIPN4aidl7android8hardware5power17IPowerHintSessionE",
-   "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN4aidl7android8hardware5power18BnPowerHintSessionE",
    "name" : "aidl::android::hardware::power::BnPowerHintSession *",
    "referenced_type" : "_ZTIN4aidl7android8hardware5power18BnPowerHintSessionE",
    "self_type" : "_ZTIPN4aidl7android8hardware5power18BnPowerHintSessionE",
-   "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN4aidl7android8hardware5power18BpPowerHintSessionE",
    "name" : "aidl::android::hardware::power::BpPowerHintSession *",
    "referenced_type" : "_ZTIN4aidl7android8hardware5power18BpPowerHintSessionE",
    "self_type" : "_ZTIPN4aidl7android8hardware5power18BpPowerHintSessionE",
-   "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN4aidl7android8hardware5power24IPowerHintSessionDefaultE",
    "name" : "aidl::android::hardware::power::IPowerHintSessionDefault *",
    "referenced_type" : "_ZTIN4aidl7android8hardware5power24IPowerHintSessionDefaultE",
    "self_type" : "_ZTIPN4aidl7android8hardware5power24IPowerHintSessionDefaultE",
-   "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN4aidl7android8hardware5power26IPowerHintSessionDelegatorE",
    "name" : "aidl::android::hardware::power::IPowerHintSessionDelegator *",
    "referenced_type" : "_ZTIN4aidl7android8hardware5power26IPowerHintSessionDelegatorE",
    "self_type" : "_ZTIPN4aidl7android8hardware5power26IPowerHintSessionDelegatorE",
-   "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN4aidl7android8hardware5power6IPowerE",
    "name" : "aidl::android::hardware::power::IPower *",
    "referenced_type" : "_ZTIN4aidl7android8hardware5power6IPowerE",
    "self_type" : "_ZTIPN4aidl7android8hardware5power6IPowerE",
-   "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN4aidl7android8hardware5power7BnPowerE",
    "name" : "aidl::android::hardware::power::BnPower *",
    "referenced_type" : "_ZTIN4aidl7android8hardware5power7BnPowerE",
    "self_type" : "_ZTIPN4aidl7android8hardware5power7BnPowerE",
-   "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN4aidl7android8hardware5power7BpPowerE",
    "name" : "aidl::android::hardware::power::BpPower *",
    "referenced_type" : "_ZTIN4aidl7android8hardware5power7BpPowerE",
    "self_type" : "_ZTIPN4aidl7android8hardware5power7BpPowerE",
-   "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__110shared_ptrIN4aidl7android8hardware5power17IPowerHintSessionEEE",
    "name" : "std::shared_ptr<aidl::android::hardware::power::IPowerHintSession> *",
    "referenced_type" : "_ZTINSt3__110shared_ptrIN4aidl7android8hardware5power17IPowerHintSessionEEE",
    "self_type" : "_ZTIPNSt3__110shared_ptrIN4aidl7android8hardware5power17IPowerHintSessionEEE",
-   "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__110shared_ptrIN4aidl7android8hardware5power6IPowerEEE",
    "name" : "std::shared_ptr<aidl::android::hardware::power::IPower> *",
    "referenced_type" : "_ZTINSt3__110shared_ptrIN4aidl7android8hardware5power6IPowerEEE",
    "self_type" : "_ZTIPNSt3__110shared_ptrIN4aidl7android8hardware5power6IPowerEEE",
-   "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "name" : "std::basic_string<char, std::char_traits<char>, std::allocator<char>> *",
    "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "self_type" : "_ZTIPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__16vectorIDsNS_9allocatorIDsEEEE",
    "name" : "std::vector<char16_t, std::allocator<char16_t>> *",
    "referenced_type" : "_ZTINSt3__16vectorIDsNS_9allocatorIDsEEEE",
    "self_type" : "_ZTIPNSt3__16vectorIDsNS_9allocatorIDsEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__16vectorIbNS_9allocatorIbEEEE",
    "name" : "std::vector<bool, std::allocator<bool>> *",
    "referenced_type" : "_ZTINSt3__16vectorIbNS_9allocatorIbEEEE",
    "self_type" : "_ZTIPNSt3__16vectorIbNS_9allocatorIbEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__16vectorIdNS_9allocatorIdEEEE",
    "name" : "std::vector<double, std::allocator<double>> *",
    "referenced_type" : "_ZTINSt3__16vectorIdNS_9allocatorIdEEEE",
    "self_type" : "_ZTIPNSt3__16vectorIdNS_9allocatorIdEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__16vectorIfNS_9allocatorIfEEEE",
    "name" : "std::vector<float, std::allocator<float>> *",
    "referenced_type" : "_ZTINSt3__16vectorIfNS_9allocatorIfEEEE",
    "self_type" : "_ZTIPNSt3__16vectorIfNS_9allocatorIfEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__16vectorIhNS_9allocatorIhEEEE",
    "name" : "std::vector<unsigned char, std::allocator<unsigned char>> *",
    "referenced_type" : "_ZTINSt3__16vectorIhNS_9allocatorIhEEEE",
    "self_type" : "_ZTIPNSt3__16vectorIhNS_9allocatorIhEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__16vectorIiNS_9allocatorIiEEEE",
    "name" : "std::vector<int, std::allocator<int>> *",
    "referenced_type" : "_ZTINSt3__16vectorIiNS_9allocatorIiEEEE",
    "self_type" : "_ZTIPNSt3__16vectorIiNS_9allocatorIiEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__16vectorIjNS_9allocatorIjEEEE",
    "name" : "std::vector<unsigned int, std::allocator<unsigned int>> *",
    "referenced_type" : "_ZTINSt3__16vectorIjNS_9allocatorIjEEEE",
    "self_type" : "_ZTIPNSt3__16vectorIjNS_9allocatorIjEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPNSt3__16vectorIxNS_9allocatorIxEEEE",
-   "name" : "std::vector<long long, std::allocator<long long>> *",
-   "referenced_type" : "_ZTINSt3__16vectorIxNS_9allocatorIxEEEE",
-   "self_type" : "_ZTIPNSt3__16vectorIxNS_9allocatorIxEEEE",
-   "size" : 4,
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPNSt3__16vectorIlNS_9allocatorIlEEEE",
+   "name" : "std::vector<long, std::allocator<long>> *",
+   "referenced_type" : "_ZTINSt3__16vectorIlNS_9allocatorIlEEEE",
+   "self_type" : "_ZTIPNSt3__16vectorIlNS_9allocatorIlEEEE",
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPNSt3__16vectorIyNS_9allocatorIyEEEE",
-   "name" : "std::vector<unsigned long long, std::allocator<unsigned long long>> *",
-   "referenced_type" : "_ZTINSt3__16vectorIyNS_9allocatorIyEEEE",
-   "self_type" : "_ZTIPNSt3__16vectorIyNS_9allocatorIyEEEE",
-   "size" : 4,
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPNSt3__16vectorImNS_9allocatorImEEEE",
+   "name" : "std::vector<unsigned long, std::allocator<unsigned long>> *",
+   "referenced_type" : "_ZTINSt3__16vectorImNS_9allocatorImEEEE",
+   "self_type" : "_ZTIPNSt3__16vectorImNS_9allocatorImEEEE",
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__18optionalINS_6vectorIDsNS_9allocatorIDsEEEEEE",
    "name" : "std::optional<std::vector<char16_t, std::allocator<char16_t>>> *",
    "referenced_type" : "_ZTINSt3__18optionalINS_6vectorIDsNS_9allocatorIDsEEEEEE",
    "self_type" : "_ZTIPNSt3__18optionalINS_6vectorIDsNS_9allocatorIDsEEEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__18optionalINS_6vectorIbNS_9allocatorIbEEEEEE",
    "name" : "std::optional<std::vector<bool, std::allocator<bool>>> *",
    "referenced_type" : "_ZTINSt3__18optionalINS_6vectorIbNS_9allocatorIbEEEEEE",
    "self_type" : "_ZTIPNSt3__18optionalINS_6vectorIbNS_9allocatorIbEEEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__18optionalINS_6vectorIdNS_9allocatorIdEEEEEE",
    "name" : "std::optional<std::vector<double, std::allocator<double>>> *",
    "referenced_type" : "_ZTINSt3__18optionalINS_6vectorIdNS_9allocatorIdEEEEEE",
    "self_type" : "_ZTIPNSt3__18optionalINS_6vectorIdNS_9allocatorIdEEEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__18optionalINS_6vectorIfNS_9allocatorIfEEEEEE",
    "name" : "std::optional<std::vector<float, std::allocator<float>>> *",
    "referenced_type" : "_ZTINSt3__18optionalINS_6vectorIfNS_9allocatorIfEEEEEE",
    "self_type" : "_ZTIPNSt3__18optionalINS_6vectorIfNS_9allocatorIfEEEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__18optionalINS_6vectorIhNS_9allocatorIhEEEEEE",
    "name" : "std::optional<std::vector<unsigned char, std::allocator<unsigned char>>> *",
    "referenced_type" : "_ZTINSt3__18optionalINS_6vectorIhNS_9allocatorIhEEEEEE",
    "self_type" : "_ZTIPNSt3__18optionalINS_6vectorIhNS_9allocatorIhEEEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__18optionalINS_6vectorIiNS_9allocatorIiEEEEEE",
    "name" : "std::optional<std::vector<int, std::allocator<int>>> *",
    "referenced_type" : "_ZTINSt3__18optionalINS_6vectorIiNS_9allocatorIiEEEEEE",
    "self_type" : "_ZTIPNSt3__18optionalINS_6vectorIiNS_9allocatorIiEEEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__18optionalINS_6vectorIjNS_9allocatorIjEEEEEE",
    "name" : "std::optional<std::vector<unsigned int, std::allocator<unsigned int>>> *",
    "referenced_type" : "_ZTINSt3__18optionalINS_6vectorIjNS_9allocatorIjEEEEEE",
    "self_type" : "_ZTIPNSt3__18optionalINS_6vectorIjNS_9allocatorIjEEEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPNSt3__18optionalINS_6vectorIxNS_9allocatorIxEEEEEE",
-   "name" : "std::optional<std::vector<long long, std::allocator<long long>>> *",
-   "referenced_type" : "_ZTINSt3__18optionalINS_6vectorIxNS_9allocatorIxEEEEEE",
-   "self_type" : "_ZTIPNSt3__18optionalINS_6vectorIxNS_9allocatorIxEEEEEE",
-   "size" : 4,
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPNSt3__18optionalINS_6vectorIlNS_9allocatorIlEEEEEE",
+   "name" : "std::optional<std::vector<long, std::allocator<long>>> *",
+   "referenced_type" : "_ZTINSt3__18optionalINS_6vectorIlNS_9allocatorIlEEEEEE",
+   "self_type" : "_ZTIPNSt3__18optionalINS_6vectorIlNS_9allocatorIlEEEEEE",
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPNSt3__18optionalINS_6vectorIyNS_9allocatorIyEEEEEE",
-   "name" : "std::optional<std::vector<unsigned long long, std::allocator<unsigned long long>>> *",
-   "referenced_type" : "_ZTINSt3__18optionalINS_6vectorIyNS_9allocatorIyEEEEEE",
-   "self_type" : "_ZTIPNSt3__18optionalINS_6vectorIyNS_9allocatorIyEEEEEE",
-   "size" : 4,
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPNSt3__18optionalINS_6vectorImNS_9allocatorImEEEEEE",
+   "name" : "std::optional<std::vector<unsigned long, std::allocator<unsigned long>>> *",
+   "referenced_type" : "_ZTINSt3__18optionalINS_6vectorImNS_9allocatorImEEEEEE",
+   "self_type" : "_ZTIPNSt3__18optionalINS_6vectorImNS_9allocatorImEEEEEE",
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPP7AParcel",
    "name" : "AParcel **",
    "referenced_type" : "_ZTIP7AParcel",
    "self_type" : "_ZTIPP7AParcel",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPP7AStatus",
    "name" : "AStatus **",
    "referenced_type" : "_ZTIP7AStatus",
    "self_type" : "_ZTIPP7AStatus",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPP8AIBinder",
    "name" : "AIBinder **",
    "referenced_type" : "_ZTIP8AIBinder",
    "self_type" : "_ZTIPP8AIBinder",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPPKc",
    "name" : "const char **",
    "referenced_type" : "_ZTIPKc",
    "self_type" : "_ZTIPPKc",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_interface_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPb",
    "name" : "bool *",
    "referenced_type" : "_ZTIb",
    "self_type" : "_ZTIPb",
-   "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPi",
    "name" : "int *",
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIPi",
-   "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPl",
+   "name" : "long *",
+   "referenced_type" : "_ZTIl",
+   "self_type" : "_ZTIPl",
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPv",
    "name" : "void *",
    "referenced_type" : "_ZTIv",
    "self_type" : "_ZTIPv",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_interface_utils.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPx",
-   "name" : "long long *",
-   "referenced_type" : "_ZTIx",
-   "self_type" : "_ZTIPx",
-   "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   }
  ],
  "qualified_types" :
@@ -3128,43 +3145,43 @@
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_interface_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKN3ndk10SpAIBinderE",
    "name" : "const ndk::SpAIBinder",
    "referenced_type" : "_ZTIN3ndk10SpAIBinderE",
    "self_type" : "_ZTIKN3ndk10SpAIBinderE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKN3ndk13ScopedAParcelE",
    "name" : "const ndk::ScopedAParcel",
    "referenced_type" : "_ZTIN3ndk13ScopedAParcelE",
    "self_type" : "_ZTIKN3ndk13ScopedAParcelE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKN3ndk13ScopedAStatusE",
    "name" : "const ndk::ScopedAStatus",
    "referenced_type" : "_ZTIN3ndk13ScopedAStatusE",
    "self_type" : "_ZTIKN3ndk13ScopedAStatusE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKN3ndk17AParcelableHolderE",
    "name" : "const ndk::AParcelableHolder",
    "referenced_type" : "_ZTIN3ndk17AParcelableHolderE",
    "self_type" : "_ZTIKN3ndk17AParcelableHolderE",
-   "size" : 12,
+   "size" : 24,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcelable_utils.h"
   },
   {
@@ -3178,23 +3195,23 @@
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKN3ndk4impl15ScopedAResourceIP7AParcelXadL_Z14AParcel_deleteEELS3_0EEE",
    "name" : "const ndk::impl::ScopedAResource<AParcel *, &AParcel_delete, nullptr>",
    "referenced_type" : "_ZTIN3ndk4impl15ScopedAResourceIP7AParcelXadL_Z14AParcel_deleteEELS3_0EEE",
    "self_type" : "_ZTIKN3ndk4impl15ScopedAResourceIP7AParcelXadL_Z14AParcel_deleteEELS3_0EEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKN3ndk4impl15ScopedAResourceIP7AStatusXadL_Z14AStatus_deleteEELS3_0EEE",
    "name" : "const ndk::impl::ScopedAResource<AStatus *, &AStatus_delete, nullptr>",
    "referenced_type" : "_ZTIN3ndk4impl15ScopedAResourceIP7AStatusXadL_Z14AStatus_deleteEELS3_0EEE",
    "self_type" : "_ZTIKN3ndk4impl15ScopedAResourceIP7AStatusXadL_Z14AStatus_deleteEELS3_0EEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
@@ -3205,66 +3222,66 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power12WorkDurationE",
    "self_type" : "_ZTIKN4aidl7android8hardware5power12WorkDurationE",
    "size" : 16,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__110shared_ptrIN4aidl7android8hardware5power17IPowerHintSessionEEE",
    "name" : "const std::shared_ptr<aidl::android::hardware::power::IPowerHintSession>",
    "referenced_type" : "_ZTINSt3__110shared_ptrIN4aidl7android8hardware5power17IPowerHintSessionEEE",
    "self_type" : "_ZTIKNSt3__110shared_ptrIN4aidl7android8hardware5power17IPowerHintSessionEEE",
-   "size" : 8,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
+   "size" : 16,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__110shared_ptrIN4aidl7android8hardware5power6IPowerEEE",
    "name" : "const std::shared_ptr<aidl::android::hardware::power::IPower>",
    "referenced_type" : "_ZTINSt3__110shared_ptrIN4aidl7android8hardware5power6IPowerEEE",
    "self_type" : "_ZTIKNSt3__110shared_ptrIN4aidl7android8hardware5power6IPowerEEE",
-   "size" : 8,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "size" : 16,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char>>",
    "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "self_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "size" : 12,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKNSt3__15arrayIN4aidl7android8hardware5power4ModeELj15EEE",
-   "name" : "const std::array<aidl::android::hardware::power::Mode, 15U>",
-   "referenced_type" : "_ZTINSt3__15arrayIN4aidl7android8hardware5power4ModeELj15EEE",
-   "self_type" : "_ZTIKNSt3__15arrayIN4aidl7android8hardware5power4ModeELj15EEE",
-   "size" : 60,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/Mode.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKNSt3__15arrayIN4aidl7android8hardware5power5BoostELj6EEE",
-   "name" : "const std::array<aidl::android::hardware::power::Boost, 6U>",
-   "referenced_type" : "_ZTINSt3__15arrayIN4aidl7android8hardware5power5BoostELj6EEE",
-   "self_type" : "_ZTIKNSt3__15arrayIN4aidl7android8hardware5power5BoostELj6EEE",
    "size" : 24,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/Boost.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__15arrayIN4aidl7android8hardware5power4ModeELm17EEE",
+   "name" : "const std::array<aidl::android::hardware::power::Mode, 17UL>",
+   "referenced_type" : "_ZTINSt3__15arrayIN4aidl7android8hardware5power4ModeELm17EEE",
+   "self_type" : "_ZTIKNSt3__15arrayIN4aidl7android8hardware5power4ModeELm17EEE",
+   "size" : 68,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/Mode.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__15arrayIN4aidl7android8hardware5power5BoostELm6EEE",
+   "name" : "const std::array<aidl::android::hardware::power::Boost, 6UL>",
+   "referenced_type" : "_ZTINSt3__15arrayIN4aidl7android8hardware5power5BoostELm6EEE",
+   "self_type" : "_ZTIKNSt3__15arrayIN4aidl7android8hardware5power5BoostELm6EEE",
+   "size" : 24,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/Boost.h"
+  },
+  {
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__16vectorIDsNS_9allocatorIDsEEEE",
    "name" : "const std::vector<char16_t, std::allocator<char16_t>>",
    "referenced_type" : "_ZTINSt3__16vectorIDsNS_9allocatorIDsEEEE",
    "self_type" : "_ZTIKNSt3__16vectorIDsNS_9allocatorIDsEEEE",
-   "size" : 12,
+   "size" : 24,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
@@ -3273,196 +3290,196 @@
    "name" : "const std::vector<aidl::android::hardware::power::WorkDuration, std::allocator<aidl::android::hardware::power::WorkDuration>>",
    "referenced_type" : "_ZTINSt3__16vectorIN4aidl7android8hardware5power12WorkDurationENS_9allocatorIS5_EEEE",
    "self_type" : "_ZTIKNSt3__16vectorIN4aidl7android8hardware5power12WorkDurationENS_9allocatorIS5_EEEE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__16vectorIbNS_9allocatorIbEEEE",
    "name" : "const std::vector<bool, std::allocator<bool>>",
    "referenced_type" : "_ZTINSt3__16vectorIbNS_9allocatorIbEEEE",
    "self_type" : "_ZTIKNSt3__16vectorIbNS_9allocatorIbEEEE",
-   "size" : 12,
+   "size" : 24,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__16vectorIdNS_9allocatorIdEEEE",
    "name" : "const std::vector<double, std::allocator<double>>",
    "referenced_type" : "_ZTINSt3__16vectorIdNS_9allocatorIdEEEE",
    "self_type" : "_ZTIKNSt3__16vectorIdNS_9allocatorIdEEEE",
-   "size" : 12,
+   "size" : 24,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__16vectorIfNS_9allocatorIfEEEE",
    "name" : "const std::vector<float, std::allocator<float>>",
    "referenced_type" : "_ZTINSt3__16vectorIfNS_9allocatorIfEEEE",
    "self_type" : "_ZTIKNSt3__16vectorIfNS_9allocatorIfEEEE",
-   "size" : 12,
+   "size" : 24,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__16vectorIhNS_9allocatorIhEEEE",
    "name" : "const std::vector<unsigned char, std::allocator<unsigned char>>",
    "referenced_type" : "_ZTINSt3__16vectorIhNS_9allocatorIhEEEE",
    "self_type" : "_ZTIKNSt3__16vectorIhNS_9allocatorIhEEEE",
-   "size" : 12,
+   "size" : 24,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__16vectorIiNS_9allocatorIiEEEE",
    "name" : "const std::vector<int, std::allocator<int>>",
    "referenced_type" : "_ZTINSt3__16vectorIiNS_9allocatorIiEEEE",
    "self_type" : "_ZTIKNSt3__16vectorIiNS_9allocatorIiEEEE",
-   "size" : 12,
+   "size" : 24,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__16vectorIjNS_9allocatorIjEEEE",
    "name" : "const std::vector<unsigned int, std::allocator<unsigned int>>",
    "referenced_type" : "_ZTINSt3__16vectorIjNS_9allocatorIjEEEE",
    "self_type" : "_ZTIKNSt3__16vectorIjNS_9allocatorIjEEEE",
-   "size" : 12,
+   "size" : 24,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
-   "linker_set_key" : "_ZTIKNSt3__16vectorIxNS_9allocatorIxEEEE",
-   "name" : "const std::vector<long long, std::allocator<long long>>",
-   "referenced_type" : "_ZTINSt3__16vectorIxNS_9allocatorIxEEEE",
-   "self_type" : "_ZTIKNSt3__16vectorIxNS_9allocatorIxEEEE",
-   "size" : 12,
+   "linker_set_key" : "_ZTIKNSt3__16vectorIlNS_9allocatorIlEEEE",
+   "name" : "const std::vector<long, std::allocator<long>>",
+   "referenced_type" : "_ZTINSt3__16vectorIlNS_9allocatorIlEEEE",
+   "self_type" : "_ZTIKNSt3__16vectorIlNS_9allocatorIlEEEE",
+   "size" : 24,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
-   "linker_set_key" : "_ZTIKNSt3__16vectorIyNS_9allocatorIyEEEE",
-   "name" : "const std::vector<unsigned long long, std::allocator<unsigned long long>>",
-   "referenced_type" : "_ZTINSt3__16vectorIyNS_9allocatorIyEEEE",
-   "self_type" : "_ZTIKNSt3__16vectorIyNS_9allocatorIyEEEE",
-   "size" : 12,
+   "linker_set_key" : "_ZTIKNSt3__16vectorImNS_9allocatorImEEEE",
+   "name" : "const std::vector<unsigned long, std::allocator<unsigned long>>",
+   "referenced_type" : "_ZTINSt3__16vectorImNS_9allocatorImEEEE",
+   "self_type" : "_ZTIKNSt3__16vectorImNS_9allocatorImEEEE",
+   "size" : 24,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__18optionalINS_6vectorIDsNS_9allocatorIDsEEEEEE",
    "name" : "const std::optional<std::vector<char16_t, std::allocator<char16_t>>>",
    "referenced_type" : "_ZTINSt3__18optionalINS_6vectorIDsNS_9allocatorIDsEEEEEE",
    "self_type" : "_ZTIKNSt3__18optionalINS_6vectorIDsNS_9allocatorIDsEEEEEE",
-   "size" : 16,
+   "size" : 32,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__18optionalINS_6vectorIbNS_9allocatorIbEEEEEE",
    "name" : "const std::optional<std::vector<bool, std::allocator<bool>>>",
    "referenced_type" : "_ZTINSt3__18optionalINS_6vectorIbNS_9allocatorIbEEEEEE",
    "self_type" : "_ZTIKNSt3__18optionalINS_6vectorIbNS_9allocatorIbEEEEEE",
-   "size" : 16,
+   "size" : 32,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__18optionalINS_6vectorIdNS_9allocatorIdEEEEEE",
    "name" : "const std::optional<std::vector<double, std::allocator<double>>>",
    "referenced_type" : "_ZTINSt3__18optionalINS_6vectorIdNS_9allocatorIdEEEEEE",
    "self_type" : "_ZTIKNSt3__18optionalINS_6vectorIdNS_9allocatorIdEEEEEE",
-   "size" : 16,
+   "size" : 32,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__18optionalINS_6vectorIfNS_9allocatorIfEEEEEE",
    "name" : "const std::optional<std::vector<float, std::allocator<float>>>",
    "referenced_type" : "_ZTINSt3__18optionalINS_6vectorIfNS_9allocatorIfEEEEEE",
    "self_type" : "_ZTIKNSt3__18optionalINS_6vectorIfNS_9allocatorIfEEEEEE",
-   "size" : 16,
+   "size" : 32,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__18optionalINS_6vectorIhNS_9allocatorIhEEEEEE",
    "name" : "const std::optional<std::vector<unsigned char, std::allocator<unsigned char>>>",
    "referenced_type" : "_ZTINSt3__18optionalINS_6vectorIhNS_9allocatorIhEEEEEE",
    "self_type" : "_ZTIKNSt3__18optionalINS_6vectorIhNS_9allocatorIhEEEEEE",
-   "size" : 16,
+   "size" : 32,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__18optionalINS_6vectorIiNS_9allocatorIiEEEEEE",
    "name" : "const std::optional<std::vector<int, std::allocator<int>>>",
    "referenced_type" : "_ZTINSt3__18optionalINS_6vectorIiNS_9allocatorIiEEEEEE",
    "self_type" : "_ZTIKNSt3__18optionalINS_6vectorIiNS_9allocatorIiEEEEEE",
-   "size" : 16,
+   "size" : 32,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__18optionalINS_6vectorIjNS_9allocatorIjEEEEEE",
    "name" : "const std::optional<std::vector<unsigned int, std::allocator<unsigned int>>>",
    "referenced_type" : "_ZTINSt3__18optionalINS_6vectorIjNS_9allocatorIjEEEEEE",
    "self_type" : "_ZTIKNSt3__18optionalINS_6vectorIjNS_9allocatorIjEEEEEE",
-   "size" : 16,
+   "size" : 32,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
-   "linker_set_key" : "_ZTIKNSt3__18optionalINS_6vectorIxNS_9allocatorIxEEEEEE",
-   "name" : "const std::optional<std::vector<long long, std::allocator<long long>>>",
-   "referenced_type" : "_ZTINSt3__18optionalINS_6vectorIxNS_9allocatorIxEEEEEE",
-   "self_type" : "_ZTIKNSt3__18optionalINS_6vectorIxNS_9allocatorIxEEEEEE",
-   "size" : 16,
+   "linker_set_key" : "_ZTIKNSt3__18optionalINS_6vectorIlNS_9allocatorIlEEEEEE",
+   "name" : "const std::optional<std::vector<long, std::allocator<long>>>",
+   "referenced_type" : "_ZTINSt3__18optionalINS_6vectorIlNS_9allocatorIlEEEEEE",
+   "self_type" : "_ZTIKNSt3__18optionalINS_6vectorIlNS_9allocatorIlEEEEEE",
+   "size" : 32,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
-   "linker_set_key" : "_ZTIKNSt3__18optionalINS_6vectorIyNS_9allocatorIyEEEEEE",
-   "name" : "const std::optional<std::vector<unsigned long long, std::allocator<unsigned long long>>>",
-   "referenced_type" : "_ZTINSt3__18optionalINS_6vectorIyNS_9allocatorIyEEEEEE",
-   "self_type" : "_ZTIKNSt3__18optionalINS_6vectorIyNS_9allocatorIyEEEEEE",
-   "size" : 16,
+   "linker_set_key" : "_ZTIKNSt3__18optionalINS_6vectorImNS_9allocatorImEEEEEE",
+   "name" : "const std::optional<std::vector<unsigned long, std::allocator<unsigned long>>>",
+   "referenced_type" : "_ZTINSt3__18optionalINS_6vectorImNS_9allocatorImEEEEEE",
+   "self_type" : "_ZTIKNSt3__18optionalINS_6vectorImNS_9allocatorImEEEEEE",
+   "size" : 32,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKP7AParcel",
    "name" : "AParcel *const",
    "referenced_type" : "_ZTIP7AParcel",
    "self_type" : "_ZTIKP7AParcel",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKP7AStatus",
    "name" : "AStatus *const",
    "referenced_type" : "_ZTIP7AStatus",
    "self_type" : "_ZTIKP7AStatus",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
@@ -3493,7 +3510,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIKi",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
   },
   {
    "alignment" : 4,
@@ -3503,7 +3520,17 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIKj",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKl",
+   "name" : "const long",
+   "referenced_type" : "_ZTIl",
+   "self_type" : "_ZTIKl",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
    "is_const" : true,
@@ -3512,22 +3539,12 @@
    "referenced_type" : "_ZTIv",
    "self_type" : "_ZTIKv",
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKx",
-   "name" : "const long long",
-   "referenced_type" : "_ZTIx",
-   "self_type" : "_ZTIKx",
-   "size" : 8,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   }
  ],
  "record_types" :
  [
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -3541,12 +3558,12 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN3ndk10SpAIBinderE",
    "self_type" : "_ZTIN3ndk10SpAIBinderE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
    "access" : "private",
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -3559,11 +3576,11 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN3ndk11ICInterface15ICInterfaceDataE",
    "self_type" : "_ZTIN3ndk11ICInterface15ICInterfaceDataE",
-   "size" : 8,
+   "size" : 16,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_interface_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -3575,7 +3592,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN3ndk11ICInterfaceE",
    "self_type" : "_ZTIN3ndk11ICInterfaceE",
-   "size" : 16,
+   "size" : 32,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_interface_utils.h",
    "vtable_components" :
    [
@@ -3611,7 +3628,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -3623,13 +3640,13 @@
     {
      "access" : "private",
      "field_name" : "mMutex",
-     "field_offset" : 128,
+     "field_offset" : 256,
      "referenced_type" : "_ZTINSt3__15mutexE"
     },
     {
      "access" : "private",
      "field_name" : "mWeakBinder",
-     "field_offset" : 160,
+     "field_offset" : 576,
      "referenced_type" : "_ZTIN3ndk19ScopedAIBinder_WeakE"
     }
    ],
@@ -3638,7 +3655,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN3ndk12BnCInterfaceIN4aidl7android8hardware5power17IPowerHintSessionEEE",
    "self_type" : "_ZTIN3ndk12BnCInterfaceIN4aidl7android8hardware5power17IPowerHintSessionEEE",
-   "size" : 24,
+   "size" : 80,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_interface_utils.h",
    "template_args" :
    [
@@ -3675,7 +3692,7 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN4aidl7android8hardware5power17IPowerHintSession24updateTargetWorkDurationEx"
+     "mangled_component_name" : "_ZN4aidl7android8hardware5power17IPowerHintSession24updateTargetWorkDurationEl"
     },
     {
      "is_pure" : true,
@@ -3708,7 +3725,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -3720,13 +3737,13 @@
     {
      "access" : "private",
      "field_name" : "mMutex",
-     "field_offset" : 128,
+     "field_offset" : 256,
      "referenced_type" : "_ZTINSt3__15mutexE"
     },
     {
      "access" : "private",
      "field_name" : "mWeakBinder",
-     "field_offset" : 160,
+     "field_offset" : 576,
      "referenced_type" : "_ZTIN3ndk19ScopedAIBinder_WeakE"
     }
    ],
@@ -3735,7 +3752,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN3ndk12BnCInterfaceIN4aidl7android8hardware5power6IPowerEEE",
    "self_type" : "_ZTIN3ndk12BnCInterfaceIN4aidl7android8hardware5power6IPowerEEE",
-   "size" : 24,
+   "size" : 80,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_interface_utils.h",
    "template_args" :
    [
@@ -3788,11 +3805,11 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN4aidl7android8hardware5power6IPower17createHintSessionEiiRKNSt3__16vectorIiNS4_9allocatorIiEEEExPNS4_10shared_ptrINS2_17IPowerHintSessionEEE"
+     "mangled_component_name" : "_ZN4aidl7android8hardware5power6IPower17createHintSessionEiiRKNSt3__16vectorIiNS4_9allocatorIiEEEElPNS4_10shared_ptrINS2_17IPowerHintSessionEEE"
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN4aidl7android8hardware5power6IPower27getHintSessionPreferredRateEPx"
+     "mangled_component_name" : "_ZN4aidl7android8hardware5power6IPower27getHintSessionPreferredRateEPl"
     },
     {
      "is_pure" : true,
@@ -3809,7 +3826,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -3821,7 +3838,7 @@
     {
      "access" : "private",
      "field_name" : "mBinder",
-     "field_offset" : 128,
+     "field_offset" : 256,
      "referenced_type" : "_ZTIN3ndk10SpAIBinderE"
     }
    ],
@@ -3830,7 +3847,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN3ndk12BpCInterfaceIN4aidl7android8hardware5power17IPowerHintSessionEEE",
    "self_type" : "_ZTIN3ndk12BpCInterfaceIN4aidl7android8hardware5power17IPowerHintSessionEEE",
-   "size" : 20,
+   "size" : 40,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_interface_utils.h",
    "template_args" :
    [
@@ -3867,7 +3884,7 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN4aidl7android8hardware5power17IPowerHintSession24updateTargetWorkDurationEx"
+     "mangled_component_name" : "_ZN4aidl7android8hardware5power17IPowerHintSession24updateTargetWorkDurationEl"
     },
     {
      "is_pure" : true,
@@ -3896,7 +3913,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -3908,7 +3925,7 @@
     {
      "access" : "private",
      "field_name" : "mBinder",
-     "field_offset" : 128,
+     "field_offset" : 256,
      "referenced_type" : "_ZTIN3ndk10SpAIBinderE"
     }
    ],
@@ -3917,7 +3934,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN3ndk12BpCInterfaceIN4aidl7android8hardware5power6IPowerEEE",
    "self_type" : "_ZTIN3ndk12BpCInterfaceIN4aidl7android8hardware5power6IPowerEEE",
-   "size" : 20,
+   "size" : 40,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_interface_utils.h",
    "template_args" :
    [
@@ -3970,11 +3987,11 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN4aidl7android8hardware5power6IPower17createHintSessionEiiRKNSt3__16vectorIiNS4_9allocatorIiEEEExPNS4_10shared_ptrINS2_17IPowerHintSessionEEE"
+     "mangled_component_name" : "_ZN4aidl7android8hardware5power6IPower17createHintSessionEiiRKNSt3__16vectorIiNS4_9allocatorIiEEEElPNS4_10shared_ptrINS2_17IPowerHintSessionEEE"
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN4aidl7android8hardware5power6IPower27getHintSessionPreferredRateEPx"
+     "mangled_component_name" : "_ZN4aidl7android8hardware5power6IPower27getHintSessionPreferredRateEPl"
     },
     {
      "is_pure" : true,
@@ -3987,7 +4004,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -3999,11 +4016,11 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN3ndk13ScopedAParcelE",
    "self_type" : "_ZTIN3ndk13ScopedAParcelE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -4015,23 +4032,23 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN3ndk13ScopedAStatusE",
    "self_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
      "access" : "private",
      "field_name" : "mFlagThis",
-     "field_offset" : 32,
+     "field_offset" : 64,
      "referenced_type" : "_ZTINSt3__19once_flagE"
     },
     {
      "access" : "private",
      "field_name" : "mThis",
-     "field_offset" : 64,
+     "field_offset" : 128,
      "referenced_type" : "_ZTINSt3__18weak_ptrIN3ndk13SharedRefBaseEEE"
     }
    ],
@@ -4040,7 +4057,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN3ndk13SharedRefBaseE",
    "self_type" : "_ZTIN3ndk13SharedRefBaseE",
-   "size" : 16,
+   "size" : 32,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_interface_utils.h",
    "vtable_components" :
    [
@@ -4062,19 +4079,19 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
      "access" : "private",
      "field_name" : "mParcel",
-     "field_offset" : 32,
+     "field_offset" : 64,
      "referenced_type" : "_ZTIN3ndk13ScopedAParcelE"
     },
     {
      "access" : "private",
      "field_name" : "mStability",
-     "field_offset" : 64,
+     "field_offset" : 128,
      "referenced_type" : "_ZTIi"
     }
    ],
@@ -4083,7 +4100,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN3ndk17AParcelableHolderE",
    "self_type" : "_ZTIN3ndk17AParcelableHolderE",
-   "size" : 12,
+   "size" : 24,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcelable_utils.h",
    "vtable_components" :
    [
@@ -4105,7 +4122,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -4117,7 +4134,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN3ndk19ScopedAIBinder_WeakE",
    "self_type" : "_ZTIN3ndk19ScopedAIBinder_WeakE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
@@ -4137,7 +4154,7 @@
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -4149,11 +4166,11 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN3ndk29ScopedAIBinder_DeathRecipientE",
    "self_type" : "_ZTIN3ndk29ScopedAIBinder_DeathRecipientE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -4167,7 +4184,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN3ndk4impl15ScopedAResourceIP13AIBinder_WeakXadL_Z20AIBinder_Weak_deleteEELS3_0EEE",
    "self_type" : "_ZTIN3ndk4impl15ScopedAResourceIP13AIBinder_WeakXadL_Z20AIBinder_Weak_deleteEELS3_0EEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h",
    "template_args" :
    [
@@ -4175,7 +4192,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -4189,7 +4206,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN3ndk4impl15ScopedAResourceIP23AIBinder_DeathRecipientXadL_Z30AIBinder_DeathRecipient_deleteEELS3_0EEE",
    "self_type" : "_ZTIN3ndk4impl15ScopedAResourceIP23AIBinder_DeathRecipientXadL_Z30AIBinder_DeathRecipient_deleteEELS3_0EEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h",
    "template_args" :
    [
@@ -4197,7 +4214,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -4211,7 +4228,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN3ndk4impl15ScopedAResourceIP7AParcelXadL_Z14AParcel_deleteEELS3_0EEE",
    "self_type" : "_ZTIN3ndk4impl15ScopedAResourceIP7AParcelXadL_Z14AParcel_deleteEELS3_0EEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h",
    "template_args" :
    [
@@ -4219,7 +4236,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -4233,7 +4250,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN3ndk4impl15ScopedAResourceIP7AStatusXadL_Z14AStatus_deleteEELS3_0EEE",
    "self_type" : "_ZTIN3ndk4impl15ScopedAResourceIP7AStatusXadL_Z14AStatus_deleteEELS3_0EEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h",
    "template_args" :
    [
@@ -4246,12 +4263,12 @@
    [
     {
      "field_name" : "timeStampNanos",
-     "referenced_type" : "_ZTIx"
+     "referenced_type" : "_ZTIl"
     },
     {
      "field_name" : "durationNanos",
      "field_offset" : 64,
-     "referenced_type" : "_ZTIx"
+     "referenced_type" : "_ZTIl"
     }
    ],
    "linker_set_key" : "_ZTIN4aidl7android8hardware5power12WorkDurationE",
@@ -4260,10 +4277,10 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power12WorkDurationE",
    "self_type" : "_ZTIN4aidl7android8hardware5power12WorkDurationE",
    "size" : 16,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -4275,8 +4292,8 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN4aidl7android8hardware5power13IPowerDefaultE",
    "self_type" : "_ZTIN4aidl7android8hardware5power13IPowerDefaultE",
-   "size" : 16,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h",
+   "size" : 32,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h",
    "vtable_components" :
    [
     {
@@ -4319,10 +4336,10 @@
      "mangled_component_name" : "_ZN4aidl7android8hardware5power13IPowerDefault16isBoostSupportedENS2_5BoostEPb"
     },
     {
-     "mangled_component_name" : "_ZN4aidl7android8hardware5power13IPowerDefault17createHintSessionEiiRKNSt3__16vectorIiNS4_9allocatorIiEEEExPNS4_10shared_ptrINS2_17IPowerHintSessionEEE"
+     "mangled_component_name" : "_ZN4aidl7android8hardware5power13IPowerDefault17createHintSessionEiiRKNSt3__16vectorIiNS4_9allocatorIiEEEElPNS4_10shared_ptrINS2_17IPowerHintSessionEEE"
     },
     {
-     "mangled_component_name" : "_ZN4aidl7android8hardware5power13IPowerDefault27getHintSessionPreferredRateEPx"
+     "mangled_component_name" : "_ZN4aidl7android8hardware5power13IPowerDefault27getHintSessionPreferredRateEPl"
     },
     {
      "mangled_component_name" : "_ZN4aidl7android8hardware5power13IPowerDefault19getInterfaceVersionEPi"
@@ -4333,7 +4350,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -4345,7 +4362,7 @@
     {
      "access" : "private",
      "field_name" : "_impl",
-     "field_offset" : 192,
+     "field_offset" : 640,
      "referenced_type" : "_ZTINSt3__110shared_ptrIN4aidl7android8hardware5power6IPowerEEE"
     }
    ],
@@ -4354,8 +4371,8 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN4aidl7android8hardware5power15IPowerDelegatorE",
    "self_type" : "_ZTIN4aidl7android8hardware5power15IPowerDelegatorE",
-   "size" : 32,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h",
+   "size" : 96,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h",
    "vtable_components" :
    [
     {
@@ -4398,10 +4415,10 @@
      "mangled_component_name" : "_ZN4aidl7android8hardware5power15IPowerDelegator16isBoostSupportedENS2_5BoostEPb"
     },
     {
-     "mangled_component_name" : "_ZN4aidl7android8hardware5power15IPowerDelegator17createHintSessionEiiRKNSt3__16vectorIiNS4_9allocatorIiEEEExPNS4_10shared_ptrINS2_17IPowerHintSessionEEE"
+     "mangled_component_name" : "_ZN4aidl7android8hardware5power15IPowerDelegator17createHintSessionEiiRKNSt3__16vectorIiNS4_9allocatorIiEEEElPNS4_10shared_ptrINS2_17IPowerHintSessionEEE"
     },
     {
-     "mangled_component_name" : "_ZN4aidl7android8hardware5power15IPowerDelegator27getHintSessionPreferredRateEPx"
+     "mangled_component_name" : "_ZN4aidl7android8hardware5power15IPowerDelegator27getHintSessionPreferredRateEPl"
     },
     {
      "mangled_component_name" : "_ZN4aidl7android8hardware5power7BnPower19getInterfaceVersionEPi"
@@ -4415,7 +4432,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -4427,8 +4444,8 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN4aidl7android8hardware5power17IPowerHintSessionE",
    "self_type" : "_ZTIN4aidl7android8hardware5power17IPowerHintSessionE",
-   "size" : 16,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h",
+   "size" : 32,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h",
    "vtable_components" :
    [
     {
@@ -4462,7 +4479,7 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN4aidl7android8hardware5power17IPowerHintSession24updateTargetWorkDurationEx"
+     "mangled_component_name" : "_ZN4aidl7android8hardware5power17IPowerHintSession24updateTargetWorkDurationEl"
     },
     {
      "is_pure" : true,
@@ -4491,7 +4508,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -4503,8 +4520,8 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN4aidl7android8hardware5power18BnPowerHintSessionE",
    "self_type" : "_ZTIN4aidl7android8hardware5power18BnPowerHintSessionE",
-   "size" : 24,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h",
+   "size" : 80,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h",
    "vtable_components" :
    [
     {
@@ -4536,7 +4553,7 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN4aidl7android8hardware5power17IPowerHintSession24updateTargetWorkDurationEx"
+     "mangled_component_name" : "_ZN4aidl7android8hardware5power17IPowerHintSession24updateTargetWorkDurationEl"
     },
     {
      "is_pure" : true,
@@ -4566,7 +4583,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -4577,17 +4594,17 @@
    [
     {
      "field_name" : "_aidl_cached_version",
-     "field_offset" : 160,
+     "field_offset" : 320,
      "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "_aidl_cached_hash",
-     "field_offset" : 192,
+     "field_offset" : 384,
      "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
     },
     {
      "field_name" : "_aidl_cached_hash_mutex",
-     "field_offset" : 288,
+     "field_offset" : 576,
      "referenced_type" : "_ZTINSt3__15mutexE"
     }
    ],
@@ -4596,8 +4613,8 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN4aidl7android8hardware5power18BpPowerHintSessionE",
    "self_type" : "_ZTIN4aidl7android8hardware5power18BpPowerHintSessionE",
-   "size" : 40,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h",
+   "size" : 112,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h",
    "vtable_components" :
    [
     {
@@ -4628,7 +4645,7 @@
      "mangled_component_name" : "_ZN3ndk11ICInterface18handleShellCommandEiiiPPKcj"
     },
     {
-     "mangled_component_name" : "_ZN4aidl7android8hardware5power18BpPowerHintSession24updateTargetWorkDurationEx"
+     "mangled_component_name" : "_ZN4aidl7android8hardware5power18BpPowerHintSession24updateTargetWorkDurationEl"
     },
     {
      "mangled_component_name" : "_ZN4aidl7android8hardware5power18BpPowerHintSession24reportActualWorkDurationERKNSt3__16vectorINS2_12WorkDurationENS4_9allocatorIS6_EEEE"
@@ -4651,7 +4668,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -4663,8 +4680,8 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN4aidl7android8hardware5power24IPowerHintSessionDefaultE",
    "self_type" : "_ZTIN4aidl7android8hardware5power24IPowerHintSessionDefaultE",
-   "size" : 16,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h",
+   "size" : 32,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h",
    "vtable_components" :
    [
     {
@@ -4695,7 +4712,7 @@
      "mangled_component_name" : "_ZN3ndk11ICInterface18handleShellCommandEiiiPPKcj"
     },
     {
-     "mangled_component_name" : "_ZN4aidl7android8hardware5power24IPowerHintSessionDefault24updateTargetWorkDurationEx"
+     "mangled_component_name" : "_ZN4aidl7android8hardware5power24IPowerHintSessionDefault24updateTargetWorkDurationEl"
     },
     {
      "mangled_component_name" : "_ZN4aidl7android8hardware5power24IPowerHintSessionDefault24reportActualWorkDurationERKNSt3__16vectorINS2_12WorkDurationENS4_9allocatorIS6_EEEE"
@@ -4718,7 +4735,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -4730,7 +4747,7 @@
     {
      "access" : "private",
      "field_name" : "_impl",
-     "field_offset" : 192,
+     "field_offset" : 640,
      "referenced_type" : "_ZTINSt3__110shared_ptrIN4aidl7android8hardware5power17IPowerHintSessionEEE"
     }
    ],
@@ -4739,8 +4756,8 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN4aidl7android8hardware5power26IPowerHintSessionDelegatorE",
    "self_type" : "_ZTIN4aidl7android8hardware5power26IPowerHintSessionDelegatorE",
-   "size" : 32,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h",
+   "size" : 96,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h",
    "vtable_components" :
    [
     {
@@ -4771,7 +4788,7 @@
      "mangled_component_name" : "_ZN3ndk11ICInterface18handleShellCommandEiiiPPKcj"
     },
     {
-     "mangled_component_name" : "_ZN4aidl7android8hardware5power26IPowerHintSessionDelegator24updateTargetWorkDurationEx"
+     "mangled_component_name" : "_ZN4aidl7android8hardware5power26IPowerHintSessionDelegator24updateTargetWorkDurationEl"
     },
     {
      "mangled_component_name" : "_ZN4aidl7android8hardware5power26IPowerHintSessionDelegator24reportActualWorkDurationERKNSt3__16vectorINS2_12WorkDurationENS4_9allocatorIS6_EEEE"
@@ -4797,7 +4814,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -4809,8 +4826,8 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN4aidl7android8hardware5power6IPowerE",
    "self_type" : "_ZTIN4aidl7android8hardware5power6IPowerE",
-   "size" : 16,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h",
+   "size" : 32,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h",
    "vtable_components" :
    [
     {
@@ -4860,11 +4877,11 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN4aidl7android8hardware5power6IPower17createHintSessionEiiRKNSt3__16vectorIiNS4_9allocatorIiEEEExPNS4_10shared_ptrINS2_17IPowerHintSessionEEE"
+     "mangled_component_name" : "_ZN4aidl7android8hardware5power6IPower17createHintSessionEiiRKNSt3__16vectorIiNS4_9allocatorIiEEEElPNS4_10shared_ptrINS2_17IPowerHintSessionEEE"
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN4aidl7android8hardware5power6IPower27getHintSessionPreferredRateEPx"
+     "mangled_component_name" : "_ZN4aidl7android8hardware5power6IPower27getHintSessionPreferredRateEPl"
     },
     {
      "is_pure" : true,
@@ -4877,7 +4894,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -4889,8 +4906,8 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN4aidl7android8hardware5power7BnPowerE",
    "self_type" : "_ZTIN4aidl7android8hardware5power7BnPowerE",
-   "size" : 24,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h",
+   "size" : 80,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h",
    "vtable_components" :
    [
     {
@@ -4938,11 +4955,11 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN4aidl7android8hardware5power6IPower17createHintSessionEiiRKNSt3__16vectorIiNS4_9allocatorIiEEEExPNS4_10shared_ptrINS2_17IPowerHintSessionEEE"
+     "mangled_component_name" : "_ZN4aidl7android8hardware5power6IPower17createHintSessionEiiRKNSt3__16vectorIiNS4_9allocatorIiEEEElPNS4_10shared_ptrINS2_17IPowerHintSessionEEE"
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN4aidl7android8hardware5power6IPower27getHintSessionPreferredRateEPx"
+     "mangled_component_name" : "_ZN4aidl7android8hardware5power6IPower27getHintSessionPreferredRateEPl"
     },
     {
      "mangled_component_name" : "_ZN4aidl7android8hardware5power7BnPower19getInterfaceVersionEPi"
@@ -4956,7 +4973,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -4967,17 +4984,17 @@
    [
     {
      "field_name" : "_aidl_cached_version",
-     "field_offset" : 160,
+     "field_offset" : 320,
      "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "_aidl_cached_hash",
-     "field_offset" : 192,
+     "field_offset" : 384,
      "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
     },
     {
      "field_name" : "_aidl_cached_hash_mutex",
-     "field_offset" : 288,
+     "field_offset" : 576,
      "referenced_type" : "_ZTINSt3__15mutexE"
     }
    ],
@@ -4986,8 +5003,8 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN4aidl7android8hardware5power7BpPowerE",
    "self_type" : "_ZTIN4aidl7android8hardware5power7BpPowerE",
-   "size" : 40,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h",
+   "size" : 112,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h",
    "vtable_components" :
    [
     {
@@ -5030,10 +5047,10 @@
      "mangled_component_name" : "_ZN4aidl7android8hardware5power7BpPower16isBoostSupportedENS2_5BoostEPb"
     },
     {
-     "mangled_component_name" : "_ZN4aidl7android8hardware5power7BpPower17createHintSessionEiiRKNSt3__16vectorIiNS4_9allocatorIiEEEExPNS4_10shared_ptrINS2_17IPowerHintSessionEEE"
+     "mangled_component_name" : "_ZN4aidl7android8hardware5power7BpPower17createHintSessionEiiRKNSt3__16vectorIiNS4_9allocatorIiEEEElPNS4_10shared_ptrINS2_17IPowerHintSessionEEE"
     },
     {
-     "mangled_component_name" : "_ZN4aidl7android8hardware5power7BpPower27getHintSessionPreferredRateEPx"
+     "mangled_component_name" : "_ZN4aidl7android8hardware5power7BpPower27getHintSessionPreferredRateEPl"
     },
     {
      "mangled_component_name" : "_ZN4aidl7android8hardware5power7BpPower19getInterfaceVersionEPi"
@@ -5045,82 +5062,82 @@
   },
   {
    "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android8internal7details13ToEmptyStringIxEE",
-   "name" : "android::internal::details::ToEmptyString<long long>",
+   "linker_set_key" : "_ZTIN7android8internal7details13ToEmptyStringIlEE",
+   "name" : "android::internal::details::ToEmptyString<long>",
    "record_kind" : "class",
-   "referenced_type" : "_ZTIN7android8internal7details13ToEmptyStringIxEE",
-   "self_type" : "_ZTIN7android8internal7details13ToEmptyStringIxEE",
+   "referenced_type" : "_ZTIN7android8internal7details13ToEmptyStringIlEE",
+   "self_type" : "_ZTIN7android8internal7details13ToEmptyStringIlEE",
    "size" : 1,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
    "template_args" :
    [
-    "_ZTIx"
+    "_ZTIl"
    ]
   }
  ],
  "rvalue_reference_types" :
  [
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTION3ndk13ScopedAParcelE",
    "name" : "ndk::ScopedAParcel &&",
    "referenced_type" : "_ZTIN3ndk13ScopedAParcelE",
    "self_type" : "_ZTION3ndk13ScopedAParcelE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTION3ndk13ScopedAStatusE",
    "name" : "ndk::ScopedAStatus &&",
    "referenced_type" : "_ZTIN3ndk13ScopedAStatusE",
    "self_type" : "_ZTION3ndk13ScopedAStatusE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTION3ndk17AParcelableHolderE",
    "name" : "ndk::AParcelableHolder &&",
    "referenced_type" : "_ZTIN3ndk17AParcelableHolderE",
    "self_type" : "_ZTION3ndk17AParcelableHolderE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcelable_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTION3ndk19ScopedAIBinder_WeakE",
    "name" : "ndk::ScopedAIBinder_Weak &&",
    "referenced_type" : "_ZTIN3ndk19ScopedAIBinder_WeakE",
    "self_type" : "_ZTION3ndk19ScopedAIBinder_WeakE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTION3ndk20ScopedFileDescriptorE",
    "name" : "ndk::ScopedFileDescriptor &&",
    "referenced_type" : "_ZTIN3ndk20ScopedFileDescriptorE",
    "self_type" : "_ZTION3ndk20ScopedFileDescriptorE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTION3ndk29ScopedAIBinder_DeathRecipientE",
    "name" : "ndk::ScopedAIBinder_DeathRecipient &&",
    "referenced_type" : "_ZTIN3ndk29ScopedAIBinder_DeathRecipientE",
    "self_type" : "_ZTION3ndk29ScopedAIBinder_DeathRecipientE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTION3ndk4impl15ScopedAResourceIP7AStatusXadL_Z14AStatus_deleteEELS3_0EEE",
    "name" : "ndk::impl::ScopedAResource<AStatus *, &AStatus_delete, nullptr> &&",
    "referenced_type" : "_ZTIN3ndk4impl15ScopedAResourceIP7AStatusXadL_Z14AStatus_deleteEELS3_0EEE",
    "self_type" : "_ZTION3ndk4impl15ScopedAResourceIP7AStatusXadL_Z14AStatus_deleteEELS3_0EEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   }
  ]
