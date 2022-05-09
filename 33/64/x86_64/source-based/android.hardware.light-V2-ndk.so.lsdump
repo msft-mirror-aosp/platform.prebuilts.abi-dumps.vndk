@@ -528,7 +528,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5light14BrightnessModeE",
    "self_type" : "_ZTIN4aidl7android8hardware5light14BrightnessModeE",
    "size" : 1,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/BrightnessMode.h",
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/BrightnessMode.h",
    "underlying_type" : "_ZTIa"
   },
   {
@@ -553,7 +553,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5light9FlashModeE",
    "self_type" : "_ZTIN4aidl7android8hardware5light9FlashModeE",
    "size" : 1,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/FlashMode.h",
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/FlashMode.h",
    "underlying_type" : "_ZTIa"
   },
   {
@@ -595,6 +595,10 @@
     {
      "enum_field_value" : 8,
      "name" : "aidl::android::hardware::light::LightType::MICROPHONE"
+    },
+    {
+     "enum_field_value" : 9,
+     "name" : "aidl::android::hardware::light::LightType::CAMERA"
     }
    ],
    "linker_set_key" : "_ZTIN4aidl7android8hardware5light9LightTypeE",
@@ -602,7 +606,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5light9LightTypeE",
    "self_type" : "_ZTIN4aidl7android8hardware5light9LightTypeE",
    "size" : 1,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/LightType.h",
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/LightType.h",
    "underlying_type" : "_ZTIa"
   },
   {
@@ -940,7 +944,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/HwLightState.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/HwLightState.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::ILightsDefault::setLightState",
@@ -959,7 +963,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::ILightsDefault::getInterfaceHash",
@@ -975,7 +979,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::ILightsDefault::getInterfaceVersion",
@@ -991,7 +995,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::ILightsDefault::asBinder",
@@ -1004,7 +1008,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk10SpAIBinderE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::ILightsDefault::isRemote",
@@ -1017,7 +1021,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::ILightsDefault::getLights",
@@ -1033,7 +1037,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::HwLight::readFromParcel",
@@ -1049,7 +1053,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/HwLight.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/HwLight.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::ILights::fromBinder",
@@ -1061,7 +1065,7 @@
     }
    ],
    "return_type" : "_ZTINSt3__110shared_ptrIN4aidl7android8hardware5light7ILightsEEE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::ILights::writeToParcel",
@@ -1076,13 +1080,13 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::ILights::getDefaultImpl",
    "linker_set_key" : "_ZN4aidl7android8hardware5light7ILights14getDefaultImplEv",
    "return_type" : "_ZTIRKNSt3__110shared_ptrIN4aidl7android8hardware5light7ILightsEEE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::ILights::readFromParcel",
@@ -1097,7 +1101,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::ILights::setDefaultImpl",
@@ -1109,7 +1113,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::ILights::ILights",
@@ -1122,7 +1126,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::ILights::~ILights",
@@ -1135,7 +1139,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::ILights::~ILights",
@@ -1148,7 +1152,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::ILights::~ILights",
@@ -1161,7 +1165,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "access" : "protected",
@@ -1175,7 +1179,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk10SpAIBinderE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/BnLights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/BnLights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::BnLights::getInterfaceHash",
@@ -1191,7 +1195,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/BnLights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/BnLights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::BnLights::getInterfaceVersion",
@@ -1207,7 +1211,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/BnLights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/BnLights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::BnLights::BnLights",
@@ -1220,7 +1224,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/BnLights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/BnLights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::BnLights::~BnLights",
@@ -1233,7 +1237,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/BnLights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/BnLights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::BnLights::~BnLights",
@@ -1246,7 +1250,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/BnLights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/BnLights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::BnLights::~BnLights",
@@ -1259,7 +1263,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/BnLights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/BnLights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::BpLights::setLightState",
@@ -1278,7 +1282,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/BpLights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/BpLights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::BpLights::getInterfaceHash",
@@ -1294,7 +1298,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/BpLights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/BpLights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::BpLights::getInterfaceVersion",
@@ -1310,7 +1314,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/BpLights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/BpLights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::BpLights::getLights",
@@ -1326,7 +1330,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/BpLights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/BpLights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::BpLights::BpLights",
@@ -1342,7 +1346,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/BpLights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/BpLights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::BpLights::BpLights",
@@ -1358,7 +1362,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/BpLights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/BpLights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::BpLights::~BpLights",
@@ -1371,7 +1375,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/BpLights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/BpLights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::BpLights::~BpLights",
@@ -1384,7 +1388,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/BpLights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/BpLights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::BpLights::~BpLights",
@@ -1397,7 +1401,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/BpLights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/BpLights.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::HwLightState::writeToParcel",
@@ -1413,7 +1417,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/HwLightState.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/HwLightState.h"
   },
   {
    "function_name" : "aidl::android::hardware::light::HwLight::writeToParcel",
@@ -1429,7 +1433,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/HwLight.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/HwLight.h"
   }
  ],
  "global_vars" :
@@ -1438,32 +1442,32 @@
    "linker_set_key" : "_ZN4aidl7android8hardware5light12HwLightState10descriptorE",
    "name" : "aidl::android::hardware::light::HwLightState::descriptor",
    "referenced_type" : "_ZTIPKc",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/HwLightState.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/HwLightState.h"
   },
   {
    "linker_set_key" : "_ZN4aidl7android8hardware5light7HwLight10descriptorE",
    "name" : "aidl::android::hardware::light::HwLight::descriptor",
    "referenced_type" : "_ZTIPKc",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/HwLight.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/HwLight.h"
   },
   {
    "linker_set_key" : "_ZN4aidl7android8hardware5light7ILights10descriptorE",
    "name" : "aidl::android::hardware::light::ILights::descriptor",
    "referenced_type" : "_ZTIPKc",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "access" : "private",
    "linker_set_key" : "_ZN4aidl7android8hardware5light7ILights12default_implE",
    "name" : "aidl::android::hardware::light::ILights::default_impl",
    "referenced_type" : "_ZTINSt3__110shared_ptrIN4aidl7android8hardware5light7ILightsEEE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "linker_set_key" : "_ZN4aidl7android8hardware5light7ILights4hashE",
    "name" : "aidl::android::hardware::light::ILights::hash",
    "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   }
  ],
  "lvalue_reference_types" :
@@ -1511,7 +1515,7 @@
    "referenced_type" : "_ZTIKN4aidl7android8hardware5light12HwLightStateE",
    "self_type" : "_ZTIRKN4aidl7android8hardware5light12HwLightStateE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/HwLightState.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/HwLightState.h"
   },
   {
    "alignment" : 8,
@@ -1529,7 +1533,7 @@
    "referenced_type" : "_ZTIKN4aidl7android8hardware5light7HwLightE",
    "self_type" : "_ZTIRKN4aidl7android8hardware5light7HwLightE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/HwLight.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/HwLight.h"
   },
   {
    "alignment" : 8,
@@ -1556,7 +1560,7 @@
    "referenced_type" : "_ZTIKNSt3__110shared_ptrIN4aidl7android8hardware5light7ILightsEEE",
    "self_type" : "_ZTIRKNSt3__110shared_ptrIN4aidl7android8hardware5light7ILightsEEE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "alignment" : 8,
@@ -1937,7 +1941,7 @@
    "referenced_type" : "_ZTIKN4aidl7android8hardware5light12HwLightStateE",
    "self_type" : "_ZTIPKN4aidl7android8hardware5light12HwLightStateE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/HwLightState.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/HwLightState.h"
   },
   {
    "alignment" : 8,
@@ -1946,7 +1950,7 @@
    "referenced_type" : "_ZTIKN4aidl7android8hardware5light7HwLightE",
    "self_type" : "_ZTIPKN4aidl7android8hardware5light7HwLightE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/HwLight.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/HwLight.h"
   },
   {
    "alignment" : 8,
@@ -2108,7 +2112,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5light12HwLightStateE",
    "self_type" : "_ZTIPN4aidl7android8hardware5light12HwLightStateE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/HwLightState.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/HwLightState.h"
   },
   {
    "alignment" : 8,
@@ -2117,7 +2121,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5light14ILightsDefaultE",
    "self_type" : "_ZTIPN4aidl7android8hardware5light14ILightsDefaultE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "alignment" : 8,
@@ -2126,7 +2130,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5light16ILightsDelegatorE",
    "self_type" : "_ZTIPN4aidl7android8hardware5light16ILightsDelegatorE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/BnLights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/BnLights.h"
   },
   {
    "alignment" : 8,
@@ -2135,7 +2139,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5light7HwLightE",
    "self_type" : "_ZTIPN4aidl7android8hardware5light7HwLightE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/HwLight.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/HwLight.h"
   },
   {
    "alignment" : 8,
@@ -2144,7 +2148,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5light7ILightsE",
    "self_type" : "_ZTIPN4aidl7android8hardware5light7ILightsE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "alignment" : 8,
@@ -2153,7 +2157,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5light8BnLightsE",
    "self_type" : "_ZTIPN4aidl7android8hardware5light8BnLightsE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/BnLights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/BnLights.h"
   },
   {
    "alignment" : 8,
@@ -2162,7 +2166,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5light8BpLightsE",
    "self_type" : "_ZTIPN4aidl7android8hardware5light8BpLightsE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/BpLights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/BpLights.h"
   },
   {
    "alignment" : 8,
@@ -2171,7 +2175,7 @@
    "referenced_type" : "_ZTINSt3__110shared_ptrIN4aidl7android8hardware5light7ILightsEEE",
    "self_type" : "_ZTIPNSt3__110shared_ptrIN4aidl7android8hardware5light7ILightsEEE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "alignment" : 8,
@@ -2180,7 +2184,7 @@
    "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "self_type" : "_ZTIPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "alignment" : 8,
@@ -2198,7 +2202,7 @@
    "referenced_type" : "_ZTINSt3__16vectorIN4aidl7android8hardware5light7HwLightENS_9allocatorIS5_EEEE",
    "self_type" : "_ZTIPNSt3__16vectorIN4aidl7android8hardware5light7HwLightENS_9allocatorIS5_EEEE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "alignment" : 8,
@@ -2396,7 +2400,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIPi",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "alignment" : 8,
@@ -2496,7 +2500,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5light12HwLightStateE",
    "self_type" : "_ZTIKN4aidl7android8hardware5light12HwLightStateE",
    "size" : 20,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/HwLightState.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/HwLightState.h"
   },
   {
    "alignment" : 1,
@@ -2516,7 +2520,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5light7HwLightE",
    "self_type" : "_ZTIKN4aidl7android8hardware5light7HwLightE",
    "size" : 12,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/HwLight.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/HwLight.h"
   },
   {
    "alignment" : 1,
@@ -2546,7 +2550,7 @@
    "referenced_type" : "_ZTINSt3__110shared_ptrIN4aidl7android8hardware5light7ILightsEEE",
    "self_type" : "_ZTIKNSt3__110shared_ptrIN4aidl7android8hardware5light7ILightsEEE",
    "size" : 16,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "alignment" : 8,
@@ -2556,7 +2560,7 @@
    "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "self_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "size" : 24,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "alignment" : 1,
@@ -2566,7 +2570,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN4aidl7android8hardware5light14BrightnessModeELm3EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN4aidl7android8hardware5light14BrightnessModeELm3EEE",
    "size" : 3,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/BrightnessMode.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/BrightnessMode.h"
   },
   {
    "alignment" : 1,
@@ -2576,17 +2580,17 @@
    "referenced_type" : "_ZTINSt3__15arrayIN4aidl7android8hardware5light9FlashModeELm3EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN4aidl7android8hardware5light9FlashModeELm3EEE",
    "size" : 3,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/FlashMode.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/FlashMode.h"
   },
   {
    "alignment" : 1,
    "is_const" : true,
-   "linker_set_key" : "_ZTIKNSt3__15arrayIN4aidl7android8hardware5light9LightTypeELm9EEE",
-   "name" : "const std::array<aidl::android::hardware::light::LightType, 9UL>",
-   "referenced_type" : "_ZTINSt3__15arrayIN4aidl7android8hardware5light9LightTypeELm9EEE",
-   "self_type" : "_ZTIKNSt3__15arrayIN4aidl7android8hardware5light9LightTypeELm9EEE",
-   "size" : 9,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/LightType.h"
+   "linker_set_key" : "_ZTIKNSt3__15arrayIN4aidl7android8hardware5light9LightTypeELm10EEE",
+   "name" : "const std::array<aidl::android::hardware::light::LightType, 10UL>",
+   "referenced_type" : "_ZTINSt3__15arrayIN4aidl7android8hardware5light9LightTypeELm10EEE",
+   "self_type" : "_ZTIKNSt3__15arrayIN4aidl7android8hardware5light9LightTypeELm10EEE",
+   "size" : 10,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/LightType.h"
   },
   {
    "alignment" : 8,
@@ -2826,7 +2830,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIKj",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h"
   },
   {
    "is_const" : true,
@@ -3372,7 +3376,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5light12HwLightStateE",
    "self_type" : "_ZTIN4aidl7android8hardware5light12HwLightStateE",
    "size" : 20,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/HwLightState.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/HwLightState.h"
   },
   {
    "alignment" : 8,
@@ -3388,7 +3392,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5light14ILightsDefaultE",
    "self_type" : "_ZTIN4aidl7android8hardware5light14ILightsDefaultE",
    "size" : 32,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h",
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h",
    "vtable_components" :
    [
     {
@@ -3455,7 +3459,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5light16ILightsDelegatorE",
    "self_type" : "_ZTIN4aidl7android8hardware5light16ILightsDelegatorE",
    "size" : 96,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/BnLights.h",
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/BnLights.h",
    "vtable_components" :
    [
     {
@@ -3527,7 +3531,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5light7HwLightE",
    "self_type" : "_ZTIN4aidl7android8hardware5light7HwLightE",
    "size" : 12,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/HwLight.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/HwLight.h"
   },
   {
    "alignment" : 8,
@@ -3543,7 +3547,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5light7ILightsE",
    "self_type" : "_ZTIN4aidl7android8hardware5light7ILightsE",
    "size" : 32,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/ILights.h",
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/ILights.h",
    "vtable_components" :
    [
     {
@@ -3607,7 +3611,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5light8BnLightsE",
    "self_type" : "_ZTIN4aidl7android8hardware5light8BnLightsE",
    "size" : 80,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/BnLights.h",
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/BnLights.h",
    "vtable_components" :
    [
     {
@@ -3688,7 +3692,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5light8BpLightsE",
    "self_type" : "_ZTIN4aidl7android8hardware5light8BpLightsE",
    "size" : 112,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V1-ndk-source/gen/include/aidl/android/hardware/light/BpLights.h",
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/light/aidl/android.hardware.light-V2-ndk-source/gen/include/aidl/android/hardware/light/BpLights.h",
    "vtable_components" :
    [
     {

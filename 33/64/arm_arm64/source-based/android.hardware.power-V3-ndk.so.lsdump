@@ -23,6 +23,7 @@
   {
    "alignment" : 1,
    "is_integral" : true,
+   "is_unsigned" : true,
    "linker_set_key" : "_ZTIc",
    "name" : "char",
    "referenced_type" : "_ZTIc",
@@ -55,7 +56,7 @@
    "self_type" : "_ZTIv"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_integral" : true,
    "linker_set_key" : "_ZTIx",
    "name" : "long long",
@@ -735,6 +736,14 @@
     {
      "enum_field_value" : 14,
      "name" : "aidl::android::hardware::power::Mode::CAMERA_STREAMING_HIGH"
+    },
+    {
+     "enum_field_value" : 15,
+     "name" : "aidl::android::hardware::power::Mode::GAME"
+    },
+    {
+     "enum_field_value" : 16,
+     "name" : "aidl::android::hardware::power::Mode::GAME_LOADING"
     }
    ],
    "linker_set_key" : "_ZTIN4aidl7android8hardware5power4ModeE",
@@ -742,7 +751,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power4ModeE",
    "self_type" : "_ZTIN4aidl7android8hardware5power4ModeE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/Mode.h",
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/Mode.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -779,7 +788,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power5BoostE",
    "self_type" : "_ZTIN4aidl7android8hardware5power5BoostE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/Boost.h",
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/Boost.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -939,7 +948,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerDefault::isModeSupported",
@@ -958,7 +967,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerDefault::getInterfaceHash",
@@ -974,7 +983,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerDefault::isBoostSupported",
@@ -993,7 +1002,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerDefault::createHintSession",
@@ -1021,7 +1030,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerDefault::getInterfaceVersion",
@@ -1037,7 +1046,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerDefault::getHintSessionPreferredRate",
@@ -1053,7 +1062,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerDefault::setMode",
@@ -1072,7 +1081,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerDefault::asBinder",
@@ -1085,7 +1094,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk10SpAIBinderE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerDefault::isRemote",
@@ -1098,7 +1107,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerDefault::setBoost",
@@ -1117,7 +1126,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSession::fromBinder",
@@ -1129,7 +1138,7 @@
     }
    ],
    "return_type" : "_ZTINSt3__110shared_ptrIN4aidl7android8hardware5power17IPowerHintSessionEEE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSession::writeToParcel",
@@ -1144,13 +1153,13 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSession::getDefaultImpl",
    "linker_set_key" : "_ZN4aidl7android8hardware5power17IPowerHintSession14getDefaultImplEv",
    "return_type" : "_ZTIRKNSt3__110shared_ptrIN4aidl7android8hardware5power17IPowerHintSessionEEE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSession::readFromParcel",
@@ -1165,7 +1174,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSession::setDefaultImpl",
@@ -1177,7 +1186,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSession::IPowerHintSession",
@@ -1190,7 +1199,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSession::~IPowerHintSession",
@@ -1203,7 +1212,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSession::~IPowerHintSession",
@@ -1216,7 +1225,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSession::~IPowerHintSession",
@@ -1229,7 +1238,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "access" : "protected",
@@ -1243,7 +1252,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk10SpAIBinderE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BnPowerHintSession::getInterfaceHash",
@@ -1259,7 +1268,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BnPowerHintSession::getInterfaceVersion",
@@ -1275,7 +1284,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BnPowerHintSession::BnPowerHintSession",
@@ -1288,7 +1297,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BnPowerHintSession::~BnPowerHintSession",
@@ -1301,7 +1310,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BnPowerHintSession::~BnPowerHintSession",
@@ -1314,7 +1323,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BnPowerHintSession::~BnPowerHintSession",
@@ -1327,7 +1336,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPowerHintSession::getInterfaceHash",
@@ -1343,7 +1352,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPowerHintSession::getInterfaceVersion",
@@ -1359,7 +1368,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPowerHintSession::reportActualWorkDuration",
@@ -1375,7 +1384,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPowerHintSession::updateTargetWorkDuration",
@@ -1391,7 +1400,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPowerHintSession::close",
@@ -1404,7 +1413,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPowerHintSession::pause",
@@ -1417,7 +1426,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPowerHintSession::resume",
@@ -1430,7 +1439,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPowerHintSession::BpPowerHintSession",
@@ -1446,7 +1455,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPowerHintSession::BpPowerHintSession",
@@ -1462,7 +1471,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPowerHintSession::~BpPowerHintSession",
@@ -1475,7 +1484,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPowerHintSession::~BpPowerHintSession",
@@ -1488,7 +1497,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPowerHintSession::~BpPowerHintSession",
@@ -1501,7 +1510,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSessionDefault::getInterfaceHash",
@@ -1517,7 +1526,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSessionDefault::getInterfaceVersion",
@@ -1533,7 +1542,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSessionDefault::reportActualWorkDuration",
@@ -1549,7 +1558,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSessionDefault::updateTargetWorkDuration",
@@ -1565,7 +1574,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSessionDefault::close",
@@ -1578,7 +1587,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSessionDefault::pause",
@@ -1591,7 +1600,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSessionDefault::resume",
@@ -1604,7 +1613,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSessionDefault::asBinder",
@@ -1617,7 +1626,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk10SpAIBinderE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPowerHintSessionDefault::isRemote",
@@ -1630,7 +1639,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPower::fromBinder",
@@ -1642,7 +1651,7 @@
     }
    ],
    "return_type" : "_ZTINSt3__110shared_ptrIN4aidl7android8hardware5power6IPowerEEE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPower::writeToParcel",
@@ -1657,13 +1666,13 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPower::getDefaultImpl",
    "linker_set_key" : "_ZN4aidl7android8hardware5power6IPower14getDefaultImplEv",
    "return_type" : "_ZTIRKNSt3__110shared_ptrIN4aidl7android8hardware5power6IPowerEEE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPower::readFromParcel",
@@ -1678,7 +1687,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPower::setDefaultImpl",
@@ -1690,7 +1699,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPower::IPower",
@@ -1703,7 +1712,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPower::~IPower",
@@ -1716,7 +1725,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPower::~IPower",
@@ -1729,7 +1738,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::IPower::~IPower",
@@ -1742,7 +1751,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "access" : "protected",
@@ -1756,7 +1765,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk10SpAIBinderE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BnPower::getInterfaceHash",
@@ -1772,7 +1781,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BnPower::getInterfaceVersion",
@@ -1788,7 +1797,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BnPower::BnPower",
@@ -1801,7 +1810,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BnPower::~BnPower",
@@ -1814,7 +1823,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BnPower::~BnPower",
@@ -1827,7 +1836,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BnPower::~BnPower",
@@ -1840,7 +1849,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPower::isModeSupported",
@@ -1859,7 +1868,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPower::getInterfaceHash",
@@ -1875,7 +1884,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPower::isBoostSupported",
@@ -1894,7 +1903,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPower::createHintSession",
@@ -1922,7 +1931,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPower::getInterfaceVersion",
@@ -1938,7 +1947,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPower::getHintSessionPreferredRate",
@@ -1954,7 +1963,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPower::setMode",
@@ -1973,7 +1982,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPower::setBoost",
@@ -1992,7 +2001,7 @@
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPower::BpPower",
@@ -2008,7 +2017,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPower::BpPower",
@@ -2024,7 +2033,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPower::~BpPower",
@@ -2037,7 +2046,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPower::~BpPower",
@@ -2050,7 +2059,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::BpPower::~BpPower",
@@ -2063,7 +2072,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "function_name" : "aidl::android::hardware::power::WorkDuration::writeToParcel",
@@ -2079,7 +2088,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
   }
  ],
  "global_vars" :
@@ -2088,45 +2097,45 @@
    "linker_set_key" : "_ZN4aidl7android8hardware5power12WorkDuration10descriptorE",
    "name" : "aidl::android::hardware::power::WorkDuration::descriptor",
    "referenced_type" : "_ZTIPKc",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
   },
   {
    "linker_set_key" : "_ZN4aidl7android8hardware5power17IPowerHintSession10descriptorE",
    "name" : "aidl::android::hardware::power::IPowerHintSession::descriptor",
    "referenced_type" : "_ZTIPKc",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "access" : "private",
    "linker_set_key" : "_ZN4aidl7android8hardware5power17IPowerHintSession12default_implE",
    "name" : "aidl::android::hardware::power::IPowerHintSession::default_impl",
    "referenced_type" : "_ZTINSt3__110shared_ptrIN4aidl7android8hardware5power17IPowerHintSessionEEE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "linker_set_key" : "_ZN4aidl7android8hardware5power17IPowerHintSession4hashE",
    "name" : "aidl::android::hardware::power::IPowerHintSession::hash",
    "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "linker_set_key" : "_ZN4aidl7android8hardware5power6IPower10descriptorE",
    "name" : "aidl::android::hardware::power::IPower::descriptor",
    "referenced_type" : "_ZTIPKc",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "access" : "private",
    "linker_set_key" : "_ZN4aidl7android8hardware5power6IPower12default_implE",
    "name" : "aidl::android::hardware::power::IPower::default_impl",
    "referenced_type" : "_ZTINSt3__110shared_ptrIN4aidl7android8hardware5power6IPowerEEE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "linker_set_key" : "_ZN4aidl7android8hardware5power6IPower4hashE",
    "name" : "aidl::android::hardware::power::IPower::hash",
    "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   }
  ],
  "lvalue_reference_types" :
@@ -2174,7 +2183,7 @@
    "referenced_type" : "_ZTIKN4aidl7android8hardware5power12WorkDurationE",
    "self_type" : "_ZTIRKN4aidl7android8hardware5power12WorkDurationE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
   },
   {
    "alignment" : 4,
@@ -2183,7 +2192,7 @@
    "referenced_type" : "_ZTIKNSt3__110shared_ptrIN4aidl7android8hardware5power17IPowerHintSessionEEE",
    "self_type" : "_ZTIRKNSt3__110shared_ptrIN4aidl7android8hardware5power17IPowerHintSessionEEE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
   },
   {
    "alignment" : 4,
@@ -2192,7 +2201,7 @@
    "referenced_type" : "_ZTIKNSt3__110shared_ptrIN4aidl7android8hardware5power6IPowerEEE",
    "self_type" : "_ZTIRKNSt3__110shared_ptrIN4aidl7android8hardware5power6IPowerEEE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "alignment" : 4,
@@ -2210,7 +2219,7 @@
    "referenced_type" : "_ZTIKNSt3__16vectorIN4aidl7android8hardware5power12WorkDurationENS_9allocatorIS5_EEEE",
    "self_type" : "_ZTIRKNSt3__16vectorIN4aidl7android8hardware5power12WorkDurationENS_9allocatorIS5_EEEE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
   },
   {
    "alignment" : 4,
@@ -2582,7 +2591,7 @@
    "referenced_type" : "_ZTIKN4aidl7android8hardware5power12WorkDurationE",
    "self_type" : "_ZTIPKN4aidl7android8hardware5power12WorkDurationE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
   },
   {
    "alignment" : 4,
@@ -2762,7 +2771,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power12WorkDurationE",
    "self_type" : "_ZTIPN4aidl7android8hardware5power12WorkDurationE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
   },
   {
    "alignment" : 4,
@@ -2771,7 +2780,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power13IPowerDefaultE",
    "self_type" : "_ZTIPN4aidl7android8hardware5power13IPowerDefaultE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "alignment" : 4,
@@ -2780,7 +2789,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power15IPowerDelegatorE",
    "self_type" : "_ZTIPN4aidl7android8hardware5power15IPowerDelegatorE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
   },
   {
    "alignment" : 4,
@@ -2789,7 +2798,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power17IPowerHintSessionE",
    "self_type" : "_ZTIPN4aidl7android8hardware5power17IPowerHintSessionE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "alignment" : 4,
@@ -2798,7 +2807,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power18BnPowerHintSessionE",
    "self_type" : "_ZTIPN4aidl7android8hardware5power18BnPowerHintSessionE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
   },
   {
    "alignment" : 4,
@@ -2807,7 +2816,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power18BpPowerHintSessionE",
    "self_type" : "_ZTIPN4aidl7android8hardware5power18BpPowerHintSessionE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h"
   },
   {
    "alignment" : 4,
@@ -2816,7 +2825,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power24IPowerHintSessionDefaultE",
    "self_type" : "_ZTIPN4aidl7android8hardware5power24IPowerHintSessionDefaultE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "alignment" : 4,
@@ -2825,7 +2834,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power26IPowerHintSessionDelegatorE",
    "self_type" : "_ZTIPN4aidl7android8hardware5power26IPowerHintSessionDelegatorE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
   },
   {
    "alignment" : 4,
@@ -2834,7 +2843,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power6IPowerE",
    "self_type" : "_ZTIPN4aidl7android8hardware5power6IPowerE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "alignment" : 4,
@@ -2843,7 +2852,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power7BnPowerE",
    "self_type" : "_ZTIPN4aidl7android8hardware5power7BnPowerE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h"
   },
   {
    "alignment" : 4,
@@ -2852,7 +2861,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power7BpPowerE",
    "self_type" : "_ZTIPN4aidl7android8hardware5power7BpPowerE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h"
   },
   {
    "alignment" : 4,
@@ -2861,7 +2870,7 @@
    "referenced_type" : "_ZTINSt3__110shared_ptrIN4aidl7android8hardware5power17IPowerHintSessionEEE",
    "self_type" : "_ZTIPNSt3__110shared_ptrIN4aidl7android8hardware5power17IPowerHintSessionEEE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "alignment" : 4,
@@ -2870,7 +2879,7 @@
    "referenced_type" : "_ZTINSt3__110shared_ptrIN4aidl7android8hardware5power6IPowerEEE",
    "self_type" : "_ZTIPNSt3__110shared_ptrIN4aidl7android8hardware5power6IPowerEEE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "alignment" : 4,
@@ -2879,7 +2888,7 @@
    "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "self_type" : "_ZTIPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "alignment" : 4,
@@ -3086,7 +3095,7 @@
    "referenced_type" : "_ZTIb",
    "self_type" : "_ZTIPb",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "alignment" : 4,
@@ -3095,7 +3104,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIPi",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "alignment" : 4,
@@ -3113,7 +3122,7 @@
    "referenced_type" : "_ZTIx",
    "self_type" : "_ZTIPx",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   }
  ],
  "qualified_types" :
@@ -3197,14 +3206,14 @@
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKN4aidl7android8hardware5power12WorkDurationE",
    "name" : "const aidl::android::hardware::power::WorkDuration",
    "referenced_type" : "_ZTIN4aidl7android8hardware5power12WorkDurationE",
    "self_type" : "_ZTIKN4aidl7android8hardware5power12WorkDurationE",
    "size" : 16,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
   },
   {
    "alignment" : 4,
@@ -3214,7 +3223,7 @@
    "referenced_type" : "_ZTINSt3__110shared_ptrIN4aidl7android8hardware5power17IPowerHintSessionEEE",
    "self_type" : "_ZTIKNSt3__110shared_ptrIN4aidl7android8hardware5power17IPowerHintSessionEEE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
   },
   {
    "alignment" : 4,
@@ -3224,7 +3233,7 @@
    "referenced_type" : "_ZTINSt3__110shared_ptrIN4aidl7android8hardware5power6IPowerEEE",
    "self_type" : "_ZTIKNSt3__110shared_ptrIN4aidl7android8hardware5power6IPowerEEE",
    "size" : 8,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h"
   },
   {
    "alignment" : 4,
@@ -3234,17 +3243,17 @@
    "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "self_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "size" : 12,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "alignment" : 4,
    "is_const" : true,
-   "linker_set_key" : "_ZTIKNSt3__15arrayIN4aidl7android8hardware5power4ModeELj15EEE",
-   "name" : "const std::array<aidl::android::hardware::power::Mode, 15U>",
-   "referenced_type" : "_ZTINSt3__15arrayIN4aidl7android8hardware5power4ModeELj15EEE",
-   "self_type" : "_ZTIKNSt3__15arrayIN4aidl7android8hardware5power4ModeELj15EEE",
-   "size" : 60,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/Mode.h"
+   "linker_set_key" : "_ZTIKNSt3__15arrayIN4aidl7android8hardware5power4ModeELj17EEE",
+   "name" : "const std::array<aidl::android::hardware::power::Mode, 17U>",
+   "referenced_type" : "_ZTINSt3__15arrayIN4aidl7android8hardware5power4ModeELj17EEE",
+   "self_type" : "_ZTIKNSt3__15arrayIN4aidl7android8hardware5power4ModeELj17EEE",
+   "size" : 68,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/Mode.h"
   },
   {
    "alignment" : 4,
@@ -3254,7 +3263,7 @@
    "referenced_type" : "_ZTINSt3__15arrayIN4aidl7android8hardware5power5BoostELj6EEE",
    "self_type" : "_ZTIKNSt3__15arrayIN4aidl7android8hardware5power5BoostELj6EEE",
    "size" : 24,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/Boost.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/Boost.h"
   },
   {
    "alignment" : 4,
@@ -3272,7 +3281,7 @@
    "name" : "const std::vector<aidl::android::hardware::power::WorkDuration, std::allocator<aidl::android::hardware::power::WorkDuration>>",
    "referenced_type" : "_ZTINSt3__16vectorIN4aidl7android8hardware5power12WorkDurationENS_9allocatorIS5_EEEE",
    "self_type" : "_ZTIKNSt3__16vectorIN4aidl7android8hardware5power12WorkDurationENS_9allocatorIS5_EEEE",
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h"
   },
   {
    "alignment" : 4,
@@ -3492,7 +3501,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIKi",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
   },
   {
    "alignment" : 4,
@@ -3502,7 +3511,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIKj",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h"
   },
   {
    "is_const" : true,
@@ -3513,7 +3522,7 @@
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKx",
    "name" : "const long long",
@@ -4240,7 +4249,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -4259,7 +4268,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power12WorkDurationE",
    "self_type" : "_ZTIN4aidl7android8hardware5power12WorkDurationE",
    "size" : 16,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/WorkDuration.h"
   },
   {
    "alignment" : 4,
@@ -4275,7 +4284,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power13IPowerDefaultE",
    "self_type" : "_ZTIN4aidl7android8hardware5power13IPowerDefaultE",
    "size" : 16,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h",
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h",
    "vtable_components" :
    [
     {
@@ -4354,7 +4363,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power15IPowerDelegatorE",
    "self_type" : "_ZTIN4aidl7android8hardware5power15IPowerDelegatorE",
    "size" : 32,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h",
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h",
    "vtable_components" :
    [
     {
@@ -4427,7 +4436,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power17IPowerHintSessionE",
    "self_type" : "_ZTIN4aidl7android8hardware5power17IPowerHintSessionE",
    "size" : 16,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h",
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h",
    "vtable_components" :
    [
     {
@@ -4503,7 +4512,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power18BnPowerHintSessionE",
    "self_type" : "_ZTIN4aidl7android8hardware5power18BnPowerHintSessionE",
    "size" : 24,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h",
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h",
    "vtable_components" :
    [
     {
@@ -4596,7 +4605,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power18BpPowerHintSessionE",
    "self_type" : "_ZTIN4aidl7android8hardware5power18BpPowerHintSessionE",
    "size" : 40,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h",
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPowerHintSession.h",
    "vtable_components" :
    [
     {
@@ -4663,7 +4672,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power24IPowerHintSessionDefaultE",
    "self_type" : "_ZTIN4aidl7android8hardware5power24IPowerHintSessionDefaultE",
    "size" : 16,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h",
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPowerHintSession.h",
    "vtable_components" :
    [
     {
@@ -4739,7 +4748,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power26IPowerHintSessionDelegatorE",
    "self_type" : "_ZTIN4aidl7android8hardware5power26IPowerHintSessionDelegatorE",
    "size" : 32,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h",
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPowerHintSession.h",
    "vtable_components" :
    [
     {
@@ -4809,7 +4818,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power6IPowerE",
    "self_type" : "_ZTIN4aidl7android8hardware5power6IPowerE",
    "size" : 16,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/IPower.h",
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/IPower.h",
    "vtable_components" :
    [
     {
@@ -4889,7 +4898,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power7BnPowerE",
    "self_type" : "_ZTIN4aidl7android8hardware5power7BnPowerE",
    "size" : 24,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h",
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BnPower.h",
    "vtable_components" :
    [
     {
@@ -4986,7 +4995,7 @@
    "referenced_type" : "_ZTIN4aidl7android8hardware5power7BpPowerE",
    "self_type" : "_ZTIN4aidl7android8hardware5power7BpPowerE",
    "size" : 40,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V2-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h",
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/power/aidl/android.hardware.power-V3-ndk-source/gen/include/aidl/android/hardware/power/BpPower.h",
    "vtable_components" :
    [
     {
