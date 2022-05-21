@@ -37,12 +37,12 @@
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
   },
   {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIA12_j",
-   "name" : "unsigned int[12]",
-   "referenced_type" : "_ZTIj",
-   "self_type" : "_ZTIA12_j",
-   "size" : 48,
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIA12_m",
+   "name" : "unsigned long[12]",
+   "referenced_type" : "_ZTIm",
+   "self_type" : "_ZTIA12_m",
+   "size" : 96,
    "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
@@ -109,12 +109,12 @@
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIA1_Pv",
    "name" : "void *[1]",
    "referenced_type" : "_ZTIPv",
    "self_type" : "_ZTIA1_Pv",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
   },
   {
@@ -172,12 +172,12 @@
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
   },
   {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIA25_j",
-   "name" : "unsigned int[25]",
-   "referenced_type" : "_ZTIj",
-   "self_type" : "_ZTIA25_j",
-   "size" : 100,
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIA25_m",
+   "name" : "unsigned long[25]",
+   "referenced_type" : "_ZTIm",
+   "self_type" : "_ZTIA25_m",
+   "size" : 200,
    "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
@@ -262,21 +262,21 @@
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIA6_Pv",
    "name" : "void *[6]",
    "referenced_type" : "_ZTIPv",
    "self_type" : "_ZTIA6_Pv",
-   "size" : 24,
+   "size" : 48,
    "source_file" : "hardware/libhardware/include/hardware/fb.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIA7_Pv",
    "name" : "void *[7]",
    "referenced_type" : "_ZTIPv",
    "self_type" : "_ZTIA7_Pv",
-   "size" : 28,
+   "size" : 56,
    "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
   },
   {
@@ -404,6 +404,25 @@
    "size" : 4
   },
   {
+   "alignment" : 8,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIl",
+   "name" : "long",
+   "referenced_type" : "_ZTIl",
+   "self_type" : "_ZTIl",
+   "size" : 8
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIm",
+   "name" : "unsigned long",
+   "referenced_type" : "_ZTIm",
+   "self_type" : "_ZTIm",
+   "size" : 8
+  },
+  {
    "alignment" : 2,
    "is_integral" : true,
    "is_unsigned" : true,
@@ -418,25 +437,6 @@
    "name" : "void",
    "referenced_type" : "_ZTIv",
    "self_type" : "_ZTIv"
-  },
-  {
-   "alignment" : 8,
-   "is_integral" : true,
-   "linker_set_key" : "_ZTIx",
-   "name" : "long long",
-   "referenced_type" : "_ZTIx",
-   "self_type" : "_ZTIx",
-   "size" : 8
-  },
-  {
-   "alignment" : 8,
-   "is_integral" : true,
-   "is_unsigned" : true,
-   "linker_set_key" : "_ZTIy",
-   "name" : "unsigned long long",
-   "referenced_type" : "_ZTIy",
-   "self_type" : "_ZTIy",
-   "size" : 8
   }
  ],
  "elf_functions" : [],
@@ -1578,7 +1578,7 @@
    "self_type" : "_ZTIN11C2BlockPool14$BASIC_GRAPHICE",
    "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h",
-   "underlying_type" : "_ZTIy"
+   "underlying_type" : "_ZTIm"
   },
   {
    "alignment" : 4,
@@ -1666,7 +1666,7 @@
    "self_type" : "_ZTIN11C2Component8attrib_tE",
    "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h",
-   "underlying_type" : "_ZTIy"
+   "underlying_type" : "_ZTIm"
   },
   {
    "alignment" : 4,
@@ -2154,6 +2154,10 @@
      "name" : "(anonymous namespace)::kParamIndexHdrDynamicMetadata"
     },
     {
+     "enum_field_value" : 6164,
+     "name" : "(anonymous namespace)::kParamIndexHdrFormat"
+    },
+    {
      "enum_field_value" : 8192,
      "name" : "(anonymous namespace)::kParamIndexFrameRate"
     },
@@ -2376,6 +2380,10 @@
     {
      "enum_field_value" : 16411,
      "name" : "(anonymous namespace)::kParamIndexAverageBlockQuantization"
+    },
+    {
+     "enum_field_value" : 16412,
+     "name" : "(anonymous namespace)::kParamIndexAndroidChannelMask"
     }
    ],
    "linker_set_key" : "_ZTIN12_GLOBAL__N_116C2ParamIndexKindE",
@@ -2440,7 +2448,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN12_GLOBAL__N_130$C2_PROFILE_LEVEL_VENDOR_STARTE",
-   "name" : "(anonymous namespace)::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:405:1)",
+   "name" : "(anonymous namespace)::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:408:1)",
    "referenced_type" : "_ZTIN12_GLOBAL__N_130$C2_PROFILE_LEVEL_VENDOR_STARTE",
    "self_type" : "_ZTIN12_GLOBAL__N_130$C2_PROFILE_LEVEL_VENDOR_STARTE",
    "size" : 4,
@@ -2462,7 +2470,7 @@
    "self_type" : "_ZTIN13C2MemoryUsage14$PLATFORM_MASKE",
    "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2BufferBase.h",
-   "underlying_type" : "_ZTIy"
+   "underlying_type" : "_ZTIm"
   },
   {
    "alignment" : 8,
@@ -2483,7 +2491,7 @@
    "self_type" : "_ZTIN13C2MemoryUsage6read_tE",
    "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2BufferBase.h",
-   "underlying_type" : "_ZTIy"
+   "underlying_type" : "_ZTIm"
   },
   {
    "alignment" : 8,
@@ -2504,7 +2512,7 @@
    "self_type" : "_ZTIN13C2MemoryUsage7write_tE",
    "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2BufferBase.h",
-   "underlying_type" : "_ZTIy"
+   "underlying_type" : "_ZTIm"
   },
   {
    "alignment" : 4,
@@ -2764,7 +2772,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN15C2ColorXyStruct11$CORE_INDEXE",
-   "name" : "C2ColorXyStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1581:5)",
+   "name" : "C2ColorXyStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1584:5)",
    "referenced_type" : "_ZTIN15C2ColorXyStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN15C2ColorXyStruct11$CORE_INDEXE",
    "size" : 4,
@@ -2867,7 +2875,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN16C2GopLayerStruct11$CORE_INDEXE",
-   "name" : "C2GopLayerStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1779:5)",
+   "name" : "C2GopLayerStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1810:5)",
    "referenced_type" : "_ZTIN16C2GopLayerStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN16C2GopLayerStruct11$CORE_INDEXE",
    "size" : 4,
@@ -2905,7 +2913,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN17C2ColorInfoStruct10$FLEX_SIZEE",
-   "name" : "C2ColorInfoStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1462:5)",
+   "name" : "C2ColorInfoStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1465:5)",
    "referenced_type" : "_ZTIN17C2ColorInfoStruct10$FLEX_SIZEE",
    "self_type" : "_ZTIN17C2ColorInfoStruct10$FLEX_SIZEE",
    "size" : 4,
@@ -2922,7 +2930,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN17C2ColorInfoStruct11$CORE_INDEXE",
-   "name" : "C2ColorInfoStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1462:5)",
+   "name" : "C2ColorInfoStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1465:5)",
    "referenced_type" : "_ZTIN17C2ColorInfoStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN17C2ColorInfoStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3033,7 +3041,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN18C2TileLayoutStruct11$CORE_INDEXE",
-   "name" : "C2TileLayoutStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1936:5)",
+   "name" : "C2TileLayoutStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1967:5)",
    "referenced_type" : "_ZTIN18C2TileLayoutStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN18C2TileLayoutStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3050,7 +3058,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN19C2OutOfMemoryStruct11$CORE_INDEXE",
-   "name" : "C2OutOfMemoryStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1084:5)",
+   "name" : "C2OutOfMemoryStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1087:5)",
    "referenced_type" : "_ZTIN19C2OutOfMemoryStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN19C2OutOfMemoryStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3067,7 +3075,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN19C2PictureSizeStruct11$CORE_INDEXE",
-   "name" : "C2PictureSizeStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1065:5)",
+   "name" : "C2PictureSizeStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1068:5)",
    "referenced_type" : "_ZTIN19C2PictureSizeStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN19C2PictureSizeStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3101,7 +3109,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN20C2ChromaOffsetStruct11$CORE_INDEXE",
-   "name" : "C2ChromaOffsetStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1431:5)",
+   "name" : "C2ChromaOffsetStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1434:5)",
    "referenced_type" : "_ZTIN20C2ChromaOffsetStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN20C2ChromaOffsetStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3118,7 +3126,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN20C2ColorAspectsStruct11$CORE_INDEXE",
-   "name" : "C2ColorAspectsStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1554:5)",
+   "name" : "C2ColorAspectsStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1557:5)",
    "referenced_type" : "_ZTIN20C2ColorAspectsStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN20C2ColorAspectsStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3135,7 +3143,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN20C2IntraRefreshStruct11$CORE_INDEXE",
-   "name" : "C2IntraRefreshStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1910:5)",
+   "name" : "C2IntraRefreshStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1941:5)",
    "referenced_type" : "_ZTIN20C2IntraRefreshStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN20C2IntraRefreshStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3152,7 +3160,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN20C2ProfileLevelStruct11$CORE_INDEXE",
-   "name" : "C2ProfileLevelStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:750:5)",
+   "name" : "C2ProfileLevelStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:753:5)",
    "referenced_type" : "_ZTIN20C2ProfileLevelStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN20C2ProfileLevelStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3169,7 +3177,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN20C2TimedControlStruct11$CORE_INDEXE",
-   "name" : "C2TimedControlStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2282:5)",
+   "name" : "C2TimedControlStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2321:5)",
    "referenced_type" : "_ZTIN20C2TimedControlStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN20C2TimedControlStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3186,7 +3194,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN20C2TunneledModeStruct10$FLEX_SIZEE",
-   "name" : "C2TunneledModeStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2378:5)",
+   "name" : "C2TunneledModeStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2417:5)",
    "referenced_type" : "_ZTIN20C2TunneledModeStruct10$FLEX_SIZEE",
    "self_type" : "_ZTIN20C2TunneledModeStruct10$FLEX_SIZEE",
    "size" : 4,
@@ -3203,7 +3211,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN20C2TunneledModeStruct11$CORE_INDEXE",
-   "name" : "C2TunneledModeStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2378:5)",
+   "name" : "C2TunneledModeStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2417:5)",
    "referenced_type" : "_ZTIN20C2TunneledModeStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN20C2TunneledModeStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3266,7 +3274,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN21C2StoreIonUsageStruct11$CORE_INDEXE",
-   "name" : "C2StoreIonUsageStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2162:5)",
+   "name" : "C2StoreIonUsageStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2201:5)",
    "referenced_type" : "_ZTIN21C2StoreIonUsageStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN21C2StoreIonUsageStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3312,7 +3320,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN24C2StoreDmaBufUsageStruct10$FLEX_SIZEE",
-   "name" : "C2StoreDmaBufUsageStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2190:5)",
+   "name" : "C2StoreDmaBufUsageStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2229:5)",
    "referenced_type" : "_ZTIN24C2StoreDmaBufUsageStruct10$FLEX_SIZEE",
    "self_type" : "_ZTIN24C2StoreDmaBufUsageStruct10$FLEX_SIZEE",
    "size" : 4,
@@ -3329,7 +3337,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN24C2StoreDmaBufUsageStruct11$CORE_INDEXE",
-   "name" : "C2StoreDmaBufUsageStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2190:5)",
+   "name" : "C2StoreDmaBufUsageStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2229:5)",
    "referenced_type" : "_ZTIN24C2StoreDmaBufUsageStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN24C2StoreDmaBufUsageStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3346,7 +3354,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN24C2SupplementalDataStruct10$FLEX_SIZEE",
-   "name" : "C2SupplementalDataStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:806:5)",
+   "name" : "C2SupplementalDataStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:809:5)",
    "referenced_type" : "_ZTIN24C2SupplementalDataStruct10$FLEX_SIZEE",
    "self_type" : "_ZTIN24C2SupplementalDataStruct10$FLEX_SIZEE",
    "size" : 4,
@@ -3363,7 +3371,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN24C2SupplementalDataStruct11$CORE_INDEXE",
-   "name" : "C2SupplementalDataStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:806:5)",
+   "name" : "C2SupplementalDataStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:809:5)",
    "referenced_type" : "_ZTIN24C2SupplementalDataStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN24C2SupplementalDataStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3380,7 +3388,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN24C2TemporalLayeringStruct10$FLEX_SIZEE",
-   "name" : "C2TemporalLayeringStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1881:5)",
+   "name" : "C2TemporalLayeringStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1912:5)",
    "referenced_type" : "_ZTIN24C2TemporalLayeringStruct10$FLEX_SIZEE",
    "self_type" : "_ZTIN24C2TemporalLayeringStruct10$FLEX_SIZEE",
    "size" : 4,
@@ -3397,7 +3405,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN24C2TemporalLayeringStruct11$CORE_INDEXE",
-   "name" : "C2TemporalLayeringStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1881:5)",
+   "name" : "C2TemporalLayeringStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1912:5)",
    "referenced_type" : "_ZTIN24C2TemporalLayeringStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN24C2TemporalLayeringStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3414,7 +3422,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN26C2HdrDynamicMetadataStruct10$FLEX_SIZEE",
-   "name" : "C2HdrDynamicMetadataStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1654:5)",
+   "name" : "C2HdrDynamicMetadataStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1657:5)",
    "referenced_type" : "_ZTIN26C2HdrDynamicMetadataStruct10$FLEX_SIZEE",
    "self_type" : "_ZTIN26C2HdrDynamicMetadataStruct10$FLEX_SIZEE",
    "size" : 4,
@@ -3431,7 +3439,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN26C2HdrDynamicMetadataStruct11$CORE_INDEXE",
-   "name" : "C2HdrDynamicMetadataStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1654:5)",
+   "name" : "C2HdrDynamicMetadataStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1657:5)",
    "referenced_type" : "_ZTIN26C2HdrDynamicMetadataStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN26C2HdrDynamicMetadataStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3469,7 +3477,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN27C2PictureQuantizationStruct11$CORE_INDEXE",
-   "name" : "C2PictureQuantizationStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1803:5)",
+   "name" : "C2PictureQuantizationStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1834:5)",
    "referenced_type" : "_ZTIN27C2PictureQuantizationStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN27C2PictureQuantizationStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3486,7 +3494,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN30C2TimestampGapAdjustmentStruct11$CORE_INDEXE",
-   "name" : "C2TimestampGapAdjustmentStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2331:5)",
+   "name" : "C2TimestampGapAdjustmentStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2370:5)",
    "referenced_type" : "_ZTIN30C2TimestampGapAdjustmentStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN30C2TimestampGapAdjustmentStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3528,7 +3536,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN35C2MasteringDisplayColorVolumeStruct11$CORE_INDEXE",
-   "name" : "C2MasteringDisplayColorVolumeStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1595:5)",
+   "name" : "C2MasteringDisplayColorVolumeStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1598:5)",
    "referenced_type" : "_ZTIN35C2MasteringDisplayColorVolumeStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN35C2MasteringDisplayColorVolumeStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3545,7 +3553,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN37C2FlexiblePixelFormatDescriptorStruct11$CORE_INDEXE",
-   "name" : "C2FlexiblePixelFormatDescriptorStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2210:5)",
+   "name" : "C2FlexiblePixelFormatDescriptorStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2249:5)",
    "referenced_type" : "_ZTIN37C2FlexiblePixelFormatDescriptorStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN37C2FlexiblePixelFormatDescriptorStruct11$CORE_INDEXE",
    "size" : 4,
@@ -4092,7 +4100,7 @@
    "self_type" : "_ZTIN7android20C2AndroidMemoryUsage10consumer_tE",
    "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/android-C2Buffer.h",
-   "underlying_type" : "_ZTIy"
+   "underlying_type" : "_ZTIm"
   },
   {
    "alignment" : 8,
@@ -4125,7 +4133,7 @@
    "self_type" : "_ZTIN7android20C2AndroidMemoryUsage10producer_tE",
    "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/android-C2Buffer.h",
-   "underlying_type" : "_ZTIy"
+   "underlying_type" : "_ZTIm"
   },
   {
    "alignment" : 4,
@@ -4140,6 +4148,39 @@
    "name" : "C2Config::api_level_t",
    "referenced_type" : "_ZTIN8C2Config11api_level_tE",
    "self_type" : "_ZTIN8C2Config11api_level_tE",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "C2Config::UNKNOWN"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "C2Config::SDR"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "C2Config::HLG"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "C2Config::HDR10"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "C2Config::HDR10_PLUS"
+    }
+   ],
+   "linker_set_key" : "_ZTIN8C2Config12hdr_format_tE",
+   "name" : "C2Config::hdr_format_t",
+   "referenced_type" : "_ZTIN8C2Config12hdr_format_tE",
+   "self_type" : "_ZTIN8C2Config12hdr_format_tE",
    "size" : 4,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h",
    "underlying_type" : "_ZTIj"
@@ -4200,7 +4241,7 @@
    "self_type" : "_ZTIN8C2Config13api_feature_tE",
    "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h",
-   "underlying_type" : "_ZTIy"
+   "underlying_type" : "_ZTIm"
   },
   {
    "alignment" : 4,
@@ -4542,7 +4583,7 @@
    "self_type" : "_ZTIN8C2Config18platform_feature_tE",
    "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h",
-   "underlying_type" : "_ZTIy"
+   "underlying_type" : "_ZTIm"
   },
   {
    "alignment" : 4,
@@ -6293,1491 +6334,1491 @@
  "lvalue_reference_types" :
  [
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIR18C2ParamFieldValues",
    "name" : "C2ParamFieldValues &",
    "referenced_type" : "_ZTI18C2ParamFieldValues",
    "self_type" : "_ZTIR18C2ParamFieldValues",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRK10_C2FieldId",
    "name" : "const _C2FieldId &",
    "referenced_type" : "_ZTIK10_C2FieldId",
    "self_type" : "_ZTIRK10_C2FieldId",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRK12C2ParamField",
    "name" : "const C2ParamField &",
    "referenced_type" : "_ZTIK12C2ParamField",
    "self_type" : "_ZTIRK12C2ParamField",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRK13C2MemoryUsage",
    "name" : "const C2MemoryUsage &",
    "referenced_type" : "_ZTIK13C2MemoryUsage",
    "self_type" : "_ZTIRK13C2MemoryUsage",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/android-C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRK17C2FieldDescriptor",
    "name" : "const C2FieldDescriptor &",
    "referenced_type" : "_ZTIK17C2FieldDescriptor",
    "self_type" : "_ZTIRK17C2FieldDescriptor",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRK18C2ParamFieldValues",
    "name" : "const C2ParamFieldValues &",
    "referenced_type" : "_ZTIK18C2ParamFieldValues",
    "self_type" : "_ZTIRK18C2ParamFieldValues",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRK20_C2LinearRangeAspect",
    "name" : "const _C2LinearRangeAspect &",
    "referenced_type" : "_ZTIK20_C2LinearRangeAspect",
    "self_type" : "_ZTIRK20_C2LinearRangeAspect",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRK22C2FieldSupportedValues",
    "name" : "const C2FieldSupportedValues &",
    "referenced_type" : "_ZTIK22C2FieldSupportedValues",
    "self_type" : "_ZTIRK22C2FieldSupportedValues",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRK22_C2PlanarSectionAspect",
    "name" : "const _C2PlanarSectionAspect &",
    "referenced_type" : "_ZTIK22_C2PlanarSectionAspect",
    "self_type" : "_ZTIRK22_C2PlanarSectionAspect",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRK23_C2LinearCapacityAspect",
    "name" : "const _C2LinearCapacityAspect &",
    "referenced_type" : "_ZTIK23_C2LinearCapacityAspect",
    "self_type" : "_ZTIRK23_C2LinearCapacityAspect",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRK23_C2PlanarCapacityAspect",
    "name" : "const _C2PlanarCapacityAspect &",
    "referenced_type" : "_ZTIK23_C2PlanarCapacityAspect",
    "self_type" : "_ZTIRK23_C2PlanarCapacityAspect",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRK6C2Rect",
    "name" : "const C2Rect &",
    "referenced_type" : "_ZTIK6C2Rect",
    "self_type" : "_ZTIRK6C2Rect",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRK7C2Param",
    "name" : "const C2Param &",
    "referenced_type" : "_ZTIK7C2Param",
    "self_type" : "_ZTIRK7C2Param",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRK9C2Segment",
    "name" : "const C2Segment &",
    "referenced_type" : "_ZTIK9C2Segment",
    "self_type" : "_ZTIRK9C2Segment",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRK9c2_cntr_tIjvE",
    "name" : "const c2_cntr_t<unsigned int, void> &",
    "referenced_type" : "_ZTIK9c2_cntr_tIjvE",
    "self_type" : "_ZTIRK9c2_cntr_tIjvE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRK9c2_cntr_tIyvE",
-   "name" : "const c2_cntr_t<unsigned long long, void> &",
-   "referenced_type" : "_ZTIK9c2_cntr_tIyvE",
-   "self_type" : "_ZTIRK9c2_cntr_tIyvE",
-   "size" : 4,
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRK9c2_cntr_tImvE",
+   "name" : "const c2_cntr_t<unsigned long, void> &",
+   "referenced_type" : "_ZTIK9c2_cntr_tImvE",
+   "self_type" : "_ZTIRK9c2_cntr_tImvE",
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKN7C2Param4TypeE",
    "name" : "const C2Param::Type &",
    "referenced_type" : "_ZTIKN7C2Param4TypeE",
    "self_type" : "_ZTIRKN7C2Param4TypeE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKN7C2Param5IndexE",
    "name" : "const C2Param::Index &",
    "referenced_type" : "_ZTIKN7C2Param5IndexE",
    "self_type" : "_ZTIRKN7C2Param5IndexE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKN7C2Param9CoreIndexE",
    "name" : "const C2Param::CoreIndex &",
    "referenced_type" : "_ZTIKN7C2Param9CoreIndexE",
    "self_type" : "_ZTIRKN7C2Param9CoreIndexE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__16vectorI17C2FieldDescriptorNS_9allocatorIS1_EEEE",
    "name" : "const std::vector<C2FieldDescriptor, std::allocator<C2FieldDescriptor>> &",
    "referenced_type" : "_ZTIKNSt3__16vectorI17C2FieldDescriptorNS_9allocatorIS1_EEEE",
    "self_type" : "_ZTIRKNSt3__16vectorI17C2FieldDescriptorNS_9allocatorIS1_EEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__16vectorIN7C2Param5IndexENS_9allocatorIS2_EEEE",
    "name" : "const std::vector<C2Param::Index, std::allocator<C2Param::Index>> &",
    "referenced_type" : "_ZTIKNSt3__16vectorIN7C2Param5IndexENS_9allocatorIS2_EEEE",
    "self_type" : "_ZTIRKNSt3__16vectorIN7C2Param5IndexENS_9allocatorIS2_EEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7C2Value9PrimitiveEEENS5_ISA_EEEE",
    "name" : "const std::vector<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char>>, C2Value::Primitive>, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char>>, C2Value::Primitive>>> &",
    "referenced_type" : "_ZTIKNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7C2Value9PrimitiveEEENS5_ISA_EEEE",
    "self_type" : "_ZTIRKNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7C2Value9PrimitiveEEENS5_ISA_EEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKc",
    "name" : "const char &",
    "referenced_type" : "_ZTIKc",
    "self_type" : "_ZTIRKc",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKf",
    "name" : "const float &",
    "referenced_type" : "_ZTIKf",
    "self_type" : "_ZTIRKf",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKh",
    "name" : "const unsigned char &",
    "referenced_type" : "_ZTIKh",
    "self_type" : "_ZTIRKh",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKi",
    "name" : "const int &",
    "referenced_type" : "_ZTIKi",
    "self_type" : "_ZTIRKi",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKj",
    "name" : "const unsigned int &",
    "referenced_type" : "_ZTIKj",
    "self_type" : "_ZTIRKj",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRKx",
-   "name" : "const long long &",
-   "referenced_type" : "_ZTIKx",
-   "self_type" : "_ZTIRKx",
-   "size" : 4,
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKl",
+   "name" : "const long &",
+   "referenced_type" : "_ZTIKl",
+   "self_type" : "_ZTIRKl",
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIRKy",
-   "name" : "const unsigned long long &",
-   "referenced_type" : "_ZTIKy",
-   "self_type" : "_ZTIRKy",
-   "size" : 4,
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKm",
+   "name" : "const unsigned long &",
+   "referenced_type" : "_ZTIKm",
+   "self_type" : "_ZTIRKm",
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRN17C2ParamDescriptor8attrib_tE",
    "name" : "C2ParamDescriptor::attrib_t &",
    "referenced_type" : "_ZTIN17C2ParamDescriptor8attrib_tE",
    "self_type" : "_ZTIRN17C2ParamDescriptor8attrib_tE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   }
  ],
  "pointer_types" :
  [
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP10_C2FieldId",
    "name" : "_C2FieldId *",
    "referenced_type" : "_ZTI10_C2FieldId",
    "self_type" : "_ZTIP10_C2FieldId",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP11C2Allocator",
    "name" : "C2Allocator *",
    "referenced_type" : "_ZTI11C2Allocator",
    "self_type" : "_ZTIP11C2Allocator",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP11C2BlockPool",
    "name" : "C2BlockPool *",
    "referenced_type" : "_ZTI11C2BlockPool",
    "self_type" : "_ZTIP11C2BlockPool",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP11C2Component",
    "name" : "C2Component *",
    "referenced_type" : "_ZTI11C2Component",
    "self_type" : "_ZTIP11C2Component",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Component.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP11hw_device_t",
    "name" : "hw_device_t *",
    "referenced_type" : "_ZTI11hw_device_t",
    "self_type" : "_ZTIP11hw_device_t",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP11hw_module_t",
    "name" : "hw_module_t *",
    "referenced_type" : "_ZTI11hw_module_t",
    "self_type" : "_ZTIP11hw_module_t",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP12C2ParamField",
    "name" : "C2ParamField *",
    "referenced_type" : "_ZTI12C2ParamField",
    "self_type" : "_ZTIP12C2ParamField",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP12C2RectStruct",
    "name" : "C2RectStruct *",
    "referenced_type" : "_ZTI12C2RectStruct",
    "self_type" : "_ZTIP12C2RectStruct",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP13C2LinearRange",
    "name" : "C2LinearRange *",
    "referenced_type" : "_ZTI13C2LinearRange",
    "self_type" : "_ZTIP13C2LinearRange",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP13C2MemoryUsage",
    "name" : "C2MemoryUsage *",
    "referenced_type" : "_ZTI13C2MemoryUsage",
    "self_type" : "_ZTIP13C2MemoryUsage",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2BufferBase.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP13android_ycbcr",
    "name" : "android_ycbcr *",
    "referenced_type" : "_ZTI13android_ycbcr",
    "self_type" : "_ZTIP13android_ycbcr",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP14alloc_device_t",
    "name" : "alloc_device_t *",
    "referenced_type" : "_ZTI14alloc_device_t",
    "self_type" : "_ZTIP14alloc_device_t",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP15C2PlanarSection",
    "name" : "C2PlanarSection *",
    "referenced_type" : "_ZTI15C2PlanarSection",
    "self_type" : "_ZTIP15C2PlanarSection",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP15_C2InnateStatus",
    "name" : "_C2InnateStatus *",
    "referenced_type" : "_ZTI15_C2InnateStatus",
    "self_type" : "_ZTIP15_C2InnateStatus",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP16C2AllocatorStore",
    "name" : "C2AllocatorStore *",
    "referenced_type" : "_ZTI16C2AllocatorStore",
    "self_type" : "_ZTIP16C2AllocatorStore",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Component.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP16C2ComponentStore",
    "name" : "C2ComponentStore *",
    "referenced_type" : "_ZTI16C2ComponentStore",
    "self_type" : "_ZTIP16C2ComponentStore",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Component.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP16C2GopLayerStruct",
    "name" : "C2GopLayerStruct *",
    "referenced_type" : "_ZTI16C2GopLayerStruct",
    "self_type" : "_ZTIP16C2GopLayerStruct",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP16C2LinearCapacity",
    "name" : "C2LinearCapacity *",
    "referenced_type" : "_ZTI16C2LinearCapacity",
    "self_type" : "_ZTIP16C2LinearCapacity",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP16C2ParamReflector",
    "name" : "C2ParamReflector *",
    "referenced_type" : "_ZTI16C2ParamReflector",
    "self_type" : "_ZTIP16C2ParamReflector",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP16C2PlanarCapacity",
    "name" : "C2PlanarCapacity *",
    "referenced_type" : "_ZTI16C2PlanarCapacity",
    "self_type" : "_ZTIP16C2PlanarCapacity",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP16C2RotationStruct",
    "name" : "C2RotationStruct *",
    "referenced_type" : "_ZTI16C2RotationStruct",
    "self_type" : "_ZTIP16C2RotationStruct",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP17C2ColorInfoStruct",
    "name" : "C2ColorInfoStruct *",
    "referenced_type" : "_ZTI17C2ColorInfoStruct",
    "self_type" : "_ZTIP17C2ColorInfoStruct",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP17C2FieldDescriptor",
    "name" : "C2FieldDescriptor *",
    "referenced_type" : "_ZTI17C2FieldDescriptor",
    "self_type" : "_ZTIP17C2FieldDescriptor",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP17C2FrameInfoParser",
    "name" : "C2FrameInfoParser *",
    "referenced_type" : "_ZTI17C2FrameInfoParser",
    "self_type" : "_ZTIP17C2FrameInfoParser",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Component.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP17C2ParamDescriptor",
    "name" : "C2ParamDescriptor *",
    "referenced_type" : "_ZTI17C2ParamDescriptor",
    "self_type" : "_ZTIP17C2ParamDescriptor",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP18C2LinearAllocation",
    "name" : "C2LinearAllocation *",
    "referenced_type" : "_ZTI18C2LinearAllocation",
    "self_type" : "_ZTIP18C2LinearAllocation",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP18C2ParamFieldValues",
    "name" : "C2ParamFieldValues *",
    "referenced_type" : "_ZTI18C2ParamFieldValues",
    "self_type" : "_ZTIP18C2ParamFieldValues",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP18C2StructDescriptor",
    "name" : "C2StructDescriptor *",
    "referenced_type" : "_ZTI18C2StructDescriptor",
    "self_type" : "_ZTIP18C2StructDescriptor",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP18android_flex_plane",
    "name" : "android_flex_plane *",
    "referenced_type" : "_ZTI18android_flex_plane",
    "self_type" : "_ZTIP18android_flex_plane",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "system/core/libsystem/include/system/graphics.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP19C2GraphicAllocation",
    "name" : "C2GraphicAllocation *",
    "referenced_type" : "_ZTI19C2GraphicAllocation",
    "self_type" : "_ZTIP19C2GraphicAllocation",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP19C2PictureSizeStruct",
    "name" : "C2PictureSizeStruct *",
    "referenced_type" : "_ZTI19C2PictureSizeStruct",
    "self_type" : "_ZTIP19C2PictureSizeStruct",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP19hw_module_methods_t",
    "name" : "hw_module_methods_t *",
    "referenced_type" : "_ZTI19hw_module_methods_t",
    "self_type" : "_ZTIP19hw_module_methods_t",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP20C2ColorAspectsStruct",
    "name" : "C2ColorAspectsStruct *",
    "referenced_type" : "_ZTI20C2ColorAspectsStruct",
    "self_type" : "_ZTIP20C2ColorAspectsStruct",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP20C2ComponentInterface",
    "name" : "C2ComponentInterface *",
    "referenced_type" : "_ZTI20C2ComponentInterface",
    "self_type" : "_ZTIP20C2ComponentInterface",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Component.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP20C2IntraRefreshStruct",
    "name" : "C2IntraRefreshStruct *",
    "referenced_type" : "_ZTI20C2IntraRefreshStruct",
    "self_type" : "_ZTIP20C2IntraRefreshStruct",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP20C2ProfileLevelStruct",
    "name" : "C2ProfileLevelStruct *",
    "referenced_type" : "_ZTI20C2ProfileLevelStruct",
    "self_type" : "_ZTIP20C2ProfileLevelStruct",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP20C2TimedControlStruct",
    "name" : "C2TimedControlStruct *",
    "referenced_type" : "_ZTI20C2TimedControlStruct",
    "self_type" : "_ZTIP20C2TimedControlStruct",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP20C2TunneledModeStruct",
    "name" : "C2TunneledModeStruct *",
    "referenced_type" : "_ZTI20C2TunneledModeStruct",
    "self_type" : "_ZTIP20C2TunneledModeStruct",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP20_C2LinearRangeAspect",
    "name" : "_C2LinearRangeAspect *",
    "referenced_type" : "_ZTI20_C2LinearRangeAspect",
    "self_type" : "_ZTIP20_C2LinearRangeAspect",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP20framebuffer_device_t",
    "name" : "framebuffer_device_t *",
    "referenced_type" : "_ZTI20framebuffer_device_t",
    "self_type" : "_ZTIP20framebuffer_device_t",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/fb.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP21C2StoreIonUsageStruct",
    "name" : "C2StoreIonUsageStruct *",
    "referenced_type" : "_ZTI21C2StoreIonUsageStruct",
    "self_type" : "_ZTIP21C2StoreIonUsageStruct",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP22C2FieldSupportedValues",
    "name" : "C2FieldSupportedValues *",
    "referenced_type" : "_ZTI22C2FieldSupportedValues",
    "self_type" : "_ZTIP22C2FieldSupportedValues",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP22_C2PlanarSectionAspect",
    "name" : "_C2PlanarSectionAspect *",
    "referenced_type" : "_ZTI22_C2PlanarSectionAspect",
    "self_type" : "_ZTIP22_C2PlanarSectionAspect",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP23_C2LinearCapacityAspect",
    "name" : "_C2LinearCapacityAspect *",
    "referenced_type" : "_ZTI23_C2LinearCapacityAspect",
    "self_type" : "_ZTIP23_C2LinearCapacityAspect",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP23_C2PlanarCapacityAspect",
    "name" : "_C2PlanarCapacityAspect *",
    "referenced_type" : "_ZTI23_C2PlanarCapacityAspect",
    "self_type" : "_ZTIP23_C2PlanarCapacityAspect",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP24C2StoreDmaBufUsageStruct",
    "name" : "C2StoreDmaBufUsageStruct *",
    "referenced_type" : "_ZTI24C2StoreDmaBufUsageStruct",
    "self_type" : "_ZTIP24C2StoreDmaBufUsageStruct",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP24C2SupplementalDataStruct",
    "name" : "C2SupplementalDataStruct *",
    "referenced_type" : "_ZTI24C2SupplementalDataStruct",
    "self_type" : "_ZTIP24C2SupplementalDataStruct",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP24C2TemporalLayeringStruct",
    "name" : "C2TemporalLayeringStruct *",
    "referenced_type" : "_ZTI24C2TemporalLayeringStruct",
    "self_type" : "_ZTIP24C2TemporalLayeringStruct",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP26C2HdrDynamicMetadataStruct",
    "name" : "C2HdrDynamicMetadataStruct *",
    "referenced_type" : "_ZTI26C2HdrDynamicMetadataStruct",
    "self_type" : "_ZTIP26C2HdrDynamicMetadataStruct",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP27C2FieldSupportedValuesQuery",
    "name" : "C2FieldSupportedValuesQuery *",
    "referenced_type" : "_ZTI27C2FieldSupportedValuesQuery",
    "self_type" : "_ZTIP27C2FieldSupportedValuesQuery",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Component.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP27C2PictureQuantizationStruct",
    "name" : "C2PictureQuantizationStruct *",
    "referenced_type" : "_ZTI27C2PictureQuantizationStruct",
    "self_type" : "_ZTIP27C2PictureQuantizationStruct",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP28_C2EditableLinearRangeAspect",
    "name" : "_C2EditableLinearRangeAspect *",
    "referenced_type" : "_ZTI28_C2EditableLinearRangeAspect",
    "self_type" : "_ZTIP28_C2EditableLinearRangeAspect",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP30C2TimestampGapAdjustmentStruct",
    "name" : "C2TimestampGapAdjustmentStruct *",
    "referenced_type" : "_ZTI30C2TimestampGapAdjustmentStruct",
    "self_type" : "_ZTIP30C2TimestampGapAdjustmentStruct",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP30_C2EditablePlanarSectionAspect",
    "name" : "_C2EditablePlanarSectionAspect *",
    "referenced_type" : "_ZTI30_C2EditablePlanarSectionAspect",
    "self_type" : "_ZTIP30_C2EditablePlanarSectionAspect",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP6C2Rect",
    "name" : "C2Rect *",
    "referenced_type" : "_ZTI6C2Rect",
    "self_type" : "_ZTIP6C2Rect",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP7C2Fence",
    "name" : "C2Fence *",
    "referenced_type" : "_ZTI7C2Fence",
    "self_type" : "_ZTIP7C2Fence",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP7C2Param",
    "name" : "C2Param *",
    "referenced_type" : "_ZTI7C2Param",
    "self_type" : "_ZTIP7C2Param",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP7C2Value",
    "name" : "C2Value *",
    "referenced_type" : "_ZTI7C2Value",
    "self_type" : "_ZTIP7C2Value",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP8C2Buffer",
    "name" : "C2Buffer *",
    "referenced_type" : "_ZTI8C2Buffer",
    "self_type" : "_ZTIP8C2Buffer",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP9C2Segment",
    "name" : "C2Segment *",
    "referenced_type" : "_ZTI9C2Segment",
    "self_type" : "_ZTIP9C2Segment",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIP9c2_cntr_tIjvE",
    "name" : "c2_cntr_t<unsigned int, void> *",
    "referenced_type" : "_ZTI9c2_cntr_tIjvE",
    "self_type" : "_ZTIP9c2_cntr_tIjvE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIP9c2_cntr_tIyvE",
-   "name" : "c2_cntr_t<unsigned long long, void> *",
-   "referenced_type" : "_ZTI9c2_cntr_tIyvE",
-   "self_type" : "_ZTIP9c2_cntr_tIyvE",
-   "size" : 4,
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP9c2_cntr_tImvE",
+   "name" : "c2_cntr_t<unsigned long, void> *",
+   "referenced_type" : "_ZTI9c2_cntr_tImvE",
+   "self_type" : "_ZTIP9c2_cntr_tImvE",
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPFiP11hw_device_tE",
    "name" : "int (*)(hw_device_t *)",
    "referenced_type" : "_ZTIFiP11hw_device_tE",
    "self_type" : "_ZTIPFiP11hw_device_tE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPFiP14alloc_device_tPK13native_handleE",
    "name" : "int (*)(alloc_device_t *, const native_handle *)",
    "referenced_type" : "_ZTIFiP14alloc_device_tPK13native_handleE",
    "self_type" : "_ZTIPFiP14alloc_device_tPK13native_handleE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPFiP14alloc_device_tiiiiPPK13native_handlePiE",
    "name" : "int (*)(alloc_device_t *, int, int, int, int, const native_handle **, int *)",
    "referenced_type" : "_ZTIFiP14alloc_device_tiiiiPPK13native_handlePiE",
    "self_type" : "_ZTIPFiP14alloc_device_tiiiiPPK13native_handlePiE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPFiP20framebuffer_device_tE",
    "name" : "int (*)(framebuffer_device_t *)",
    "referenced_type" : "_ZTIFiP20framebuffer_device_tE",
    "self_type" : "_ZTIPFiP20framebuffer_device_tE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/fb.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPFiP20framebuffer_device_tPK13native_handleE",
    "name" : "int (*)(framebuffer_device_t *, const native_handle *)",
    "referenced_type" : "_ZTIFiP20framebuffer_device_tPK13native_handleE",
    "self_type" : "_ZTIPFiP20framebuffer_device_tPK13native_handleE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/fb.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPFiP20framebuffer_device_tiE",
    "name" : "int (*)(framebuffer_device_t *, int)",
    "referenced_type" : "_ZTIFiP20framebuffer_device_tiE",
    "self_type" : "_ZTIPFiP20framebuffer_device_tiE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/fb.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPFiP20framebuffer_device_tiiiiE",
    "name" : "int (*)(framebuffer_device_t *, int, int, int, int)",
    "referenced_type" : "_ZTIFiP20framebuffer_device_tiiiiE",
    "self_type" : "_ZTIPFiP20framebuffer_device_tiiiiE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/fb.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPFiPK11hw_module_tPKcPP11hw_device_tE",
    "name" : "int (*)(const hw_module_t *, const char *, hw_device_t **)",
    "referenced_type" : "_ZTIFiPK11hw_module_tPKcPP11hw_device_tE",
    "self_type" : "_ZTIPFiPK11hw_module_tPKcPP11hw_device_tE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPFiPK16gralloc_module_tPK13native_handleE",
    "name" : "int (*)(const gralloc_module_t *, const native_handle *)",
    "referenced_type" : "_ZTIFiPK16gralloc_module_tPK13native_handleE",
    "self_type" : "_ZTIPFiPK16gralloc_module_tPK13native_handleE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPFiPK16gralloc_module_tPK13native_handlePiE",
    "name" : "int (*)(const gralloc_module_t *, const native_handle *, int *)",
    "referenced_type" : "_ZTIFiPK16gralloc_module_tPK13native_handlePiE",
    "self_type" : "_ZTIPFiPK16gralloc_module_tPK13native_handlePiE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPFiPK16gralloc_module_tPK13native_handlePjS5_E",
    "name" : "int (*)(const gralloc_module_t *, const native_handle *, unsigned int *, unsigned int *)",
    "referenced_type" : "_ZTIFiPK16gralloc_module_tPK13native_handlePjS5_E",
    "self_type" : "_ZTIPFiPK16gralloc_module_tPK13native_handlePjS5_E",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPFiPK16gralloc_module_tPK13native_handleiiiiiP13android_ycbcrE",
    "name" : "int (*)(const gralloc_module_t *, const native_handle *, int, int, int, int, int, android_ycbcr *)",
    "referenced_type" : "_ZTIFiPK16gralloc_module_tPK13native_handleiiiiiP13android_ycbcrE",
    "self_type" : "_ZTIPFiPK16gralloc_module_tPK13native_handleiiiiiP13android_ycbcrE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPFiPK16gralloc_module_tPK13native_handleiiiiiP13android_ycbcriE",
    "name" : "int (*)(const gralloc_module_t *, const native_handle *, int, int, int, int, int, android_ycbcr *, int)",
    "referenced_type" : "_ZTIFiPK16gralloc_module_tPK13native_handleiiiiiP13android_ycbcriE",
    "self_type" : "_ZTIPFiPK16gralloc_module_tPK13native_handleiiiiiP13android_ycbcriE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPFiPK16gralloc_module_tPK13native_handleiiiiiPPvE",
    "name" : "int (*)(const gralloc_module_t *, const native_handle *, int, int, int, int, int, void **)",
    "referenced_type" : "_ZTIFiPK16gralloc_module_tPK13native_handleiiiiiPPvE",
    "self_type" : "_ZTIPFiPK16gralloc_module_tPK13native_handleiiiiiPPvE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPFiPK16gralloc_module_tPK13native_handleiiiiiPPviE",
    "name" : "int (*)(const gralloc_module_t *, const native_handle *, int, int, int, int, int, void **, int)",
    "referenced_type" : "_ZTIFiPK16gralloc_module_tPK13native_handleiiiiiPPviE",
    "self_type" : "_ZTIPFiPK16gralloc_module_tPK13native_handleiiiiiPPviE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPFiPK16gralloc_module_tPK13native_handlejjiijE",
    "name" : "int (*)(const gralloc_module_t *, const native_handle *, unsigned int, unsigned int, int, int, unsigned int)",
    "referenced_type" : "_ZTIFiPK16gralloc_module_tPK13native_handlejjiijE",
    "self_type" : "_ZTIPFiPK16gralloc_module_tPK13native_handlejjiijE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPFiPK16gralloc_module_tizE",
    "name" : "int (*)(const gralloc_module_t *, int, ...)",
    "referenced_type" : "_ZTIFiPK16gralloc_module_tizE",
    "self_type" : "_ZTIPFiPK16gralloc_module_tizE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPFvP14alloc_device_tPciE",
    "name" : "void (*)(alloc_device_t *, char *, int)",
    "referenced_type" : "_ZTIFvP14alloc_device_tPciE",
    "self_type" : "_ZTIPFvP14alloc_device_tPciE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPFvP20framebuffer_device_tPciE",
    "name" : "void (*)(framebuffer_device_t *, char *, int)",
    "referenced_type" : "_ZTIFvP20framebuffer_device_tPciE",
    "self_type" : "_ZTIPFvP20framebuffer_device_tPciE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/fb.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK10_C2FieldId",
    "name" : "const _C2FieldId *",
    "referenced_type" : "_ZTIK10_C2FieldId",
    "self_type" : "_ZTIPK10_C2FieldId",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK11C2PlaneInfo",
    "name" : "const C2PlaneInfo *",
    "referenced_type" : "_ZTIK11C2PlaneInfo",
    "self_type" : "_ZTIPK11C2PlaneInfo",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK11hw_module_t",
    "name" : "const hw_module_t *",
    "referenced_type" : "_ZTIK11hw_module_t",
    "self_type" : "_ZTIPK11hw_module_t",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK12C2InfoBuffer",
    "name" : "const C2InfoBuffer *",
    "referenced_type" : "_ZTIK12C2InfoBuffer",
    "self_type" : "_ZTIPK12C2InfoBuffer",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK12C2ParamField",
    "name" : "const C2ParamField *",
    "referenced_type" : "_ZTIK12C2ParamField",
    "self_type" : "_ZTIPK12C2ParamField",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK13C2LinearRange",
    "name" : "const C2LinearRange *",
    "referenced_type" : "_ZTIK13C2LinearRange",
    "self_type" : "_ZTIPK13C2LinearRange",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK13native_handle",
    "name" : "const native_handle *",
    "referenced_type" : "_ZTIK13native_handle",
    "self_type" : "_ZTIPK13native_handle",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/fb.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK15C2PlanarSection",
    "name" : "const C2PlanarSection *",
    "referenced_type" : "_ZTIK15C2PlanarSection",
    "self_type" : "_ZTIPK15C2PlanarSection",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK15_C2InnateStatus",
    "name" : "const _C2InnateStatus *",
    "referenced_type" : "_ZTIK15_C2InnateStatus",
    "self_type" : "_ZTIPK15_C2InnateStatus",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK16C2LinearCapacity",
    "name" : "const C2LinearCapacity *",
    "referenced_type" : "_ZTIK16C2LinearCapacity",
    "self_type" : "_ZTIPK16C2LinearCapacity",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK16C2PlanarCapacity",
    "name" : "const C2PlanarCapacity *",
    "referenced_type" : "_ZTIK16C2PlanarCapacity",
    "self_type" : "_ZTIPK16C2PlanarCapacity",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK16gralloc_module_t",
    "name" : "const gralloc_module_t *",
    "referenced_type" : "_ZTIK16gralloc_module_t",
    "self_type" : "_ZTIPK16gralloc_module_t",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK17C2FieldDescriptor",
    "name" : "const C2FieldDescriptor *",
    "referenced_type" : "_ZTIK17C2FieldDescriptor",
    "self_type" : "_ZTIPK17C2FieldDescriptor",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK17C2ParamDescriptor",
    "name" : "const C2ParamDescriptor *",
    "referenced_type" : "_ZTIK17C2ParamDescriptor",
    "self_type" : "_ZTIPK17C2ParamDescriptor",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK18C2ConstLinearBlock",
    "name" : "const C2ConstLinearBlock *",
    "referenced_type" : "_ZTIK18C2ConstLinearBlock",
    "self_type" : "_ZTIPK18C2ConstLinearBlock",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK18C2StructDescriptor",
    "name" : "const C2StructDescriptor *",
    "referenced_type" : "_ZTIK18C2StructDescriptor",
    "self_type" : "_ZTIPK18C2StructDescriptor",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK19C2ConstGraphicBlock",
    "name" : "const C2ConstGraphicBlock *",
    "referenced_type" : "_ZTIK19C2ConstGraphicBlock",
    "self_type" : "_ZTIPK19C2ConstGraphicBlock",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK20_C2LinearRangeAspect",
    "name" : "const _C2LinearRangeAspect *",
    "referenced_type" : "_ZTIK20_C2LinearRangeAspect",
    "self_type" : "_ZTIPK20_C2LinearRangeAspect",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK22_C2PlanarSectionAspect",
    "name" : "const _C2PlanarSectionAspect *",
    "referenced_type" : "_ZTIK22_C2PlanarSectionAspect",
    "self_type" : "_ZTIPK22_C2PlanarSectionAspect",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK23_C2LinearCapacityAspect",
    "name" : "const _C2LinearCapacityAspect *",
    "referenced_type" : "_ZTIK23_C2LinearCapacityAspect",
    "self_type" : "_ZTIPK23_C2LinearCapacityAspect",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK23_C2PlanarCapacityAspect",
    "name" : "const _C2PlanarCapacityAspect *",
    "referenced_type" : "_ZTIK23_C2PlanarCapacityAspect",
    "self_type" : "_ZTIPK23_C2PlanarCapacityAspect",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK27C2FieldSupportedValuesQuery",
    "name" : "const C2FieldSupportedValuesQuery *",
    "referenced_type" : "_ZTIK27C2FieldSupportedValuesQuery",
    "self_type" : "_ZTIPK27C2FieldSupportedValuesQuery",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Component.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK30_C2EditablePlanarSectionAspect",
    "name" : "const _C2EditablePlanarSectionAspect *",
    "referenced_type" : "_ZTIK30_C2EditablePlanarSectionAspect",
    "self_type" : "_ZTIPK30_C2EditablePlanarSectionAspect",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK6C2Rect",
    "name" : "const C2Rect *",
    "referenced_type" : "_ZTIK6C2Rect",
    "self_type" : "_ZTIPK6C2Rect",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK7C2Param",
    "name" : "const C2Param *",
    "referenced_type" : "_ZTIK7C2Param",
    "self_type" : "_ZTIPK7C2Param",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK7C2Value",
    "name" : "const C2Value *",
    "referenced_type" : "_ZTIK7C2Value",
    "self_type" : "_ZTIPK7C2Value",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK9C2Segment",
    "name" : "const C2Segment *",
    "referenced_type" : "_ZTIK9C2Segment",
    "self_type" : "_ZTIPK9C2Segment",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPKN7C2Param4TypeE",
    "name" : "const C2Param::Type *",
    "referenced_type" : "_ZTIKN7C2Param4TypeE",
    "self_type" : "_ZTIPKN7C2Param4TypeE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPKN7C2Param5IndexE",
    "name" : "const C2Param::Index *",
    "referenced_type" : "_ZTIKN7C2Param5IndexE",
    "self_type" : "_ZTIPKN7C2Param5IndexE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPKN7C2Param9CoreIndexE",
    "name" : "const C2Param::CoreIndex *",
    "referenced_type" : "_ZTIKN7C2Param9CoreIndexE",
    "self_type" : "_ZTIPKN7C2Param9CoreIndexE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPKN7C2Value9PrimitiveE",
    "name" : "const C2Value::Primitive *",
    "referenced_type" : "_ZTIKN7C2Value9PrimitiveE",
    "self_type" : "_ZTIPKN7C2Value9PrimitiveE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPKc",
    "name" : "const char *",
    "referenced_type" : "_ZTIKc",
    "self_type" : "_ZTIPKc",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN11C2Component8ListenerE",
    "name" : "C2Component::Listener *",
    "referenced_type" : "_ZTIN11C2Component8ListenerE",
    "self_type" : "_ZTIPN11C2Component8ListenerE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Component.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN7C2Param4TypeE",
    "name" : "C2Param::Type *",
    "referenced_type" : "_ZTIN7C2Param4TypeE",
    "self_type" : "_ZTIPN7C2Param4TypeE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN7C2Param5IndexE",
    "name" : "C2Param::Index *",
    "referenced_type" : "_ZTIN7C2Param5IndexE",
    "self_type" : "_ZTIPN7C2Param5IndexE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN7C2Param9CoreIndexE",
    "name" : "C2Param::CoreIndex *",
    "referenced_type" : "_ZTIN7C2Param9CoreIndexE",
    "self_type" : "_ZTIPN7C2Param9CoreIndexE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN7C2Value9PrimitiveE",
    "name" : "C2Value::Primitive *",
    "referenced_type" : "_ZTIN7C2Value9PrimitiveE",
    "self_type" : "_ZTIPN7C2Value9PrimitiveE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN7android20C2AndroidMemoryUsageE",
    "name" : "android::C2AndroidMemoryUsage *",
    "referenced_type" : "_ZTIN7android20C2AndroidMemoryUsageE",
    "self_type" : "_ZTIPN7android20C2AndroidMemoryUsageE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/android-C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__110shared_ptrI13C2LinearBlockEE",
    "name" : "std::shared_ptr<C2LinearBlock> *",
    "referenced_type" : "_ZTINSt3__110shared_ptrI13C2LinearBlockEE",
    "self_type" : "_ZTIPNSt3__110shared_ptrI13C2LinearBlockEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__110shared_ptrI14C2GraphicBlockEE",
    "name" : "std::shared_ptr<C2GraphicBlock> *",
    "referenced_type" : "_ZTINSt3__110shared_ptrI14C2GraphicBlockEE",
    "self_type" : "_ZTIPNSt3__110shared_ptrI14C2GraphicBlockEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__110shared_ptrI15C2CircularBlockEE",
    "name" : "std::shared_ptr<C2CircularBlock> *",
    "referenced_type" : "_ZTINSt3__110shared_ptrI15C2CircularBlockEE",
    "self_type" : "_ZTIPNSt3__110shared_ptrI15C2CircularBlockEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__110shared_ptrI18C2LinearAllocationEE",
    "name" : "std::shared_ptr<C2LinearAllocation> *",
    "referenced_type" : "_ZTINSt3__110shared_ptrI18C2LinearAllocationEE",
    "self_type" : "_ZTIPNSt3__110shared_ptrI18C2LinearAllocationEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPNSt3__110shared_ptrI19C2GraphicAllocationEE",
    "name" : "std::shared_ptr<C2GraphicAllocation> *",
    "referenced_type" : "_ZTINSt3__110shared_ptrI19C2GraphicAllocationEE",
    "self_type" : "_ZTIPNSt3__110shared_ptrI19C2GraphicAllocationEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPP11hw_device_t",
    "name" : "hw_device_t **",
    "referenced_type" : "_ZTIP11hw_device_t",
    "self_type" : "_ZTIPP11hw_device_t",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPPK13native_handle",
    "name" : "const native_handle **",
    "referenced_type" : "_ZTIPK13native_handle",
    "self_type" : "_ZTIPPK13native_handle",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPPv",
    "name" : "void **",
    "referenced_type" : "_ZTIPv",
    "self_type" : "_ZTIPPv",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPc",
    "name" : "char *",
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIPc",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPf",
    "name" : "float *",
    "referenced_type" : "_ZTIf",
    "self_type" : "_ZTIPf",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPh",
    "name" : "unsigned char *",
    "referenced_type" : "_ZTIh",
    "self_type" : "_ZTIPh",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPi",
    "name" : "int *",
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIPi",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPj",
    "name" : "unsigned int *",
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIPj",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPl",
+   "name" : "long *",
+   "referenced_type" : "_ZTIl",
+   "self_type" : "_ZTIPl",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPm",
+   "name" : "unsigned long *",
+   "referenced_type" : "_ZTIm",
+   "self_type" : "_ZTIPm",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPv",
    "name" : "void *",
    "referenced_type" : "_ZTIv",
    "self_type" : "_ZTIPv",
-   "size" : 4,
-   "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPx",
-   "name" : "long long *",
-   "referenced_type" : "_ZTIx",
-   "self_type" : "_ZTIPx",
-   "size" : 4,
-   "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPy",
-   "name" : "unsigned long long *",
-   "referenced_type" : "_ZTIy",
-   "self_type" : "_ZTIPy",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   }
  ],
@@ -8064,33 +8105,33 @@
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIK11hw_module_t",
    "name" : "const hw_module_t",
    "referenced_type" : "_ZTI11hw_module_t",
    "self_type" : "_ZTIK11hw_module_t",
-   "size" : 128,
+   "size" : 248,
    "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIK12C2BufferData",
    "name" : "const C2BufferData",
    "referenced_type" : "_ZTI12C2BufferData",
    "self_type" : "_ZTIK12C2BufferData",
-   "size" : 8,
+   "size" : 16,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIK12C2InfoBuffer",
    "name" : "const C2InfoBuffer",
    "referenced_type" : "_ZTI12C2InfoBuffer",
    "self_type" : "_ZTIK12C2InfoBuffer",
-   "size" : 12,
+   "size" : 24,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
@@ -8174,73 +8215,73 @@
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIK16gralloc_module_t",
    "name" : "const gralloc_module_t",
    "referenced_type" : "_ZTI16gralloc_module_t",
    "self_type" : "_ZTIK16gralloc_module_t",
-   "size" : 176,
+   "size" : 344,
    "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIK17C2FieldDescriptor",
    "name" : "const C2FieldDescriptor",
    "referenced_type" : "_ZTI17C2FieldDescriptor",
    "self_type" : "_ZTIK17C2FieldDescriptor",
-   "size" : 40,
+   "size" : 64,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIK17C2ParamDescriptor",
    "name" : "const C2ParamDescriptor",
    "referenced_type" : "_ZTI17C2ParamDescriptor",
    "self_type" : "_ZTIK17C2ParamDescriptor",
-   "size" : 32,
+   "size" : 56,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIK18C2ConstLinearBlock",
    "name" : "const C2ConstLinearBlock",
    "referenced_type" : "_ZTI18C2ConstLinearBlock",
    "self_type" : "_ZTIK18C2ConstLinearBlock",
-   "size" : 28,
+   "size" : 48,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIK18C2ParamFieldValues",
    "name" : "const C2ParamFieldValues",
    "referenced_type" : "_ZTI18C2ParamFieldValues",
    "self_type" : "_ZTIK18C2ParamFieldValues",
-   "size" : 16,
+   "size" : 24,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIK18C2StructDescriptor",
    "name" : "const C2StructDescriptor",
    "referenced_type" : "_ZTI18C2StructDescriptor",
    "self_type" : "_ZTIK18C2StructDescriptor",
-   "size" : 16,
+   "size" : 32,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIK19C2ConstGraphicBlock",
    "name" : "const C2ConstGraphicBlock",
    "referenced_type" : "_ZTI19C2ConstGraphicBlock",
    "self_type" : "_ZTIK19C2ConstGraphicBlock",
-   "size" : 40,
+   "size" : 56,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
@@ -8260,7 +8301,7 @@
    "name" : "const C2FieldSupportedValues",
    "referenced_type" : "_ZTI22C2FieldSupportedValues",
    "self_type" : "_ZTIK22C2FieldSupportedValues",
-   "size" : 64,
+   "size" : 72,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
@@ -8300,7 +8341,7 @@
    "name" : "const C2FieldSupportedValuesQuery",
    "referenced_type" : "_ZTI27C2FieldSupportedValuesQuery",
    "self_type" : "_ZTIK27C2FieldSupportedValuesQuery",
-   "size" : 88,
+   "size" : 96,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Component.h"
   },
   {
@@ -8366,10 +8407,10 @@
   {
    "alignment" : 8,
    "is_const" : true,
-   "linker_set_key" : "_ZTIK9c2_cntr_tIyvE",
-   "name" : "const c2_cntr_t<unsigned long long, void>",
-   "referenced_type" : "_ZTI9c2_cntr_tIyvE",
-   "self_type" : "_ZTIK9c2_cntr_tIyvE",
+   "linker_set_key" : "_ZTIK9c2_cntr_tImvE",
+   "name" : "const c2_cntr_t<unsigned long, void>",
+   "referenced_type" : "_ZTI9c2_cntr_tImvE",
+   "self_type" : "_ZTIK9c2_cntr_tImvE",
    "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
@@ -8414,43 +8455,43 @@
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char>>",
    "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "self_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "size" : 12,
+   "size" : 24,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__16vectorI17C2FieldDescriptorNS_9allocatorIS1_EEEE",
    "name" : "const std::vector<C2FieldDescriptor, std::allocator<C2FieldDescriptor>>",
    "referenced_type" : "_ZTINSt3__16vectorI17C2FieldDescriptorNS_9allocatorIS1_EEEE",
    "self_type" : "_ZTIKNSt3__16vectorI17C2FieldDescriptorNS_9allocatorIS1_EEEE",
-   "size" : 12,
+   "size" : 24,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__16vectorIN7C2Param5IndexENS_9allocatorIS2_EEEE",
    "name" : "const std::vector<C2Param::Index, std::allocator<C2Param::Index>>",
    "referenced_type" : "_ZTINSt3__16vectorIN7C2Param5IndexENS_9allocatorIS2_EEEE",
    "self_type" : "_ZTIKNSt3__16vectorIN7C2Param5IndexENS_9allocatorIS2_EEEE",
-   "size" : 12,
+   "size" : 24,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7C2Value9PrimitiveEEENS5_ISA_EEEE",
    "name" : "const std::vector<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char>>, C2Value::Primitive>, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char>>, C2Value::Primitive>>>",
    "referenced_type" : "_ZTINSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7C2Value9PrimitiveEEENS5_ISA_EEEE",
    "self_type" : "_ZTIKNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7C2Value9PrimitiveEEENS5_ISA_EEEE",
-   "size" : 12,
+   "size" : 24,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
@@ -8516,20 +8557,20 @@
   {
    "alignment" : 8,
    "is_const" : true,
-   "linker_set_key" : "_ZTIKx",
-   "name" : "const long long",
-   "referenced_type" : "_ZTIx",
-   "self_type" : "_ZTIKx",
+   "linker_set_key" : "_ZTIKl",
+   "name" : "const long",
+   "referenced_type" : "_ZTIl",
+   "self_type" : "_ZTIKl",
    "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
    "alignment" : 8,
    "is_const" : true,
-   "linker_set_key" : "_ZTIKy",
-   "name" : "const unsigned long long",
-   "referenced_type" : "_ZTIy",
-   "self_type" : "_ZTIKy",
+   "linker_set_key" : "_ZTIKm",
+   "name" : "const unsigned long",
+   "referenced_type" : "_ZTIm",
+   "self_type" : "_ZTIKm",
    "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2.h"
   }
@@ -8537,7 +8578,7 @@
  "record_types" :
  [
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -8549,13 +8590,13 @@
     {
      "access" : "private",
      "field_name" : "mImpl",
-     "field_offset" : 32,
+     "field_offset" : 64,
      "referenced_type" : "_ZTINSt3__110shared_ptrIN10C2ReadView4ImplEEE"
     },
     {
      "access" : "private",
      "field_name" : "mOffset",
-     "field_offset" : 96,
+     "field_offset" : 192,
      "referenced_type" : "_ZTIj"
     }
    ],
@@ -8564,7 +8605,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTI10C2ReadView",
    "self_type" : "_ZTI10C2ReadView",
-   "size" : 16,
+   "size" : 32,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
@@ -8591,13 +8632,13 @@
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTI11C2Allocator",
    "name" : "C2Allocator",
    "record_kind" : "class",
    "referenced_type" : "_ZTI11C2Allocator",
    "self_type" : "_ZTI11C2Allocator",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h",
    "vtable_components" :
    [
@@ -8647,13 +8688,13 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTI11C2BlockPool",
    "name" : "C2BlockPool",
    "record_kind" : "class",
    "referenced_type" : "_ZTI11C2BlockPool",
    "self_type" : "_ZTI11C2BlockPool",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h",
    "vtable_components" :
    [
@@ -8698,13 +8739,13 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTI11C2Component",
    "name" : "C2Component",
    "record_kind" : "class",
    "referenced_type" : "_ZTI11C2Component",
    "self_type" : "_ZTI11C2Component",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Component.h",
    "vtable_components" :
    [
@@ -8785,12 +8826,12 @@
     },
     {
      "field_name" : "configUpdate",
-     "field_offset" : 352,
+     "field_offset" : 448,
      "referenced_type" : "_ZTINSt3__16vectorINS_10unique_ptrI7C2ParamNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEEE"
     },
     {
      "field_name" : "infoBuffers",
-     "field_offset" : 448,
+     "field_offset" : 640,
      "referenced_type" : "_ZTINSt3__16vectorI12C2InfoBufferNS_9allocatorIS1_EEEE"
     }
    ],
@@ -8798,7 +8839,7 @@
    "name" : "C2FrameData",
    "referenced_type" : "_ZTI11C2FrameData",
    "self_type" : "_ZTI11C2FrameData",
-   "size" : 72,
+   "size" : 104,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Work.h"
   },
   {
@@ -8868,7 +8909,7 @@
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -8880,7 +8921,7 @@
     {
      "access" : "private",
      "field_name" : "mImpl",
-     "field_offset" : 96,
+     "field_offset" : 128,
      "referenced_type" : "_ZTINSt3__110shared_ptrIN11C2WriteView4ImplEEE"
     }
    ],
@@ -8889,11 +8930,11 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTI11C2WriteView",
    "self_type" : "_ZTI11C2WriteView",
-   "size" : 20,
+   "size" : 32,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -8912,12 +8953,12 @@
     },
     {
      "field_name" : "reserved",
-     "field_offset" : 96,
-     "referenced_type" : "_ZTIA12_j"
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIA12_m"
     },
     {
      "field_name" : "close",
-     "field_offset" : 480,
+     "field_offset" : 896,
      "referenced_type" : "_ZTIPFiP11hw_device_tE"
     }
    ],
@@ -8925,11 +8966,11 @@
    "name" : "hw_device_t",
    "referenced_type" : "_ZTI11hw_device_t",
    "self_type" : "_ZTI11hw_device_t",
-   "size" : 64,
+   "size" : 120,
    "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -8953,39 +8994,39 @@
     },
     {
      "field_name" : "name",
-     "field_offset" : 96,
-     "referenced_type" : "_ZTIPKc"
-    },
-    {
-     "field_name" : "author",
      "field_offset" : 128,
      "referenced_type" : "_ZTIPKc"
     },
     {
+     "field_name" : "author",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
      "field_name" : "methods",
-     "field_offset" : 160,
+     "field_offset" : 256,
      "referenced_type" : "_ZTIP19hw_module_methods_t"
     },
     {
      "field_name" : "dso",
-     "field_offset" : 192,
+     "field_offset" : 320,
      "referenced_type" : "_ZTIPv"
     },
     {
      "field_name" : "reserved",
-     "field_offset" : 224,
-     "referenced_type" : "_ZTIA25_j"
+     "field_offset" : 384,
+     "referenced_type" : "_ZTIA25_m"
     }
    ],
    "linker_set_key" : "_ZTI11hw_module_t",
    "name" : "hw_module_t",
    "referenced_type" : "_ZTI11hw_module_t",
    "self_type" : "_ZTI11hw_module_t",
-   "size" : 128,
+   "size" : 248,
    "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -8999,11 +9040,11 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTI12C2BufferData",
    "self_type" : "_ZTI12C2BufferData",
-   "size" : 8,
+   "size" : 16,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -9014,7 +9055,7 @@
     {
      "access" : "private",
      "field_name" : "mData",
-     "field_offset" : 32,
+     "field_offset" : 64,
      "referenced_type" : "_ZTI12C2BufferData"
     }
    ],
@@ -9023,7 +9064,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTI12C2InfoBuffer",
    "self_type" : "_ZTI12C2InfoBuffer",
-   "size" : 12,
+   "size" : 24,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
@@ -9075,7 +9116,7 @@
    "source_file" : "frameworks/av/media/codec2/core/include/C2Enum.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -9096,11 +9137,11 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTI13C2GraphicView",
    "self_type" : "_ZTI13C2GraphicView",
-   "size" : 32,
+   "size" : 40,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -9112,7 +9153,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTI13C2LinearBlock",
    "self_type" : "_ZTI13C2LinearBlock",
-   "size" : 20,
+   "size" : 32,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
@@ -9137,7 +9178,7 @@
    [
     {
      "field_name" : "expected",
-     "referenced_type" : "_ZTIy"
+     "referenced_type" : "_ZTIm"
     }
    ],
    "linker_set_key" : "_ZTI13C2MemoryUsage",
@@ -9165,7 +9206,7 @@
    "name" : "C2WorkOutline",
    "referenced_type" : "_ZTI13C2WorkOutline",
    "self_type" : "_ZTI13C2WorkOutline",
-   "size" : 40,
+   "size" : 48,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Work.h"
   },
   {
@@ -9309,7 +9350,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -9318,32 +9359,32 @@
     },
     {
      "field_name" : "cb",
-     "field_offset" : 32,
-     "referenced_type" : "_ZTIPv"
-    },
-    {
-     "field_name" : "cr",
      "field_offset" : 64,
      "referenced_type" : "_ZTIPv"
     },
     {
+     "field_name" : "cr",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
      "field_name" : "ystride",
-     "field_offset" : 96,
-     "referenced_type" : "_ZTIj"
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIm"
     },
     {
      "field_name" : "cstride",
-     "field_offset" : 128,
-     "referenced_type" : "_ZTIj"
+     "field_offset" : 256,
+     "referenced_type" : "_ZTIm"
     },
     {
      "field_name" : "chroma_step",
-     "field_offset" : 160,
-     "referenced_type" : "_ZTIj"
+     "field_offset" : 320,
+     "referenced_type" : "_ZTIm"
     },
     {
      "field_name" : "reserved",
-     "field_offset" : 192,
+     "field_offset" : 384,
      "referenced_type" : "_ZTIA8_j"
     }
    ],
@@ -9351,7 +9392,7 @@
    "name" : "android_ycbcr",
    "referenced_type" : "_ZTI13android_ycbcr",
    "self_type" : "_ZTI13android_ycbcr",
-   "size" : 56,
+   "size" : 80,
    "source_file" : "system/core/libsystem/include/system/graphics.h"
   },
   {
@@ -9386,7 +9427,7 @@
    "source_file" : "system/core/libcutils/include_outside_system/cutils/native_handle.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -9398,7 +9439,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTI14C2GraphicBlock",
    "self_type" : "_ZTI14C2GraphicBlock",
-   "size" : 32,
+   "size" : 40,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
@@ -9433,7 +9474,7 @@
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -9442,22 +9483,22 @@
     },
     {
      "field_name" : "alloc",
-     "field_offset" : 512,
+     "field_offset" : 960,
      "referenced_type" : "_ZTIPFiP14alloc_device_tiiiiPPK13native_handlePiE"
     },
     {
      "field_name" : "free",
-     "field_offset" : 544,
+     "field_offset" : 1024,
      "referenced_type" : "_ZTIPFiP14alloc_device_tPK13native_handleE"
     },
     {
      "field_name" : "dump",
-     "field_offset" : 576,
+     "field_offset" : 1088,
      "referenced_type" : "_ZTIPFvP14alloc_device_tPciE"
     },
     {
      "field_name" : "reserved_proc",
-     "field_offset" : 608,
+     "field_offset" : 1152,
      "referenced_type" : "_ZTIA7_Pv"
     }
    ],
@@ -9465,11 +9506,11 @@
    "name" : "alloc_device_t",
    "referenced_type" : "_ZTI14alloc_device_t",
    "self_type" : "_ZTI14alloc_device_t",
-   "size" : 104,
+   "size" : 200,
    "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -9481,26 +9522,26 @@
     {
      "access" : "private",
      "field_name" : "mReserved",
-     "field_offset" : 160,
-     "referenced_type" : "_ZTIj"
+     "field_offset" : 256,
+     "referenced_type" : "_ZTIm"
     },
     {
      "access" : "private",
      "field_name" : "mCommitted",
-     "field_offset" : 192,
-     "referenced_type" : "_ZTIj"
+     "field_offset" : 320,
+     "referenced_type" : "_ZTIm"
     },
     {
      "access" : "private",
      "field_name" : "mUsed",
-     "field_offset" : 224,
-     "referenced_type" : "_ZTIj"
+     "field_offset" : 384,
+     "referenced_type" : "_ZTIm"
     },
     {
      "access" : "private",
      "field_name" : "mFree",
-     "field_offset" : 256,
-     "referenced_type" : "_ZTIj"
+     "field_offset" : 448,
+     "referenced_type" : "_ZTIm"
     }
    ],
    "linker_set_key" : "_ZTI15C2CircularBlock",
@@ -9508,7 +9549,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTI15C2CircularBlock",
    "self_type" : "_ZTI15C2CircularBlock",
-   "size" : 36,
+   "size" : 64,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
@@ -9549,7 +9590,7 @@
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -9558,12 +9599,12 @@
     },
     {
      "field_name" : "field",
-     "field_offset" : 32,
+     "field_offset" : 64,
      "referenced_type" : "_ZTI18C2ParamFieldValues"
     },
     {
      "field_name" : "conflicts",
-     "field_offset" : 160,
+     "field_offset" : 256,
      "referenced_type" : "_ZTINSt3__16vectorI18C2ParamFieldValuesNS_9allocatorIS1_EEEE"
     }
    ],
@@ -9571,7 +9612,7 @@
    "name" : "C2SettingResult",
    "referenced_type" : "_ZTI15C2SettingResult",
    "self_type" : "_ZTI15C2SettingResult",
-   "size" : 32,
+   "size" : 56,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Work.h"
   },
   {
@@ -9592,13 +9633,13 @@
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTI16C2AllocatorStore",
    "name" : "C2AllocatorStore",
    "record_kind" : "class",
    "referenced_type" : "_ZTI16C2AllocatorStore",
    "self_type" : "_ZTI16C2AllocatorStore",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Component.h",
    "vtable_components" :
    [
@@ -9648,13 +9689,13 @@
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTI16C2ComponentStore",
    "name" : "C2ComponentStore",
    "record_kind" : "class",
    "referenced_type" : "_ZTI16C2ComponentStore",
    "self_type" : "_ZTI16C2ComponentStore",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Component.h",
    "vtable_components" :
    [
@@ -9753,13 +9794,13 @@
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTI16C2ParamReflector",
    "name" : "C2ParamReflector",
    "record_kind" : "class",
    "referenced_type" : "_ZTI16C2ParamReflector",
    "self_type" : "_ZTI16C2ParamReflector",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h",
    "vtable_components" :
    [
@@ -9861,7 +9902,7 @@
    "source_file" : "system/core/libsystem/include/system/graphics.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -9870,62 +9911,62 @@
     },
     {
      "field_name" : "registerBuffer",
-     "field_offset" : 1024,
+     "field_offset" : 1984,
      "referenced_type" : "_ZTIPFiPK16gralloc_module_tPK13native_handleE"
     },
     {
      "field_name" : "unregisterBuffer",
-     "field_offset" : 1056,
+     "field_offset" : 2048,
      "referenced_type" : "_ZTIPFiPK16gralloc_module_tPK13native_handleE"
     },
     {
      "field_name" : "lock",
-     "field_offset" : 1088,
+     "field_offset" : 2112,
      "referenced_type" : "_ZTIPFiPK16gralloc_module_tPK13native_handleiiiiiPPvE"
     },
     {
      "field_name" : "unlock",
-     "field_offset" : 1120,
+     "field_offset" : 2176,
      "referenced_type" : "_ZTIPFiPK16gralloc_module_tPK13native_handleE"
     },
     {
      "field_name" : "perform",
-     "field_offset" : 1152,
+     "field_offset" : 2240,
      "referenced_type" : "_ZTIPFiPK16gralloc_module_tizE"
     },
     {
      "field_name" : "lock_ycbcr",
-     "field_offset" : 1184,
+     "field_offset" : 2304,
      "referenced_type" : "_ZTIPFiPK16gralloc_module_tPK13native_handleiiiiiP13android_ycbcrE"
     },
     {
      "field_name" : "lockAsync",
-     "field_offset" : 1216,
+     "field_offset" : 2368,
      "referenced_type" : "_ZTIPFiPK16gralloc_module_tPK13native_handleiiiiiPPviE"
     },
     {
      "field_name" : "unlockAsync",
-     "field_offset" : 1248,
+     "field_offset" : 2432,
      "referenced_type" : "_ZTIPFiPK16gralloc_module_tPK13native_handlePiE"
     },
     {
      "field_name" : "lockAsync_ycbcr",
-     "field_offset" : 1280,
+     "field_offset" : 2496,
      "referenced_type" : "_ZTIPFiPK16gralloc_module_tPK13native_handleiiiiiP13android_ycbcriE"
     },
     {
      "field_name" : "getTransportSize",
-     "field_offset" : 1312,
+     "field_offset" : 2560,
      "referenced_type" : "_ZTIPFiPK16gralloc_module_tPK13native_handlePjS5_E"
     },
     {
      "field_name" : "validateBufferSize",
-     "field_offset" : 1344,
+     "field_offset" : 2624,
      "referenced_type" : "_ZTIPFiPK16gralloc_module_tPK13native_handlejjiijE"
     },
     {
      "field_name" : "reserved_proc",
-     "field_offset" : 1376,
+     "field_offset" : 2688,
      "referenced_type" : "_ZTIA1_Pv"
     }
    ],
@@ -9933,7 +9974,7 @@
    "name" : "gralloc_module_t",
    "referenced_type" : "_ZTI16gralloc_module_t",
    "self_type" : "_ZTI16gralloc_module_t",
-   "size" : 176,
+   "size" : 344,
    "source_file" : "hardware/libhardware/include/hardware/gralloc.h"
   },
   {
@@ -9963,7 +10004,7 @@
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -9986,13 +10027,13 @@
     {
      "access" : "private",
      "field_name" : "_mNamedValues",
-     "field_offset" : 160,
+     "field_offset" : 256,
      "referenced_type" : "_ZTINSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7C2Value9PrimitiveEEENS5_ISA_EEEE"
     },
     {
      "access" : "private",
      "field_name" : "_mFieldId",
-     "field_offset" : 256,
+     "field_offset" : 448,
      "referenced_type" : "_ZTI10_C2FieldId"
     }
    ],
@@ -10000,17 +10041,17 @@
    "name" : "C2FieldDescriptor",
    "referenced_type" : "_ZTI17C2FieldDescriptor",
    "self_type" : "_ZTI17C2FieldDescriptor",
-   "size" : 40,
+   "size" : 64,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTI17C2FrameInfoParser",
    "name" : "C2FrameInfoParser",
    "record_kind" : "class",
    "referenced_type" : "_ZTI17C2FrameInfoParser",
    "self_type" : "_ZTI17C2FrameInfoParser",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Component.h",
    "vtable_components" :
    [
@@ -10046,7 +10087,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -10069,7 +10110,7 @@
     {
      "access" : "private",
      "field_name" : "_mDependencies",
-     "field_offset" : 160,
+     "field_offset" : 256,
      "referenced_type" : "_ZTINSt3__16vectorIN7C2Param5IndexENS_9allocatorIS2_EEEE"
     }
    ],
@@ -10077,11 +10118,11 @@
    "name" : "C2ParamDescriptor",
    "referenced_type" : "_ZTI17C2ParamDescriptor",
    "self_type" : "_ZTI17C2ParamDescriptor",
-   "size" : 32,
+   "size" : 56,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -10093,7 +10134,7 @@
     {
      "access" : "private",
      "field_name" : "mFence",
-     "field_offset" : 160,
+     "field_offset" : 256,
      "referenced_type" : "_ZTI7C2Fence"
     }
    ],
@@ -10102,11 +10143,11 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTI18C2ConstLinearBlock",
    "self_type" : "_ZTI18C2ConstLinearBlock",
-   "size" : 28,
+   "size" : 48,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -10118,7 +10159,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTI18C2LinearAllocation",
    "self_type" : "_ZTI18C2LinearAllocation",
-   "size" : 8,
+   "size" : 16,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h",
    "vtable_components" :
    [
@@ -10131,11 +10172,11 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN18C2LinearAllocation3mapEjj13C2MemoryUsageP7C2FencePPv"
+     "mangled_component_name" : "_ZN18C2LinearAllocation3mapEmm13C2MemoryUsageP7C2FencePPv"
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN18C2LinearAllocation5unmapEPvjP7C2Fence"
+     "mangled_component_name" : "_ZN18C2LinearAllocation5unmapEPvmP7C2Fence"
     },
     {
      "is_pure" : true,
@@ -10160,7 +10201,7 @@
    ]
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -10169,7 +10210,7 @@
     },
     {
      "field_name" : "values",
-     "field_offset" : 96,
+     "field_offset" : 128,
      "referenced_type" : "_ZTINSt3__110unique_ptrI22C2FieldSupportedValuesNS_14default_deleteIS1_EEEE"
     }
    ],
@@ -10177,11 +10218,11 @@
    "name" : "C2ParamFieldValues",
    "referenced_type" : "_ZTI18C2ParamFieldValues",
    "self_type" : "_ZTI18C2ParamFieldValues",
-   "size" : 16,
+   "size" : 24,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -10192,7 +10233,7 @@
     {
      "access" : "private",
      "field_name" : "_mFields",
-     "field_offset" : 32,
+     "field_offset" : 64,
      "referenced_type" : "_ZTIKNSt3__16vectorI17C2FieldDescriptorNS_9allocatorIS1_EEEE"
     }
    ],
@@ -10200,7 +10241,7 @@
    "name" : "C2StructDescriptor",
    "referenced_type" : "_ZTI18C2StructDescriptor",
    "self_type" : "_ZTI18C2StructDescriptor",
-   "size" : 16,
+   "size" : 32,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
@@ -10244,7 +10285,7 @@
    "source_file" : "frameworks/av/media/codec2/core/include/C2ParamDef.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -10253,37 +10294,37 @@
     },
     {
      "field_name" : "component",
-     "field_offset" : 32,
+     "field_offset" : 64,
      "referenced_type" : "_ZTI22android_flex_component"
     },
     {
      "field_name" : "bits_per_component",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "bits_used",
      "field_offset" : 96,
      "referenced_type" : "_ZTIi"
     },
     {
-     "field_name" : "h_increment",
+     "field_name" : "bits_used",
      "field_offset" : 128,
      "referenced_type" : "_ZTIi"
     },
     {
-     "field_name" : "v_increment",
+     "field_name" : "h_increment",
      "field_offset" : 160,
      "referenced_type" : "_ZTIi"
     },
     {
-     "field_name" : "h_subsampling",
+     "field_name" : "v_increment",
      "field_offset" : 192,
      "referenced_type" : "_ZTIi"
     },
     {
-     "field_name" : "v_subsampling",
+     "field_name" : "h_subsampling",
      "field_offset" : 224,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "v_subsampling",
+     "field_offset" : 256,
      "referenced_type" : "_ZTIi"
     }
    ],
@@ -10291,7 +10332,7 @@
    "name" : "android_flex_plane",
    "referenced_type" : "_ZTI18android_flex_plane",
    "self_type" : "_ZTI18android_flex_plane",
-   "size" : 32,
+   "size" : 40,
    "source_file" : "system/core/libsystem/include/system/graphics.h"
   },
   {
@@ -10311,7 +10352,7 @@
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -10323,7 +10364,7 @@
     {
      "access" : "private",
      "field_name" : "mFence",
-     "field_offset" : 256,
+     "field_offset" : 320,
      "referenced_type" : "_ZTI7C2Fence"
     }
    ],
@@ -10332,11 +10373,11 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTI19C2ConstGraphicBlock",
    "self_type" : "_ZTI19C2ConstGraphicBlock",
-   "size" : 40,
+   "size" : 56,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -10348,7 +10389,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTI19C2GraphicAllocation",
    "self_type" : "_ZTI19C2GraphicAllocation",
-   "size" : 12,
+   "size" : 16,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h",
    "vtable_components" :
    [
@@ -10395,12 +10436,12 @@
    [
     {
      "field_name" : "pool",
-     "referenced_type" : "_ZTIy"
+     "referenced_type" : "_ZTIm"
     },
     {
      "field_name" : "usage",
      "field_offset" : 64,
-     "referenced_type" : "_ZTIy"
+     "referenced_type" : "_ZTIm"
     },
     {
      "field_name" : "planar",
@@ -10457,17 +10498,17 @@
    [
     {
      "field_name" : "timestamp",
-     "referenced_type" : "_ZTI9c2_cntr_tIyvE"
+     "referenced_type" : "_ZTI9c2_cntr_tImvE"
     },
     {
      "field_name" : "frameIndex",
      "field_offset" : 64,
-     "referenced_type" : "_ZTI9c2_cntr_tIyvE"
+     "referenced_type" : "_ZTI9c2_cntr_tImvE"
     },
     {
      "field_name" : "customOrdinal",
      "field_offset" : 128,
-     "referenced_type" : "_ZTI9c2_cntr_tIyvE"
+     "referenced_type" : "_ZTI9c2_cntr_tImvE"
     }
    ],
    "linker_set_key" : "_ZTI19C2WorkOrdinalStruct",
@@ -10487,7 +10528,7 @@
    "source_file" : "frameworks/av/media/codec2/core/include/C2ParamDef.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -10509,11 +10550,11 @@
    "name" : "android_flex_layout",
    "referenced_type" : "_ZTI19android_flex_layout",
    "self_type" : "_ZTI19android_flex_layout",
-   "size" : 12,
+   "size" : 16,
    "source_file" : "system/core/libsystem/include/system/graphics.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -10525,7 +10566,7 @@
    "name" : "hw_module_methods_t",
    "referenced_type" : "_ZTI19hw_module_methods_t",
    "self_type" : "_ZTI19hw_module_methods_t",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
@@ -10581,13 +10622,13 @@
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTI20C2ComponentInterface",
    "name" : "C2ComponentInterface",
    "record_kind" : "class",
    "referenced_type" : "_ZTI20C2ComponentInterface",
    "self_type" : "_ZTI20C2ComponentInterface",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Component.h",
    "vtable_components" :
    [
@@ -10693,7 +10734,7 @@
     {
      "field_name" : "timestamp",
      "field_offset" : 64,
-     "referenced_type" : "_ZTIx"
+     "referenced_type" : "_ZTIl"
     }
    ],
    "linker_set_key" : "_ZTI20C2TimedControlStruct",
@@ -10785,7 +10826,7 @@
    "source_file" : "system/core/libsystem/include/system/graphics.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -10794,97 +10835,97 @@
     },
     {
      "field_name" : "flags",
-     "field_offset" : 512,
+     "field_offset" : 960,
      "referenced_type" : "_ZTIKj"
     },
     {
      "field_name" : "width",
-     "field_offset" : 544,
+     "field_offset" : 992,
      "referenced_type" : "_ZTIKj"
     },
     {
      "field_name" : "height",
-     "field_offset" : 576,
+     "field_offset" : 1024,
      "referenced_type" : "_ZTIKj"
     },
     {
      "field_name" : "stride",
-     "field_offset" : 608,
+     "field_offset" : 1056,
      "referenced_type" : "_ZTIKi"
     },
     {
      "field_name" : "format",
-     "field_offset" : 640,
+     "field_offset" : 1088,
      "referenced_type" : "_ZTIKi"
     },
     {
      "field_name" : "xdpi",
-     "field_offset" : 672,
+     "field_offset" : 1120,
      "referenced_type" : "_ZTIKf"
     },
     {
      "field_name" : "ydpi",
-     "field_offset" : 704,
+     "field_offset" : 1152,
      "referenced_type" : "_ZTIKf"
     },
     {
      "field_name" : "fps",
-     "field_offset" : 736,
+     "field_offset" : 1184,
      "referenced_type" : "_ZTIKf"
     },
     {
      "field_name" : "minSwapInterval",
-     "field_offset" : 768,
+     "field_offset" : 1216,
      "referenced_type" : "_ZTIKi"
     },
     {
      "field_name" : "maxSwapInterval",
-     "field_offset" : 800,
+     "field_offset" : 1248,
      "referenced_type" : "_ZTIKi"
     },
     {
      "field_name" : "numFramebuffers",
-     "field_offset" : 832,
+     "field_offset" : 1280,
      "referenced_type" : "_ZTIKi"
     },
     {
      "field_name" : "reserved",
-     "field_offset" : 864,
+     "field_offset" : 1312,
      "referenced_type" : "_ZTIA7_i"
     },
     {
      "field_name" : "setSwapInterval",
-     "field_offset" : 1088,
+     "field_offset" : 1536,
      "referenced_type" : "_ZTIPFiP20framebuffer_device_tiE"
     },
     {
      "field_name" : "setUpdateRect",
-     "field_offset" : 1120,
+     "field_offset" : 1600,
      "referenced_type" : "_ZTIPFiP20framebuffer_device_tiiiiE"
     },
     {
      "field_name" : "post",
-     "field_offset" : 1152,
+     "field_offset" : 1664,
      "referenced_type" : "_ZTIPFiP20framebuffer_device_tPK13native_handleE"
     },
     {
      "field_name" : "compositionComplete",
-     "field_offset" : 1184,
+     "field_offset" : 1728,
      "referenced_type" : "_ZTIPFiP20framebuffer_device_tE"
     },
     {
      "field_name" : "dump",
-     "field_offset" : 1216,
+     "field_offset" : 1792,
      "referenced_type" : "_ZTIPFvP20framebuffer_device_tPciE"
     },
     {
      "field_name" : "enableScreen",
-     "field_offset" : 1248,
+     "field_offset" : 1856,
      "referenced_type" : "_ZTIPFiP20framebuffer_device_tiE"
     },
     {
      "field_name" : "reserved_proc",
-     "field_offset" : 1280,
+     "field_offset" : 1920,
      "referenced_type" : "_ZTIA6_Pv"
     }
    ],
@@ -10892,7 +10933,7 @@
    "name" : "framebuffer_device_t",
    "referenced_type" : "_ZTI20framebuffer_device_t",
    "self_type" : "_ZTI20framebuffer_device_t",
-   "size" : 184,
+   "size" : 288,
    "source_file" : "hardware/libhardware/include/hardware/fb.h"
   },
   {
@@ -10901,7 +10942,7 @@
    [
     {
      "field_name" : "usage",
-     "referenced_type" : "_ZTIy"
+     "referenced_type" : "_ZTIm"
     },
     {
      "field_name" : "capacity",
@@ -10954,7 +10995,7 @@
    "name" : "C2FieldSupportedValues",
    "referenced_type" : "_ZTI22C2FieldSupportedValues",
    "self_type" : "_ZTI22C2FieldSupportedValues",
-   "size" : 64,
+   "size" : 72,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
@@ -10997,15 +11038,15 @@
   },
   {
    "alignment" : 1,
-   "linker_set_key" : "_ZTI22_c2_cntr_compat_helperIyE",
-   "name" : "_c2_cntr_compat_helper<unsigned long long>",
-   "referenced_type" : "_ZTI22_c2_cntr_compat_helperIyE",
-   "self_type" : "_ZTI22_c2_cntr_compat_helperIyE",
+   "linker_set_key" : "_ZTI22_c2_cntr_compat_helperImE",
+   "name" : "_c2_cntr_compat_helper<unsigned long>",
+   "referenced_type" : "_ZTI22_c2_cntr_compat_helperImE",
+   "self_type" : "_ZTI22_c2_cntr_compat_helperImE",
    "size" : 1,
    "source_file" : "frameworks/av/media/codec2/core/include/C2.h",
    "template_args" :
    [
-    "_ZTIy"
+    "_ZTIm"
    ]
   },
   {
@@ -11081,7 +11122,7 @@
    [
     {
      "field_name" : "usage",
-     "referenced_type" : "_ZTIy"
+     "referenced_type" : "_ZTIm"
     },
     {
      "field_name" : "capacity",
@@ -11292,7 +11333,7 @@
    "name" : "C2FieldSupportedValuesQuery",
    "referenced_type" : "_ZTI27C2FieldSupportedValuesQuery",
    "self_type" : "_ZTI27C2FieldSupportedValuesQuery",
-   "size" : 88,
+   "size" : 96,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Component.h"
   },
   {
@@ -11348,7 +11389,7 @@
     {
      "field_name" : "value",
      "field_offset" : 64,
-     "referenced_type" : "_ZTIy"
+     "referenced_type" : "_ZTIm"
     }
    ],
    "linker_set_key" : "_ZTI30C2TimestampGapAdjustmentStruct",
@@ -11502,22 +11543,22 @@
     },
     {
      "field_name" : "input",
-     "field_offset" : 64,
+     "field_offset" : 128,
      "referenced_type" : "_ZTI11C2FrameData"
     },
     {
      "field_name" : "worklets",
-     "field_offset" : 640,
+     "field_offset" : 960,
      "referenced_type" : "_ZTINSt3__14listINS_10unique_ptrI9C2WorkletNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEEE"
     },
     {
      "field_name" : "workletsProcessed",
-     "field_offset" : 736,
+     "field_offset" : 1152,
      "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "result",
-     "field_offset" : 768,
+     "field_offset" : 1184,
      "referenced_type" : "_ZTI11c2_status_t"
     }
    ],
@@ -11525,7 +11566,7 @@
    "name" : "C2Work",
    "referenced_type" : "_ZTI6C2Work",
    "self_type" : "_ZTI6C2Work",
-   "size" : 104,
+   "size" : 152,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Work.h"
   },
   {
@@ -11538,7 +11579,7 @@
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -11552,11 +11593,11 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTI7C2Event",
    "self_type" : "_ZTI7C2Event",
-   "size" : 8,
+   "size" : 16,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -11570,7 +11611,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTI7C2Fence",
    "self_type" : "_ZTI7C2Fence",
-   "size" : 8,
+   "size" : 16,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
@@ -11621,13 +11662,13 @@
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
      "access" : "private",
      "field_name" : "mImpl",
-     "field_offset" : 32,
+     "field_offset" : 64,
      "referenced_type" : "_ZTINSt3__110shared_ptrIN8C2Buffer4ImplEEE"
     }
    ],
@@ -11636,7 +11677,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTI8C2Buffer",
    "self_type" : "_ZTI8C2Buffer",
-   "size" : 12,
+   "size" : 24,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h",
    "vtable_components" :
    [
@@ -11700,7 +11741,25 @@
    "source_file" : "frameworks/av/media/codec2/core/include/C2.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 1,
+   "linker_set_key" : "_ZTI8c2_typesIJmjEE",
+   "name" : "c2_types<unsigned long, unsigned int>",
+   "referenced_type" : "_ZTI8c2_typesIJmjEE",
+   "self_type" : "_ZTI8c2_typesIJmjEE",
+   "size" : 1,
+   "source_file" : "frameworks/av/media/codec2/core/include/C2.h"
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTI8c2_typesIJmmEE",
+   "name" : "c2_types<unsigned long, unsigned long>",
+   "referenced_type" : "_ZTI8c2_typesIJmmEE",
+   "self_type" : "_ZTI8c2_typesIJmmEE",
+   "size" : 1,
+   "source_file" : "frameworks/av/media/codec2/core/include/C2.h"
+  },
+  {
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -11712,7 +11771,7 @@
     {
      "access" : "protected",
      "field_name" : "mImpl",
-     "field_offset" : 96,
+     "field_offset" : 128,
      "referenced_type" : "_ZTINSt3__110shared_ptrIN9C2Block1D4ImplEEE"
     }
    ],
@@ -11721,11 +11780,11 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTI9C2Block1D",
    "self_type" : "_ZTI9C2Block1D",
-   "size" : 20,
+   "size" : 32,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -11746,7 +11805,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTI9C2Block2D",
    "self_type" : "_ZTI9C2Block2D",
-   "size" : 32,
+   "size" : 40,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
@@ -11795,17 +11854,17 @@
     },
     {
      "field_name" : "tunings",
-     "field_offset" : 32,
+     "field_offset" : 64,
      "referenced_type" : "_ZTINSt3__16vectorINS_10unique_ptrI8C2TuningNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEEE"
     },
     {
      "field_name" : "failures",
-     "field_offset" : 128,
+     "field_offset" : 256,
      "referenced_type" : "_ZTINSt3__16vectorINS_10unique_ptrI15C2SettingResultNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEEE"
     },
     {
      "field_name" : "output",
-     "field_offset" : 256,
+     "field_offset" : 448,
      "referenced_type" : "_ZTI11C2FrameData"
     }
    ],
@@ -11813,7 +11872,7 @@
    "name" : "C2Worklet",
    "referenced_type" : "_ZTI9C2Worklet",
    "self_type" : "_ZTI9C2Worklet",
-   "size" : 104,
+   "size" : 160,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Work.h"
   },
   {
@@ -11846,19 +11905,19 @@
     {
      "access" : "private",
      "field_name" : "mValue",
-     "referenced_type" : "_ZTIy"
+     "referenced_type" : "_ZTIm"
     }
    ],
-   "linker_set_key" : "_ZTI9c2_cntr_tIyvE",
-   "name" : "c2_cntr_t<unsigned long long, void>",
+   "linker_set_key" : "_ZTI9c2_cntr_tImvE",
+   "name" : "c2_cntr_t<unsigned long, void>",
    "record_kind" : "class",
-   "referenced_type" : "_ZTI9c2_cntr_tIyvE",
-   "self_type" : "_ZTI9c2_cntr_tIyvE",
+   "referenced_type" : "_ZTI9c2_cntr_tImvE",
+   "self_type" : "_ZTI9c2_cntr_tImvE",
    "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2.h",
    "template_args" :
    [
-    "_ZTIy",
+    "_ZTIm",
     "_ZTIv"
    ]
   },
@@ -11872,22 +11931,22 @@
     },
     {
      "field_name" : "id",
-     "field_offset" : 96,
+     "field_offset" : 192,
      "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "supportedTypes",
-     "field_offset" : 128,
+     "field_offset" : 224,
      "referenced_type" : "_ZTIN11C2Allocator6type_tE"
     },
     {
      "field_name" : "minimumUsage",
-     "field_offset" : 192,
+     "field_offset" : 256,
      "referenced_type" : "_ZTI13C2MemoryUsage"
     },
     {
      "field_name" : "maximumUsage",
-     "field_offset" : 256,
+     "field_offset" : 320,
      "referenced_type" : "_ZTI13C2MemoryUsage"
     }
    ],
@@ -11895,11 +11954,11 @@
    "name" : "C2Allocator::Traits",
    "referenced_type" : "_ZTIN11C2Allocator6TraitsE",
    "self_type" : "_ZTIN11C2Allocator6TraitsE",
-   "size" : 40,
+   "size" : 48,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Buffer.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "fields" :
    [
     {
@@ -11908,32 +11967,32 @@
     },
     {
      "field_name" : "domain",
-     "field_offset" : 96,
+     "field_offset" : 192,
      "referenced_type" : "_ZTIN11C2Component8domain_tE"
     },
     {
      "field_name" : "kind",
-     "field_offset" : 128,
+     "field_offset" : 224,
      "referenced_type" : "_ZTIN11C2Component6kind_tE"
     },
     {
      "field_name" : "rank",
-     "field_offset" : 160,
+     "field_offset" : 256,
      "referenced_type" : "_ZTIj"
     },
     {
      "field_name" : "mediaType",
-     "field_offset" : 192,
+     "field_offset" : 320,
      "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
     },
     {
      "field_name" : "owner",
-     "field_offset" : 288,
+     "field_offset" : 512,
      "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
     },
     {
      "field_name" : "aliases",
-     "field_offset" : 384,
+     "field_offset" : 704,
      "referenced_type" : "_ZTINSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE"
     }
    ],
@@ -11941,17 +12000,17 @@
    "name" : "C2Component::Traits",
    "referenced_type" : "_ZTIN11C2Component6TraitsE",
    "self_type" : "_ZTIN11C2Component6TraitsE",
-   "size" : 60,
+   "size" : 112,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Component.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIN11C2Component8ListenerE",
    "name" : "C2Component::Listener",
    "record_kind" : "class",
    "referenced_type" : "_ZTIN11C2Component8ListenerE",
    "self_type" : "_ZTIN11C2Component8ListenerE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Component.h",
    "vtable_components" :
    [
@@ -12074,15 +12133,15 @@
    [
     {
      "field_name" : "u64",
-     "referenced_type" : "_ZTIy"
+     "referenced_type" : "_ZTIm"
     },
     {
      "field_name" : "i64",
-     "referenced_type" : "_ZTIx"
+     "referenced_type" : "_ZTIl"
     },
     {
      "field_name" : "c64",
-     "referenced_type" : "_ZTI9c2_cntr_tIyvE"
+     "referenced_type" : "_ZTI9c2_cntr_tImvE"
     },
     {
      "field_name" : "u32",
@@ -12128,48 +12187,48 @@
  "rvalue_reference_types" :
  [
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIO18C2ParamFieldValues",
    "name" : "C2ParamFieldValues &&",
    "referenced_type" : "_ZTI18C2ParamFieldValues",
    "self_type" : "_ZTIO18C2ParamFieldValues",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIONSt3__110unique_ptrI22C2FieldSupportedValuesNS_14default_deleteIS1_EEEE",
    "name" : "std::unique_ptr<C2FieldSupportedValues, std::default_delete<C2FieldSupportedValues>> &&",
    "referenced_type" : "_ZTINSt3__110unique_ptrI22C2FieldSupportedValuesNS_14default_deleteIS1_EEEE",
    "self_type" : "_ZTIONSt3__110unique_ptrI22C2FieldSupportedValuesNS_14default_deleteIS1_EEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIONSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "name" : "std::basic_string<char, std::char_traits<char>, std::allocator<char>> &&",
    "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "self_type" : "_ZTIONSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIONSt3__16vectorI17C2FieldDescriptorNS_9allocatorIS1_EEEE",
    "name" : "std::vector<C2FieldDescriptor, std::allocator<C2FieldDescriptor>> &&",
    "referenced_type" : "_ZTINSt3__16vectorI17C2FieldDescriptorNS_9allocatorIS1_EEEE",
    "self_type" : "_ZTIONSt3__16vectorI17C2FieldDescriptorNS_9allocatorIS1_EEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "_ZTIONSt3__16vectorIN7C2Param5IndexENS_9allocatorIS2_EEEE",
    "name" : "std::vector<C2Param::Index, std::allocator<C2Param::Index>> &&",
    "referenced_type" : "_ZTINSt3__16vectorIN7C2Param5IndexENS_9allocatorIS2_EEEE",
    "self_type" : "_ZTIONSt3__16vectorIN7C2Param5IndexENS_9allocatorIS2_EEEE",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Param.h"
   }
  ]
