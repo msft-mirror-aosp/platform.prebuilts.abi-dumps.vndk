@@ -1705,6 +1705,9 @@
    "name" : "_ZN7android18ServiceManagerShim17getConnectionInfoERKNS_8String16E"
   },
   {
+   "name" : "_ZN7android18ServiceManagerShim19getServiceDebugInfoEv"
+  },
+  {
    "name" : "_ZN7android18ServiceManagerShim20getDeclaredInstancesERKNS_8String16E"
   },
   {
@@ -4619,6 +4622,14 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIN7android15IServiceManager16ServiceDebugInfoERNS_9allocatorIS3_EEEC2EmmS6_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIN7android15IServiceManager16ServiceDebugInfoERNS_9allocatorIS3_EEED2Ev"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__114__split_bufferIN7android2os16ServiceDebugInfoERNS_9allocatorIS3_EEEC2EmmS6_"
   },
   {
@@ -5560,6 +5571,10 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__16vectorIDsNS_9allocatorIDsEEE7reserveEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android15IServiceManager16ServiceDebugInfoENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJRS3_EEEvDpOT_"
   },
   {
    "binding" : "weak",
@@ -49972,6 +49987,27 @@
   },
   {
    "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "name",
+     "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+     "field_name" : "pid",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android15IServiceManager16ServiceDebugInfoE",
+   "name" : "android::IServiceManager::ServiceDebugInfo",
+   "referenced_type" : "_ZTIN7android15IServiceManager16ServiceDebugInfoE",
+   "self_type" : "_ZTIN7android15IServiceManager16ServiceDebugInfoE",
+   "size" : 32,
+   "source_file" : "frameworks/native/libs/binder/include/binder/IServiceManager.h"
+  },
+  {
+   "alignment" : 8,
    "base_specifiers" :
    [
     {
@@ -50142,6 +50178,10 @@
     {
      "is_pure" : true,
      "mangled_component_name" : "_ZN7android15IServiceManager26unregisterForNotificationsERKNS_8String16ERKNS_2spINS0_25LocalRegistrationCallbackEEE"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager19getServiceDebugInfoEv"
     },
     {
      "kind" : "vcall_offset"
