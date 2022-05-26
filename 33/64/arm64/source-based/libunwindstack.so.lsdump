@@ -3330,7 +3330,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN11unwindstack15$SONAME_INVALIDE",
-   "name" : "unwindstack::(unnamed enum at system/unwinding/libunwindstack/include/unwindstack/ElfInterface.h:45:1)",
+   "name" : "unwindstack::(unnamed enum at system/unwinding/libunwindstack/include/unwindstack/ElfInterface.h:44:1)",
    "referenced_type" : "_ZTIN11unwindstack15$SONAME_INVALIDE",
    "self_type" : "_ZTIN11unwindstack15$SONAME_INVALIDE",
    "size" : 1,
