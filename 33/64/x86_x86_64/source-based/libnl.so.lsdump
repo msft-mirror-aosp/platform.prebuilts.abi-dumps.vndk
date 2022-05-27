@@ -4193,7 +4193,7 @@
      "referenced_type" : "_ZTIP7nl_sock"
     },
     {
-     "referenced_type" : "_ZTIP8genl_ops#ODR:out/soong/.intermediates/external/libnl/libnl/android_vendor.Tiramisu_x86_x86_64_static/obj/external/libnl/lib/genl/ctrl.sdump"
+     "referenced_type" : "_ZTIP8genl_ops#ODR:out/soong/.intermediates/external/libnl/libnl/android_vendor.33_x86_x86_64_static/obj/external/libnl/lib/genl/ctrl.sdump"
     }
    ],
    "return_type" : "_ZTIi",
@@ -4217,7 +4217,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP8genl_ops#ODR:out/soong/.intermediates/external/libnl/libnl/android_vendor.Tiramisu_x86_x86_64_static/obj/external/libnl/lib/genl/ctrl.sdump"
+     "referenced_type" : "_ZTIP8genl_ops#ODR:out/soong/.intermediates/external/libnl/libnl/android_vendor.33_x86_x86_64_static/obj/external/libnl/lib/genl/ctrl.sdump"
     }
    ],
    "return_type" : "_ZTIi",
@@ -4229,7 +4229,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP8genl_ops#ODR:out/soong/.intermediates/external/libnl/libnl/android_vendor.Tiramisu_x86_x86_64_static/obj/external/libnl/lib/genl/ctrl.sdump"
+     "referenced_type" : "_ZTIP8genl_ops#ODR:out/soong/.intermediates/external/libnl/libnl/android_vendor.33_x86_x86_64_static/obj/external/libnl/lib/genl/ctrl.sdump"
     }
    ],
    "return_type" : "_ZTIi",
@@ -4277,7 +4277,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP8genl_ops#ODR:out/soong/.intermediates/external/libnl/libnl/android_vendor.Tiramisu_x86_x86_64_static/obj/external/libnl/lib/genl/ctrl.sdump"
+     "referenced_type" : "_ZTIP8genl_ops#ODR:out/soong/.intermediates/external/libnl/libnl/android_vendor.33_x86_x86_64_static/obj/external/libnl/lib/genl/ctrl.sdump"
     }
    ],
    "return_type" : "_ZTIi",
