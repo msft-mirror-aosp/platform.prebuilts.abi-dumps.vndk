@@ -3,6 +3,16 @@
  "builtin_types" :
  [
   {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIh",
+   "name" : "unsigned char",
+   "referenced_type" : "_ZTIh",
+   "self_type" : "_ZTIh",
+   "size" : 1
+  },
+  {
    "alignment" : 4,
    "is_integral" : true,
    "linker_set_key" : "_ZTIi",
@@ -31,6 +41,42 @@
  "elf_functions" :
  [
   {
+   "name" : "ldacBT_alter_eqmid_priority"
+  },
+  {
+   "name" : "ldacBT_close_handle"
+  },
+  {
+   "name" : "ldacBT_encode"
+  },
+  {
+   "name" : "ldacBT_free_handle"
+  },
+  {
+   "name" : "ldacBT_get_bitrate"
+  },
+  {
+   "name" : "ldacBT_get_eqmid"
+  },
+  {
+   "name" : "ldacBT_get_error_code"
+  },
+  {
+   "name" : "ldacBT_get_handle"
+  },
+  {
+   "name" : "ldacBT_get_sampling_freq"
+  },
+  {
+   "name" : "ldacBT_get_version"
+  },
+  {
+   "name" : "ldacBT_init_handle_encode"
+  },
+  {
+   "name" : "ldacBT_set_eqmid"
+  },
+  {
    "name" : "ldac_ABR_Init"
   },
   {
@@ -44,6 +90,90 @@
   },
   {
    "name" : "ldac_ABR_set_thresholds"
+  },
+  {
+   "name" : "ldaclib_check_nlnn_shift"
+  },
+  {
+   "name" : "ldaclib_clear_error_code"
+  },
+  {
+   "name" : "ldaclib_clear_internal_error_code"
+  },
+  {
+   "name" : "ldaclib_encode"
+  },
+  {
+   "name" : "ldaclib_flush_encode"
+  },
+  {
+   "name" : "ldaclib_free_encode"
+  },
+  {
+   "name" : "ldaclib_free_handle"
+  },
+  {
+   "name" : "ldaclib_get_branch_version"
+  },
+  {
+   "name" : "ldaclib_get_channel"
+  },
+  {
+   "name" : "ldaclib_get_channel_config_index"
+  },
+  {
+   "name" : "ldaclib_get_config_info"
+  },
+  {
+   "name" : "ldaclib_get_encode_frame_length"
+  },
+  {
+   "name" : "ldaclib_get_encode_setting"
+  },
+  {
+   "name" : "ldaclib_get_error_code"
+  },
+  {
+   "name" : "ldaclib_get_frame_samples"
+  },
+  {
+   "name" : "ldaclib_get_handle"
+  },
+  {
+   "name" : "ldaclib_get_internal_error_code"
+  },
+  {
+   "name" : "ldaclib_get_major_version"
+  },
+  {
+   "name" : "ldaclib_get_minor_version"
+  },
+  {
+   "name" : "ldaclib_get_nlnn"
+  },
+  {
+   "name" : "ldaclib_get_sampling_rate"
+  },
+  {
+   "name" : "ldaclib_get_sampling_rate_index"
+  },
+  {
+   "name" : "ldaclib_get_version"
+  },
+  {
+   "name" : "ldaclib_init_encode"
+  },
+  {
+   "name" : "ldaclib_set_config_info"
+  },
+  {
+   "name" : "ldaclib_set_encode_frame_length"
+  },
+  {
+   "name" : "ldaclib_set_encode_info"
+  },
+  {
+   "name" : "ldaclib_set_frame_header"
   }
  ],
  "elf_objects" : [],
