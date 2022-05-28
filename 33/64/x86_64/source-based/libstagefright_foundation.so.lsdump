@@ -10602,7 +10602,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIPN7android8AHandlerE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/foundation/libstagefright_foundation/android_vendor.Tiramisu_x86_64_static/obj/frameworks/av/media/libstagefright/foundation/AHandler.sdump"
+     "referenced_type" : "_ZTIPN7android8AHandlerE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/foundation/libstagefright_foundation/android_vendor.33_x86_64_static/obj/frameworks/av/media/libstagefright/foundation/AHandler.sdump"
     },
     {
      "referenced_type" : "_ZTIRKN7android2spINS_8AMessageEEE"
@@ -23834,7 +23834,7 @@
    [
     {
      "field_name" : "mpNode",
-     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/foundation/libstagefright_foundation/android_vendor.Tiramisu_x86_64_static/obj/frameworks/av/media/libstagefright/foundation/ALooper.sdump"
+     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/foundation/libstagefright_foundation/android_vendor.33_x86_64_static/obj/frameworks/av/media/libstagefright/foundation/ALooper.sdump"
     }
    ],
    "linker_set_key" : "_ZTIN7android4ListINS_7ALooper5EventEE13_ListIteratorIS2_NS3_18NON_CONST_ITERATOREEE",
@@ -23876,13 +23876,13 @@
      "access" : "private",
      "field_name" : "mpPrev",
      "field_offset" : 128,
-     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/foundation/libstagefright_foundation/android_vendor.Tiramisu_x86_64_static/obj/frameworks/av/media/libstagefright/foundation/ALooper.sdump"
+     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/foundation/libstagefright_foundation/android_vendor.33_x86_64_static/obj/frameworks/av/media/libstagefright/foundation/ALooper.sdump"
     },
     {
      "access" : "private",
      "field_name" : "mpNext",
      "field_offset" : 192,
-     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/foundation/libstagefright_foundation/android_vendor.Tiramisu_x86_64_static/obj/frameworks/av/media/libstagefright/foundation/ALooper.sdump"
+     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/foundation/libstagefright_foundation/android_vendor.33_x86_64_static/obj/frameworks/av/media/libstagefright/foundation/ALooper.sdump"
     }
    ],
    "linker_set_key" : "_ZTIN7android4ListINS_7ALooper5EventEE5_NodeE",
