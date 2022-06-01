@@ -3668,10 +3668,19 @@
    "name" : "FIPS_mode_set"
   },
   {
+   "name" : "FIPS_module_name"
+  },
+  {
    "name" : "FIPS_query_algorithm_status"
   },
   {
    "name" : "FIPS_read_counter"
+  },
+  {
+   "name" : "FIPS_service_indicator_after_call"
+  },
+  {
+   "name" : "FIPS_service_indicator_before_call"
   },
   {
    "name" : "FIPS_version"
@@ -5099,12 +5108,6 @@
    "name" : "X509_CRL_INFO_new"
   },
   {
-   "name" : "X509_CRL_METHOD_free"
-  },
-  {
-   "name" : "X509_CRL_METHOD_new"
-  },
-  {
    "name" : "X509_CRL_add0_revoked"
   },
   {
@@ -5180,9 +5183,6 @@
    "name" : "X509_CRL_get_lastUpdate"
   },
   {
-   "name" : "X509_CRL_get_meth_data"
-  },
-  {
    "name" : "X509_CRL_get_nextUpdate"
   },
   {
@@ -5216,13 +5216,7 @@
    "name" : "X509_CRL_set1_signature_value"
   },
   {
-   "name" : "X509_CRL_set_default_method"
-  },
-  {
    "name" : "X509_CRL_set_issuer_name"
-  },
-  {
-   "name" : "X509_CRL_set_meth_data"
   },
   {
    "name" : "X509_CRL_set_version"
@@ -6390,9 +6384,6 @@
   },
   {
    "name" : "X509_time_adj_ex"
-  },
-  {
-   "name" : "X509_to_X509_REQ"
   },
   {
    "name" : "X509_trust_clear"
@@ -8221,63 +8212,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIFiP11X509_crl_stE",
-   "name" : "int (X509_crl_st *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP11X509_crl_st"
-    }
-   ],
-   "referenced_type" : "_ZTIFiP11X509_crl_stE",
-   "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiP11X509_crl_stE",
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIFiP11X509_crl_stP11evp_pkey_stE",
-   "name" : "int (X509_crl_st *, evp_pkey_st *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP11X509_crl_st"
-    },
-    {
-     "referenced_type" : "_ZTIP11evp_pkey_st"
-    }
-   ],
-   "referenced_type" : "_ZTIFiP11X509_crl_stP11evp_pkey_stE",
-   "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiP11X509_crl_stP11evp_pkey_stE",
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIFiP11X509_crl_stPP15x509_revoked_stP14asn1_string_stP12X509_name_stE",
-   "name" : "int (X509_crl_st *, x509_revoked_st **, asn1_string_st *, X509_name_st *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP11X509_crl_st"
-    },
-    {
-     "referenced_type" : "_ZTIPP15x509_revoked_st"
-    },
-    {
-     "referenced_type" : "_ZTIP14asn1_string_st"
-    },
-    {
-     "referenced_type" : "_ZTIP12X509_name_st"
-    }
-   ],
-   "referenced_type" : "_ZTIFiP11X509_crl_stPP15x509_revoked_stP14asn1_string_stP12X509_name_stE",
-   "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiP11X509_crl_stPP15x509_revoked_stP14asn1_string_stP12X509_name_stE",
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIFiP13x509_trust_stP7x509_stiE",
    "name" : "int (x509_trust_st *, x509_st *, int)",
    "parameters" :
@@ -9544,30 +9478,6 @@
    "linker_set_key" : "ACCESS_DESCRIPTION_new",
    "return_type" : "_ZTIP21ACCESS_DESCRIPTION_st",
    "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
-  },
-  {
-   "function_name" : "AES_CMAC",
-   "linker_set_key" : "AES_CMAC",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPh"
-    },
-    {
-     "referenced_type" : "_ZTIPKh"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "referenced_type" : "_ZTIPKh"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    }
-   ],
-   "return_type" : "_ZTIi",
-   "source_file" : "external/boringssl/src/include/openssl/cmac.h"
   },
   {
    "function_name" : "ASN1_BIT_STRING_check",
@@ -14490,111 +14400,6 @@
    "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
   },
   {
-   "function_name" : "CMAC_CTX_copy",
-   "linker_set_key" : "CMAC_CTX_copy",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP11cmac_ctx_st"
-    },
-    {
-     "referenced_type" : "_ZTIPK11cmac_ctx_st"
-    }
-   ],
-   "return_type" : "_ZTIi",
-   "source_file" : "external/boringssl/src/include/openssl/cmac.h"
-  },
-  {
-   "function_name" : "CMAC_CTX_free",
-   "linker_set_key" : "CMAC_CTX_free",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP11cmac_ctx_st"
-    }
-   ],
-   "return_type" : "_ZTIv",
-   "source_file" : "external/boringssl/src/include/openssl/cmac.h"
-  },
-  {
-   "function_name" : "CMAC_CTX_new",
-   "linker_set_key" : "CMAC_CTX_new",
-   "return_type" : "_ZTIP11cmac_ctx_st",
-   "source_file" : "external/boringssl/src/include/openssl/cmac.h"
-  },
-  {
-   "function_name" : "CMAC_Final",
-   "linker_set_key" : "CMAC_Final",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP11cmac_ctx_st"
-    },
-    {
-     "referenced_type" : "_ZTIPh"
-    },
-    {
-     "referenced_type" : "_ZTIPj"
-    }
-   ],
-   "return_type" : "_ZTIi",
-   "source_file" : "external/boringssl/src/include/openssl/cmac.h"
-  },
-  {
-   "function_name" : "CMAC_Init",
-   "linker_set_key" : "CMAC_Init",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP11cmac_ctx_st"
-    },
-    {
-     "referenced_type" : "_ZTIPKv"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "referenced_type" : "_ZTIPK13evp_cipher_st"
-    },
-    {
-     "referenced_type" : "_ZTIP9engine_st"
-    }
-   ],
-   "return_type" : "_ZTIi",
-   "source_file" : "external/boringssl/src/include/openssl/cmac.h"
-  },
-  {
-   "function_name" : "CMAC_Reset",
-   "linker_set_key" : "CMAC_Reset",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP11cmac_ctx_st"
-    }
-   ],
-   "return_type" : "_ZTIi",
-   "source_file" : "external/boringssl/src/include/openssl/cmac.h"
-  },
-  {
-   "function_name" : "CMAC_Update",
-   "linker_set_key" : "CMAC_Update",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP11cmac_ctx_st"
-    },
-    {
-     "referenced_type" : "_ZTIPKh"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    }
-   ],
-   "return_type" : "_ZTIi",
-   "source_file" : "external/boringssl/src/include/openssl/cmac.h"
-  },
-  {
    "function_name" : "CONF_modules_free",
    "linker_set_key" : "CONF_modules_free",
    "return_type" : "_ZTIv",
@@ -18314,7 +18119,7 @@
      "referenced_type" : "_ZTIP11evp_pkey_st"
     },
     {
-     "referenced_type" : "_ZTIP6dsa_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.33_arm_armv8-a_shared/obj/external/boringssl/src/crypto/evp/evp.sdump"
+     "referenced_type" : "_ZTIP6dsa_st"
     }
    ],
    "return_type" : "_ZTIi",
@@ -18581,7 +18386,7 @@
      "referenced_type" : "_ZTIPK11evp_pkey_st"
     }
    ],
-   "return_type" : "_ZTIP6dsa_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.33_arm_armv8-a_shared/obj/external/boringssl/src/crypto/evp/evp.sdump",
+   "return_type" : "_ZTIP6dsa_st",
    "source_file" : "external/boringssl/src/include/openssl/evp.h"
   },
   {
@@ -18629,7 +18434,7 @@
      "referenced_type" : "_ZTIPK11evp_pkey_st"
     }
    ],
-   "return_type" : "_ZTIP6dsa_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.33_arm_armv8-a_shared/obj/external/boringssl/src/crypto/evp/evp.sdump",
+   "return_type" : "_ZTIP6dsa_st",
    "source_file" : "external/boringssl/src/include/openssl/evp.h"
   },
   {
@@ -18917,7 +18722,7 @@
      "referenced_type" : "_ZTIP11evp_pkey_st"
     },
     {
-     "referenced_type" : "_ZTIP6dsa_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.33_arm_armv8-a_shared/obj/external/boringssl/src/crypto/evp/evp.sdump"
+     "referenced_type" : "_ZTIP6dsa_st"
     }
    ],
    "return_type" : "_ZTIi",
@@ -19283,18 +19088,6 @@
   {
    "function_name" : "EVP_aead_aes_128_cbc_sha1_tls_implicit_iv",
    "linker_set_key" : "EVP_aead_aes_128_cbc_sha1_tls_implicit_iv",
-   "return_type" : "_ZTIPK11evp_aead_st",
-   "source_file" : "external/boringssl/src/include/openssl/aead.h"
-  },
-  {
-   "function_name" : "EVP_aead_aes_128_ccm_bluetooth",
-   "linker_set_key" : "EVP_aead_aes_128_ccm_bluetooth",
-   "return_type" : "_ZTIPK11evp_aead_st",
-   "source_file" : "external/boringssl/src/include/openssl/aead.h"
-  },
-  {
-   "function_name" : "EVP_aead_aes_128_ccm_bluetooth_8",
-   "linker_set_key" : "EVP_aead_aes_128_ccm_bluetooth_8",
    "return_type" : "_ZTIPK11evp_aead_st",
    "source_file" : "external/boringssl/src/include/openssl/aead.h"
   },
@@ -25533,39 +25326,6 @@
    "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
-   "function_name" : "X509_CRL_METHOD_free",
-   "linker_set_key" : "X509_CRL_METHOD_free",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP18x509_crl_method_st"
-    }
-   ],
-   "return_type" : "_ZTIv",
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "function_name" : "X509_CRL_METHOD_new",
-   "linker_set_key" : "X509_CRL_METHOD_new",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPFiP11X509_crl_stE"
-    },
-    {
-     "referenced_type" : "_ZTIPFiP11X509_crl_stE"
-    },
-    {
-     "referenced_type" : "_ZTIPFiP11X509_crl_stPP15x509_revoked_stP14asn1_string_stP12X509_name_stE"
-    },
-    {
-     "referenced_type" : "_ZTIPFiP11X509_crl_stP11evp_pkey_stE"
-    }
-   ],
-   "return_type" : "_ZTIP18x509_crl_method_st",
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
    "function_name" : "X509_CRL_add0_revoked",
    "linker_set_key" : "X509_CRL_add0_revoked",
    "parameters" :
@@ -25968,18 +25728,6 @@
    "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
-   "function_name" : "X509_CRL_get_meth_data",
-   "linker_set_key" : "X509_CRL_get_meth_data",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP11X509_crl_st"
-    }
-   ],
-   "return_type" : "_ZTIPv",
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
    "function_name" : "X509_CRL_get_nextUpdate",
    "linker_set_key" : "X509_CRL_get_nextUpdate",
    "parameters" :
@@ -26130,18 +25878,6 @@
    "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
-   "function_name" : "X509_CRL_set_default_method",
-   "linker_set_key" : "X509_CRL_set_default_method",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPK18x509_crl_method_st"
-    }
-   ],
-   "return_type" : "_ZTIv",
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
    "function_name" : "X509_CRL_set_issuer_name",
    "linker_set_key" : "X509_CRL_set_issuer_name",
    "parameters" :
@@ -26154,21 +25890,6 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "function_name" : "X509_CRL_set_meth_data",
-   "linker_set_key" : "X509_CRL_set_meth_data",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP11X509_crl_st"
-    },
-    {
-     "referenced_type" : "_ZTIPv"
-    }
-   ],
-   "return_type" : "_ZTIv",
    "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
@@ -31788,24 +31509,6 @@
    "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
-   "function_name" : "X509_to_X509_REQ",
-   "linker_set_key" : "X509_to_X509_REQ",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP7x509_st"
-    },
-    {
-     "referenced_type" : "_ZTIP11evp_pkey_st"
-    },
-    {
-     "referenced_type" : "_ZTIPK9env_md_st"
-    }
-   ],
-   "return_type" : "_ZTIP11X509_req_st",
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
    "function_name" : "X509_trust_clear",
    "linker_set_key" : "X509_trust_clear",
    "parameters" :
@@ -37331,15 +37034,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIP11cmac_ctx_st",
-   "name" : "cmac_ctx_st *",
-   "referenced_type" : "_ZTI11cmac_ctx_st",
-   "self_type" : "_ZTIP11cmac_ctx_st",
-   "size" : 4,
-   "source_file" : "external/boringssl/src/include/openssl/cmac.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIP11ec_group_st",
    "name" : "ec_group_st *",
    "referenced_type" : "_ZTI11ec_group_st",
@@ -37979,15 +37673,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIP18x509_crl_method_st",
-   "name" : "x509_crl_method_st *",
-   "referenced_type" : "_ZTI18x509_crl_method_st",
-   "self_type" : "_ZTIP18x509_crl_method_st",
-   "size" : 4,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIP19NAME_CONSTRAINTS_st",
    "name" : "NAME_CONSTRAINTS_st *",
    "referenced_type" : "_ZTI19NAME_CONSTRAINTS_st",
@@ -38452,7 +38137,7 @@
    "referenced_type" : "_ZTI9engine_st",
    "self_type" : "_ZTIP9engine_st",
    "size" : 4,
-   "source_file" : "external/boringssl/src/include/openssl/cmac.h"
+   "source_file" : "external/boringssl/src/include/openssl/engine.h"
   },
   {
    "alignment" : 4,
@@ -38606,33 +38291,6 @@
    "self_type" : "_ZTIPFPvvE",
    "size" : 4,
    "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPFiP11X509_crl_stE",
-   "name" : "int (*)(X509_crl_st *)",
-   "referenced_type" : "_ZTIFiP11X509_crl_stE",
-   "self_type" : "_ZTIPFiP11X509_crl_stE",
-   "size" : 4,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPFiP11X509_crl_stP11evp_pkey_stE",
-   "name" : "int (*)(X509_crl_st *, evp_pkey_st *)",
-   "referenced_type" : "_ZTIFiP11X509_crl_stP11evp_pkey_stE",
-   "self_type" : "_ZTIPFiP11X509_crl_stP11evp_pkey_stE",
-   "size" : 4,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPFiP11X509_crl_stPP15x509_revoked_stP14asn1_string_stP12X509_name_stE",
-   "name" : "int (*)(X509_crl_st *, x509_revoked_st **, asn1_string_st *, X509_name_st *)",
-   "referenced_type" : "_ZTIFiP11X509_crl_stPP15x509_revoked_stP14asn1_string_stP12X509_name_stE",
-   "self_type" : "_ZTIPFiP11X509_crl_stPP15x509_revoked_stP14asn1_string_stP12X509_name_stE",
-   "size" : 4,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
    "alignment" : 4,
@@ -39212,15 +38870,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPK11cmac_ctx_st",
-   "name" : "const cmac_ctx_st *",
-   "referenced_type" : "_ZTIK11cmac_ctx_st",
-   "self_type" : "_ZTIPK11cmac_ctx_st",
-   "size" : 4,
-   "source_file" : "external/boringssl/src/include/openssl/cmac.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIPK11ec_group_st",
    "name" : "const ec_group_st *",
    "referenced_type" : "_ZTIK11ec_group_st",
@@ -39277,24 +38926,6 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPK12ASN1_ITEM_st",
    "name" : "const ASN1_ITEM_st *",
-   "referenced_type" : "_ZTIK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.33_arm_armv8-a_shared/obj/external/boringssl/src/crypto/asn1/a_mbstr.sdump",
-   "self_type" : "_ZTIPK12ASN1_ITEM_st",
-   "size" : 4,
-   "source_file" : "external/boringssl/src/include/openssl/asn1t.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK12ASN1_ITEM_st",
-   "name" : "const ASN1_ITEM_st *",
-   "referenced_type" : "_ZTIK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.33_arm_armv8-a_shared/obj/external/boringssl/src/crypto/asn1/tasn_dec.sdump",
-   "self_type" : "_ZTIPK12ASN1_ITEM_st",
-   "size" : 4,
-   "source_file" : "external/boringssl/src/include/openssl/asn1.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK12ASN1_ITEM_st",
-   "name" : "const ASN1_ITEM_st *",
    "referenced_type" : "_ZTIK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.33_arm_armv8-a_shared/obj/external/boringssl/src/crypto/pkcs8/pkcs8_x509.sdump",
    "self_type" : "_ZTIPK12ASN1_ITEM_st",
    "size" : 4,
@@ -39308,6 +38939,33 @@
    "self_type" : "_ZTIPK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.33_arm_armv8-a_shared/obj/external/boringssl/src/crypto/x509/a_sign.sdump",
    "size" : 4,
    "source_file" : "external/boringssl/src/include/openssl/x509.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPK12ASN1_ITEM_st",
+   "name" : "const ASN1_ITEM_st *",
+   "referenced_type" : "_ZTIK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.33_arm_armv8-a_shared/obj/external/boringssl/src/crypto/x509/t_req.sdump",
+   "self_type" : "_ZTIPK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.33_arm_armv8-a_shared/obj/external/boringssl/src/crypto/x509/t_req.sdump",
+   "size" : 4,
+   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPK12ASN1_ITEM_st",
+   "name" : "const ASN1_ITEM_st *",
+   "referenced_type" : "_ZTIK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.33_arm_armv8-a_shared/obj/external/boringssl/src/crypto/x509/x509_ext.sdump",
+   "self_type" : "_ZTIPK12ASN1_ITEM_st",
+   "size" : 4,
+   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPK12ASN1_ITEM_st",
+   "name" : "const ASN1_ITEM_st *",
+   "referenced_type" : "_ZTIK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.33_arm_armv8-a_shared/obj/external/boringssl/src/crypto/x509v3/pcy_map.sdump",
+   "self_type" : "_ZTIPK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.33_arm_armv8-a_shared/obj/external/boringssl/src/crypto/x509v3/pcy_map.sdump",
+   "size" : 4,
+   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
   },
   {
    "alignment" : 4,
@@ -39693,15 +39351,6 @@
    "name" : "const x509_attributes_st *",
    "referenced_type" : "_ZTIK18x509_attributes_st",
    "self_type" : "_ZTIPK18x509_attributes_st",
-   "size" : 4,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK18x509_crl_method_st",
-   "name" : "const x509_crl_method_st *",
-   "referenced_type" : "_ZTIK18x509_crl_method_st",
-   "self_type" : "_ZTIPK18x509_crl_method_st",
    "size" : 4,
    "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
@@ -40787,7 +40436,7 @@
    "name" : "const X509_crl_st",
    "referenced_type" : "_ZTI11X509_crl_st",
    "self_type" : "_ZTIK11X509_crl_st",
-   "size" : 88,
+   "size" : 80,
    "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
@@ -40809,16 +40458,6 @@
    "self_type" : "_ZTIK11X509_sig_st",
    "size" : 8,
    "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIK11cmac_ctx_st",
-   "name" : "const cmac_ctx_st",
-   "referenced_type" : "_ZTI11cmac_ctx_st",
-   "self_type" : "_ZTIK11cmac_ctx_st",
-   "size" : 184,
-   "source_file" : "external/boringssl/src/include/openssl/cmac.h"
   },
   {
    "alignment" : 4,
@@ -41274,16 +40913,6 @@
    "referenced_type" : "_ZTI18x509_attributes_st",
    "self_type" : "_ZTIK18x509_attributes_st",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIK18x509_crl_method_st",
-   "name" : "const x509_crl_method_st",
-   "referenced_type" : "_ZTI18x509_crl_method_st",
-   "self_type" : "_ZTIK18x509_crl_method_st",
-   "size" : 20,
    "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
@@ -41835,47 +41464,6 @@
    "referenced_type" : "_ZTI11ASN1_AUX_st",
    "self_type" : "_ZTI11ASN1_AUX_st",
    "size" : 20,
-   "source_file" : "external/boringssl/src/include/openssl/asn1t.h"
-  },
-  {
-   "alignment" : 4,
-   "fields" :
-   [
-    {
-     "field_name" : "valid",
-     "referenced_type" : "_ZTIc"
-    },
-    {
-     "field_name" : "ret",
-     "field_offset" : 32,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "plen",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIl"
-    },
-    {
-     "field_name" : "ptag",
-     "field_offset" : 96,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "pclass",
-     "field_offset" : 128,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "hdrlen",
-     "field_offset" : 160,
-     "referenced_type" : "_ZTIi"
-    }
-   ],
-   "linker_set_key" : "_ZTI11ASN1_TLC_st",
-   "name" : "ASN1_TLC_st",
-   "referenced_type" : "_ZTI11ASN1_TLC_st",
-   "self_type" : "_ZTI11ASN1_TLC_st",
-   "size" : 24,
    "source_file" : "external/boringssl/src/include/openssl/asn1t.h"
   },
   {
