@@ -1230,10 +1230,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZN7android9SingletonINS_22GraphicBufferAllocatorEE11getInstanceEv"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZN7android9SingletonINS_22GraphicBufferAllocatorEE11hasInstanceEv"
   },
   {
@@ -2405,10 +2401,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIPN7android5FenceENS_6vectorINS_8weak_ptrINS2_9FenceTimeEEENS_9allocatorIS8_EEEEEENS_22__unordered_map_hasherIS4_SC_NS_4hashIS4_EELb1EEENS_21__unordered_map_equalIS4_SC_NS_8equal_toIS4_EELb1EEENS9_ISC_EEE6rehashEj"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIPN7android5FenceENS_6vectorINS_8weak_ptrINS2_9FenceTimeEEENS_9allocatorIS8_EEEEEENS_22__unordered_map_hasherIS4_SC_NS_4hashIS4_EELb1EEENS_21__unordered_map_equalIS4_SC_NS_8equal_toIS4_EELb1EEENS9_ISC_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeISC_PvEEEE"
   },
   {
@@ -2422,10 +2414,6 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__113__vector_baseIN4aidl7android8hardware6common12NativeHandleENS_9allocatorIS5_EEED2Ev"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__113__vector_baseINS_4pairINS_8functionIFvPvyEEES3_EENS_9allocatorIS6_EEED2Ev"
   },
   {
    "binding" : "weak",
@@ -2485,6 +2473,10 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIPNS_8weak_ptrIN7android9FenceTimeEEERNS_9allocatorIS5_EEE9push_backEOS5_"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__114__split_bufferIPNS_8weak_ptrIN7android9FenceTimeEEERNS_9allocatorIS5_EEED2Ev"
   },
   {
@@ -2530,10 +2522,6 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__15dequeINS_8weak_ptrIN7android9FenceTimeEEENS_9allocatorIS4_EEE9pop_frontEv"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__16vectorIN3ndk20ScopedFileDescriptorENS_9allocatorIS2_EEE11__vallocateEj"
   },
   {
    "binding" : "weak",
@@ -2678,18 +2666,6 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__16vectorIhNS_9allocatorIhEEEC2Ej"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateEj"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__16vectorIiNS_9allocatorIiEEE13__move_assignERS3_NS_17integral_constantIbLb1EEE"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__16vectorIiNS_9allocatorIiEEEC2IPKiEET_NS_9enable_ifIXaasr21__is_forward_iteratorIS7_EE5valuesr16is_constructibleIiNS_15iterator_traitsIS7_E9referenceEEE5valueES7_E4typeE"
   },
   {
    "binding" : "weak",
@@ -16522,12 +16498,6 @@
    ],
    "return_type" : "_ZTIv",
    "source_file" : "frameworks/native/libs/ui/include/ui/FenceTime.h"
-  },
-  {
-   "function_name" : "android::Singleton<android::GraphicBufferAllocator>::getInstance",
-   "linker_set_key" : "_ZN7android9SingletonINS_22GraphicBufferAllocatorEE11getInstanceEv",
-   "return_type" : "_ZTIRN7android22GraphicBufferAllocatorE",
-   "source_file" : "system/core/libutils/include/utils/Singleton.h"
   },
   {
    "function_name" : "android::parseEdid",
