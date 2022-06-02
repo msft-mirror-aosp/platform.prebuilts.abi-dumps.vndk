@@ -912,6 +912,9 @@
    "name" : "SSL_CTX_set_next_protos_advertised_cb"
   },
   {
+   "name" : "SSL_CTX_set_num_tickets"
+  },
+  {
    "name" : "SSL_CTX_set_ocsp_response"
   },
   {
@@ -8122,6 +8125,21 @@
    "source_file" : "external/boringssl/src/include/openssl/ssl.h"
   },
   {
+   "function_name" : "SSL_CTX_set_num_tickets",
+   "linker_set_key" : "SSL_CTX_set_num_tickets",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP10ssl_ctx_st"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "external/boringssl/src/include/openssl/ssl.h"
+  },
+  {
    "function_name" : "SSL_CTX_set_ocsp_response",
    "linker_set_key" : "SSL_CTX_set_ocsp_response",
    "parameters" :
@@ -14824,15 +14842,6 @@
    "name" : "x509_attributes_st *",
    "referenced_type" : "_ZTI18x509_attributes_st",
    "self_type" : "_ZTIP18x509_attributes_st",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIP18x509_crl_method_st",
-   "name" : "x509_crl_method_st *",
-   "referenced_type" : "_ZTI18x509_crl_method_st",
-   "self_type" : "_ZTIP18x509_crl_method_st",
    "size" : 8,
    "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
@@ -24714,20 +24723,6 @@
    "template_args" :
    [
     "_ZTI18x509_attributes_st",
-    "_ZTIv"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN4bssl8internal11DeleterImplI18x509_crl_method_stvEE",
-   "name" : "bssl::internal::DeleterImpl<X509_CRL_METHOD>",
-   "referenced_type" : "_ZTIN4bssl8internal11DeleterImplI18x509_crl_method_stvEE",
-   "self_type" : "_ZTIN4bssl8internal11DeleterImplI18x509_crl_method_stvEE",
-   "size" : 1,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h",
-   "template_args" :
-   [
-    "_ZTI18x509_crl_method_st",
     "_ZTIv"
    ]
   },
