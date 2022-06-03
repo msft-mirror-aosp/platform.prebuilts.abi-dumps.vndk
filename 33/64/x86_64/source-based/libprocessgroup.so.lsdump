@@ -133,6 +133,12 @@
    "name" : "_Z25setProcessGroupSwappinessjii"
   },
   {
+   "name" : "_Z27removeAllEmptyProcessGroupsv"
+  },
+  {
+   "name" : "_Z30removeAllProcessGroupsInternalb"
+  },
+  {
    "name" : "_Z31DropTaskProfilesResourceCachingv"
   },
   {
