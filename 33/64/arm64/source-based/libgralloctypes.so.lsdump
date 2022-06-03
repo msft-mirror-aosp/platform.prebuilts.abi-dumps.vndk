@@ -468,14 +468,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZN7android8gralloc422encodeOptionalMetadataIN4aidl7android8hardware8graphics6common8Cta861_3EEEiRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeERKNSt3__18optionalIT_EEPNS8_8hidl_vecIhEEPFiRKSI_PNS0_13OutputHidlVecEE"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZN7android8gralloc422encodeOptionalMetadataIN4aidl7android8hardware8graphics6common9Smpte2086EEEiRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeERKNSt3__18optionalIT_EEPNS8_8hidl_vecIhEEPFiRKSI_PNS0_13OutputHidlVecEE"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZN7android8gralloc422encodeOptionalMetadataINSt3__16vectorIhNS2_9allocatorIhEEEEEEiRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeERKNS2_8optionalIT_EEPNS7_8hidl_vecIhEEPFiRKSG_PNS0_13OutputHidlVecEE"
   },
   {
