@@ -1246,15 +1246,15 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN7android6Looper7RequestEEENS_22__unordered_map_hasherImS5_NS_4hashImEELb1EEENS_21__unordered_map_equalImS5_NS_8equal_toImEELb1EEENS_9allocatorIS5_EEE14__erase_uniqueImEEmRKT_"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN7android6Looper7RequestEEENS_22__unordered_map_hasherImS5_NS_4hashImEELb1EEENS_21__unordered_map_equalImS5_NS_8equal_toImEELb1EEENS_9allocatorIS5_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE"
   },
   {
    "binding" : "weak",
    "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN7android6Looper7RequestEEENS_22__unordered_map_hasherImS5_NS_4hashImEELb1EEENS_21__unordered_map_equalImS5_NS_8equal_toImEELb1EEENS_9allocatorIS5_EEE25__emplace_unique_key_argsImJRKmRS4_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeImN7android6Looper7RequestEEENS_22__unordered_map_hasherImS5_NS_4hashImEELb1EEENS_21__unordered_map_equalImS5_NS_8equal_toImEELb1EEENS_9allocatorIS5_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeIS5_PvEEEE"
   },
   {
    "binding" : "weak",
