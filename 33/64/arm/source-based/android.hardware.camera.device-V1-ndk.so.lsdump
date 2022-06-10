@@ -7111,7 +7111,7 @@
      "referenced_type" : "_ZTIPN4aidl7android8hardware6camera6device21BpCameraDeviceSessionE"
     },
     {
-     "referenced_type" : "_ZTIPN4aidl7android8hardware6common3fmq12MQDescriptorIaNS3_21SynchronizedReadWriteEEE#ODR:out/soong/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk/android_vendor.Tiramisu_arm_armv7-a-neon_static/obj/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk-source/gen/android/hardware/camera/device/ICameraDeviceSession.sdump"
+     "referenced_type" : "_ZTIPN4aidl7android8hardware6common3fmq12MQDescriptorIaNS3_21SynchronizedReadWriteEEE#ODR:out/soong/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk/android_vendor.33_arm_armv7-a-neon_static/obj/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk-source/gen/android/hardware/camera/device/ICameraDeviceSession.sdump"
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
@@ -7127,7 +7127,7 @@
      "referenced_type" : "_ZTIPN4aidl7android8hardware6camera6device21BpCameraDeviceSessionE"
     },
     {
-     "referenced_type" : "_ZTIPN4aidl7android8hardware6common3fmq12MQDescriptorIaNS3_21SynchronizedReadWriteEEE#ODR:out/soong/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk/android_vendor.Tiramisu_arm_armv7-a-neon_static/obj/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk-source/gen/android/hardware/camera/device/ICameraDeviceSession.sdump"
+     "referenced_type" : "_ZTIPN4aidl7android8hardware6common3fmq12MQDescriptorIaNS3_21SynchronizedReadWriteEEE#ODR:out/soong/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk/android_vendor.33_arm_armv7-a-neon_static/obj/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk-source/gen/android/hardware/camera/device/ICameraDeviceSession.sdump"
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
@@ -7916,7 +7916,7 @@
      "referenced_type" : "_ZTIPN4aidl7android8hardware6camera6device22BpCameraOfflineSessionE"
     },
     {
-     "referenced_type" : "_ZTIPN4aidl7android8hardware6common3fmq12MQDescriptorIaNS3_21SynchronizedReadWriteEEE#ODR:out/soong/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk/android_vendor.Tiramisu_arm_armv7-a-neon_static/obj/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk-source/gen/android/hardware/camera/device/ICameraDeviceSession.sdump"
+     "referenced_type" : "_ZTIPN4aidl7android8hardware6common3fmq12MQDescriptorIaNS3_21SynchronizedReadWriteEEE#ODR:out/soong/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk/android_vendor.33_arm_armv7-a-neon_static/obj/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk-source/gen/android/hardware/camera/device/ICameraDeviceSession.sdump"
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
@@ -8551,7 +8551,7 @@
      "referenced_type" : "_ZTIPN4aidl7android8hardware6camera6device27ICameraDeviceSessionDefaultE"
     },
     {
-     "referenced_type" : "_ZTIPN4aidl7android8hardware6common3fmq12MQDescriptorIaNS3_21SynchronizedReadWriteEEE#ODR:out/soong/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk/android_vendor.Tiramisu_arm_armv7-a-neon_static/obj/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk-source/gen/android/hardware/camera/device/ICameraDeviceSession.sdump"
+     "referenced_type" : "_ZTIPN4aidl7android8hardware6common3fmq12MQDescriptorIaNS3_21SynchronizedReadWriteEEE#ODR:out/soong/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk/android_vendor.33_arm_armv7-a-neon_static/obj/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk-source/gen/android/hardware/camera/device/ICameraDeviceSession.sdump"
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
@@ -8567,7 +8567,7 @@
      "referenced_type" : "_ZTIPN4aidl7android8hardware6camera6device27ICameraDeviceSessionDefaultE"
     },
     {
-     "referenced_type" : "_ZTIPN4aidl7android8hardware6common3fmq12MQDescriptorIaNS3_21SynchronizedReadWriteEEE#ODR:out/soong/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk/android_vendor.Tiramisu_arm_armv7-a-neon_static/obj/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk-source/gen/android/hardware/camera/device/ICameraDeviceSession.sdump"
+     "referenced_type" : "_ZTIPN4aidl7android8hardware6common3fmq12MQDescriptorIaNS3_21SynchronizedReadWriteEEE#ODR:out/soong/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk/android_vendor.33_arm_armv7-a-neon_static/obj/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk-source/gen/android/hardware/camera/device/ICameraDeviceSession.sdump"
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
@@ -8830,7 +8830,7 @@
      "referenced_type" : "_ZTIPN4aidl7android8hardware6camera6device28ICameraOfflineSessionDefaultE"
     },
     {
-     "referenced_type" : "_ZTIPN4aidl7android8hardware6common3fmq12MQDescriptorIaNS3_21SynchronizedReadWriteEEE#ODR:out/soong/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk/android_vendor.Tiramisu_arm_armv7-a-neon_static/obj/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk-source/gen/android/hardware/camera/device/ICameraDeviceSession.sdump"
+     "referenced_type" : "_ZTIPN4aidl7android8hardware6common3fmq12MQDescriptorIaNS3_21SynchronizedReadWriteEEE#ODR:out/soong/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk/android_vendor.33_arm_armv7-a-neon_static/obj/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk-source/gen/android/hardware/camera/device/ICameraDeviceSession.sdump"
     }
    ],
    "return_type" : "_ZTIN3ndk13ScopedAStatusE",
@@ -9039,7 +9039,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "_ZTIPN4aidl7android8hardware6common3fmq12MQDescriptorIaNS3_21SynchronizedReadWriteEEE#ODR:out/soong/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk/android_vendor.Tiramisu_arm_armv7-a-neon_static/obj/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk-source/gen/android/hardware/camera/device/ICameraDeviceSession.sdump"
+     "referenced_type" : "_ZTIPN4aidl7android8hardware6common3fmq12MQDescriptorIaNS3_21SynchronizedReadWriteEEE#ODR:out/soong/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk/android_vendor.33_arm_armv7-a-neon_static/obj/.intermediates/hardware/interfaces/camera/device/aidl/android.hardware.camera.device-V1-ndk-source/gen/android/hardware/camera/device/ICameraDeviceSession.sdump"
     },
     {
      "referenced_type" : "_ZTIPK7AParcel"
