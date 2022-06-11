@@ -2384,6 +2384,10 @@
     {
      "enum_field_value" : 16412,
      "name" : "(anonymous namespace)::kParamIndexAndroidChannelMask"
+    },
+    {
+     "enum_field_value" : 16413,
+     "name" : "(anonymous namespace)::kParamIndexTunnelPeekMode"
     }
    ],
    "linker_set_key" : "_ZTIN12_GLOBAL__N_116C2ParamIndexKindE",
@@ -2448,7 +2452,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN12_GLOBAL__N_130$C2_PROFILE_LEVEL_VENDOR_STARTE",
-   "name" : "(anonymous namespace)::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:408:1)",
+   "name" : "(anonymous namespace)::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:412:1)",
    "referenced_type" : "_ZTIN12_GLOBAL__N_130$C2_PROFILE_LEVEL_VENDOR_STARTE",
    "self_type" : "_ZTIN12_GLOBAL__N_130$C2_PROFILE_LEVEL_VENDOR_STARTE",
    "size" : 4,
@@ -2772,7 +2776,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN15C2ColorXyStruct11$CORE_INDEXE",
-   "name" : "C2ColorXyStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1584:5)",
+   "name" : "C2ColorXyStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1588:5)",
    "referenced_type" : "_ZTIN15C2ColorXyStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN15C2ColorXyStruct11$CORE_INDEXE",
    "size" : 4,
@@ -2875,9 +2879,30 @@
     }
    ],
    "linker_set_key" : "_ZTIN16C2GopLayerStruct11$CORE_INDEXE",
-   "name" : "C2GopLayerStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1810:5)",
+   "name" : "C2GopLayerStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1814:5)",
    "referenced_type" : "_ZTIN16C2GopLayerStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN16C2GopLayerStruct11$CORE_INDEXE",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "C2PlatformConfig::UNSPECIFIED_PEEK"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "C2PlatformConfig::SPECIFIED_PEEK"
+    }
+   ],
+   "linker_set_key" : "_ZTIN16C2PlatformConfig18tunnel_peek_mode_tE",
+   "name" : "C2PlatformConfig::tunnel_peek_mode_t",
+   "referenced_type" : "_ZTIN16C2PlatformConfig18tunnel_peek_mode_tE",
+   "self_type" : "_ZTIN16C2PlatformConfig18tunnel_peek_mode_tE",
    "size" : 4,
    "source_file" : "frameworks/av/media/codec2/core/include/C2Config.h",
    "underlying_type" : "_ZTIj"
@@ -2913,7 +2938,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN17C2ColorInfoStruct10$FLEX_SIZEE",
-   "name" : "C2ColorInfoStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1465:5)",
+   "name" : "C2ColorInfoStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1469:5)",
    "referenced_type" : "_ZTIN17C2ColorInfoStruct10$FLEX_SIZEE",
    "self_type" : "_ZTIN17C2ColorInfoStruct10$FLEX_SIZEE",
    "size" : 4,
@@ -2930,7 +2955,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN17C2ColorInfoStruct11$CORE_INDEXE",
-   "name" : "C2ColorInfoStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1465:5)",
+   "name" : "C2ColorInfoStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1469:5)",
    "referenced_type" : "_ZTIN17C2ColorInfoStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN17C2ColorInfoStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3041,7 +3066,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN18C2TileLayoutStruct11$CORE_INDEXE",
-   "name" : "C2TileLayoutStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1967:5)",
+   "name" : "C2TileLayoutStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1971:5)",
    "referenced_type" : "_ZTIN18C2TileLayoutStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN18C2TileLayoutStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3058,7 +3083,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN19C2OutOfMemoryStruct11$CORE_INDEXE",
-   "name" : "C2OutOfMemoryStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1087:5)",
+   "name" : "C2OutOfMemoryStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1091:5)",
    "referenced_type" : "_ZTIN19C2OutOfMemoryStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN19C2OutOfMemoryStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3075,7 +3100,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN19C2PictureSizeStruct11$CORE_INDEXE",
-   "name" : "C2PictureSizeStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1068:5)",
+   "name" : "C2PictureSizeStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1072:5)",
    "referenced_type" : "_ZTIN19C2PictureSizeStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN19C2PictureSizeStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3109,7 +3134,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN20C2ChromaOffsetStruct11$CORE_INDEXE",
-   "name" : "C2ChromaOffsetStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1434:5)",
+   "name" : "C2ChromaOffsetStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1438:5)",
    "referenced_type" : "_ZTIN20C2ChromaOffsetStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN20C2ChromaOffsetStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3126,7 +3151,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN20C2ColorAspectsStruct11$CORE_INDEXE",
-   "name" : "C2ColorAspectsStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1557:5)",
+   "name" : "C2ColorAspectsStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1561:5)",
    "referenced_type" : "_ZTIN20C2ColorAspectsStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN20C2ColorAspectsStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3143,7 +3168,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN20C2IntraRefreshStruct11$CORE_INDEXE",
-   "name" : "C2IntraRefreshStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1941:5)",
+   "name" : "C2IntraRefreshStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1945:5)",
    "referenced_type" : "_ZTIN20C2IntraRefreshStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN20C2IntraRefreshStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3160,7 +3185,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN20C2ProfileLevelStruct11$CORE_INDEXE",
-   "name" : "C2ProfileLevelStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:753:5)",
+   "name" : "C2ProfileLevelStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:757:5)",
    "referenced_type" : "_ZTIN20C2ProfileLevelStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN20C2ProfileLevelStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3177,7 +3202,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN20C2TimedControlStruct11$CORE_INDEXE",
-   "name" : "C2TimedControlStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2321:5)",
+   "name" : "C2TimedControlStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2325:5)",
    "referenced_type" : "_ZTIN20C2TimedControlStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN20C2TimedControlStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3194,7 +3219,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN20C2TunneledModeStruct10$FLEX_SIZEE",
-   "name" : "C2TunneledModeStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2417:5)",
+   "name" : "C2TunneledModeStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2421:5)",
    "referenced_type" : "_ZTIN20C2TunneledModeStruct10$FLEX_SIZEE",
    "self_type" : "_ZTIN20C2TunneledModeStruct10$FLEX_SIZEE",
    "size" : 4,
@@ -3211,7 +3236,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN20C2TunneledModeStruct11$CORE_INDEXE",
-   "name" : "C2TunneledModeStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2417:5)",
+   "name" : "C2TunneledModeStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2421:5)",
    "referenced_type" : "_ZTIN20C2TunneledModeStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN20C2TunneledModeStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3274,7 +3299,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN21C2StoreIonUsageStruct11$CORE_INDEXE",
-   "name" : "C2StoreIonUsageStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2201:5)",
+   "name" : "C2StoreIonUsageStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2205:5)",
    "referenced_type" : "_ZTIN21C2StoreIonUsageStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN21C2StoreIonUsageStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3320,7 +3345,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN24C2StoreDmaBufUsageStruct10$FLEX_SIZEE",
-   "name" : "C2StoreDmaBufUsageStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2229:5)",
+   "name" : "C2StoreDmaBufUsageStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2233:5)",
    "referenced_type" : "_ZTIN24C2StoreDmaBufUsageStruct10$FLEX_SIZEE",
    "self_type" : "_ZTIN24C2StoreDmaBufUsageStruct10$FLEX_SIZEE",
    "size" : 4,
@@ -3337,7 +3362,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN24C2StoreDmaBufUsageStruct11$CORE_INDEXE",
-   "name" : "C2StoreDmaBufUsageStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2229:5)",
+   "name" : "C2StoreDmaBufUsageStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2233:5)",
    "referenced_type" : "_ZTIN24C2StoreDmaBufUsageStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN24C2StoreDmaBufUsageStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3354,7 +3379,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN24C2SupplementalDataStruct10$FLEX_SIZEE",
-   "name" : "C2SupplementalDataStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:809:5)",
+   "name" : "C2SupplementalDataStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:813:5)",
    "referenced_type" : "_ZTIN24C2SupplementalDataStruct10$FLEX_SIZEE",
    "self_type" : "_ZTIN24C2SupplementalDataStruct10$FLEX_SIZEE",
    "size" : 4,
@@ -3371,7 +3396,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN24C2SupplementalDataStruct11$CORE_INDEXE",
-   "name" : "C2SupplementalDataStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:809:5)",
+   "name" : "C2SupplementalDataStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:813:5)",
    "referenced_type" : "_ZTIN24C2SupplementalDataStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN24C2SupplementalDataStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3388,7 +3413,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN24C2TemporalLayeringStruct10$FLEX_SIZEE",
-   "name" : "C2TemporalLayeringStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1912:5)",
+   "name" : "C2TemporalLayeringStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1916:5)",
    "referenced_type" : "_ZTIN24C2TemporalLayeringStruct10$FLEX_SIZEE",
    "self_type" : "_ZTIN24C2TemporalLayeringStruct10$FLEX_SIZEE",
    "size" : 4,
@@ -3405,7 +3430,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN24C2TemporalLayeringStruct11$CORE_INDEXE",
-   "name" : "C2TemporalLayeringStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1912:5)",
+   "name" : "C2TemporalLayeringStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1916:5)",
    "referenced_type" : "_ZTIN24C2TemporalLayeringStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN24C2TemporalLayeringStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3422,7 +3447,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN26C2HdrDynamicMetadataStruct10$FLEX_SIZEE",
-   "name" : "C2HdrDynamicMetadataStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1657:5)",
+   "name" : "C2HdrDynamicMetadataStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1661:5)",
    "referenced_type" : "_ZTIN26C2HdrDynamicMetadataStruct10$FLEX_SIZEE",
    "self_type" : "_ZTIN26C2HdrDynamicMetadataStruct10$FLEX_SIZEE",
    "size" : 4,
@@ -3439,7 +3464,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN26C2HdrDynamicMetadataStruct11$CORE_INDEXE",
-   "name" : "C2HdrDynamicMetadataStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1657:5)",
+   "name" : "C2HdrDynamicMetadataStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1661:5)",
    "referenced_type" : "_ZTIN26C2HdrDynamicMetadataStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN26C2HdrDynamicMetadataStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3477,7 +3502,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN27C2PictureQuantizationStruct11$CORE_INDEXE",
-   "name" : "C2PictureQuantizationStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1834:5)",
+   "name" : "C2PictureQuantizationStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1838:5)",
    "referenced_type" : "_ZTIN27C2PictureQuantizationStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN27C2PictureQuantizationStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3494,7 +3519,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN30C2TimestampGapAdjustmentStruct11$CORE_INDEXE",
-   "name" : "C2TimestampGapAdjustmentStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2370:5)",
+   "name" : "C2TimestampGapAdjustmentStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2374:5)",
    "referenced_type" : "_ZTIN30C2TimestampGapAdjustmentStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN30C2TimestampGapAdjustmentStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3536,7 +3561,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN35C2MasteringDisplayColorVolumeStruct11$CORE_INDEXE",
-   "name" : "C2MasteringDisplayColorVolumeStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1598:5)",
+   "name" : "C2MasteringDisplayColorVolumeStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:1602:5)",
    "referenced_type" : "_ZTIN35C2MasteringDisplayColorVolumeStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN35C2MasteringDisplayColorVolumeStruct11$CORE_INDEXE",
    "size" : 4,
@@ -3553,7 +3578,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN37C2FlexiblePixelFormatDescriptorStruct11$CORE_INDEXE",
-   "name" : "C2FlexiblePixelFormatDescriptorStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2249:5)",
+   "name" : "C2FlexiblePixelFormatDescriptorStruct::(unnamed enum at frameworks/av/media/codec2/core/include/C2Config.h:2253:5)",
    "referenced_type" : "_ZTIN37C2FlexiblePixelFormatDescriptorStruct11$CORE_INDEXE",
    "self_type" : "_ZTIN37C2FlexiblePixelFormatDescriptorStruct11$CORE_INDEXE",
    "size" : 4,
