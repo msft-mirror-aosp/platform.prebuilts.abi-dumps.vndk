@@ -1231,10 +1231,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZN7android9SingletonINS_22GraphicBufferAllocatorEE11getInstanceEv"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZN7android9SingletonINS_22GraphicBufferAllocatorEE11hasInstanceEv"
   },
   {
@@ -2442,6 +2438,10 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIN7android4RectERNS1_18InlineStdAllocatorIS2_Lm4EEEEC2EmmS5_"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__114__split_bufferIN7android4RectERNS1_18InlineStdAllocatorIS2_Lm4EEEED2Ev"
   },
   {
@@ -2467,6 +2467,10 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__114__split_bufferIPNS_8weak_ptrIN7android9FenceTimeEEERNS_9allocatorIS5_EEE10push_frontERKS5_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__114__split_bufferIPNS_8weak_ptrIN7android9FenceTimeEEERNS_9allocatorIS5_EEE9push_backEOS5_"
   },
   {
    "binding" : "weak",
@@ -2659,10 +2663,6 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__16vectorIhNS_9allocatorIhEEEC2Em"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateEm"
   },
   {
    "binding" : "weak",
@@ -16499,12 +16499,6 @@
    ],
    "return_type" : "_ZTIv",
    "source_file" : "frameworks/native/libs/ui/include/ui/FenceTime.h"
-  },
-  {
-   "function_name" : "android::Singleton<android::GraphicBufferAllocator>::getInstance",
-   "linker_set_key" : "_ZN7android9SingletonINS_22GraphicBufferAllocatorEE11getInstanceEv",
-   "return_type" : "_ZTIRN7android22GraphicBufferAllocatorE",
-   "source_file" : "system/core/libutils/include/utils/Singleton.h"
   },
   {
    "function_name" : "android::parseEdid",
