@@ -324,6 +324,14 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZN7android8gralloc414encodeMetadataIN4aidl7android8hardware8graphics6common8Cta861_3EEEiRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeERKT_PNS8_8hidl_vecIhEEPFiSI_PNS0_13OutputHidlVecEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android8gralloc414encodeMetadataIN4aidl7android8hardware8graphics6common9Smpte2086EEEiRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeERKT_PNS8_8hidl_vecIhEEPFiSI_PNS0_13OutputHidlVecEE"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZN7android8gralloc414encodeMetadataINSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEEEiRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeERKT_PNS9_8hidl_vecIhEEPFiSJ_PNS0_13OutputHidlVecEE"
   },
   {
@@ -333,6 +341,10 @@
   {
    "binding" : "weak",
    "name" : "_ZN7android8gralloc414encodeMetadataINSt3__16vectorIN4aidl7android8hardware8graphics6common4RectENS2_9allocatorIS9_EEEEEEiRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeERKT_PNSD_8hidl_vecIhEEPFiSN_PNS0_13OutputHidlVecEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android8gralloc414encodeMetadataINSt3__16vectorIhNS2_9allocatorIhEEEEEEiRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeERKT_PNS7_8hidl_vecIhEEPFiSH_PNS0_13OutputHidlVecEE"
   },
   {
    "name" : "_ZN7android8gralloc415decodeBlendModeERKNS_8hardware8hidl_vecIhEEPN4aidl7android8hardware8graphics6common9BlendModeE"
@@ -472,18 +484,6 @@
   },
   {
    "name" : "_ZN7android8gralloc422decodeProtectedContentERKNS_8hardware8hidl_vecIhEEPy"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZN7android8gralloc422encodeOptionalMetadataIN4aidl7android8hardware8graphics6common8Cta861_3EEEiRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeERKNSt3__18optionalIT_EEPNS8_8hidl_vecIhEEPFiRKSI_PNS0_13OutputHidlVecEE"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZN7android8gralloc422encodeOptionalMetadataIN4aidl7android8hardware8graphics6common9Smpte2086EEEiRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeERKNSt3__18optionalIT_EEPNS8_8hidl_vecIhEEPFiRKSI_PNS0_13OutputHidlVecEE"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZN7android8gralloc422encodeOptionalMetadataINSt3__16vectorIhNS2_9allocatorIhEEEEEEiRKNS_8hardware8graphics6mapper4V4_07IMapper12MetadataTypeERKNS2_8optionalIT_EEPNS7_8hidl_vecIhEEPFiRKSG_PNS0_13OutputHidlVecEE"
   },
   {
    "name" : "_ZN7android8gralloc422encodeProtectedContentEyPNS_8hardware8hidl_vecIhEE"
