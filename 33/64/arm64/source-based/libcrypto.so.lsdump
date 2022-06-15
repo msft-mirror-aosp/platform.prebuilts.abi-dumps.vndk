@@ -18129,7 +18129,7 @@
      "referenced_type" : "_ZTIP11evp_pkey_st"
     },
     {
-     "referenced_type" : "_ZTIP6dsa_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.33_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/evp/evp.sdump"
+     "referenced_type" : "_ZTIP6dsa_st"
     }
    ],
    "return_type" : "_ZTIi",
@@ -18396,7 +18396,7 @@
      "referenced_type" : "_ZTIPK11evp_pkey_st"
     }
    ],
-   "return_type" : "_ZTIP6dsa_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.33_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/evp/evp.sdump",
+   "return_type" : "_ZTIP6dsa_st",
    "source_file" : "external/boringssl/src/include/openssl/evp.h"
   },
   {
@@ -18444,7 +18444,7 @@
      "referenced_type" : "_ZTIPK11evp_pkey_st"
     }
    ],
-   "return_type" : "_ZTIP6dsa_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.33_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/evp/evp.sdump",
+   "return_type" : "_ZTIP6dsa_st",
    "source_file" : "external/boringssl/src/include/openssl/evp.h"
   },
   {
@@ -18732,7 +18732,7 @@
      "referenced_type" : "_ZTIP11evp_pkey_st"
     },
     {
-     "referenced_type" : "_ZTIP6dsa_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.33_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/evp/evp.sdump"
+     "referenced_type" : "_ZTIP6dsa_st"
     }
    ],
    "return_type" : "_ZTIi",
@@ -38936,24 +38936,6 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIPK12ASN1_ITEM_st",
    "name" : "const ASN1_ITEM_st *",
-   "referenced_type" : "_ZTIK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.33_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/asn1/a_mbstr.sdump",
-   "self_type" : "_ZTIPK12ASN1_ITEM_st",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/asn1t.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK12ASN1_ITEM_st",
-   "name" : "const ASN1_ITEM_st *",
-   "referenced_type" : "_ZTIK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.33_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/asn1/tasn_dec.sdump",
-   "self_type" : "_ZTIPK12ASN1_ITEM_st",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/asn1.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPK12ASN1_ITEM_st",
-   "name" : "const ASN1_ITEM_st *",
    "referenced_type" : "_ZTIK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.33_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/pkcs8/pkcs8_x509.sdump",
    "self_type" : "_ZTIPK12ASN1_ITEM_st",
    "size" : 8,
@@ -38967,6 +38949,33 @@
    "self_type" : "_ZTIPK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.33_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/x509/a_sign.sdump",
    "size" : 8,
    "source_file" : "external/boringssl/src/include/openssl/x509.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK12ASN1_ITEM_st",
+   "name" : "const ASN1_ITEM_st *",
+   "referenced_type" : "_ZTIK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.33_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/x509/t_req.sdump",
+   "self_type" : "_ZTIPK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.33_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/x509/t_req.sdump",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK12ASN1_ITEM_st",
+   "name" : "const ASN1_ITEM_st *",
+   "referenced_type" : "_ZTIK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.33_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/x509/x509_ext.sdump",
+   "self_type" : "_ZTIPK12ASN1_ITEM_st",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK12ASN1_ITEM_st",
+   "name" : "const ASN1_ITEM_st *",
+   "referenced_type" : "_ZTIK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.33_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/x509v3/pcy_map.sdump",
+   "self_type" : "_ZTIPK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.33_arm64_armv8-a_shared/obj/external/boringssl/src/crypto/x509v3/pcy_map.sdump",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
   },
   {
    "alignment" : 8,
