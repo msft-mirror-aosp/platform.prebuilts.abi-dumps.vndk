@@ -4613,14 +4613,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__114__split_bufferIN7android15IServiceManager16ServiceDebugInfoERNS_9allocatorIS3_EEEC2EjjS6_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__114__split_bufferIN7android15IServiceManager16ServiceDebugInfoERNS_9allocatorIS3_EEED2Ev"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZNSt3__114__split_bufferIN7android2os16ServiceDebugInfoERNS_9allocatorIS3_EEEC2EjjS6_"
   },
   {
@@ -5658,10 +5650,6 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__16vectorIDsNS_9allocatorIDsEEE7reserveEj"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__16vectorIN7android15IServiceManager16ServiceDebugInfoENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJRS3_EEEvDpOT_"
   },
   {
    "binding" : "weak",
