@@ -34176,7 +34176,7 @@
    [
     {
      "field_name" : "mpNode",
-     "referenced_type" : "_ZTIPN7android4ListINS_7String8EE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/libmedia/libmedia_omx/android_vendor.Tiramisu_x86_shared/obj/frameworks/av/media/libmedia/omx/1.0/WOmxBufferSource.sdump"
+     "referenced_type" : "_ZTIPN7android4ListINS_7String8EE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/libmedia/libmedia_omx/android_vendor.33_x86_shared/obj/frameworks/av/media/libmedia/omx/1.0/WOmxBufferSource.sdump"
     }
    ],
    "linker_set_key" : "_ZTIN7android4ListINS_7String8EE13_ListIteratorIS1_NS2_18NON_CONST_ITERATOREEE",
@@ -34231,13 +34231,13 @@
      "access" : "private",
      "field_name" : "mpPrev",
      "field_offset" : 32,
-     "referenced_type" : "_ZTIPN7android4ListINS_7String8EE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/libmedia/libmedia_omx/android_vendor.Tiramisu_x86_shared/obj/frameworks/av/media/libmedia/omx/1.0/WOmxBufferSource.sdump"
+     "referenced_type" : "_ZTIPN7android4ListINS_7String8EE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/libmedia/libmedia_omx/android_vendor.33_x86_shared/obj/frameworks/av/media/libmedia/omx/1.0/WOmxBufferSource.sdump"
     },
     {
      "access" : "private",
      "field_name" : "mpNext",
      "field_offset" : 64,
-     "referenced_type" : "_ZTIPN7android4ListINS_7String8EE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/libmedia/libmedia_omx/android_vendor.Tiramisu_x86_shared/obj/frameworks/av/media/libmedia/omx/1.0/WOmxBufferSource.sdump"
+     "referenced_type" : "_ZTIPN7android4ListINS_7String8EE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/libmedia/libmedia_omx/android_vendor.33_x86_shared/obj/frameworks/av/media/libmedia/omx/1.0/WOmxBufferSource.sdump"
     }
    ],
    "linker_set_key" : "_ZTIN7android4ListINS_7String8EE5_NodeE",
