@@ -656,6 +656,12 @@
    "name" : "_ZN7android13TypeConverterINS_15AudioFlagTraitsEE6mTableE"
   },
   {
+   "name" : "_ZN7android14AudioParameter10keyClosingE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter10keyExitingE"
+  },
+  {
    "name" : "_ZN7android14AudioParameter10keyRoutingE"
   },
   {
@@ -1361,6 +1367,18 @@
    "name" : "android::TypeConverter<android::AudioFlagTraits>::mTable",
    "referenced_type" : "_ZTIA_KN7android13TypeConverterINS_15AudioFlagTraitsEE5TableE",
    "source_file" : "frameworks/av/media/libmediahelper/include/media/TypeConverter.h"
+  },
+  {
+   "linker_set_key" : "_ZN7android14AudioParameter10keyClosingE",
+   "name" : "android::AudioParameter::keyClosing",
+   "referenced_type" : "_ZTIKPKc",
+   "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
+  },
+  {
+   "linker_set_key" : "_ZN7android14AudioParameter10keyExitingE",
+   "name" : "android::AudioParameter::keyExiting",
+   "referenced_type" : "_ZTIKPKc",
+   "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
   },
   {
    "linker_set_key" : "_ZN7android14AudioParameter10keyRoutingE",
