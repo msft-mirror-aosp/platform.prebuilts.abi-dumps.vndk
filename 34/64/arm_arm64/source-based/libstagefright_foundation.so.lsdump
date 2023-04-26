@@ -2964,6 +2964,10 @@
     },
     {
      "enum_field_value" : 10,
+     "name" : "android::ColorUtils::kColorStandardDisplay_P3"
+    },
+    {
+     "enum_field_value" : 10,
      "name" : "android::ColorUtils::kColorStandardDCI_P3"
     },
     {
@@ -3333,6 +3337,10 @@
      "name" : "android::ColorAspects::StandardFilm"
     },
     {
+     "enum_field_value" : 10,
+     "name" : "android::ColorAspects::StandardDisplayP3"
+    },
+    {
      "enum_field_value" : 255,
      "name" : "android::ColorAspects::StandardOther"
     }
@@ -3441,6 +3449,14 @@
     {
      "enum_field_value" : 6,
      "name" : "android::ColorAspects::PrimariesBT2020"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "android::ColorAspects::PrimariesRP431"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "android::ColorAspects::PrimariesEG432"
     },
     {
      "enum_field_value" : 255,
@@ -24035,7 +24051,7 @@
    [
     {
      "field_name" : "mpNode",
-     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/module/foundation/libstagefright_foundation/android_vendor.UpsideDownCake_arm_armv8-a_static/obj/frameworks/av/media/module/foundation/ALooper.sdump"
+     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/module/foundation/libstagefright_foundation/android_vendor.34_arm_armv8-a_static/obj/frameworks/av/media/module/foundation/ALooper.sdump"
     }
    ],
    "linker_set_key" : "_ZTIN7android4ListINS_7ALooper5EventEE13_ListIteratorIS2_NS3_18NON_CONST_ITERATOREEE",
@@ -24077,13 +24093,13 @@
      "access" : "private",
      "field_name" : "mpPrev",
      "field_offset" : 128,
-     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/module/foundation/libstagefright_foundation/android_vendor.UpsideDownCake_arm_armv8-a_static/obj/frameworks/av/media/module/foundation/ALooper.sdump"
+     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/module/foundation/libstagefright_foundation/android_vendor.34_arm_armv8-a_static/obj/frameworks/av/media/module/foundation/ALooper.sdump"
     },
     {
      "access" : "private",
      "field_name" : "mpNext",
      "field_offset" : 160,
-     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/module/foundation/libstagefright_foundation/android_vendor.UpsideDownCake_arm_armv8-a_static/obj/frameworks/av/media/module/foundation/ALooper.sdump"
+     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/module/foundation/libstagefright_foundation/android_vendor.34_arm_armv8-a_static/obj/frameworks/av/media/module/foundation/ALooper.sdump"
     }
    ],
    "linker_set_key" : "_ZTIN7android4ListINS_7ALooper5EventEE5_NodeE",
