@@ -656,6 +656,9 @@
    "name" : "_ZN7android13TypeConverterINS_15AudioFlagTraitsEE6mTableE"
   },
   {
+   "name" : "_ZN7android14AudioParameter10keyBtScoWbE"
+  },
+  {
    "name" : "_ZN7android14AudioParameter10keyClosingE"
   },
   {
@@ -663,6 +666,9 @@
   },
   {
    "name" : "_ZN7android14AudioParameter10keyRoutingE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter10valueFalseE"
   },
   {
    "name" : "_ZN7android14AudioParameter11keyChannelsE"
@@ -680,6 +686,12 @@
    "name" : "_ZN7android14AudioParameter13keyMonoOutputE"
   },
   {
+   "name" : "_ZN7android14AudioParameter14keyBtHfpEnableE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter14keyBtHfpVolumeE"
+  },
+  {
    "name" : "_ZN7android14AudioParameter14keyInputSourceE"
   },
   {
@@ -690,6 +702,9 @@
   },
   {
    "name" : "_ZN7android14AudioParameter15keySamplingRateE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter16keyBtLeSuspendedE"
   },
   {
    "name" : "_ZN7android14AudioParameter16keyDeviceConnectE"
@@ -704,13 +719,22 @@
    "name" : "_ZN7android14AudioParameter17keyStreamHwAvSyncE"
   },
   {
+   "name" : "_ZN7android14AudioParameter18keyBtA2dpSuspendedE"
+  },
+  {
    "name" : "_ZN7android14AudioParameter18valueListSeparatorE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter19keyBtScoHeadsetNameE"
   },
   {
    "name" : "_ZN7android14AudioParameter19keyDeviceDisconnectE"
   },
   {
    "name" : "_ZN7android14AudioParameter19keyStreamDisconnectE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter20keyBtHfpSamplingRateE"
   },
   {
    "name" : "_ZN7android14AudioParameter23keyOffloadCodecChannelsE"
@@ -752,6 +776,9 @@
    "name" : "_ZN7android14AudioParameter7valueOnE"
   },
   {
+   "name" : "_ZN7android14AudioParameter8keyBtScoE"
+  },
+  {
    "name" : "_ZN7android14AudioParameter8valueOffE"
   },
   {
@@ -759,6 +786,9 @@
   },
   {
    "name" : "_ZN7android14AudioParameter9keyFormatE"
+  },
+  {
+   "name" : "_ZN7android14AudioParameter9valueTrueE"
   },
   {
    "binding" : "weak",
@@ -1369,6 +1399,12 @@
    "source_file" : "frameworks/av/media/libmediahelper/include/media/TypeConverter.h"
   },
   {
+   "linker_set_key" : "_ZN7android14AudioParameter10keyBtScoWbE",
+   "name" : "android::AudioParameter::keyBtScoWb",
+   "referenced_type" : "_ZTIKPKc",
+   "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
+  },
+  {
    "linker_set_key" : "_ZN7android14AudioParameter10keyClosingE",
    "name" : "android::AudioParameter::keyClosing",
    "referenced_type" : "_ZTIKPKc",
@@ -1383,6 +1419,12 @@
   {
    "linker_set_key" : "_ZN7android14AudioParameter10keyRoutingE",
    "name" : "android::AudioParameter::keyRouting",
+   "referenced_type" : "_ZTIKPKc",
+   "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
+  },
+  {
+   "linker_set_key" : "_ZN7android14AudioParameter10valueFalseE",
+   "name" : "android::AudioParameter::valueFalse",
    "referenced_type" : "_ZTIKPKc",
    "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
   },
@@ -1417,6 +1459,18 @@
    "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
   },
   {
+   "linker_set_key" : "_ZN7android14AudioParameter14keyBtHfpEnableE",
+   "name" : "android::AudioParameter::keyBtHfpEnable",
+   "referenced_type" : "_ZTIKPKc",
+   "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
+  },
+  {
+   "linker_set_key" : "_ZN7android14AudioParameter14keyBtHfpVolumeE",
+   "name" : "android::AudioParameter::keyBtHfpVolume",
+   "referenced_type" : "_ZTIKPKc",
+   "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
+  },
+  {
    "linker_set_key" : "_ZN7android14AudioParameter14keyInputSourceE",
    "name" : "android::AudioParameter::keyInputSource",
    "referenced_type" : "_ZTIKPKc",
@@ -1437,6 +1491,12 @@
   {
    "linker_set_key" : "_ZN7android14AudioParameter15keySamplingRateE",
    "name" : "android::AudioParameter::keySamplingRate",
+   "referenced_type" : "_ZTIKPKc",
+   "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
+  },
+  {
+   "linker_set_key" : "_ZN7android14AudioParameter16keyBtLeSuspendedE",
+   "name" : "android::AudioParameter::keyBtLeSuspended",
    "referenced_type" : "_ZTIKPKc",
    "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
   },
@@ -1465,8 +1525,20 @@
    "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
   },
   {
+   "linker_set_key" : "_ZN7android14AudioParameter18keyBtA2dpSuspendedE",
+   "name" : "android::AudioParameter::keyBtA2dpSuspended",
+   "referenced_type" : "_ZTIKPKc",
+   "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
+  },
+  {
    "linker_set_key" : "_ZN7android14AudioParameter18valueListSeparatorE",
    "name" : "android::AudioParameter::valueListSeparator",
+   "referenced_type" : "_ZTIKPKc",
+   "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
+  },
+  {
+   "linker_set_key" : "_ZN7android14AudioParameter19keyBtScoHeadsetNameE",
+   "name" : "android::AudioParameter::keyBtScoHeadsetName",
    "referenced_type" : "_ZTIKPKc",
    "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
   },
@@ -1479,6 +1551,12 @@
   {
    "linker_set_key" : "_ZN7android14AudioParameter19keyStreamDisconnectE",
    "name" : "android::AudioParameter::keyStreamDisconnect",
+   "referenced_type" : "_ZTIKPKc",
+   "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
+  },
+  {
+   "linker_set_key" : "_ZN7android14AudioParameter20keyBtHfpSamplingRateE",
+   "name" : "android::AudioParameter::keyBtHfpSamplingRate",
    "referenced_type" : "_ZTIKPKc",
    "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
   },
@@ -1561,6 +1639,12 @@
    "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
   },
   {
+   "linker_set_key" : "_ZN7android14AudioParameter8keyBtScoE",
+   "name" : "android::AudioParameter::keyBtSco",
+   "referenced_type" : "_ZTIKPKc",
+   "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
+  },
+  {
    "linker_set_key" : "_ZN7android14AudioParameter8valueOffE",
    "name" : "android::AudioParameter::valueOff",
    "referenced_type" : "_ZTIKPKc",
@@ -1575,6 +1659,12 @@
   {
    "linker_set_key" : "_ZN7android14AudioParameter9keyFormatE",
    "name" : "android::AudioParameter::keyFormat",
+   "referenced_type" : "_ZTIKPKc",
+   "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
+  },
+  {
+   "linker_set_key" : "_ZN7android14AudioParameter9valueTrueE",
+   "name" : "android::AudioParameter::valueTrue",
    "referenced_type" : "_ZTIKPKc",
    "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
   }
