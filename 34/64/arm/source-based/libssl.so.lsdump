@@ -2487,7 +2487,15 @@
    [
     {
      "enum_field_value" : 0,
+     "name" : "ssl_compliance_policy_none"
+    },
+    {
+     "enum_field_value" : 1,
      "name" : "ssl_compliance_policy_fips_202205"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ssl_compliance_policy_wpa3_192_202304"
     }
    ],
    "linker_set_key" : "_ZTI23ssl_compliance_policy_t",
@@ -19588,7 +19596,7 @@
    "name" : "const ssl_ctx_st",
    "referenced_type" : "_ZTI10ssl_ctx_st",
    "self_type" : "_ZTIK10ssl_ctx_st",
-   "size" : 336,
+   "size" : 340,
    "source_file" : "external/boringssl/src/include/openssl/ssl.h"
   },
   {
