@@ -553,9 +553,6 @@
    "name" : "SSL_CIPHER_get_protocol_id"
   },
   {
-   "name" : "SSL_CIPHER_get_rfc_name"
-  },
-  {
    "name" : "SSL_CIPHER_get_value"
   },
   {
@@ -2119,6 +2116,12 @@
    "name" : "_ZN4bssl29ssl_decode_client_hello_innerEP6ssl_stPhPNS_5ArrayIhEENS_4SpanIKhEEPK22ssl_early_callback_ctx"
   },
   {
+   "name" : "_ZN4bssl35SSL_set_aes_hw_override_for_testingEP6ssl_stb"
+  },
+  {
+   "name" : "_ZN4bssl39SSL_CTX_set_aes_hw_override_for_testingEP10ssl_ctx_stb"
+  },
+  {
    "name" : "d2i_SSL_SESSION"
   },
   {
@@ -2501,7 +2504,15 @@
    [
     {
      "enum_field_value" : 0,
+     "name" : "ssl_compliance_policy_none"
+    },
+    {
+     "enum_field_value" : 1,
      "name" : "ssl_compliance_policy_fips_202205"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ssl_compliance_policy_wpa3_192_202304"
     }
    ],
    "linker_set_key" : "_ZTI23ssl_compliance_policy_t",
@@ -6799,18 +6810,6 @@
     }
    ],
    "return_type" : "_ZTIt",
-   "source_file" : "external/boringssl/src/include/openssl/ssl.h"
-  },
-  {
-   "function_name" : "SSL_CIPHER_get_rfc_name",
-   "linker_set_key" : "SSL_CIPHER_get_rfc_name",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPK13ssl_cipher_st"
-    }
-   ],
-   "return_type" : "_ZTIPc",
    "source_file" : "external/boringssl/src/include/openssl/ssl.h"
   },
   {
@@ -14146,6 +14145,36 @@
    "source_file" : "external/boringssl/src/include/openssl/ssl.h"
   },
   {
+   "function_name" : "bssl::SSL_set_aes_hw_override_for_testing",
+   "linker_set_key" : "_ZN4bssl35SSL_set_aes_hw_override_for_testingEP6ssl_stb",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP6ssl_st"
+    },
+    {
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/boringssl/src/include/openssl/ssl.h"
+  },
+  {
+   "function_name" : "bssl::SSL_CTX_set_aes_hw_override_for_testing",
+   "linker_set_key" : "_ZN4bssl39SSL_CTX_set_aes_hw_override_for_testingEP10ssl_ctx_stb",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP10ssl_ctx_st"
+    },
+    {
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/boringssl/src/include/openssl/ssl.h"
+  },
+  {
    "function_name" : "d2i_SSL_SESSION",
    "linker_set_key" : "d2i_SSL_SESSION",
    "parameters" :
@@ -19593,7 +19622,7 @@
    "name" : "const ssl_ctx_st",
    "referenced_type" : "_ZTI10ssl_ctx_st",
    "self_type" : "_ZTIK10ssl_ctx_st",
-   "size" : 616,
+   "size" : 624,
    "source_file" : "external/boringssl/src/include/openssl/ssl.h"
   },
   {
@@ -19831,7 +19860,7 @@
    "name" : "const ssl_session_st",
    "referenced_type" : "_ZTI14ssl_session_st",
    "self_type" : "_ZTIK14ssl_session_st",
-   "size" : 456,
+   "size" : 448,
    "source_file" : "external/boringssl/src/include/openssl/ssl.h"
   },
   {
