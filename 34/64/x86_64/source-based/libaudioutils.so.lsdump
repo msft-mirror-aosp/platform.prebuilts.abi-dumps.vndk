@@ -4570,8 +4570,20 @@
      "name" : "AUDIO_CHANNEL_IN_STEREO"
     },
     {
+     "enum_field_value" : 1048588,
+     "name" : "AUDIO_CHANNEL_IN_2POINT1"
+    },
+    {
      "enum_field_value" : 48,
      "name" : "AUDIO_CHANNEL_IN_FRONT_BACK"
+    },
+    {
+     "enum_field_value" : 262156,
+     "name" : "AUDIO_CHANNEL_IN_TRI"
+    },
+    {
+     "enum_field_value" : 1310732,
+     "name" : "AUDIO_CHANNEL_IN_3POINT1"
     },
     {
      "enum_field_value" : 252,
@@ -4592,6 +4604,14 @@
     {
      "enum_field_value" : 7602188,
      "name" : "AUDIO_CHANNEL_IN_3POINT1POINT2"
+    },
+    {
+     "enum_field_value" : 196620,
+     "name" : "AUDIO_CHANNEL_IN_QUAD"
+    },
+    {
+     "enum_field_value" : 458764,
+     "name" : "AUDIO_CHANNEL_IN_PENTA"
     },
     {
      "enum_field_value" : 1507340,
