@@ -3,6 +3,15 @@
  [
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIA10_A12_f",
+   "name" : "float[10][12]",
+   "referenced_type" : "_ZTIA12_f",
+   "self_type" : "_ZTIA10_A12_f",
+   "size" : 480,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIA10_A2_f",
    "name" : "float[10][2]",
    "referenced_type" : "_ZTIA2_f",
@@ -17,6 +26,15 @@
    "referenced_type" : "_ZTIA6_f",
    "self_type" : "_ZTIA10_A6_f",
    "size" : 240,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIA10_A8_f",
+   "name" : "float[10][8]",
+   "referenced_type" : "_ZTIA8_f",
+   "self_type" : "_ZTIA10_A8_f",
+   "size" : 320,
    "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
   },
   {
@@ -48,6 +66,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIA12_A12_f",
+   "name" : "float[12][12]",
+   "referenced_type" : "_ZTIA12_f",
+   "self_type" : "_ZTIA12_A12_f",
+   "size" : 576,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIA12_A2_f",
    "name" : "float[12][2]",
    "referenced_type" : "_ZTIA2_f",
@@ -62,6 +89,15 @@
    "referenced_type" : "_ZTIA6_f",
    "self_type" : "_ZTIA12_A6_f",
    "size" : 288,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIA12_A8_f",
+   "name" : "float[12][8]",
+   "referenced_type" : "_ZTIA8_f",
+   "self_type" : "_ZTIA12_A8_f",
+   "size" : 384,
    "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
   },
   {
@@ -147,6 +183,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIA24_A12_f",
+   "name" : "float[24][12]",
+   "referenced_type" : "_ZTIA12_f",
+   "self_type" : "_ZTIA24_A12_f",
+   "size" : 1152,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIA24_A2_f",
    "name" : "float[24][2]",
    "referenced_type" : "_ZTIA2_f",
@@ -161,6 +206,15 @@
    "referenced_type" : "_ZTIA6_f",
    "self_type" : "_ZTIA24_A6_f",
    "size" : 576,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIA24_A8_f",
+   "name" : "float[24][8]",
+   "referenced_type" : "_ZTIA8_f",
+   "self_type" : "_ZTIA24_A8_f",
+   "size" : 768,
    "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
   },
   {
@@ -183,6 +237,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIA26_A12_f",
+   "name" : "float[26][12]",
+   "referenced_type" : "_ZTIA12_f",
+   "self_type" : "_ZTIA26_A12_f",
+   "size" : 1248,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIA26_A2_f",
    "name" : "float[26][2]",
    "referenced_type" : "_ZTIA2_f",
@@ -197,6 +260,15 @@
    "referenced_type" : "_ZTIA6_f",
    "self_type" : "_ZTIA26_A6_f",
    "size" : 624,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIA26_A8_f",
+   "name" : "float[26][8]",
+   "referenced_type" : "_ZTIA8_f",
+   "self_type" : "_ZTIA26_A8_f",
+   "size" : 832,
    "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
   },
   {
@@ -282,6 +354,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIA2_A12_f",
+   "name" : "float[2][12]",
+   "referenced_type" : "_ZTIA12_f",
+   "self_type" : "_ZTIA2_A12_f",
+   "size" : 96,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIA2_A256_f",
    "name" : "float[2][256]",
    "referenced_type" : "_ZTIA256_f",
@@ -305,6 +386,15 @@
    "referenced_type" : "_ZTIA6_f",
    "self_type" : "_ZTIA2_A6_f",
    "size" : 48,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIA2_A8_f",
+   "name" : "float[2][8]",
+   "referenced_type" : "_ZTIA8_f",
+   "self_type" : "_ZTIA2_A8_f",
+   "size" : 64,
    "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
   },
   {
@@ -534,6 +624,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIA4_A12_f",
+   "name" : "float[4][12]",
+   "referenced_type" : "_ZTIA12_f",
+   "self_type" : "_ZTIA4_A12_f",
+   "size" : 192,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIA4_A2_f",
    "name" : "float[4][2]",
    "referenced_type" : "_ZTIA2_f",
@@ -548,6 +647,15 @@
    "referenced_type" : "_ZTIA6_f",
    "self_type" : "_ZTIA4_A6_f",
    "size" : 96,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIA4_A8_f",
+   "name" : "float[4][8]",
+   "referenced_type" : "_ZTIA8_f",
+   "self_type" : "_ZTIA4_A8_f",
+   "size" : 128,
    "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
   },
   {
@@ -570,6 +678,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIA6_A12_f",
+   "name" : "float[6][12]",
+   "referenced_type" : "_ZTIA12_f",
+   "self_type" : "_ZTIA6_A12_f",
+   "size" : 288,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIA6_A2_f",
    "name" : "float[6][2]",
    "referenced_type" : "_ZTIA2_f",
@@ -584,6 +701,15 @@
    "referenced_type" : "_ZTIA6_f",
    "self_type" : "_ZTIA6_A6_f",
    "size" : 144,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIA6_A8_f",
+   "name" : "float[6][8]",
+   "referenced_type" : "_ZTIA8_f",
+   "self_type" : "_ZTIA6_A8_f",
+   "size" : 192,
    "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
   },
   {
@@ -624,6 +750,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIA8_A12_f",
+   "name" : "float[8][12]",
+   "referenced_type" : "_ZTIA12_f",
+   "self_type" : "_ZTIA8_A12_f",
+   "size" : 384,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIA8_A2_f",
    "name" : "float[8][2]",
    "referenced_type" : "_ZTIA2_f",
@@ -638,6 +773,24 @@
    "referenced_type" : "_ZTIA6_f",
    "self_type" : "_ZTIA8_A6_f",
    "size" : 192,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIA8_A8_f",
+   "name" : "float[8][8]",
+   "referenced_type" : "_ZTIA8_f",
+   "self_type" : "_ZTIA8_A8_f",
+   "size" : 256,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIA8_f",
+   "name" : "float[8]",
+   "referenced_type" : "_ZTIf",
+   "self_type" : "_ZTIA8_f",
+   "size" : 32,
    "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
   },
   {
@@ -1439,6 +1592,22 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t1599ELS3_1599ELb0EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t1599ELS3_1599ELb1EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t1599ELS3_185919ELb0EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t1599ELS3_185919ELb1EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t1599ELS3_3ELb0EEEbPKfPfj"
   },
   {
@@ -1452,6 +1621,22 @@
   {
    "binding" : "weak",
    "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t1599ELS3_63ELb1EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t16777215ELS3_1599ELb0EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t16777215ELS3_1599ELb1EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t16777215ELS3_185919ELb0EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t16777215ELS3_185919ELb1EEEbPKfPfj"
   },
   {
    "binding" : "weak",
@@ -1471,6 +1656,22 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t184383ELS3_1599ELb0EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t184383ELS3_1599ELb1EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t184383ELS3_185919ELb0EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t184383ELS3_185919ELb1EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t184383ELS3_3ELb0EEEbPKfPfj"
   },
   {
@@ -1484,6 +1685,22 @@
   {
    "binding" : "weak",
    "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t184383ELS3_63ELb1EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t185919ELS3_1599ELb0EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t185919ELS3_1599ELb1EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t185919ELS3_185919ELb0EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t185919ELS3_185919ELb1EEEbPKfPfj"
   },
   {
    "binding" : "weak",
@@ -1503,6 +1720,22 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t3ELS3_1599ELb0EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t3ELS3_1599ELb1EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t3ELS3_185919ELb0EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t3ELS3_185919ELb1EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t3ELS3_3ELb0EEEbPKfPfj"
   },
   {
@@ -1516,6 +1749,22 @@
   {
    "binding" : "weak",
    "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t3ELS3_63ELb1EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t51ELS3_1599ELb0EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t51ELS3_1599ELb1EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t51ELS3_185919ELb0EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t51ELS3_185919ELb1EEEbPKfPfj"
   },
   {
    "binding" : "weak",
@@ -1535,6 +1784,22 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t63ELS3_1599ELb0EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t63ELS3_1599ELb1EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t63ELS3_185919ELb0EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t63ELS3_185919ELb1EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t63ELS3_3ELb0EEEbPKfPfj"
   },
   {
@@ -1551,6 +1816,22 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t786495ELS3_1599ELb0EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t786495ELS3_1599ELb1EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t786495ELS3_185919ELb0EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t786495ELS3_185919ELb1EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t786495ELS3_3ELb0EEEbPKfPfj"
   },
   {
@@ -1564,6 +1845,22 @@
   {
    "binding" : "weak",
    "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t786495ELS3_63ELb1EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t788031ELS3_1599ELb0EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t788031ELS3_1599ELb1EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t788031ELS3_185919ELb0EEEbPKfPfj"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android11audio_utils8channels27sparseChannelMatrixMultiplyIL20audio_channel_mask_t788031ELS3_185919ELb1EEEbPKfPfj"
   },
   {
    "binding" : "weak",
@@ -1727,6 +2024,22 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE9underflowEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_emplaceIN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t1599EEENS_9allocatorIS6_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_emplaceIN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t1599EEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_emplaceIN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t185919EEENS_9allocatorIS6_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_emplaceIN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t185919EEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv"
   },
   {
    "binding" : "weak",
@@ -2284,6 +2597,14 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZTVN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t1599EEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t185919EEE"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZTVN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t3EEE"
   },
   {
@@ -2297,6 +2618,14 @@
   {
    "binding" : "weak",
    "name" : "_ZTVNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_emplaceIN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t1599EEENS_9allocatorIS6_EEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_emplaceIN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t185919EEENS_9allocatorIS6_EEEE"
   },
   {
    "binding" : "weak",
@@ -4464,8 +4793,20 @@
      "name" : "AUDIO_CHANNEL_IN_STEREO"
     },
     {
+     "enum_field_value" : 1048588,
+     "name" : "AUDIO_CHANNEL_IN_2POINT1"
+    },
+    {
      "enum_field_value" : 48,
      "name" : "AUDIO_CHANNEL_IN_FRONT_BACK"
+    },
+    {
+     "enum_field_value" : 262156,
+     "name" : "AUDIO_CHANNEL_IN_TRI"
+    },
+    {
+     "enum_field_value" : 1310732,
+     "name" : "AUDIO_CHANNEL_IN_3POINT1"
     },
     {
      "enum_field_value" : 252,
@@ -4486,6 +4827,14 @@
     {
      "enum_field_value" : 7602188,
      "name" : "AUDIO_CHANNEL_IN_3POINT1POINT2"
+    },
+    {
+     "enum_field_value" : 196620,
+     "name" : "AUDIO_CHANNEL_IN_QUAD"
+    },
+    {
+     "enum_field_value" : 458764,
+     "name" : "AUDIO_CHANNEL_IN_PENTA"
     },
     {
      "enum_field_value" : 1507340,
@@ -14850,6 +15199,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRA10_A12_f",
+   "name" : "float (&)[10][12]",
+   "referenced_type" : "_ZTIA10_A12_f",
+   "self_type" : "_ZTIRA10_A12_f",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRA10_A2_f",
    "name" : "float (&)[10][2]",
    "referenced_type" : "_ZTIA10_A2_f",
@@ -14863,6 +15221,24 @@
    "name" : "float (&)[10][6]",
    "referenced_type" : "_ZTIA10_A6_f",
    "self_type" : "_ZTIRA10_A6_f",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRA10_A8_f",
+   "name" : "float (&)[10][8]",
+   "referenced_type" : "_ZTIA10_A8_f",
+   "self_type" : "_ZTIRA10_A8_f",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRA12_A12_f",
+   "name" : "float (&)[12][12]",
+   "referenced_type" : "_ZTIA12_A12_f",
+   "self_type" : "_ZTIRA12_A12_f",
    "size" : 4,
    "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
   },
@@ -14886,6 +15262,24 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRA12_A8_f",
+   "name" : "float (&)[12][8]",
+   "referenced_type" : "_ZTIA12_A8_f",
+   "self_type" : "_ZTIRA12_A8_f",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRA24_A12_f",
+   "name" : "float (&)[24][12]",
+   "referenced_type" : "_ZTIA24_A12_f",
+   "self_type" : "_ZTIRA24_A12_f",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRA24_A2_f",
    "name" : "float (&)[24][2]",
    "referenced_type" : "_ZTIA24_A2_f",
@@ -14899,6 +15293,24 @@
    "name" : "float (&)[24][6]",
    "referenced_type" : "_ZTIA24_A6_f",
    "self_type" : "_ZTIRA24_A6_f",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRA24_A8_f",
+   "name" : "float (&)[24][8]",
+   "referenced_type" : "_ZTIA24_A8_f",
+   "self_type" : "_ZTIRA24_A8_f",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRA26_A12_f",
+   "name" : "float (&)[26][12]",
+   "referenced_type" : "_ZTIA26_A12_f",
+   "self_type" : "_ZTIRA26_A12_f",
    "size" : 4,
    "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
   },
@@ -14922,6 +15334,24 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRA26_A8_f",
+   "name" : "float (&)[26][8]",
+   "referenced_type" : "_ZTIA26_A8_f",
+   "self_type" : "_ZTIRA26_A8_f",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRA2_A12_f",
+   "name" : "float (&)[2][12]",
+   "referenced_type" : "_ZTIA2_A12_f",
+   "self_type" : "_ZTIRA2_A12_f",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRA2_A2_f",
    "name" : "float (&)[2][2]",
    "referenced_type" : "_ZTIA2_A2_f",
@@ -14935,6 +15365,24 @@
    "name" : "float (&)[2][6]",
    "referenced_type" : "_ZTIA2_A6_f",
    "self_type" : "_ZTIRA2_A6_f",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRA2_A8_f",
+   "name" : "float (&)[2][8]",
+   "referenced_type" : "_ZTIA2_A8_f",
+   "self_type" : "_ZTIRA2_A8_f",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRA4_A12_f",
+   "name" : "float (&)[4][12]",
+   "referenced_type" : "_ZTIA4_A12_f",
+   "self_type" : "_ZTIRA4_A12_f",
    "size" : 4,
    "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
   },
@@ -14958,6 +15406,24 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRA4_A8_f",
+   "name" : "float (&)[4][8]",
+   "referenced_type" : "_ZTIA4_A8_f",
+   "self_type" : "_ZTIRA4_A8_f",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRA6_A12_f",
+   "name" : "float (&)[6][12]",
+   "referenced_type" : "_ZTIA6_A12_f",
+   "self_type" : "_ZTIRA6_A12_f",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRA6_A2_f",
    "name" : "float (&)[6][2]",
    "referenced_type" : "_ZTIA6_A2_f",
@@ -14976,6 +15442,24 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRA6_A8_f",
+   "name" : "float (&)[6][8]",
+   "referenced_type" : "_ZTIA6_A8_f",
+   "self_type" : "_ZTIRA6_A8_f",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRA8_A12_f",
+   "name" : "float (&)[8][12]",
+   "referenced_type" : "_ZTIA8_A12_f",
+   "self_type" : "_ZTIRA8_A12_f",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRA8_A2_f",
    "name" : "float (&)[8][2]",
    "referenced_type" : "_ZTIA8_A2_f",
@@ -14989,6 +15473,15 @@
    "name" : "float (&)[8][6]",
    "referenced_type" : "_ZTIA8_A6_f",
    "self_type" : "_ZTIRA8_A6_f",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRA8_A8_f",
+   "name" : "float (&)[8][8]",
+   "referenced_type" : "_ZTIA8_A8_f",
+   "self_type" : "_ZTIRA8_A8_f",
    "size" : 4,
    "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
   },
@@ -16050,6 +16543,24 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t1599EEE",
+   "name" : "const android::audio_utils::channels::ChannelMix<AUDIO_CHANNEL_OUT_7POINT1> *",
+   "referenced_type" : "_ZTIKN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t1599EEE",
+   "self_type" : "_ZTIPKN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t1599EEE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t185919EEE",
+   "name" : "const android::audio_utils::channels::ChannelMix<AUDIO_CHANNEL_OUT_7POINT1POINT4> *",
+   "referenced_type" : "_ZTIKN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t185919EEE",
+   "self_type" : "_ZTIPKN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t185919EEE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPKN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t3EEE",
    "name" : "const android::audio_utils::channels::ChannelMix<AUDIO_CHANNEL_OUT_STEREO> *",
    "referenced_type" : "_ZTIKN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t3EEE",
@@ -16434,6 +16945,24 @@
    "self_type" : "_ZTIPN7android11audio_utils7BalanceE",
    "size" : 4,
    "source_file" : "system/media/audio_utils/include/audio_utils/Balance.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t1599EEE",
+   "name" : "android::audio_utils::channels::ChannelMix<AUDIO_CHANNEL_OUT_7POINT1> *",
+   "referenced_type" : "_ZTIN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t1599EEE",
+   "self_type" : "_ZTIPN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t1599EEE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t185919EEE",
+   "name" : "android::audio_utils::channels::ChannelMix<AUDIO_CHANNEL_OUT_7POINT1POINT4> *",
+   "referenced_type" : "_ZTIN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t185919EEE",
+   "self_type" : "_ZTIPN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t185919EEE",
+   "size" : 4,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
   },
   {
    "alignment" : 4,
@@ -17340,6 +17869,26 @@
    "self_type" : "_ZTIKN7android11audio_utils7BalanceE",
    "size" : 80,
    "source_file" : "system/media/audio_utils/include/audio_utils/Balance.h"
+  },
+  {
+   "alignment" : 128,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t1599EEE",
+   "name" : "const android::audio_utils::channels::ChannelMix<AUDIO_CHANNEL_OUT_7POINT1>",
+   "referenced_type" : "_ZTIN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t1599EEE",
+   "self_type" : "_ZTIKN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t1599EEE",
+   "size" : 1024,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
+  },
+  {
+   "alignment" : 128,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t185919EEE",
+   "name" : "const android::audio_utils::channels::ChannelMix<AUDIO_CHANNEL_OUT_7POINT1POINT4>",
+   "referenced_type" : "_ZTIN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t185919EEE",
+   "self_type" : "_ZTIKN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t185919EEE",
+   "size" : 1408,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h"
   },
   {
    "alignment" : 128,
@@ -21557,6 +22106,140 @@
    "self_type" : "_ZTIN7android11audio_utils7details25DefaultBiquadConstOptionsE",
    "size" : 1,
    "source_file" : "system/media/audio_utils/include/audio_utils/BiquadFilter.h"
+  },
+  {
+   "alignment" : 128,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTIN7android11audio_utils8channels11IChannelMixE"
+    }
+   ],
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mMatrix",
+     "field_offset" : 1024,
+     "referenced_type" : "_ZTIA26_A8_f"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mInputChannelMask",
+     "field_offset" : 7680,
+     "referenced_type" : "_ZTI20audio_channel_mask_t"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mInputChannelCount",
+     "field_offset" : 7712,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t1599EEE",
+   "name" : "android::audio_utils::channels::ChannelMix<AUDIO_CHANNEL_OUT_7POINT1>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t1599EEE",
+   "self_type" : "_ZTIN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t1599EEE",
+   "size" : 1024,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h",
+   "vtable_components" :
+   [
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t1599EEE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t1599EED1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t1599EED0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t1599EE19setInputChannelMaskES3_"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t1599EE19getInputChannelMaskEv"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t1599EE7processEPKfPfjb"
+    },
+    {
+     "mangled_component_name" : "_ZN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t1599EE7processEPKfPfjbS3_"
+    }
+   ]
+  },
+  {
+   "alignment" : 128,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTIN7android11audio_utils8channels11IChannelMixE"
+    }
+   ],
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mMatrix",
+     "field_offset" : 1024,
+     "referenced_type" : "_ZTIA26_A12_f"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mInputChannelMask",
+     "field_offset" : 11008,
+     "referenced_type" : "_ZTI20audio_channel_mask_t"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mInputChannelCount",
+     "field_offset" : 11040,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t185919EEE",
+   "name" : "android::audio_utils::channels::ChannelMix<AUDIO_CHANNEL_OUT_7POINT1POINT4>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t185919EEE",
+   "self_type" : "_ZTIN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t185919EEE",
+   "size" : 1408,
+   "source_file" : "system/media/audio_utils/include/audio_utils/ChannelMix.h",
+   "vtable_components" :
+   [
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t185919EEE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t185919EED1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t185919EED0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t185919EE19setInputChannelMaskES3_"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t185919EE19getInputChannelMaskEv"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t185919EE7processEPKfPfjb"
+    },
+    {
+     "mangled_component_name" : "_ZN7android11audio_utils8channels10ChannelMixIL20audio_channel_mask_t185919EE7processEPKfPfjbS3_"
+    }
+   ]
   },
   {
    "alignment" : 128,
