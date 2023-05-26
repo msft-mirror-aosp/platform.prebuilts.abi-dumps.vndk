@@ -715,6 +715,9 @@
    "name" : "_ZN7android14AudioParameter17keyPresentationIdE"
   },
   {
+   "name" : "_ZN7android14AudioParameter17keyScreenRotationE"
+  },
+  {
    "name" : "_ZN7android14AudioParameter17keyStreamHwAvSyncE"
   },
   {
@@ -1514,6 +1517,12 @@
   {
    "linker_set_key" : "_ZN7android14AudioParameter17keyPresentationIdE",
    "name" : "android::AudioParameter::keyPresentationId",
+   "referenced_type" : "_ZTIKPKc",
+   "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
+  },
+  {
+   "linker_set_key" : "_ZN7android14AudioParameter17keyScreenRotationE",
+   "name" : "android::AudioParameter::keyScreenRotation",
    "referenced_type" : "_ZTIKPKc",
    "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
   },
