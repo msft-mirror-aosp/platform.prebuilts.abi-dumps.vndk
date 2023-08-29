@@ -20,6 +20,15 @@
    "source_file" : "external/boringssl/src/include/openssl/span.h"
   },
   {
+   "alignment" : 2,
+   "linker_set_key" : "_ZTIA13_22SignatureAlgorithmName",
+   "name" : "SignatureAlgorithmName[13]",
+   "referenced_type" : "_ZTI22SignatureAlgorithmName",
+   "self_type" : "_ZTIA13_22SignatureAlgorithmName",
+   "size" : 338,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
    "alignment" : 1,
    "linker_set_key" : "_ZTIA1424_h",
    "name" : "unsigned char[1424]",
@@ -62,6 +71,15 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIA20_c",
    "size" : 20,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIA24_13ssl_cipher_st",
+   "name" : "ssl_cipher_st[24]",
+   "referenced_type" : "_ZTI13ssl_cipher_st",
+   "self_type" : "_ZTIA24_13ssl_cipher_st",
+   "size" : 960,
    "source_file" : "external/boringssl/src/include/openssl/span.h"
   },
   {
@@ -119,6 +137,15 @@
    "source_file" : "external/boringssl/src/include/openssl/span.h"
   },
   {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIA3_PKc",
+   "name" : "const char *[3]",
+   "referenced_type" : "_ZTIPKc",
+   "self_type" : "_ZTIA3_PKc",
+   "size" : 24,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
    "alignment" : 2,
    "linker_set_key" : "_ZTIA3_t",
    "name" : "unsigned short[3]",
@@ -165,11 +192,11 @@
   },
   {
    "alignment" : 1,
-   "linker_set_key" : "_ZTIA580_h",
-   "name" : "unsigned char[580]",
+   "linker_set_key" : "_ZTIA564_h",
+   "name" : "unsigned char[564]",
    "referenced_type" : "_ZTIh",
-   "self_type" : "_ZTIA580_h",
-   "size" : 580,
+   "self_type" : "_ZTIA564_h",
+   "size" : 564,
    "source_file" : "external/boringssl/src/include/openssl/aead.h"
   },
   {
@@ -198,6 +225,24 @@
    "self_type" : "_ZTIA64_h",
    "size" : 64,
    "source_file" : "external/boringssl/src/include/openssl/sha.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIA6_N4bssl10NamedGroupE",
+   "name" : "bssl::NamedGroup[6]",
+   "referenced_type" : "_ZTIN4bssl10NamedGroupE",
+   "self_type" : "_ZTIA6_N4bssl10NamedGroupE",
+   "size" : 432,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIA6_N4bssl11VersionInfoE",
+   "name" : "bssl::VersionInfo[6]",
+   "referenced_type" : "_ZTIN4bssl11VersionInfoE",
+   "self_type" : "_ZTIA6_N4bssl11VersionInfoE",
+   "size" : 96,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
   },
   {
    "alignment" : 1,
@@ -531,6 +576,9 @@
    "name" : "SSL_CIPHER_get_digest_nid"
   },
   {
+   "name" : "SSL_CIPHER_get_handshake_digest"
+  },
+  {
    "name" : "SSL_CIPHER_get_id"
   },
   {
@@ -553,9 +601,6 @@
   },
   {
    "name" : "SSL_CIPHER_get_protocol_id"
-  },
-  {
-   "name" : "SSL_CIPHER_get_value"
   },
   {
    "name" : "SSL_CIPHER_get_version"
@@ -820,6 +865,9 @@
   },
   {
    "name" : "SSL_CTX_set1_ech_keys"
+  },
+  {
+   "name" : "SSL_CTX_set1_group_ids"
   },
   {
    "name" : "SSL_CTX_set1_groups"
@@ -1383,6 +1431,24 @@
    "name" : "SSL_get_SSL_CTX"
   },
   {
+   "name" : "SSL_get_all_cipher_names"
+  },
+  {
+   "name" : "SSL_get_all_curve_names"
+  },
+  {
+   "name" : "SSL_get_all_group_names"
+  },
+  {
+   "name" : "SSL_get_all_signature_algorithm_names"
+  },
+  {
+   "name" : "SSL_get_all_standard_cipher_names"
+  },
+  {
+   "name" : "SSL_get_all_version_names"
+  },
+  {
    "name" : "SSL_get_certificate"
   },
   {
@@ -1443,6 +1509,12 @@
    "name" : "SSL_get_finished"
   },
   {
+   "name" : "SSL_get_group_id"
+  },
+  {
+   "name" : "SSL_get_group_name"
+  },
+  {
    "name" : "SSL_get_info_callback"
   },
   {
@@ -1462,6 +1534,9 @@
   },
   {
    "name" : "SSL_get_mode"
+  },
+  {
+   "name" : "SSL_get_negotiated_group"
   },
   {
    "name" : "SSL_get_options"
@@ -1732,6 +1807,9 @@
   },
   {
    "name" : "SSL_set1_ech_config_list"
+  },
+  {
+   "name" : "SSL_set1_group_ids"
   },
   {
    "name" : "SSL_set1_groups"
@@ -2110,6 +2188,9 @@
   },
   {
    "name" : "_ZN4bssl24ssl_cert_check_key_usageEPK6cbs_stNS_15ssl_key_usage_tE"
+  },
+  {
+   "name" : "_ZN4bssl24ssl_cipher_is_deprecatedEPK13ssl_cipher_st"
   },
   {
    "name" : "_ZN4bssl28ssl_is_valid_ech_public_nameENS_4SpanIKhEE"
@@ -6719,6 +6800,18 @@
    "source_file" : "external/boringssl/src/include/openssl/ssl.h"
   },
   {
+   "function_name" : "SSL_CIPHER_get_handshake_digest",
+   "linker_set_key" : "SSL_CIPHER_get_handshake_digest",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK13ssl_cipher_st"
+    }
+   ],
+   "return_type" : "_ZTIPK9env_md_st",
+   "source_file" : "external/boringssl/src/include/openssl/ssl.h"
+  },
+  {
    "function_name" : "SSL_CIPHER_get_id",
    "linker_set_key" : "SSL_CIPHER_get_id",
    "parameters" :
@@ -6805,18 +6898,6 @@
   {
    "function_name" : "SSL_CIPHER_get_protocol_id",
    "linker_set_key" : "SSL_CIPHER_get_protocol_id",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPK13ssl_cipher_st"
-    }
-   ],
-   "return_type" : "_ZTIt",
-   "source_file" : "external/boringssl/src/include/openssl/ssl.h"
-  },
-  {
-   "function_name" : "SSL_CIPHER_get_value",
-   "linker_set_key" : "SSL_CIPHER_get_value",
    "parameters" :
    [
     {
@@ -7979,6 +8060,24 @@
     },
     {
      "referenced_type" : "_ZTIP15ssl_ech_keys_st"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "external/boringssl/src/include/openssl/ssl.h"
+  },
+  {
+   "function_name" : "SSL_CTX_set1_group_ids",
+   "linker_set_key" : "SSL_CTX_set1_group_ids",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP10ssl_ctx_st"
+    },
+    {
+     "referenced_type" : "_ZTIPKt"
+    },
+    {
+     "referenced_type" : "_ZTIm"
     }
    ],
    "return_type" : "_ZTIi",
@@ -10820,6 +10919,96 @@
    "source_file" : "external/boringssl/src/include/openssl/ssl.h"
   },
   {
+   "function_name" : "SSL_get_all_cipher_names",
+   "linker_set_key" : "SSL_get_all_cipher_names",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPPKc"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIm",
+   "source_file" : "external/boringssl/src/include/openssl/ssl.h"
+  },
+  {
+   "function_name" : "SSL_get_all_curve_names",
+   "linker_set_key" : "SSL_get_all_curve_names",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPPKc"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIm",
+   "source_file" : "external/boringssl/src/include/openssl/ssl.h"
+  },
+  {
+   "function_name" : "SSL_get_all_group_names",
+   "linker_set_key" : "SSL_get_all_group_names",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPPKc"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIm",
+   "source_file" : "external/boringssl/src/include/openssl/ssl.h"
+  },
+  {
+   "function_name" : "SSL_get_all_signature_algorithm_names",
+   "linker_set_key" : "SSL_get_all_signature_algorithm_names",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPPKc"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIm",
+   "source_file" : "external/boringssl/src/include/openssl/ssl.h"
+  },
+  {
+   "function_name" : "SSL_get_all_standard_cipher_names",
+   "linker_set_key" : "SSL_get_all_standard_cipher_names",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPPKc"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIm",
+   "source_file" : "external/boringssl/src/include/openssl/ssl.h"
+  },
+  {
+   "function_name" : "SSL_get_all_version_names",
+   "linker_set_key" : "SSL_get_all_version_names",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPPKc"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIm",
+   "source_file" : "external/boringssl/src/include/openssl/ssl.h"
+  },
+  {
    "function_name" : "SSL_get_certificate",
    "linker_set_key" : "SSL_get_certificate",
    "parameters" :
@@ -11087,6 +11276,30 @@
    "source_file" : "external/boringssl/src/include/openssl/ssl.h"
   },
   {
+   "function_name" : "SSL_get_group_id",
+   "linker_set_key" : "SSL_get_group_id",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK6ssl_st"
+    }
+   ],
+   "return_type" : "_ZTIt",
+   "source_file" : "external/boringssl/src/include/openssl/ssl.h"
+  },
+  {
+   "function_name" : "SSL_get_group_name",
+   "linker_set_key" : "SSL_get_group_name",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIt"
+    }
+   ],
+   "return_type" : "_ZTIPKc",
+   "source_file" : "external/boringssl/src/include/openssl/ssl.h"
+  },
+  {
    "function_name" : "SSL_get_info_callback",
    "linker_set_key" : "SSL_get_info_callback",
    "parameters" :
@@ -11177,6 +11390,18 @@
     }
    ],
    "return_type" : "_ZTIj",
+   "source_file" : "external/boringssl/src/include/openssl/ssl.h"
+  },
+  {
+   "function_name" : "SSL_get_negotiated_group",
+   "linker_set_key" : "SSL_get_negotiated_group",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK6ssl_st"
+    }
+   ],
+   "return_type" : "_ZTIi",
    "source_file" : "external/boringssl/src/include/openssl/ssl.h"
   },
   {
@@ -12428,6 +12653,24 @@
     },
     {
      "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "external/boringssl/src/include/openssl/ssl.h"
+  },
+  {
+   "function_name" : "SSL_set1_group_ids",
+   "linker_set_key" : "SSL_set1_group_ids",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP6ssl_st"
+    },
+    {
+     "referenced_type" : "_ZTIPKt"
     },
     {
      "referenced_type" : "_ZTIm"
@@ -14263,6 +14506,15 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIRA13_K22SignatureAlgorithmName",
+   "name" : "const SignatureAlgorithmName (&)[13]",
+   "referenced_type" : "_ZTIA13_K22SignatureAlgorithmName",
+   "self_type" : "_ZTIRA13_K22SignatureAlgorithmName",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRA16_Kh",
    "name" : "const unsigned char (&)[16]",
    "referenced_type" : "_ZTIA16_Kh",
@@ -14285,6 +14537,15 @@
    "name" : "const char (&)[20]",
    "referenced_type" : "_ZTIA20_Kc",
    "self_type" : "_ZTIRA20_Kc",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRA24_K13ssl_cipher_st",
+   "name" : "const ssl_cipher_st (&)[24]",
+   "referenced_type" : "_ZTIA24_K13ssl_cipher_st",
+   "self_type" : "_ZTIRA24_K13ssl_cipher_st",
    "size" : 8,
    "source_file" : "external/boringssl/src/include/openssl/span.h"
   },
@@ -14335,10 +14596,28 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIRA3_KPKc",
+   "name" : "const char *const (&)[3]",
+   "referenced_type" : "_ZTIA3_KPKc",
+   "self_type" : "_ZTIRA3_KPKc",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRA3_Kt",
    "name" : "const unsigned short (&)[3]",
    "referenced_type" : "_ZTIA3_Kt",
    "self_type" : "_ZTIRA3_Kt",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRA3_PKc",
+   "name" : "const char *(&)[3]",
+   "referenced_type" : "_ZTIA3_PKc",
+   "self_type" : "_ZTIRA3_PKc",
    "size" : 8,
    "source_file" : "external/boringssl/src/include/openssl/span.h"
   },
@@ -14357,6 +14636,24 @@
    "name" : "const unsigned short (&)[4]",
    "referenced_type" : "_ZTIA4_Kt",
    "self_type" : "_ZTIRA4_Kt",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRA6_KN4bssl10NamedGroupE",
+   "name" : "const bssl::NamedGroup (&)[6]",
+   "referenced_type" : "_ZTIA6_KN4bssl10NamedGroupE",
+   "self_type" : "_ZTIRA6_KN4bssl10NamedGroupE",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRA6_KN4bssl11VersionInfoE",
+   "name" : "const bssl::VersionInfo (&)[6]",
+   "referenced_type" : "_ZTIA6_KN4bssl11VersionInfoE",
+   "self_type" : "_ZTIRA6_KN4bssl11VersionInfoE",
    "size" : 8,
    "source_file" : "external/boringssl/src/include/openssl/span.h"
   },
@@ -14389,12 +14686,57 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIRK13ssl_cipher_st",
+   "name" : "const ssl_cipher_st &",
+   "referenced_type" : "_ZTIK13ssl_cipher_st",
+   "self_type" : "_ZTIRK13ssl_cipher_st",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRK22SignatureAlgorithmName",
+   "name" : "const SignatureAlgorithmName &",
+   "referenced_type" : "_ZTIK22SignatureAlgorithmName",
+   "self_type" : "_ZTIRK22SignatureAlgorithmName",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRK6cbs_st",
    "name" : "const cbs_st &",
    "referenced_type" : "_ZTIK6cbs_st",
    "self_type" : "_ZTIRK6cbs_st",
    "size" : 8,
    "source_file" : "external/boringssl/src/include/openssl/bytestring.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKN4bssl10NamedGroupE",
+   "name" : "const bssl::NamedGroup &",
+   "referenced_type" : "_ZTIKN4bssl10NamedGroupE",
+   "self_type" : "_ZTIRKN4bssl10NamedGroupE",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKN4bssl11VersionInfoE",
+   "name" : "const bssl::VersionInfo &",
+   "referenced_type" : "_ZTIKN4bssl11VersionInfoE",
+   "self_type" : "_ZTIRKN4bssl11VersionInfoE",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKN4bssl4SpanIPKcEE",
+   "name" : "const bssl::Span<const char *> &",
+   "referenced_type" : "_ZTIKN4bssl4SpanIPKcEE",
+   "self_type" : "_ZTIRKN4bssl4SpanIPKcEE",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
   },
   {
    "alignment" : 8,
@@ -14551,6 +14893,15 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIRKPKc",
+   "name" : "const char *const &",
+   "referenced_type" : "_ZTIKPKc",
+   "self_type" : "_ZTIRKPKc",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKh",
    "name" : "const unsigned char &",
    "referenced_type" : "_ZTIKh",
@@ -14638,6 +14989,15 @@
    "self_type" : "_ZTIRN4bssl8internal21StackAllocatedMovableI13env_md_ctx_stiXadL_Z15EVP_MD_CTX_initEEXadL_Z18EVP_MD_CTX_cleanupEEXadL_Z15EVP_MD_CTX_moveEEEE",
    "size" : 8,
    "source_file" : "external/boringssl/src/include/openssl/base.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRPKc",
+   "name" : "const char *&",
+   "referenced_type" : "_ZTIPKc",
+   "self_type" : "_ZTIRPKc",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
   },
   {
    "alignment" : 8,
@@ -14758,15 +15118,6 @@
    "self_type" : "_ZTIP11hmac_ctx_st",
    "size" : 8,
    "source_file" : "external/boringssl/src/include/openssl/base.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIP11rsa_meth_st",
-   "name" : "rsa_meth_st *",
-   "referenced_type" : "_ZTI11rsa_meth_st",
-   "self_type" : "_ZTIP11rsa_meth_st",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/rsa.h"
   },
   {
    "alignment" : 8,
@@ -15010,15 +15361,6 @@
    "self_type" : "_ZTIP14asn1_string_st",
    "size" : 8,
    "source_file" : "external/boringssl/src/include/openssl/pkcs7.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIP14bn_blinding_st",
-   "name" : "bn_blinding_st *",
-   "referenced_type" : "_ZTI14bn_blinding_st",
-   "self_type" : "_ZTIP14bn_blinding_st",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/rsa.h"
   },
   {
    "alignment" : 8,
@@ -18244,6 +18586,15 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIPK22SignatureAlgorithmName",
+   "name" : "const SignatureAlgorithmName *",
+   "referenced_type" : "_ZTIK22SignatureAlgorithmName",
+   "self_type" : "_ZTIPK22SignatureAlgorithmName",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK22ssl_early_callback_ctx",
    "name" : "const ssl_early_callback_ctx *",
    "referenced_type" : "_ZTIK22ssl_early_callback_ctx",
@@ -18487,6 +18838,15 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIPKN4bssl11VersionInfoE",
+   "name" : "const bssl::VersionInfo *",
+   "referenced_type" : "_ZTIKN4bssl11VersionInfoE",
+   "self_type" : "_ZTIPKN4bssl11VersionInfoE",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPKN4bssl4SpanIK13ssl_cipher_stEE",
    "name" : "const bssl::Span<const ssl_cipher_st> *",
    "referenced_type" : "_ZTIKN4bssl4SpanIK13ssl_cipher_stEE",
@@ -18496,10 +18856,37 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIPKN4bssl4SpanIK22SignatureAlgorithmNameEE",
+   "name" : "const bssl::Span<const SignatureAlgorithmName> *",
+   "referenced_type" : "_ZTIKN4bssl4SpanIK22SignatureAlgorithmNameEE",
+   "self_type" : "_ZTIPKN4bssl4SpanIK22SignatureAlgorithmNameEE",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPKN4bssl4SpanIKNS_10NamedGroupEEE",
    "name" : "const bssl::Span<const bssl::NamedGroup> *",
    "referenced_type" : "_ZTIKN4bssl4SpanIKNS_10NamedGroupEEE",
    "self_type" : "_ZTIPKN4bssl4SpanIKNS_10NamedGroupEEE",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKN4bssl4SpanIKNS_11VersionInfoEEE",
+   "name" : "const bssl::Span<const bssl::VersionInfo> *",
+   "referenced_type" : "_ZTIKN4bssl4SpanIKNS_11VersionInfoEEE",
+   "self_type" : "_ZTIPKN4bssl4SpanIKNS_11VersionInfoEEE",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKN4bssl4SpanIKPKcEE",
+   "name" : "const bssl::Span<const char *const> *",
+   "referenced_type" : "_ZTIKN4bssl4SpanIKPKcEE",
+   "self_type" : "_ZTIPKN4bssl4SpanIKPKcEE",
    "size" : 8,
    "source_file" : "external/boringssl/src/include/openssl/span.h"
   },
@@ -18545,6 +18932,15 @@
    "name" : "const bssl::Span<const unsigned short> *",
    "referenced_type" : "_ZTIKN4bssl4SpanIKtEE",
    "self_type" : "_ZTIPKN4bssl4SpanIKtEE",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKN4bssl4SpanIPKcEE",
+   "name" : "const bssl::Span<const char *> *",
+   "referenced_type" : "_ZTIKN4bssl4SpanIPKcEE",
+   "self_type" : "_ZTIPKN4bssl4SpanIPKcEE",
    "size" : 8,
    "source_file" : "external/boringssl/src/include/openssl/span.h"
   },
@@ -19126,10 +19522,37 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIPN4bssl4SpanIK22SignatureAlgorithmNameEE",
+   "name" : "bssl::Span<const SignatureAlgorithmName> *",
+   "referenced_type" : "_ZTIN4bssl4SpanIK22SignatureAlgorithmNameEE",
+   "self_type" : "_ZTIPN4bssl4SpanIK22SignatureAlgorithmNameEE",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN4bssl4SpanIKNS_10NamedGroupEEE",
    "name" : "bssl::Span<const bssl::NamedGroup> *",
    "referenced_type" : "_ZTIN4bssl4SpanIKNS_10NamedGroupEEE",
    "self_type" : "_ZTIPN4bssl4SpanIKNS_10NamedGroupEEE",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN4bssl4SpanIKNS_11VersionInfoEEE",
+   "name" : "bssl::Span<const bssl::VersionInfo> *",
+   "referenced_type" : "_ZTIN4bssl4SpanIKNS_11VersionInfoEEE",
+   "self_type" : "_ZTIPN4bssl4SpanIKNS_11VersionInfoEEE",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN4bssl4SpanIKPKcEE",
+   "name" : "bssl::Span<const char *const> *",
+   "referenced_type" : "_ZTIN4bssl4SpanIKPKcEE",
+   "self_type" : "_ZTIPN4bssl4SpanIKPKcEE",
    "size" : 8,
    "source_file" : "external/boringssl/src/include/openssl/span.h"
   },
@@ -19175,6 +19598,15 @@
    "name" : "bssl::Span<const unsigned short> *",
    "referenced_type" : "_ZTIN4bssl4SpanIKtEE",
    "self_type" : "_ZTIPN4bssl4SpanIKtEE",
+   "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN4bssl4SpanIPKcEE",
+   "name" : "bssl::Span<const char *> *",
+   "referenced_type" : "_ZTIN4bssl4SpanIPKcEE",
+   "self_type" : "_ZTIPN4bssl4SpanIPKcEE",
    "size" : 8,
    "source_file" : "external/boringssl/src/include/openssl/span.h"
   },
@@ -19342,15 +19774,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIPP14bn_blinding_st",
-   "name" : "bn_blinding_st **",
-   "referenced_type" : "_ZTIP14bn_blinding_st",
-   "self_type" : "_ZTIPP14bn_blinding_st",
-   "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/rsa.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIPP14ssl_session_st",
    "name" : "ssl_session_st **",
    "referenced_type" : "_ZTIP14ssl_session_st",
@@ -19383,7 +19806,7 @@
    "referenced_type" : "_ZTIPKc",
    "self_type" : "_ZTIPPKc",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/ssl.h"
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
   },
   {
    "alignment" : 8,
@@ -19419,7 +19842,7 @@
    "referenced_type" : "_ZTIPv",
    "self_type" : "_ZTIPPv",
    "size" : 8,
-   "source_file" : "external/boringssl/src/include/openssl/stack.h"
+   "source_file" : "external/boringssl/src/include/openssl/ssl.h"
   },
   {
    "alignment" : 8,
@@ -19498,6 +19921,16 @@
    "source_file" : "external/boringssl/src/include/openssl/span.h"
   },
   {
+   "alignment" : 2,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIA13_K22SignatureAlgorithmName",
+   "name" : "const SignatureAlgorithmName[13]",
+   "referenced_type" : "_ZTIA13_22SignatureAlgorithmName",
+   "self_type" : "_ZTIA13_K22SignatureAlgorithmName",
+   "size" : 338,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
    "alignment" : 1,
    "is_const" : true,
    "linker_set_key" : "_ZTIA16_Kh",
@@ -19525,6 +19958,16 @@
    "referenced_type" : "_ZTIA20_c",
    "self_type" : "_ZTIA20_Kc",
    "size" : 20,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIA24_K13ssl_cipher_st",
+   "name" : "const ssl_cipher_st[24]",
+   "referenced_type" : "_ZTIA24_13ssl_cipher_st",
+   "self_type" : "_ZTIA24_K13ssl_cipher_st",
+   "size" : 960,
    "source_file" : "external/boringssl/src/include/openssl/span.h"
   },
   {
@@ -19568,6 +20011,16 @@
    "source_file" : "external/boringssl/src/include/openssl/span.h"
   },
   {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIA3_KPKc",
+   "name" : "const char *const[3]",
+   "referenced_type" : "_ZTIA3_PKc",
+   "self_type" : "_ZTIA3_KPKc",
+   "size" : 24,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
    "alignment" : 2,
    "is_const" : true,
    "linker_set_key" : "_ZTIA3_Kt",
@@ -19595,6 +20048,26 @@
    "referenced_type" : "_ZTIA4_t",
    "self_type" : "_ZTIA4_Kt",
    "size" : 8,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIA6_KN4bssl10NamedGroupE",
+   "name" : "const bssl::NamedGroup[6]",
+   "referenced_type" : "_ZTIA6_N4bssl10NamedGroupE",
+   "self_type" : "_ZTIA6_KN4bssl10NamedGroupE",
+   "size" : 432,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIA6_KN4bssl11VersionInfoE",
+   "name" : "const bssl::VersionInfo[6]",
+   "referenced_type" : "_ZTIA6_N4bssl11VersionInfoE",
+   "self_type" : "_ZTIA6_KN4bssl11VersionInfoE",
+   "size" : 96,
    "source_file" : "external/boringssl/src/include/openssl/span.h"
   },
   {
@@ -19898,7 +20371,7 @@
    "name" : "const evp_aead_ctx_st",
    "referenced_type" : "_ZTI15evp_aead_ctx_st",
    "self_type" : "_ZTIK15evp_aead_ctx_st",
-   "size" : 600,
+   "size" : 584,
    "source_file" : "external/boringssl/src/include/openssl/base.h"
   },
   {
@@ -20224,6 +20697,16 @@
    "source_file" : "external/boringssl/src/include/openssl/x509.h"
   },
   {
+   "alignment" : 2,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK22SignatureAlgorithmName",
+   "name" : "const SignatureAlgorithmName",
+   "referenced_type" : "_ZTI22SignatureAlgorithmName",
+   "self_type" : "_ZTIK22SignatureAlgorithmName",
+   "size" : 26,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
    "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIK22ssl_early_callback_ctx",
@@ -20396,13 +20879,11 @@
    "source_file" : "external/boringssl/src/include/openssl/bytestring.h"
   },
   {
-   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIK6rsa_st",
    "name" : "const rsa_st",
    "referenced_type" : "_ZTI6rsa_st",
    "self_type" : "_ZTIK6rsa_st",
-   "size" : 240,
    "source_file" : "external/boringssl/src/include/openssl/rsa.h"
   },
   {
@@ -20454,7 +20935,17 @@
    "name" : "const bssl::NamedGroup",
    "referenced_type" : "_ZTIN4bssl10NamedGroupE",
    "self_type" : "_ZTIKN4bssl10NamedGroupE",
-   "size" : 32,
+   "size" : 72,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN4bssl11VersionInfoE",
+   "name" : "const bssl::VersionInfo",
+   "referenced_type" : "_ZTIN4bssl11VersionInfoE",
+   "self_type" : "_ZTIKN4bssl11VersionInfoE",
+   "size" : 16,
    "source_file" : "external/boringssl/src/include/openssl/span.h"
   },
   {
@@ -20470,10 +20961,40 @@
   {
    "alignment" : 8,
    "is_const" : true,
+   "linker_set_key" : "_ZTIKN4bssl4SpanIK22SignatureAlgorithmNameEE",
+   "name" : "const bssl::Span<const SignatureAlgorithmName>",
+   "referenced_type" : "_ZTIN4bssl4SpanIK22SignatureAlgorithmNameEE",
+   "self_type" : "_ZTIKN4bssl4SpanIK22SignatureAlgorithmNameEE",
+   "size" : 16,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
    "linker_set_key" : "_ZTIKN4bssl4SpanIKNS_10NamedGroupEEE",
    "name" : "const bssl::Span<const bssl::NamedGroup>",
    "referenced_type" : "_ZTIN4bssl4SpanIKNS_10NamedGroupEEE",
    "self_type" : "_ZTIKN4bssl4SpanIKNS_10NamedGroupEEE",
+   "size" : 16,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN4bssl4SpanIKNS_11VersionInfoEEE",
+   "name" : "const bssl::Span<const bssl::VersionInfo>",
+   "referenced_type" : "_ZTIN4bssl4SpanIKNS_11VersionInfoEEE",
+   "self_type" : "_ZTIKN4bssl4SpanIKNS_11VersionInfoEEE",
+   "size" : 16,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN4bssl4SpanIKPKcEE",
+   "name" : "const bssl::Span<const char *const>",
+   "referenced_type" : "_ZTIN4bssl4SpanIKPKcEE",
+   "self_type" : "_ZTIKN4bssl4SpanIKPKcEE",
    "size" : 16,
    "source_file" : "external/boringssl/src/include/openssl/span.h"
   },
@@ -20530,6 +21051,16 @@
   {
    "alignment" : 8,
    "is_const" : true,
+   "linker_set_key" : "_ZTIKN4bssl4SpanIPKcEE",
+   "name" : "const bssl::Span<const char *>",
+   "referenced_type" : "_ZTIN4bssl4SpanIPKcEE",
+   "self_type" : "_ZTIKN4bssl4SpanIPKcEE",
+   "size" : 16,
+   "source_file" : "external/boringssl/src/include/openssl/span.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
    "linker_set_key" : "_ZTIKN4bssl4SpanIhEE",
    "name" : "const bssl::Span<unsigned char>",
    "referenced_type" : "_ZTIN4bssl4SpanIhEE",
@@ -20574,7 +21105,7 @@
    "name" : "const bssl::internal::StackAllocated<evp_aead_ctx_st, void, &EVP_AEAD_CTX_zero, &EVP_AEAD_CTX_cleanup>",
    "referenced_type" : "_ZTIN4bssl8internal14StackAllocatedI15evp_aead_ctx_stvXadL_Z17EVP_AEAD_CTX_zeroEEXadL_Z20EVP_AEAD_CTX_cleanupEEEE",
    "self_type" : "_ZTIKN4bssl8internal14StackAllocatedI15evp_aead_ctx_stvXadL_Z17EVP_AEAD_CTX_zeroEEXadL_Z20EVP_AEAD_CTX_cleanupEEEE",
-   "size" : 600,
+   "size" : 584,
    "source_file" : "external/boringssl/src/include/openssl/base.h"
   },
   {
@@ -22363,7 +22894,7 @@
     },
     {
      "field_name" : "tag_len",
-     "field_offset" : 4736,
+     "field_offset" : 4608,
      "referenced_type" : "_ZTIh"
     }
    ],
@@ -22371,7 +22902,7 @@
    "name" : "evp_aead_ctx_st",
    "referenced_type" : "_ZTI15evp_aead_ctx_st",
    "self_type" : "_ZTI15evp_aead_ctx_st",
-   "size" : 600,
+   "size" : 584,
    "source_file" : "external/boringssl/src/include/openssl/aead.h"
   },
   {
@@ -22399,22 +22930,22 @@
     },
     {
      "field_name" : "base_nonce",
-     "field_offset" : 4992,
+     "field_offset" : 4864,
      "referenced_type" : "_ZTIA24_h"
     },
     {
      "field_name" : "exporter_secret",
-     "field_offset" : 5184,
+     "field_offset" : 5056,
      "referenced_type" : "_ZTIA64_h"
     },
     {
      "field_name" : "seq",
-     "field_offset" : 5696,
+     "field_offset" : 5568,
      "referenced_type" : "_ZTIm"
     },
     {
      "field_name" : "is_sender",
-     "field_offset" : 5760,
+     "field_offset" : 5632,
      "referenced_type" : "_ZTIi"
     }
    ],
@@ -22422,7 +22953,7 @@
    "name" : "evp_hpke_ctx_st",
    "referenced_type" : "_ZTI15evp_hpke_ctx_st",
    "self_type" : "_ZTI15evp_hpke_ctx_st",
-   "size" : 728,
+   "size" : 712,
    "source_file" : "external/boringssl/src/include/openssl/hpke.h"
   },
   {
@@ -23188,7 +23719,7 @@
    [
     {
      "field_name" : "opaque",
-     "referenced_type" : "_ZTIA580_h"
+     "referenced_type" : "_ZTIA564_h"
     },
     {
      "field_name" : "alignment",
@@ -23200,7 +23731,7 @@
    "record_kind" : "union",
    "referenced_type" : "_ZTI21evp_aead_ctx_st_state",
    "self_type" : "_ZTI21evp_aead_ctx_st_state",
-   "size" : 584,
+   "size" : 568,
    "source_file" : "external/boringssl/src/include/openssl/aead.h"
   },
   {
@@ -23521,249 +24052,6 @@
    "self_type" : "_ZTI6cbs_st",
    "size" : 16,
    "source_file" : "external/boringssl/src/include/openssl/bytestring.h"
-  },
-  {
-   "alignment" : 8,
-   "fields" :
-   [
-    {
-     "field_name" : "version",
-     "referenced_type" : "_ZTIl"
-    },
-    {
-     "field_name" : "p",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIP9bignum_st"
-    },
-    {
-     "field_name" : "q",
-     "field_offset" : 128,
-     "referenced_type" : "_ZTIP9bignum_st"
-    },
-    {
-     "field_name" : "g",
-     "field_offset" : 192,
-     "referenced_type" : "_ZTIP9bignum_st"
-    },
-    {
-     "field_name" : "pub_key",
-     "field_offset" : 256,
-     "referenced_type" : "_ZTIP9bignum_st"
-    },
-    {
-     "field_name" : "priv_key",
-     "field_offset" : 320,
-     "referenced_type" : "_ZTIP9bignum_st"
-    },
-    {
-     "field_name" : "flags",
-     "field_offset" : 384,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "method_mont_lock",
-     "field_offset" : 416,
-     "referenced_type" : "_ZTI16pthread_rwlock_t"
-    },
-    {
-     "field_name" : "method_mont_p",
-     "field_offset" : 896,
-     "referenced_type" : "_ZTIP14bn_mont_ctx_st"
-    },
-    {
-     "field_name" : "method_mont_q",
-     "field_offset" : 960,
-     "referenced_type" : "_ZTIP14bn_mont_ctx_st"
-    },
-    {
-     "field_name" : "references",
-     "field_offset" : 1024,
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "ex_data",
-     "field_offset" : 1088,
-     "referenced_type" : "_ZTI17crypto_ex_data_st"
-    }
-   ],
-   "linker_set_key" : "_ZTI6dsa_st",
-   "name" : "dsa_st",
-   "referenced_type" : "_ZTI6dsa_st",
-   "self_type" : "_ZTI6dsa_st",
-   "size" : 144,
-   "source_file" : "external/boringssl/src/include/openssl/dsa.h"
-  },
-  {
-   "alignment" : 8,
-   "fields" :
-   [
-    {
-     "field_name" : "meth",
-     "referenced_type" : "_ZTIP11rsa_meth_st"
-    },
-    {
-     "field_name" : "n",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIP9bignum_st"
-    },
-    {
-     "field_name" : "e",
-     "field_offset" : 128,
-     "referenced_type" : "_ZTIP9bignum_st"
-    },
-    {
-     "field_name" : "d",
-     "field_offset" : 192,
-     "referenced_type" : "_ZTIP9bignum_st"
-    },
-    {
-     "field_name" : "p",
-     "field_offset" : 256,
-     "referenced_type" : "_ZTIP9bignum_st"
-    },
-    {
-     "field_name" : "q",
-     "field_offset" : 320,
-     "referenced_type" : "_ZTIP9bignum_st"
-    },
-    {
-     "field_name" : "dmp1",
-     "field_offset" : 384,
-     "referenced_type" : "_ZTIP9bignum_st"
-    },
-    {
-     "field_name" : "dmq1",
-     "field_offset" : 448,
-     "referenced_type" : "_ZTIP9bignum_st"
-    },
-    {
-     "field_name" : "iqmp",
-     "field_offset" : 512,
-     "referenced_type" : "_ZTIP9bignum_st"
-    },
-    {
-     "field_name" : "ex_data",
-     "field_offset" : 576,
-     "referenced_type" : "_ZTI17crypto_ex_data_st"
-    },
-    {
-     "field_name" : "references",
-     "field_offset" : 640,
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "flags",
-     "field_offset" : 672,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "lock",
-     "field_offset" : 704,
-     "referenced_type" : "_ZTI16pthread_rwlock_t"
-    },
-    {
-     "field_name" : "mont_n",
-     "field_offset" : 1152,
-     "referenced_type" : "_ZTIP14bn_mont_ctx_st"
-    },
-    {
-     "field_name" : "mont_p",
-     "field_offset" : 1216,
-     "referenced_type" : "_ZTIP14bn_mont_ctx_st"
-    },
-    {
-     "field_name" : "mont_q",
-     "field_offset" : 1280,
-     "referenced_type" : "_ZTIP14bn_mont_ctx_st"
-    },
-    {
-     "field_name" : "d_fixed",
-     "field_offset" : 1344,
-     "referenced_type" : "_ZTIP9bignum_st"
-    },
-    {
-     "field_name" : "dmp1_fixed",
-     "field_offset" : 1408,
-     "referenced_type" : "_ZTIP9bignum_st"
-    },
-    {
-     "field_name" : "dmq1_fixed",
-     "field_offset" : 1472,
-     "referenced_type" : "_ZTIP9bignum_st"
-    },
-    {
-     "field_name" : "inv_small_mod_large_mont",
-     "field_offset" : 1536,
-     "referenced_type" : "_ZTIP9bignum_st"
-    },
-    {
-     "field_name" : "num_blindings",
-     "field_offset" : 1600,
-     "referenced_type" : "_ZTIm"
-    },
-    {
-     "field_name" : "blindings",
-     "field_offset" : 1664,
-     "referenced_type" : "_ZTIPP14bn_blinding_st"
-    },
-    {
-     "field_name" : "blindings_inuse",
-     "field_offset" : 1728,
-     "referenced_type" : "_ZTIPh"
-    },
-    {
-     "field_name" : "blinding_fork_generation",
-     "field_offset" : 1792,
-     "referenced_type" : "_ZTIm"
-    },
-    {
-     "field_name" : "private_key_frozen",
-     "field_offset" : 1856,
-     "referenced_type" : "_ZTIj"
-    }
-   ],
-   "linker_set_key" : "_ZTI6rsa_st",
-   "name" : "rsa_st",
-   "referenced_type" : "_ZTI6rsa_st",
-   "self_type" : "_ZTI6rsa_st",
-   "size" : 240,
-   "source_file" : "external/boringssl/src/include/openssl/rsa.h"
-  },
-  {
-   "alignment" : 8,
-   "fields" :
-   [
-    {
-     "field_name" : "num",
-     "referenced_type" : "_ZTIm"
-    },
-    {
-     "field_name" : "data",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIPPv"
-    },
-    {
-     "field_name" : "sorted",
-     "field_offset" : 128,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "num_alloc",
-     "field_offset" : 192,
-     "referenced_type" : "_ZTIm"
-    },
-    {
-     "field_name" : "comp",
-     "field_offset" : 256,
-     "referenced_type" : "_ZTIPFiPKPKvS2_E"
-    }
-   ],
-   "linker_set_key" : "_ZTI8stack_st",
-   "name" : "stack_st",
-   "referenced_type" : "_ZTI8stack_st",
-   "self_type" : "_ZTI8stack_st",
-   "size" : 40,
-   "source_file" : "external/boringssl/src/include/openssl/stack.h"
   },
   {
    "alignment" : 8,
@@ -24178,6 +24466,41 @@
    [
     {
      "access" : "private",
+     "referenced_type" : "_ZTIN4bssl8internal8SpanBaseIK22SignatureAlgorithmNameEE"
+    }
+   ],
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "data_",
+     "referenced_type" : "_ZTIPK22SignatureAlgorithmName"
+    },
+    {
+     "access" : "private",
+     "field_name" : "size_",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "linker_set_key" : "_ZTIN4bssl4SpanIK22SignatureAlgorithmNameEE",
+   "name" : "bssl::Span<const SignatureAlgorithmName>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN4bssl4SpanIK22SignatureAlgorithmNameEE",
+   "self_type" : "_ZTIN4bssl4SpanIK22SignatureAlgorithmNameEE",
+   "size" : 16,
+   "source_file" : "external/boringssl/src/include/openssl/span.h",
+   "template_args" :
+   [
+    "_ZTIK22SignatureAlgorithmName"
+   ]
+  },
+  {
+   "alignment" : 8,
+   "base_specifiers" :
+   [
+    {
+     "access" : "private",
      "referenced_type" : "_ZTIN4bssl8internal8SpanBaseIKNS_10NamedGroupEEE"
     }
    ],
@@ -24205,6 +24528,76 @@
    "template_args" :
    [
     "_ZTIKN4bssl10NamedGroupE"
+   ]
+  },
+  {
+   "alignment" : 8,
+   "base_specifiers" :
+   [
+    {
+     "access" : "private",
+     "referenced_type" : "_ZTIN4bssl8internal8SpanBaseIKNS_11VersionInfoEEE"
+    }
+   ],
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "data_",
+     "referenced_type" : "_ZTIPKN4bssl11VersionInfoE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "size_",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "linker_set_key" : "_ZTIN4bssl4SpanIKNS_11VersionInfoEEE",
+   "name" : "bssl::Span<const bssl::VersionInfo>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN4bssl4SpanIKNS_11VersionInfoEEE",
+   "self_type" : "_ZTIN4bssl4SpanIKNS_11VersionInfoEEE",
+   "size" : 16,
+   "source_file" : "external/boringssl/src/include/openssl/span.h",
+   "template_args" :
+   [
+    "_ZTIKN4bssl11VersionInfoE"
+   ]
+  },
+  {
+   "alignment" : 8,
+   "base_specifiers" :
+   [
+    {
+     "access" : "private",
+     "referenced_type" : "_ZTIN4bssl8internal8SpanBaseIKPKcEE"
+    }
+   ],
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "data_",
+     "referenced_type" : "_ZTIPKPKc"
+    },
+    {
+     "access" : "private",
+     "field_name" : "size_",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "linker_set_key" : "_ZTIN4bssl4SpanIKPKcEE",
+   "name" : "bssl::Span<const char *const>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN4bssl4SpanIKPKcEE",
+   "self_type" : "_ZTIN4bssl4SpanIKPKcEE",
+   "size" : 16,
+   "source_file" : "external/boringssl/src/include/openssl/span.h",
+   "template_args" :
+   [
+    "_ZTIKPKc"
    ]
   },
   {
@@ -24380,6 +24773,41 @@
    "template_args" :
    [
     "_ZTIKt"
+   ]
+  },
+  {
+   "alignment" : 8,
+   "base_specifiers" :
+   [
+    {
+     "access" : "private",
+     "referenced_type" : "_ZTIN4bssl8internal8SpanBaseIKPKcEE"
+    }
+   ],
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "data_",
+     "referenced_type" : "_ZTIPPKc"
+    },
+    {
+     "access" : "private",
+     "field_name" : "size_",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "linker_set_key" : "_ZTIN4bssl4SpanIPKcEE",
+   "name" : "bssl::Span<const char *>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN4bssl4SpanIPKcEE",
+   "self_type" : "_ZTIN4bssl4SpanIPKcEE",
+   "size" : 16,
+   "source_file" : "external/boringssl/src/include/openssl/span.h",
+   "template_args" :
+   [
+    "_ZTIPKc"
    ]
   },
   {
@@ -26073,7 +26501,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN4bssl8internal14StackAllocatedI15evp_aead_ctx_stvXadL_Z17EVP_AEAD_CTX_zeroEEXadL_Z20EVP_AEAD_CTX_cleanupEEEE",
    "self_type" : "_ZTIN4bssl8internal14StackAllocatedI15evp_aead_ctx_stvXadL_Z17EVP_AEAD_CTX_zeroEEXadL_Z20EVP_AEAD_CTX_cleanupEEEE",
-   "size" : 600,
+   "size" : 584,
    "source_file" : "external/boringssl/src/include/openssl/base.h",
    "template_args" :
    [
@@ -26096,7 +26524,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN4bssl8internal14StackAllocatedI15evp_hpke_ctx_stvXadL_Z17EVP_HPKE_CTX_zeroEEXadL_Z20EVP_HPKE_CTX_cleanupEEEE",
    "self_type" : "_ZTIN4bssl8internal14StackAllocatedI15evp_hpke_ctx_stvXadL_Z17EVP_HPKE_CTX_zeroEEXadL_Z20EVP_HPKE_CTX_cleanupEEEE",
-   "size" : 728,
+   "size" : 712,
    "source_file" : "external/boringssl/src/include/openssl/base.h",
    "template_args" :
    [
@@ -26361,6 +26789,20 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTIN4bssl8internal8SpanBaseIK22SignatureAlgorithmNameEE",
+   "name" : "bssl::internal::SpanBase<const SignatureAlgorithmName>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN4bssl8internal8SpanBaseIK22SignatureAlgorithmNameEE",
+   "self_type" : "_ZTIN4bssl8internal8SpanBaseIK22SignatureAlgorithmNameEE",
+   "size" : 1,
+   "source_file" : "external/boringssl/src/include/openssl/span.h",
+   "template_args" :
+   [
+    "_ZTIK22SignatureAlgorithmName"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTIN4bssl8internal8SpanBaseIKNS_10NamedGroupEEE",
    "name" : "bssl::internal::SpanBase<const bssl::NamedGroup>",
    "record_kind" : "class",
@@ -26371,6 +26813,34 @@
    "template_args" :
    [
     "_ZTIKN4bssl10NamedGroupE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN4bssl8internal8SpanBaseIKNS_11VersionInfoEEE",
+   "name" : "bssl::internal::SpanBase<const bssl::VersionInfo>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN4bssl8internal8SpanBaseIKNS_11VersionInfoEEE",
+   "self_type" : "_ZTIN4bssl8internal8SpanBaseIKNS_11VersionInfoEEE",
+   "size" : 1,
+   "source_file" : "external/boringssl/src/include/openssl/span.h",
+   "template_args" :
+   [
+    "_ZTIKN4bssl11VersionInfoE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN4bssl8internal8SpanBaseIKPKcEE",
+   "name" : "bssl::internal::SpanBase<const char *const>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN4bssl8internal8SpanBaseIKPKcEE",
+   "self_type" : "_ZTIN4bssl8internal8SpanBaseIKPKcEE",
+   "size" : 1,
+   "source_file" : "external/boringssl/src/include/openssl/span.h",
+   "template_args" :
+   [
+    "_ZTIKPKc"
    ]
   },
   {

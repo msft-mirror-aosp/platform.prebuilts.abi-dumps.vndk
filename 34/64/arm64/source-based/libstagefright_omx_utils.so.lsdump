@@ -7259,6 +7259,10 @@
      "name" : "android::ColorAspects::StandardFilm"
     },
     {
+     "enum_field_value" : 10,
+     "name" : "android::ColorAspects::StandardDisplayP3"
+    },
+    {
      "enum_field_value" : 255,
      "name" : "android::ColorAspects::StandardOther"
     }
@@ -7367,6 +7371,14 @@
     {
      "enum_field_value" : 6,
      "name" : "android::ColorAspects::PrimariesBT2020"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "android::ColorAspects::PrimariesRP431"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "android::ColorAspects::PrimariesEG432"
     },
     {
      "enum_field_value" : 255,
@@ -9842,11 +9854,11 @@
      "name" : "android::hardware::graphics::common::V1_0::BufferUsage::GPU_DATA_BUFFER"
     },
     {
-     "enum_field_value" : -268435456,
+     "enum_field_value" : 4026531840,
      "name" : "android::hardware::graphics::common::V1_0::BufferUsage::VENDOR_MASK"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 18446462598732840960,
      "name" : "android::hardware::graphics::common::V1_0::BufferUsage::VENDOR_MASK_HI"
     }
    ],
@@ -24589,6 +24601,12 @@
      "access" : "private",
      "field_name" : "mEnforceNoDataAvail",
      "field_offset" : 784,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mServiceFuzzing",
+     "field_offset" : 792,
      "referenced_type" : "_ZTIb"
     },
     {

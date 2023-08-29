@@ -643,6 +643,9 @@
    "name" : "_ZN7android22OmxGraphicBufferSource14onOmxExecutingEv"
   },
   {
+   "name" : "_ZN7android22OmxGraphicBufferSource9configureERKNS_2spINS_15IOmxNodeWrapperEEEiijjj"
+  },
+  {
    "name" : "_ZN7android22OmxGraphicBufferSource9configureERKNS_2spINS_15IOmxNodeWrapperEEEiijjy"
   },
   {
@@ -15365,6 +15368,37 @@
     }
    ],
    "return_type" : "_ZTIN7android6binder6StatusE",
+   "source_file" : "frameworks/av/media/libstagefright/omx/include/media/stagefright/omx/OmxGraphicBufferSource.h"
+  },
+  {
+   "function_name" : "android::OmxGraphicBufferSource::configure",
+   "linker_set_key" : "_ZN7android22OmxGraphicBufferSource9configureERKNS_2spINS_15IOmxNodeWrapperEEEiijjj",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android22OmxGraphicBufferSourceE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN7android2spINS_15IOmxNodeWrapperEEE"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIi",
    "source_file" : "frameworks/av/media/libstagefright/omx/include/media/stagefright/omx/OmxGraphicBufferSource.h"
   },
   {
@@ -43243,6 +43277,15 @@
    "name" : "android::sp<android::hidl::base::V1_0::IBase> &&",
    "referenced_type" : "_ZTIN7android2spINS_4hidl4base4V1_05IBaseEEE",
    "self_type" : "_ZTION7android2spINS_4hidl4base4V1_05IBaseEEE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTION7android2spINS_5FenceEEE",
+   "name" : "android::sp<android::Fence> &&",
+   "referenced_type" : "_ZTIN7android2spINS_5FenceEEE",
+   "self_type" : "_ZTION7android2spINS_5FenceEEE",
    "size" : 4,
    "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
   },
