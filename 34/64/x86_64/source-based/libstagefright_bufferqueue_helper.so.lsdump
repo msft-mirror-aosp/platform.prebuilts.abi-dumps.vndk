@@ -1000,6 +1000,9 @@
    "name" : "_ZN7android19GraphicBufferSource7releaseEv"
   },
   {
+   "name" : "_ZN7android19GraphicBufferSource9configureERKNS_2spINS_16ComponentWrapperEEEiijjj"
+  },
+  {
    "name" : "_ZN7android19GraphicBufferSource9configureERKNS_2spINS_16ComponentWrapperEEEiijjm"
   },
   {
@@ -11711,11 +11714,11 @@
      "name" : "android::hardware::graphics::common::V1_0::BufferUsage::GPU_DATA_BUFFER"
     },
     {
-     "enum_field_value" : -268435456,
+     "enum_field_value" : 4026531840,
      "name" : "android::hardware::graphics::common::V1_0::BufferUsage::VENDOR_MASK"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 18446462598732840960,
      "name" : "android::hardware::graphics::common::V1_0::BufferUsage::VENDOR_MASK_HI"
     }
    ],
@@ -12302,11 +12305,11 @@
      "name" : "android::hardware::graphics::common::V1_1::BufferUsage::GPU_DATA_BUFFER"
     },
     {
-     "enum_field_value" : -268435456,
+     "enum_field_value" : 4026531840,
      "name" : "android::hardware::graphics::common::V1_1::BufferUsage::VENDOR_MASK"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 18446462598732840960,
      "name" : "android::hardware::graphics::common::V1_1::BufferUsage::VENDOR_MASK_HI"
     },
     {
@@ -12887,11 +12890,11 @@
      "name" : "android::hardware::graphics::common::V1_2::BufferUsage::GPU_DATA_BUFFER"
     },
     {
-     "enum_field_value" : -268435456,
+     "enum_field_value" : 4026531840,
      "name" : "android::hardware::graphics::common::V1_2::BufferUsage::VENDOR_MASK"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 18446462598732840960,
      "name" : "android::hardware::graphics::common::V1_2::BufferUsage::VENDOR_MASK_HI"
     },
     {
@@ -14477,6 +14480,37 @@
     {
      "is_this_ptr" : true,
      "referenced_type" : "_ZTIPN7android19GraphicBufferSourceE"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/av/media/module/bqhelper/include/media/stagefright/bqhelper/GraphicBufferSource.h"
+  },
+  {
+   "function_name" : "android::GraphicBufferSource::configure",
+   "linker_set_key" : "_ZN7android19GraphicBufferSource9configureERKNS_2spINS_16ComponentWrapperEEEiijjj",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android19GraphicBufferSourceE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN7android2spINS_16ComponentWrapperEEE"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
     }
    ],
    "return_type" : "_ZTIi",
