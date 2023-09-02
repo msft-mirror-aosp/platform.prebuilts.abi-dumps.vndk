@@ -337,6 +337,9 @@
    "name" : "sqlite3_interrupt"
   },
   {
+   "name" : "sqlite3_is_interrupted"
+  },
+  {
    "name" : "sqlite3_keyword_check"
   },
   {
@@ -689,6 +692,9 @@
   },
   {
    "name" : "sqlite3_value_dup"
+  },
+  {
+   "name" : "sqlite3_value_encoding"
   },
   {
    "name" : "sqlite3_value_free"

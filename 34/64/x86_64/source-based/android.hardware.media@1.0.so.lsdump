@@ -2864,11 +2864,11 @@
      "name" : "android::hardware::graphics::common::V1_0::BufferUsage::GPU_DATA_BUFFER"
     },
     {
-     "enum_field_value" : -268435456,
+     "enum_field_value" : 4026531840,
      "name" : "android::hardware::graphics::common::V1_0::BufferUsage::VENDOR_MASK"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 18446462598732840960,
      "name" : "android::hardware::graphics::common::V1_0::BufferUsage::VENDOR_MASK_HI"
     }
    ],
