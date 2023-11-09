@@ -15,6 +15,15 @@
       }
     }
   ],
+  "libcrypto": [
+    {
+      "target_version": "current",
+      "ignore_linker_set_keys": [
+        "ASN1_item_sign",
+        "ASN1_item_sign_ctx"
+      ]
+    }
+  ],
   "libhidlbase": [
     {
       "target_version": "current",
