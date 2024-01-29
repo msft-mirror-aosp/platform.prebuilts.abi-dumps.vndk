@@ -23,7 +23,16 @@ package {
 genrule {
     name: "vndk_abi_dump_zip",
     tools: ["soong_zip"],
-    cmd: "$(location soong_zip) -o $(out) -C prebuilts/abi-dumps/vndk -D prebuilts/abi-dumps/vndk",
-    srcs: ["**/*.lsdump"],
+    // Directories 33 and 34 contain symbolic links to LLNDK dumps.
+    // They do not have to be included in the zip.
+    cmd: "find prebuilts/abi-dumps/vndk -type f -name '*.lsdump' > $(genDir)/paths.txt && " +
+        "$(location soong_zip) -symlinks=false -o $(out) -C prebuilts/abi-dumps/vndk -l $(genDir)/paths.txt",
+    srcs: [
+        "30/**/*.lsdump",
+        "31/**/*.lsdump",
+        "32/**/*.lsdump",
+        "33/**/*.lsdump",
+        "34/**/*.lsdump",
+    ],
     out: ["vndk_abi_dump.zip"],
 }
