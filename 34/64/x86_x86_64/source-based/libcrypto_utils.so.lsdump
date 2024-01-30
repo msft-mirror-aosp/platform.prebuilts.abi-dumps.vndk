@@ -137,13 +137,11 @@
  "qualified_types" :
  [
   {
-   "alignment" : 4,
    "is_const" : true,
    "linker_set_key" : "_ZTIK6rsa_st",
    "name" : "const rsa_st",
    "referenced_type" : "_ZTI6rsa_st",
    "self_type" : "_ZTIK6rsa_st",
-   "size" : 140,
    "source_file" : "system/core/libcrypto_utils/include/crypto_utils/android_pubkey.h"
   },
   {

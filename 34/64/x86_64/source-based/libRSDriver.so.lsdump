@@ -5794,7 +5794,7 @@
      "name" : "AHARDWAREBUFFER_USAGE_GPU_MIPMAP_COMPLETE"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 4294967296,
      "name" : "AHARDWAREBUFFER_USAGE_FRONT_BUFFER"
     },
     {
@@ -5810,71 +5810,71 @@
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_2"
     },
     {
-     "enum_field_value" : -2147483648,
+     "enum_field_value" : 2147483648,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_3"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 281474976710656,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_4"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 562949953421312,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_5"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 1125899906842624,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_6"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 2251799813685248,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_7"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 4503599627370496,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_8"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 9007199254740992,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_9"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 18014398509481984,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_10"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 36028797018963968,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_11"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 72057594037927936,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_12"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 144115188075855872,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_13"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 288230376151711744,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_14"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 576460752303423488,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_15"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 1152921504606846976,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_16"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 2305843009213693952,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_17"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 4611686018427387904,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_18"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 9223372036854775808,
      "name" : "AHARDWAREBUFFER_USAGE_VENDOR_19"
     }
    ],
@@ -6080,6 +6080,31 @@
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/android/native_window.h",
    "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 8,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 18446744073709551615,
+     "name" : "BIONIC_MULTIBYTE_RESULT_ILLEGAL_SEQUENCE"
+    },
+    {
+     "enum_field_value" : 18446744073709551614,
+     "name" : "BIONIC_MULTIBYTE_RESULT_INCOMPLETE_SEQUENCE"
+    },
+    {
+     "enum_field_value" : 18446744073709551613,
+     "name" : "BIONIC_MULTIBYTE_RESULT_NO_BYTES_CONSUMED"
+    }
+   ],
+   "linker_set_key" : "_ZTI41$BIONIC_MULTIBYTE_RESULT_ILLEGAL_SEQUENCE",
+   "name" : "(unnamed)",
+   "referenced_type" : "_ZTI41$BIONIC_MULTIBYTE_RESULT_ILLEGAL_SEQUENCE",
+   "self_type" : "_ZTI41$BIONIC_MULTIBYTE_RESULT_ILLEGAL_SEQUENCE",
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/bionic/libc/libc/android_vendor.34_x86_64_shared/gen/include/bits/bionic_multibyte_result.h",
+   "underlying_type" : "_ZTIm"
   },
   {
    "alignment" : 4,
@@ -10444,7 +10469,7 @@
      "referenced_type" : "_ZTIPKN7android12renderscript7ContextE"
     },
     {
-     "referenced_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_64_shared/obj/frameworks/rs/driver/rsdMesh.sdump"
+     "referenced_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_64_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/rs/driver/rsdMesh.sdump"
     },
     {
      "referenced_type" : "_ZTIj"
@@ -10468,7 +10493,7 @@
      "referenced_type" : "_ZTIPKN7android12renderscript7ContextE"
     },
     {
-     "referenced_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_64_shared/obj/frameworks/rs/driver/rsdMesh.sdump"
+     "referenced_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_64_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/rs/driver/rsdMesh.sdump"
     }
    ],
    "return_type" : "_ZTIb",
@@ -11155,7 +11180,7 @@
      "referenced_type" : "_ZTIPKN7android12renderscript7ContextE"
     },
     {
-     "referenced_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_64_shared/obj/frameworks/rs/driver/rsdMesh.sdump"
+     "referenced_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_64_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/rs/driver/rsdMesh.sdump"
     }
    ],
    "return_type" : "_ZTIv",
@@ -25088,8 +25113,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIPKN7android12renderscript4MeshE",
    "name" : "const android::renderscript::Mesh *",
-   "referenced_type" : "_ZTIKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_64_shared/obj/frameworks/rs/driver/rsdMesh.sdump",
-   "self_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_64_shared/obj/frameworks/rs/driver/rsdMesh.sdump",
+   "referenced_type" : "_ZTIKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_64_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/rs/driver/rsdMesh.sdump",
+   "self_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_64_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/rs/driver/rsdMesh.sdump",
    "size" : 8,
    "source_file" : "frameworks/rs/rs_hal.h"
   },
@@ -30937,7 +30962,7 @@
     {
      "access" : "protected",
      "field_name" : "mRSMesh",
-     "referenced_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_64_shared/obj/frameworks/rs/driver/rsdMesh.sdump"
+     "referenced_type" : "_ZTIPKN7android12renderscript4MeshE#ODR:out/soong/.intermediates/frameworks/rs/libRSDriver/android_vendor.34_x86_64_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/rs/driver/rsdMesh.sdump"
     },
     {
      "access" : "protected",
@@ -69234,7 +69259,7 @@
   {
    "alignment" : 1,
    "linker_set_key" : "_ZTINSt3__120__make_tuple_indicesILm0ELm0EEE",
-   "name" : "std::__make_tuple_indices<0, 0>",
+   "name" : "std::__make_tuple_indices<0>",
    "referenced_type" : "_ZTINSt3__120__make_tuple_indicesILm0ELm0EEE",
    "self_type" : "_ZTINSt3__120__make_tuple_indicesILm0ELm0EEE",
    "size" : 1,

@@ -146,6 +146,12 @@
    "name" : "_Z24SetProcessProfilesCachedjiRKNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE"
   },
   {
+   "name" : "_Z24isProfileValidForProcessRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEii"
+  },
+  {
+   "name" : "_Z24sendSignalToProcessGroupjii"
+  },
+  {
    "name" : "_Z24setProcessGroupSoftLimitjil"
   },
   {
@@ -244,7 +250,7 @@
    "name" : "_ZN16CgroupController8IsUsableEv"
   },
   {
-   "name" : "_ZN16ProfileAttribute5ResetERK16CgroupControllerRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE"
+   "name" : "_ZN16ProfileAttribute5ResetERK16CgroupControllerRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEESB_"
   },
   {
    "name" : "_ZN17IProfileAttributeD0Ev"
@@ -1132,7 +1138,13 @@
    "name" : "_ZNK11TaskProfile14ExecuteForTaskEi"
   },
   {
+   "name" : "_ZNK11TaskProfile14IsValidForTaskEi"
+  },
+  {
    "name" : "_ZNK11TaskProfile17ExecuteForProcessEji"
+  },
+  {
+   "name" : "_ZNK11TaskProfile17IsValidForProcessEji"
   },
   {
    "name" : "_ZNK12TaskProfiles10GetProfileENSt3__117basic_string_viewIcNS0_11char_traitsIcEEEE"
@@ -1150,7 +1162,13 @@
    "name" : "_ZNK15SetCgroupAction14ExecuteForTaskEi"
   },
   {
+   "name" : "_ZNK15SetCgroupAction14IsValidForTaskEi"
+  },
+  {
    "name" : "_ZNK15SetCgroupAction17ExecuteForProcessEji"
+  },
+  {
+   "name" : "_ZNK15SetCgroupAction17IsValidForProcessEji"
   },
   {
    "name" : "_ZNK15SetClampsAction14ExecuteForTaskEi"
@@ -1165,10 +1183,16 @@
    "name" : "_ZNK15WriteFileAction14ExecuteForTaskEi"
   },
   {
+   "name" : "_ZNK15WriteFileAction14IsValidForTaskEi"
+  },
+  {
    "name" : "_ZNK15WriteFileAction16WriteValueToFileERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEN13ProfileAction17ResourceCacheTypeEiib"
   },
   {
    "name" : "_ZNK15WriteFileAction17ExecuteForProcessEji"
+  },
+  {
+   "name" : "_ZNK15WriteFileAction17IsValidForProcessEji"
   },
   {
    "name" : "_ZNK16CgroupController12GetTaskGroupEiPNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
@@ -1198,10 +1222,22 @@
    "name" : "_ZNK16ProfileAttribute14GetPathForTaskEiPNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
   },
   {
+   "name" : "_ZNK16ProfileAttribute17GetPathForProcessEjiPNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZNK16ProfileAttribute9file_nameEv"
+  },
+  {
    "name" : "_ZNK18ApplyProfileAction14ExecuteForTaskEi"
   },
   {
+   "name" : "_ZNK18ApplyProfileAction14IsValidForTaskEi"
+  },
+  {
    "name" : "_ZNK18ApplyProfileAction17ExecuteForProcessEji"
+  },
+  {
+   "name" : "_ZNK18ApplyProfileAction17IsValidForProcessEji"
   },
   {
    "name" : "_ZNK18SetAttributeAction13ExecuteForUIDEj"
@@ -1210,7 +1246,16 @@
    "name" : "_ZNK18SetAttributeAction14ExecuteForTaskEi"
   },
   {
+   "name" : "_ZNK18SetAttributeAction14IsValidForTaskEi"
+  },
+  {
+   "name" : "_ZNK18SetAttributeAction16WriteValueToFileERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
    "name" : "_ZNK18SetAttributeAction17ExecuteForProcessEji"
+  },
+  {
+   "name" : "_ZNK18SetAttributeAction17IsValidForProcessEji"
   },
   {
    "name" : "_ZNK19SetTimerSlackAction14ExecuteForTaskEi"
