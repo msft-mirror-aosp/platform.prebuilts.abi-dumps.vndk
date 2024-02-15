@@ -1,4 +1,9 @@
 {
+  "global": {
+    "flags": {
+      "advice_only": true
+    }
+  },
   "libbinder": [
     {
       "target_version": "current",

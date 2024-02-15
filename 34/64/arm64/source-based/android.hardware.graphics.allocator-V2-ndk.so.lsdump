@@ -646,7 +646,7 @@
      "name" : "aidl::android::hardware::graphics::common::BufferUsage::HW_IMAGE_ENCODER"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 4294967296,
      "name" : "aidl::android::hardware::graphics::common::BufferUsage::FRONT_BUFFER"
     },
     {
@@ -654,7 +654,7 @@
      "name" : "aidl::android::hardware::graphics::common::BufferUsage::VENDOR_MASK"
     },
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : -281474976710656,
      "name" : "aidl::android::hardware::graphics::common::BufferUsage::VENDOR_MASK_HI"
     }
    ],

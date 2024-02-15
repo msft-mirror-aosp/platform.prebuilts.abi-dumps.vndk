@@ -49,9 +49,6 @@
  "elf_functions" :
  [
   {
-   "name" : "_libcap_strdup"
-  },
-  {
    "name" : "cap_clear"
   },
   {
@@ -77,6 +74,9 @@
   },
   {
    "name" : "cap_fill"
+  },
+  {
+   "name" : "cap_fill_flag"
   },
   {
    "name" : "cap_free"
@@ -121,10 +121,19 @@
    "name" : "cap_get_secbits"
   },
   {
+   "name" : "cap_iab_compare"
+  },
+  {
+   "name" : "cap_iab_dup"
+  },
+  {
    "name" : "cap_iab_fill"
   },
   {
    "name" : "cap_iab_from_text"
+  },
+  {
+   "name" : "cap_iab_get_pid"
   },
   {
    "name" : "cap_iab_get_proc"
@@ -182,6 +191,9 @@
   },
   {
    "name" : "cap_prctlw"
+  },
+  {
+   "name" : "cap_proc_root"
   },
   {
    "name" : "cap_reset_ambient"
@@ -521,6 +533,27 @@
    "source_file" : "external/libcap/libcap/include/sys/capability.h"
   },
   {
+   "function_name" : "cap_fill_flag",
+   "linker_set_key" : "cap_fill_flag",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11_cap_struct"
+    },
+    {
+     "referenced_type" : "_ZTI10cap_flag_t"
+    },
+    {
+     "referenced_type" : "_ZTIP11_cap_struct"
+    },
+    {
+     "referenced_type" : "_ZTI10cap_flag_t"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "external/libcap/libcap/include/sys/capability.h"
+  },
+  {
    "function_name" : "cap_free",
    "linker_set_key" : "cap_free",
    "parameters" :
@@ -683,6 +716,33 @@
    "source_file" : "external/libcap/libcap/include/sys/capability.h"
   },
   {
+   "function_name" : "cap_iab_compare",
+   "linker_set_key" : "cap_iab_compare",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9cap_iab_s"
+    },
+    {
+     "referenced_type" : "_ZTIP9cap_iab_s"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "external/libcap/libcap/include/sys/capability.h"
+  },
+  {
+   "function_name" : "cap_iab_dup",
+   "linker_set_key" : "cap_iab_dup",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9cap_iab_s"
+    }
+   ],
+   "return_type" : "_ZTIP9cap_iab_s",
+   "source_file" : "external/libcap/libcap/include/sys/capability.h"
+  },
+  {
    "function_name" : "cap_iab_fill",
    "linker_set_key" : "cap_iab_fill",
    "parameters" :
@@ -710,6 +770,18 @@
    [
     {
      "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIP9cap_iab_s",
+   "source_file" : "external/libcap/libcap/include/sys/capability.h"
+  },
+  {
+   "function_name" : "cap_iab_get_pid",
+   "linker_set_key" : "cap_iab_get_pid",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
     }
    ],
    "return_type" : "_ZTIP9cap_iab_s",
@@ -823,7 +895,7 @@
      "referenced_type" : "_ZTIPFiPvE"
     }
    ],
-   "return_type" : "_ZTIv",
+   "return_type" : "_ZTIi",
    "source_file" : "external/libcap/libcap/include/sys/capability.h"
   },
   {
@@ -838,7 +910,7 @@
      "referenced_type" : "_ZTIPKc"
     }
    ],
-   "return_type" : "_ZTIv",
+   "return_type" : "_ZTIi",
    "source_file" : "external/libcap/libcap/include/sys/capability.h"
   },
   {
@@ -868,7 +940,7 @@
      "referenced_type" : "_ZTIj"
     }
    ],
-   "return_type" : "_ZTIv",
+   "return_type" : "_ZTIi",
    "source_file" : "external/libcap/libcap/include/sys/capability.h"
   },
   {
@@ -889,7 +961,7 @@
      "referenced_type" : "_ZTIPKj"
     }
    ],
-   "return_type" : "_ZTIv",
+   "return_type" : "_ZTIi",
    "source_file" : "external/libcap/libcap/include/sys/capability.h"
   },
   {
@@ -904,7 +976,7 @@
      "referenced_type" : "_ZTIj"
     }
    ],
-   "return_type" : "_ZTIv",
+   "return_type" : "_ZTIi",
    "source_file" : "external/libcap/libcap/include/sys/capability.h"
   },
   {
@@ -995,6 +1067,18 @@
     }
    ],
    "return_type" : "_ZTIi",
+   "source_file" : "external/libcap/libcap/include/sys/capability.h"
+  },
+  {
+   "function_name" : "cap_proc_root",
+   "linker_set_key" : "cap_proc_root",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIPc",
    "source_file" : "external/libcap/libcap/include/sys/capability.h"
   },
   {

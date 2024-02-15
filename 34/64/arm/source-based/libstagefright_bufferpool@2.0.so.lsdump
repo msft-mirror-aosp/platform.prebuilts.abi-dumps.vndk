@@ -5435,7 +5435,7 @@
    "name" : "const android::MessageQueueBase<android::hardware::MQDescriptor, android::hardware::media::bufferpool::V2_0::BufferStatusMessage, android::hardware::kSynchronizedReadWrite>",
    "referenced_type" : "_ZTIN7android16MessageQueueBaseINS_8hardware12MQDescriptorENS1_5media10bufferpool4V2_019BufferStatusMessageELNS1_8MQFlavorE1EEE",
    "self_type" : "_ZTIKN7android16MessageQueueBaseINS_8hardware12MQDescriptorENS1_5media10bufferpool4V2_019BufferStatusMessageELNS1_8MQFlavorE1EEE",
-   "size" : 24,
+   "size" : 28,
    "source_file" : "system/libfmq/include/fmq/MessageQueueBase.h"
   },
   {
@@ -5465,7 +5465,7 @@
    "name" : "const android::MessageQueueBase<android::hardware::MQDescriptor, android::hardware::media::bufferpool::V2_0::BufferInvalidationMessage, android::hardware::kUnsynchronizedWrite>",
    "referenced_type" : "_ZTIN7android16MessageQueueBaseINS_8hardware12MQDescriptorENS1_5media10bufferpool4V2_025BufferInvalidationMessageELNS1_8MQFlavorE2EEE",
    "self_type" : "_ZTIKN7android16MessageQueueBaseINS_8hardware12MQDescriptorENS1_5media10bufferpool4V2_025BufferInvalidationMessageELNS1_8MQFlavorE2EEE",
-   "size" : 24,
+   "size" : 28,
    "source_file" : "system/libfmq/include/fmq/MessageQueueBase.h"
   },
   {
@@ -6718,13 +6718,19 @@
      "field_name" : "mEventFlag",
      "field_offset" : 160,
      "referenced_type" : "_ZTIPN7android8hardware9EventFlagE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "kPageSize",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIKj"
     }
    ],
    "linker_set_key" : "_ZTIN7android16MessageQueueBaseINS_8hardware12MQDescriptorENS1_5media10bufferpool4V2_019BufferStatusMessageELNS1_8MQFlavorE1EEE",
    "name" : "android::MessageQueueBase<android::hardware::MQDescriptor, android::hardware::media::bufferpool::V2_0::BufferStatusMessage, android::hardware::kSynchronizedReadWrite>",
    "referenced_type" : "_ZTIN7android16MessageQueueBaseINS_8hardware12MQDescriptorENS1_5media10bufferpool4V2_019BufferStatusMessageELNS1_8MQFlavorE1EEE",
    "self_type" : "_ZTIN7android16MessageQueueBaseINS_8hardware12MQDescriptorENS1_5media10bufferpool4V2_019BufferStatusMessageELNS1_8MQFlavorE1EEE",
-   "size" : 24,
+   "size" : 28,
    "source_file" : "system/libfmq/include/fmq/MessageQueueBase.h",
    "template_args" :
    [
@@ -6815,13 +6821,19 @@
      "field_name" : "mEventFlag",
      "field_offset" : 160,
      "referenced_type" : "_ZTIPN7android8hardware9EventFlagE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "kPageSize",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIKj"
     }
    ],
    "linker_set_key" : "_ZTIN7android16MessageQueueBaseINS_8hardware12MQDescriptorENS1_5media10bufferpool4V2_025BufferInvalidationMessageELNS1_8MQFlavorE2EEE",
    "name" : "android::MessageQueueBase<android::hardware::MQDescriptor, android::hardware::media::bufferpool::V2_0::BufferInvalidationMessage, android::hardware::kUnsynchronizedWrite>",
    "referenced_type" : "_ZTIN7android16MessageQueueBaseINS_8hardware12MQDescriptorENS1_5media10bufferpool4V2_025BufferInvalidationMessageELNS1_8MQFlavorE2EEE",
    "self_type" : "_ZTIN7android16MessageQueueBaseINS_8hardware12MQDescriptorENS1_5media10bufferpool4V2_025BufferInvalidationMessageELNS1_8MQFlavorE2EEE",
-   "size" : 24,
+   "size" : 28,
    "source_file" : "system/libfmq/include/fmq/MessageQueueBase.h",
    "template_args" :
    [
@@ -9084,7 +9096,7 @@
    "name" : "android::hardware::MessageQueue<android::hardware::media::bufferpool::V2_0::BufferStatusMessage, android::hardware::kSynchronizedReadWrite>",
    "referenced_type" : "_ZTIN7android8hardware12MessageQueueINS0_5media10bufferpool4V2_019BufferStatusMessageELNS0_8MQFlavorE1EEE",
    "self_type" : "_ZTIN7android8hardware12MessageQueueINS0_5media10bufferpool4V2_019BufferStatusMessageELNS0_8MQFlavorE1EEE",
-   "size" : 24,
+   "size" : 28,
    "source_file" : "system/libfmq/include/fmq/MessageQueue.h",
    "template_args" :
    [
@@ -9103,7 +9115,7 @@
    "name" : "android::hardware::MessageQueue<android::hardware::media::bufferpool::V2_0::BufferInvalidationMessage, android::hardware::kUnsynchronizedWrite>",
    "referenced_type" : "_ZTIN7android8hardware12MessageQueueINS0_5media10bufferpool4V2_025BufferInvalidationMessageELNS0_8MQFlavorE2EEE",
    "self_type" : "_ZTIN7android8hardware12MessageQueueINS0_5media10bufferpool4V2_025BufferInvalidationMessageELNS0_8MQFlavorE2EEE",
-   "size" : 24,
+   "size" : 28,
    "source_file" : "system/libfmq/include/fmq/MessageQueue.h",
    "template_args" :
    [
