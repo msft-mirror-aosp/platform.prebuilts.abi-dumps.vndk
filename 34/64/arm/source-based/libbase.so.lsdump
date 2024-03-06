@@ -1048,10 +1048,19 @@
    "name" : "_ZN7android4base13StringReplaceENSt3__117basic_string_viewIcNS1_11char_traitsIcEEEES5_S5_b"
   },
   {
+   "name" : "_ZN7android4base14CachedProperty13WaitForChangeENSt3__16chrono8durationIxNS2_5ratioILx1ELx1000EEEEE"
+  },
+  {
    "name" : "_ZN7android4base14CachedProperty3GetEPb"
   },
   {
+   "name" : "_ZN7android4base14CachedPropertyC1ENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE"
+  },
+  {
    "name" : "_ZN7android4base14CachedPropertyC1EPKc"
+  },
+  {
+   "name" : "_ZN7android4base14CachedPropertyC2ENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE"
   },
   {
    "name" : "_ZN7android4base14CachedPropertyC2EPKc"
@@ -1890,7 +1899,7 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 9223372036854775808,
      "name" : "fmt::detail::is_unpacked_bit"
     }
    ],
@@ -1941,7 +1950,7 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 4611686018427387904,
      "name" : "fmt::detail::has_named_args_bit"
     }
    ],
@@ -2697,7 +2706,7 @@
   },
   {
    "access" : "protected",
-   "function_name" : "fmt::basic_memory_buffer<char, 500>::grow",
+   "function_name" : "fmt::basic_memory_buffer<char>::grow",
    "linker_set_key" : "_ZN3fmt2v719basic_memory_bufferIcLj500ENSt3__19allocatorIcEEE4growEj",
    "parameters" :
    [
@@ -2731,7 +2740,7 @@
   },
   {
    "access" : "protected",
-   "function_name" : "fmt::basic_memory_buffer<wchar_t, 500>::grow",
+   "function_name" : "fmt::basic_memory_buffer<wchar_t>::grow",
    "linker_set_key" : "_ZN3fmt2v719basic_memory_bufferIwLj500ENSt3__19allocatorIwEEE4growEj",
    "parameters" :
    [
@@ -4738,6 +4747,23 @@
    "source_file" : "system/libbase/include/android-base/strings.h"
   },
   {
+   "function_name" : "android::base::CachedProperty::WaitForChange",
+   "linker_set_key" : "_ZN7android4base14CachedProperty13WaitForChangeENSt3__16chrono8durationIxNS2_5ratioILx1ELx1000EEEEE",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android4base14CachedPropertyE"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTINSt3__16chrono8durationIxNS_5ratioILx1ELx1000EEEEE"
+    }
+   ],
+   "return_type" : "_ZTIPKc",
+   "source_file" : "system/libbase/include/android-base/properties.h"
+  },
+  {
    "function_name" : "android::base::CachedProperty::Get",
    "linker_set_key" : "_ZN7android4base14CachedProperty3GetEPb",
    "parameters" :
@@ -4756,6 +4782,22 @@
   },
   {
    "function_name" : "android::base::CachedProperty::CachedProperty",
+   "linker_set_key" : "_ZN7android4base14CachedPropertyC1ENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android4base14CachedPropertyE"
+    },
+    {
+     "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "system/libbase/include/android-base/properties.h"
+  },
+  {
+   "function_name" : "android::base::CachedProperty::CachedProperty",
    "linker_set_key" : "_ZN7android4base14CachedPropertyC1EPKc",
    "parameters" :
    [
@@ -4765,6 +4807,22 @@
     },
     {
      "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "system/libbase/include/android-base/properties.h"
+  },
+  {
+   "function_name" : "android::base::CachedProperty::CachedProperty",
+   "linker_set_key" : "_ZN7android4base14CachedPropertyC2ENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android4base14CachedPropertyE"
+    },
+    {
+     "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
     }
    ],
    "return_type" : "_ZTIv",
