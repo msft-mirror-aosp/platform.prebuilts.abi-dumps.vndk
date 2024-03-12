@@ -1555,7 +1555,7 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 9223372036854775808,
      "name" : "fmt::detail::is_unpacked_bit"
     }
    ],
@@ -1606,7 +1606,7 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 4611686018427387904,
      "name" : "fmt::detail::has_named_args_bit"
     }
    ],
@@ -7994,8 +7994,8 @@
    ],
    "linker_set_key" : "_ZTI13ion_heap_data",
    "name" : "ion_heap_data",
-   "referenced_type" : "_ZTI13ion_heap_data#ODR:out/soong/.intermediates/system/memory/libion/libion/android_vendor.UpsideDownCake_arm64_armv8-a_static/obj/system/memory/libion/ion.sdump",
-   "self_type" : "_ZTI13ion_heap_data#ODR:out/soong/.intermediates/system/memory/libion/libion/android_vendor.UpsideDownCake_arm64_armv8-a_static/obj/system/memory/libion/ion.sdump",
+   "referenced_type" : "_ZTI13ion_heap_data#ODR:out/soong/.intermediates/system/memory/libion/libion/android_vendor.34_arm64_armv8-a_static/obj/system/memory/libion/ion.sdump",
+   "self_type" : "_ZTI13ion_heap_data#ODR:out/soong/.intermediates/system/memory/libion/libion/android_vendor.34_arm64_armv8-a_static/obj/system/memory/libion/ion.sdump",
    "size" : 52,
    "source_file" : "system/memory/libion/kernel-headers/linux/ion_4.19.h"
   },
@@ -8098,8 +8098,8 @@
    ],
    "linker_set_key" : "_ZTI14ion_heap_query",
    "name" : "ion_heap_query",
-   "referenced_type" : "_ZTI14ion_heap_query#ODR:out/soong/.intermediates/system/memory/libion/libion/android_vendor.UpsideDownCake_arm64_armv8-a_static/obj/system/memory/libion/ion.sdump",
-   "self_type" : "_ZTI14ion_heap_query#ODR:out/soong/.intermediates/system/memory/libion/libion/android_vendor.UpsideDownCake_arm64_armv8-a_static/obj/system/memory/libion/ion.sdump",
+   "referenced_type" : "_ZTI14ion_heap_query#ODR:out/soong/.intermediates/system/memory/libion/libion/android_vendor.34_arm64_armv8-a_static/obj/system/memory/libion/ion.sdump",
+   "self_type" : "_ZTI14ion_heap_query#ODR:out/soong/.intermediates/system/memory/libion/libion/android_vendor.34_arm64_armv8-a_static/obj/system/memory/libion/ion.sdump",
    "size" : 24,
    "source_file" : "system/memory/libion/kernel-headers/linux/ion_4.19.h"
   },
@@ -8297,8 +8297,8 @@
    ],
    "linker_set_key" : "_ZTI23ion_new_allocation_data",
    "name" : "ion_new_allocation_data",
-   "referenced_type" : "_ZTI23ion_new_allocation_data#ODR:out/soong/.intermediates/system/memory/libion/libion/android_vendor.UpsideDownCake_arm64_armv8-a_static/obj/system/memory/libion/ion.sdump",
-   "self_type" : "_ZTI23ion_new_allocation_data#ODR:out/soong/.intermediates/system/memory/libion/libion/android_vendor.UpsideDownCake_arm64_armv8-a_static/obj/system/memory/libion/ion.sdump",
+   "referenced_type" : "_ZTI23ion_new_allocation_data#ODR:out/soong/.intermediates/system/memory/libion/libion/android_vendor.34_arm64_armv8-a_static/obj/system/memory/libion/ion.sdump",
+   "self_type" : "_ZTI23ion_new_allocation_data#ODR:out/soong/.intermediates/system/memory/libion/libion/android_vendor.34_arm64_armv8-a_static/obj/system/memory/libion/ion.sdump",
    "size" : 24,
    "source_file" : "system/memory/libion/kernel-headers/linux/ion_4.19.h"
   },
