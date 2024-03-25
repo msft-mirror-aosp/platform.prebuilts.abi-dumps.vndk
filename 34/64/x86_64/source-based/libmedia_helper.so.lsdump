@@ -667,13 +667,7 @@
    "name" : "_ZN7android14AudioParameter10keyRoutingE"
   },
   {
-   "name" : "_ZN7android14AudioParameter10keyTtyModeE"
-  },
-  {
    "name" : "_ZN7android14AudioParameter10valueFalseE"
-  },
-  {
-   "name" : "_ZN7android14AudioParameter10valueHacOnE"
   },
   {
    "name" : "_ZN7android14AudioParameter11keyChannelsE"
@@ -682,16 +676,10 @@
    "name" : "_ZN7android14AudioParameter11keyHwAvSyncE"
   },
   {
-   "name" : "_ZN7android14AudioParameter11valueHacOffE"
-  },
-  {
    "name" : "_ZN7android14AudioParameter12keyProgramIdE"
   },
   {
    "name" : "_ZN7android14AudioParameter13keyFrameCountE"
-  },
-  {
-   "name" : "_ZN7android14AudioParameter13keyHacSettingE"
   },
   {
    "name" : "_ZN7android14AudioParameter13keyMonoOutputE"
@@ -715,15 +703,6 @@
    "name" : "_ZN7android14AudioParameter15keySamplingRateE"
   },
   {
-   "name" : "_ZN7android14AudioParameter15valueTtyModeHcoE"
-  },
-  {
-   "name" : "_ZN7android14AudioParameter15valueTtyModeOffE"
-  },
-  {
-   "name" : "_ZN7android14AudioParameter15valueTtyModeVcoE"
-  },
-  {
    "name" : "_ZN7android14AudioParameter16keyBtLeSuspendedE"
   },
   {
@@ -731,9 +710,6 @@
   },
   {
    "name" : "_ZN7android14AudioParameter16keyStreamConnectE"
-  },
-  {
-   "name" : "_ZN7android14AudioParameter16valueTtyModeFullE"
   },
   {
    "name" : "_ZN7android14AudioParameter17keyPresentationIdE"
@@ -1449,20 +1425,8 @@
    "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
   },
   {
-   "linker_set_key" : "_ZN7android14AudioParameter10keyTtyModeE",
-   "name" : "android::AudioParameter::keyTtyMode",
-   "referenced_type" : "_ZTIKPKc",
-   "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
-  },
-  {
    "linker_set_key" : "_ZN7android14AudioParameter10valueFalseE",
    "name" : "android::AudioParameter::valueFalse",
-   "referenced_type" : "_ZTIKPKc",
-   "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
-  },
-  {
-   "linker_set_key" : "_ZN7android14AudioParameter10valueHacOnE",
-   "name" : "android::AudioParameter::valueHacOn",
    "referenced_type" : "_ZTIKPKc",
    "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
   },
@@ -1479,12 +1443,6 @@
    "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
   },
   {
-   "linker_set_key" : "_ZN7android14AudioParameter11valueHacOffE",
-   "name" : "android::AudioParameter::valueHacOff",
-   "referenced_type" : "_ZTIKPKc",
-   "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
-  },
-  {
    "linker_set_key" : "_ZN7android14AudioParameter12keyProgramIdE",
    "name" : "android::AudioParameter::keyProgramId",
    "referenced_type" : "_ZTIKPKc",
@@ -1493,12 +1451,6 @@
   {
    "linker_set_key" : "_ZN7android14AudioParameter13keyFrameCountE",
    "name" : "android::AudioParameter::keyFrameCount",
-   "referenced_type" : "_ZTIKPKc",
-   "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
-  },
-  {
-   "linker_set_key" : "_ZN7android14AudioParameter13keyHacSettingE",
-   "name" : "android::AudioParameter::keyHacSetting",
    "referenced_type" : "_ZTIKPKc",
    "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
   },
@@ -1545,24 +1497,6 @@
    "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
   },
   {
-   "linker_set_key" : "_ZN7android14AudioParameter15valueTtyModeHcoE",
-   "name" : "android::AudioParameter::valueTtyModeHco",
-   "referenced_type" : "_ZTIKPKc",
-   "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
-  },
-  {
-   "linker_set_key" : "_ZN7android14AudioParameter15valueTtyModeOffE",
-   "name" : "android::AudioParameter::valueTtyModeOff",
-   "referenced_type" : "_ZTIKPKc",
-   "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
-  },
-  {
-   "linker_set_key" : "_ZN7android14AudioParameter15valueTtyModeVcoE",
-   "name" : "android::AudioParameter::valueTtyModeVco",
-   "referenced_type" : "_ZTIKPKc",
-   "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
-  },
-  {
    "linker_set_key" : "_ZN7android14AudioParameter16keyBtLeSuspendedE",
    "name" : "android::AudioParameter::keyBtLeSuspended",
    "referenced_type" : "_ZTIKPKc",
@@ -1577,12 +1511,6 @@
   {
    "linker_set_key" : "_ZN7android14AudioParameter16keyStreamConnectE",
    "name" : "android::AudioParameter::keyStreamConnect",
-   "referenced_type" : "_ZTIKPKc",
-   "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
-  },
-  {
-   "linker_set_key" : "_ZN7android14AudioParameter16valueTtyModeFullE",
-   "name" : "android::AudioParameter::valueTtyModeFull",
    "referenced_type" : "_ZTIKPKc",
    "source_file" : "frameworks/av/media/libmediahelper/include/media/AudioParameter.h"
   },

@@ -218,9 +218,6 @@
    "name" : "pcm_get_subdevice"
   },
   {
-   "name" : "pcm_get_xruns"
-  },
-  {
    "name" : "pcm_ioctl"
   },
   {
@@ -1298,18 +1295,6 @@
     }
    ],
    "return_type" : "_ZTIj",
-   "source_file" : "external/tinyalsa/include/tinyalsa/asoundlib.h"
-  },
-  {
-   "function_name" : "pcm_get_xruns",
-   "linker_set_key" : "pcm_get_xruns",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP3pcm"
-    }
-   ],
-   "return_type" : "_ZTIi",
    "source_file" : "external/tinyalsa/include/tinyalsa/asoundlib.h"
   },
   {
