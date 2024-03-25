@@ -3418,7 +3418,7 @@
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::NONE"
     },
     {
-     "enum_field_value" : 2147483648,
+     "enum_field_value" : -2147483648,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::BIT_IN"
     },
     {
@@ -3558,119 +3558,119 @@
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::OUT_ALL_USB"
     },
     {
-     "enum_field_value" : 2147483649,
+     "enum_field_value" : -2147483647,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_COMMUNICATION"
     },
     {
-     "enum_field_value" : 2147483650,
+     "enum_field_value" : -2147483646,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_AMBIENT"
     },
     {
-     "enum_field_value" : 2147483652,
+     "enum_field_value" : -2147483644,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_BUILTIN_MIC"
     },
     {
-     "enum_field_value" : 2147483656,
+     "enum_field_value" : -2147483640,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_BLUETOOTH_SCO_HEADSET"
     },
     {
-     "enum_field_value" : 2147483664,
+     "enum_field_value" : -2147483632,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_WIRED_HEADSET"
     },
     {
-     "enum_field_value" : 2147483680,
+     "enum_field_value" : -2147483616,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_AUX_DIGITAL"
     },
     {
-     "enum_field_value" : 2147483680,
+     "enum_field_value" : -2147483616,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_HDMI"
     },
     {
-     "enum_field_value" : 2147483712,
+     "enum_field_value" : -2147483584,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_VOICE_CALL"
     },
     {
-     "enum_field_value" : 2147483712,
+     "enum_field_value" : -2147483584,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_TELEPHONY_RX"
     },
     {
-     "enum_field_value" : 2147483776,
+     "enum_field_value" : -2147483520,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_BACK_MIC"
     },
     {
-     "enum_field_value" : 2147483904,
+     "enum_field_value" : -2147483392,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_REMOTE_SUBMIX"
     },
     {
-     "enum_field_value" : 2147484160,
+     "enum_field_value" : -2147483136,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_ANLG_DOCK_HEADSET"
     },
     {
-     "enum_field_value" : 2147484672,
+     "enum_field_value" : -2147482624,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_DGTL_DOCK_HEADSET"
     },
     {
-     "enum_field_value" : 2147485696,
+     "enum_field_value" : -2147481600,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_USB_ACCESSORY"
     },
     {
-     "enum_field_value" : 2147487744,
+     "enum_field_value" : -2147479552,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_USB_DEVICE"
     },
     {
-     "enum_field_value" : 2147491840,
+     "enum_field_value" : -2147475456,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_FM_TUNER"
     },
     {
-     "enum_field_value" : 2147500032,
+     "enum_field_value" : -2147467264,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_TV_TUNER"
     },
     {
-     "enum_field_value" : 2147516416,
+     "enum_field_value" : -2147450880,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_LINE"
     },
     {
-     "enum_field_value" : 2147549184,
+     "enum_field_value" : -2147418112,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_SPDIF"
     },
     {
-     "enum_field_value" : 2147614720,
+     "enum_field_value" : -2147352576,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_BLUETOOTH_A2DP"
     },
     {
-     "enum_field_value" : 2147745792,
+     "enum_field_value" : -2147221504,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_LOOPBACK"
     },
     {
-     "enum_field_value" : 2148007936,
+     "enum_field_value" : -2146959360,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_IP"
     },
     {
-     "enum_field_value" : 2148532224,
+     "enum_field_value" : -2146435072,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_BUS"
     },
     {
-     "enum_field_value" : 2164260864,
+     "enum_field_value" : -2130706432,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_PROXY"
     },
     {
-     "enum_field_value" : 2181038080,
+     "enum_field_value" : -2113929216,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_USB_HEADSET"
     },
     {
-     "enum_field_value" : 3221225472,
+     "enum_field_value" : -1073741824,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_DEFAULT"
     },
     {
-     "enum_field_value" : 3273654271,
+     "enum_field_value" : -1021313025,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_ALL"
     },
     {
-     "enum_field_value" : 2147483656,
+     "enum_field_value" : -2147483640,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_ALL_SCO"
     },
     {
-     "enum_field_value" : 2181044224,
+     "enum_field_value" : -2113923072,
      "name" : "android::hardware::audio::common::V2_0::AudioDevice::IN_ALL_USB"
     }
    ],
@@ -3687,7 +3687,7 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : 4294967295,
+     "enum_field_value" : -1,
      "name" : "android::hardware::audio::common::V2_0::AudioFormat::INVALID"
     },
     {
@@ -3835,7 +3835,7 @@
      "name" : "android::hardware::audio::common::V2_0::AudioFormat::LDAC"
     },
     {
-     "enum_field_value" : 4278190080,
+     "enum_field_value" : -16777216,
      "name" : "android::hardware::audio::common::V2_0::AudioFormat::MAIN_MASK"
     },
     {
@@ -4416,7 +4416,7 @@
      "name" : "android::hardware::audio::common::V2_0::AudioChannelMask::NONE"
     },
     {
-     "enum_field_value" : 3221225472,
+     "enum_field_value" : -1073741824,
      "name" : "android::hardware::audio::common::V2_0::AudioChannelMask::INVALID"
     },
     {
@@ -4640,39 +4640,39 @@
      "name" : "android::hardware::audio::common::V2_0::AudioChannelMask::COUNT_MAX"
     },
     {
-     "enum_field_value" : 2147483648,
+     "enum_field_value" : -2147483648,
      "name" : "android::hardware::audio::common::V2_0::AudioChannelMask::INDEX_HDR"
     },
     {
-     "enum_field_value" : 2147483649,
+     "enum_field_value" : -2147483647,
      "name" : "android::hardware::audio::common::V2_0::AudioChannelMask::INDEX_MASK_1"
     },
     {
-     "enum_field_value" : 2147483651,
+     "enum_field_value" : -2147483645,
      "name" : "android::hardware::audio::common::V2_0::AudioChannelMask::INDEX_MASK_2"
     },
     {
-     "enum_field_value" : 2147483655,
+     "enum_field_value" : -2147483641,
      "name" : "android::hardware::audio::common::V2_0::AudioChannelMask::INDEX_MASK_3"
     },
     {
-     "enum_field_value" : 2147483663,
+     "enum_field_value" : -2147483633,
      "name" : "android::hardware::audio::common::V2_0::AudioChannelMask::INDEX_MASK_4"
     },
     {
-     "enum_field_value" : 2147483679,
+     "enum_field_value" : -2147483617,
      "name" : "android::hardware::audio::common::V2_0::AudioChannelMask::INDEX_MASK_5"
     },
     {
-     "enum_field_value" : 2147483711,
+     "enum_field_value" : -2147483585,
      "name" : "android::hardware::audio::common::V2_0::AudioChannelMask::INDEX_MASK_6"
     },
     {
-     "enum_field_value" : 2147483775,
+     "enum_field_value" : -2147483521,
      "name" : "android::hardware::audio::common::V2_0::AudioChannelMask::INDEX_MASK_7"
     },
     {
-     "enum_field_value" : 2147483903,
+     "enum_field_value" : -2147483393,
      "name" : "android::hardware::audio::common::V2_0::AudioChannelMask::INDEX_MASK_8"
     }
    ],
