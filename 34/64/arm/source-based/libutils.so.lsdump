@@ -493,6 +493,10 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZN7android2spINS_14LooperCallbackEE5clearEv"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZN7android2spINS_20SimpleLooperCallbackEEaSEOS2_"
   },
   {
@@ -502,6 +506,10 @@
   {
    "binding" : "weak",
    "name" : "_ZN7android2spINS_6ThreadEE5clearEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android2spINS_6ThreadEEaSEOS2_"
   },
   {
    "name" : "_ZN7android30get_report_sysprop_change_funcEv"
@@ -736,6 +744,9 @@
   },
   {
    "name" : "_ZN7android7String813appendFormatVEPKcSt9__va_list"
+  },
+  {
+   "name" : "_ZN7android7String816convertToResPathEv"
   },
   {
    "name" : "_ZN7android7String85clearEv"
@@ -1216,6 +1227,10 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIiyEENS_22__unordered_map_hasherIiS2_NS_4hashIiEELb1EEENS_21__unordered_map_equalIiS2_NS_8equal_toIiEELb1EEENS_9allocatorIS2_EEE14__erase_uniqueIiEEjRKT_"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIiyEENS_22__unordered_map_hasherIiS2_NS_4hashIiEELb1EEENS_21__unordered_map_equalIiS2_NS_8equal_toIiEELb1EEENS_9allocatorIS2_EEE25__emplace_unique_key_argsIiJRiRKyEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_"
   },
   {
@@ -1240,6 +1255,10 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIiyEENS_22__unordered_map_hasherIiS2_NS_4hashIiEELb1EEENS_21__unordered_map_equalIiS2_NS_8equal_toIiEELb1EEENS_9allocatorIS2_EEED2Ev"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIyN7android6Looper7RequestEEENS_22__unordered_map_hasherIyS5_NS_4hashIyEELb1EEENS_21__unordered_map_equalIyS5_NS_8equal_toIyEELb1EEENS_9allocatorIS5_EEE14__erase_uniqueIyEEjRKT_"
   },
   {
@@ -1249,6 +1268,10 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIyN7android6Looper7RequestEEENS_22__unordered_map_hasherIyS5_NS_4hashIyEELb1EEENS_21__unordered_map_equalIyS5_NS_8equal_toIyEELb1EEENS_9allocatorIS5_EEE25__emplace_unique_key_argsIyJRKyRS4_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIyN7android6Looper7RequestEEENS_22__unordered_map_hasherIyS5_NS_4hashIyEELb1EEENS_21__unordered_map_equalIyS5_NS_8equal_toIyEELb1EEENS_9allocatorIS5_EEE4findIyEENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEERKT_"
   },
   {
    "binding" : "weak",
@@ -5741,6 +5764,19 @@
    "source_file" : "system/core/libutils/include/utils/misc.h"
   },
   {
+   "function_name" : "android::sp<android::LooperCallback>::clear",
+   "linker_set_key" : "_ZN7android2spINS_14LooperCallbackEE5clearEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2spINS_14LooperCallbackEEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
    "function_name" : "android::sp<android::SimpleLooperCallback>::operator=",
    "linker_set_key" : "_ZN7android2spINS_20SimpleLooperCallbackEEaSEOS2_",
    "parameters" :
@@ -5783,6 +5819,22 @@
     }
    ],
    "return_type" : "_ZTIv",
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
+   "function_name" : "android::sp<android::Thread>::operator=",
+   "linker_set_key" : "_ZN7android2spINS_6ThreadEEaSEOS2_",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android2spINS_6ThreadEEE"
+    },
+    {
+     "referenced_type" : "_ZTION7android2spINS_6ThreadEEE"
+    }
+   ],
+   "return_type" : "_ZTIRN7android2spINS_6ThreadEEE",
    "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
   },
   {
@@ -7013,6 +7065,19 @@
     }
    ],
    "return_type" : "_ZTIi",
+   "source_file" : "system/core/libutils/include/utils/String8.h"
+  },
+  {
+   "function_name" : "android::String8::convertToResPath",
+   "linker_set_key" : "_ZN7android7String816convertToResPathEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN7android7String8E"
+    }
+   ],
+   "return_type" : "_ZTIRN7android7String8E",
    "source_file" : "system/core/libutils/include/utils/String8.h"
   },
   {
