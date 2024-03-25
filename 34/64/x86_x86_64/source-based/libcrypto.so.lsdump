@@ -38,6 +38,15 @@
    "source_file" : "external/boringssl/src/include/openssl/cipher.h"
   },
   {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIA16_y",
+   "name" : "unsigned long long[16]",
+   "referenced_type" : "_ZTIy",
+   "self_type" : "_ZTIA16_y",
+   "size" : 128,
+   "source_file" : "external/boringssl/src/include/openssl/blake2.h"
+  },
+  {
    "alignment" : 1,
    "linker_set_key" : "_ZTIA1808_h",
    "name" : "unsigned char[1808]",
@@ -111,11 +120,11 @@
   },
   {
    "alignment" : 1,
-   "linker_set_key" : "_ZTIA564_h",
-   "name" : "unsigned char[564]",
+   "linker_set_key" : "_ZTIA580_h",
+   "name" : "unsigned char[580]",
    "referenced_type" : "_ZTIh",
-   "self_type" : "_ZTIA564_h",
-   "size" : 564,
+   "self_type" : "_ZTIA580_h",
+   "size" : 580,
    "source_file" : "external/boringssl/src/include/openssl/aead.h"
   },
   {
@@ -601,9 +610,6 @@
   },
   {
    "name" : "ASN1_TIME_set_string"
-  },
-  {
-   "name" : "ASN1_TIME_set_string_X509"
   },
   {
    "name" : "ASN1_TIME_to_generalizedtime"
@@ -1857,6 +1863,18 @@
    "name" : "CRYPTO_MUTEX_unlock_write"
   },
   {
+   "name" : "CRYPTO_STATIC_MUTEX_lock_read"
+  },
+  {
+   "name" : "CRYPTO_STATIC_MUTEX_lock_write"
+  },
+  {
+   "name" : "CRYPTO_STATIC_MUTEX_unlock_read"
+  },
+  {
+   "name" : "CRYPTO_STATIC_MUTEX_unlock_write"
+  },
+  {
    "name" : "CRYPTO_THREADID_current"
   },
   {
@@ -2598,18 +2616,6 @@
    "name" : "EC_get_builtin_curves"
   },
   {
-   "name" : "EC_group_p224"
-  },
-  {
-   "name" : "EC_group_p256"
-  },
-  {
-   "name" : "EC_group_p384"
-  },
-  {
-   "name" : "EC_group_p521"
-  },
-  {
    "name" : "EC_hash_to_curve_p256_xmd_sha256_sswu"
   },
   {
@@ -3066,15 +3072,6 @@
    "name" : "EVP_HPKE_CTX_seal"
   },
   {
-   "name" : "EVP_HPKE_CTX_setup_auth_recipient"
-  },
-  {
-   "name" : "EVP_HPKE_CTX_setup_auth_sender"
-  },
-  {
-   "name" : "EVP_HPKE_CTX_setup_auth_sender_with_seed_for_testing"
-  },
-  {
    "name" : "EVP_HPKE_CTX_setup_recipient"
   },
   {
@@ -3510,9 +3507,6 @@
    "name" : "EVP_aead_aes_128_cbc_sha1_tls_implicit_iv"
   },
   {
-   "name" : "EVP_aead_aes_128_cbc_sha256_tls"
-  },
-  {
    "name" : "EVP_aead_aes_128_ccm_bluetooth"
   },
   {
@@ -3730,9 +3724,6 @@
   },
   {
    "name" : "EVP_sha256"
-  },
-  {
-   "name" : "EVP_sha256_final_with_secret_suffix"
   },
   {
    "name" : "EVP_sha384"
@@ -4177,69 +4168,6 @@
   },
   {
    "name" : "OPENSSL_secure_malloc"
-  },
-  {
-   "name" : "OPENSSL_sk_deep_copy"
-  },
-  {
-   "name" : "OPENSSL_sk_delete"
-  },
-  {
-   "name" : "OPENSSL_sk_delete_if"
-  },
-  {
-   "name" : "OPENSSL_sk_delete_ptr"
-  },
-  {
-   "name" : "OPENSSL_sk_dup"
-  },
-  {
-   "name" : "OPENSSL_sk_find"
-  },
-  {
-   "name" : "OPENSSL_sk_free"
-  },
-  {
-   "name" : "OPENSSL_sk_insert"
-  },
-  {
-   "name" : "OPENSSL_sk_is_sorted"
-  },
-  {
-   "name" : "OPENSSL_sk_new"
-  },
-  {
-   "name" : "OPENSSL_sk_new_null"
-  },
-  {
-   "name" : "OPENSSL_sk_num"
-  },
-  {
-   "name" : "OPENSSL_sk_pop"
-  },
-  {
-   "name" : "OPENSSL_sk_pop_free_ex"
-  },
-  {
-   "name" : "OPENSSL_sk_push"
-  },
-  {
-   "name" : "OPENSSL_sk_set"
-  },
-  {
-   "name" : "OPENSSL_sk_set_cmp_func"
-  },
-  {
-   "name" : "OPENSSL_sk_shift"
-  },
-  {
-   "name" : "OPENSSL_sk_sort"
-  },
-  {
-   "name" : "OPENSSL_sk_value"
-  },
-  {
-   "name" : "OPENSSL_sk_zero"
   },
   {
    "name" : "OPENSSL_strcasecmp"
@@ -4846,27 +4774,6 @@
   },
   {
    "name" : "RSA_new_method"
-  },
-  {
-   "name" : "RSA_new_method_no_e"
-  },
-  {
-   "name" : "RSA_new_private_key"
-  },
-  {
-   "name" : "RSA_new_private_key_large_e"
-  },
-  {
-   "name" : "RSA_new_private_key_no_crt"
-  },
-  {
-   "name" : "RSA_new_private_key_no_e"
-  },
-  {
-   "name" : "RSA_new_public_key"
-  },
-  {
-   "name" : "RSA_new_public_key_large_e"
   },
   {
    "name" : "RSA_padding_add_PKCS1_OAEP_mgf1"
@@ -7458,7 +7365,34 @@
    "name" : "s2i_ASN1_OCTET_STRING"
   },
   {
+   "name" : "sk_deep_copy"
+  },
+  {
+   "name" : "sk_delete"
+  },
+  {
+   "name" : "sk_delete_if"
+  },
+  {
+   "name" : "sk_delete_ptr"
+  },
+  {
+   "name" : "sk_dup"
+  },
+  {
+   "name" : "sk_find"
+  },
+  {
    "name" : "sk_free"
+  },
+  {
+   "name" : "sk_insert"
+  },
+  {
+   "name" : "sk_is_sorted"
+  },
+  {
+   "name" : "sk_new"
   },
   {
    "name" : "sk_new_null"
@@ -7479,7 +7413,22 @@
    "name" : "sk_push"
   },
   {
+   "name" : "sk_set"
+  },
+  {
+   "name" : "sk_set_cmp_func"
+  },
+  {
+   "name" : "sk_shift"
+  },
+  {
+   "name" : "sk_sort"
+  },
+  {
    "name" : "sk_value"
+  },
+  {
+   "name" : "sk_zero"
   },
   {
    "name" : "v2i_GENERAL_NAME"
@@ -8546,23 +8495,23 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIFiPFiPKPKvS2_ES0_S0_E",
-   "name" : "int (int (*)(const void *const *, const void *const *), const void *, const void *)",
+   "linker_set_key" : "_ZTIFiPFiPKPKvS2_ES2_S2_E",
+   "name" : "int (int (*)(const void *const *, const void *const *), const void *const *, const void *const *)",
    "parameters" :
    [
     {
      "referenced_type" : "_ZTIPFiPKPKvS2_E"
     },
     {
-     "referenced_type" : "_ZTIPKv"
+     "referenced_type" : "_ZTIPKPKv"
     },
     {
-     "referenced_type" : "_ZTIPKv"
+     "referenced_type" : "_ZTIPKPKv"
     }
    ],
-   "referenced_type" : "_ZTIFiPFiPKPKvS2_ES0_S0_E",
+   "referenced_type" : "_ZTIFiPFiPKPKvS2_ES2_S2_E",
    "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiPFiPKPKvS2_ES0_S0_E",
+   "self_type" : "_ZTIFiPFiPKPKvS2_ES2_S2_E",
    "source_file" : "external/boringssl/src/include/openssl/stack.h"
   },
   {
@@ -8911,30 +8860,6 @@
    "referenced_type" : "_ZTIFiiPP13ASN1_VALUE_stPK12ASN1_ITEM_stPvE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiiPP13ASN1_VALUE_stPK12ASN1_ITEM_stPvE",
-   "source_file" : "external/boringssl/src/include/openssl/asn1t.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIFiiPP13ASN1_VALUE_stPK12ASN1_ITEM_stPvE",
-   "name" : "int (int, ASN1_VALUE_st **, const ASN1_ITEM_st *, void *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "referenced_type" : "_ZTIPP13ASN1_VALUE_st"
-    },
-    {
-     "referenced_type" : "_ZTIPK12ASN1_ITEM_st"
-    },
-    {
-     "referenced_type" : "_ZTIPv"
-    }
-   ],
-   "referenced_type" : "_ZTIFiiPP13ASN1_VALUE_stPK12ASN1_ITEM_stPvE#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_x86_x86_64_shared/obj/external/boringssl/src/crypto/pkcs8/pkcs8_x509.sdump",
-   "return_type" : "_ZTIi",
-   "self_type" : "_ZTIFiiPP13ASN1_VALUE_stPK12ASN1_ITEM_stPvE#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_x86_x86_64_shared/obj/external/boringssl/src/crypto/pkcs8/pkcs8_x509.sdump",
    "source_file" : "external/boringssl/src/include/openssl/asn1t.h"
   },
   {
@@ -10437,21 +10362,6 @@
   {
    "function_name" : "ASN1_TIME_set_string",
    "linker_set_key" : "ASN1_TIME_set_string",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP14asn1_string_st"
-    },
-    {
-     "referenced_type" : "_ZTIPKc"
-    }
-   ],
-   "return_type" : "_ZTIi",
-   "source_file" : "external/boringssl/src/include/openssl/asn1.h"
-  },
-  {
-   "function_name" : "ASN1_TIME_set_string_X509",
-   "linker_set_key" : "ASN1_TIME_set_string_X509",
    "parameters" :
    [
     {
@@ -16342,21 +16252,6 @@
    "source_file" : "external/boringssl/src/include/openssl/ec.h"
   },
   {
-   "function_name" : "EC_get_builtin_curves",
-   "linker_set_key" : "EC_get_builtin_curves",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP16EC_builtin_curve"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    }
-   ],
-   "return_type" : "_ZTIj",
-   "source_file" : "external/boringssl/src/include/openssl/ec.h"
-  },
-  {
    "function_name" : "EC_hash_to_curve_p256_xmd_sha256_sswu",
    "linker_set_key" : "EC_hash_to_curve_p256_xmd_sha256_sswu",
    "parameters" :
@@ -17395,135 +17290,6 @@
     },
     {
      "referenced_type" : "_ZTIPj"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "referenced_type" : "_ZTIPKh"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "referenced_type" : "_ZTIPKh"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    }
-   ],
-   "return_type" : "_ZTIi",
-   "source_file" : "external/boringssl/src/include/openssl/hpke.h"
-  },
-  {
-   "function_name" : "EVP_HPKE_CTX_setup_auth_recipient",
-   "linker_set_key" : "EVP_HPKE_CTX_setup_auth_recipient",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP15evp_hpke_ctx_st"
-    },
-    {
-     "referenced_type" : "_ZTIPK15evp_hpke_key_st"
-    },
-    {
-     "referenced_type" : "_ZTIPK15evp_hpke_kdf_st"
-    },
-    {
-     "referenced_type" : "_ZTIPK16evp_hpke_aead_st"
-    },
-    {
-     "referenced_type" : "_ZTIPKh"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "referenced_type" : "_ZTIPKh"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "referenced_type" : "_ZTIPKh"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    }
-   ],
-   "return_type" : "_ZTIi",
-   "source_file" : "external/boringssl/src/include/openssl/hpke.h"
-  },
-  {
-   "function_name" : "EVP_HPKE_CTX_setup_auth_sender",
-   "linker_set_key" : "EVP_HPKE_CTX_setup_auth_sender",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP15evp_hpke_ctx_st"
-    },
-    {
-     "referenced_type" : "_ZTIPh"
-    },
-    {
-     "referenced_type" : "_ZTIPj"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "referenced_type" : "_ZTIPK15evp_hpke_key_st"
-    },
-    {
-     "referenced_type" : "_ZTIPK15evp_hpke_kdf_st"
-    },
-    {
-     "referenced_type" : "_ZTIPK16evp_hpke_aead_st"
-    },
-    {
-     "referenced_type" : "_ZTIPKh"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "referenced_type" : "_ZTIPKh"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    }
-   ],
-   "return_type" : "_ZTIi",
-   "source_file" : "external/boringssl/src/include/openssl/hpke.h"
-  },
-  {
-   "function_name" : "EVP_HPKE_CTX_setup_auth_sender_with_seed_for_testing",
-   "linker_set_key" : "EVP_HPKE_CTX_setup_auth_sender_with_seed_for_testing",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP15evp_hpke_ctx_st"
-    },
-    {
-     "referenced_type" : "_ZTIPh"
-    },
-    {
-     "referenced_type" : "_ZTIPj"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "referenced_type" : "_ZTIPK15evp_hpke_key_st"
-    },
-    {
-     "referenced_type" : "_ZTIPK15evp_hpke_kdf_st"
-    },
-    {
-     "referenced_type" : "_ZTIPK16evp_hpke_aead_st"
-    },
-    {
-     "referenced_type" : "_ZTIPKh"
     },
     {
      "referenced_type" : "_ZTIj"
@@ -19429,12 +19195,6 @@
    "source_file" : "external/boringssl/src/include/openssl/aead.h"
   },
   {
-   "function_name" : "EVP_aead_aes_128_cbc_sha256_tls",
-   "linker_set_key" : "EVP_aead_aes_128_cbc_sha256_tls",
-   "return_type" : "_ZTIPK11evp_aead_st",
-   "source_file" : "external/boringssl/src/include/openssl/aead.h"
-  },
-  {
    "function_name" : "EVP_aead_aes_128_ctr_hmac_sha256",
    "linker_set_key" : "EVP_aead_aes_128_ctr_hmac_sha256",
    "return_type" : "_ZTIPK11evp_aead_st",
@@ -20957,318 +20717,6 @@
    ],
    "return_type" : "_ZTIPv",
    "source_file" : "external/boringssl/src/include/openssl/mem.h"
-  },
-  {
-   "function_name" : "OPENSSL_sk_deep_copy",
-   "linker_set_key" : "OPENSSL_sk_deep_copy",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPK8stack_st"
-    },
-    {
-     "referenced_type" : "_ZTIPFPvPFS_PKvES1_E"
-    },
-    {
-     "referenced_type" : "_ZTIPFPvPKvE"
-    },
-    {
-     "referenced_type" : "_ZTIPFvPFvPvES_E"
-    },
-    {
-     "referenced_type" : "_ZTIPFvPvE"
-    }
-   ],
-   "return_type" : "_ZTIP8stack_st",
-   "source_file" : "external/boringssl/src/include/openssl/stack.h"
-  },
-  {
-   "function_name" : "OPENSSL_sk_delete",
-   "linker_set_key" : "OPENSSL_sk_delete",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP8stack_st"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    }
-   ],
-   "return_type" : "_ZTIPv",
-   "source_file" : "external/boringssl/src/include/openssl/stack.h"
-  },
-  {
-   "function_name" : "OPENSSL_sk_delete_if",
-   "linker_set_key" : "OPENSSL_sk_delete_if",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP8stack_st"
-    },
-    {
-     "referenced_type" : "_ZTIPFiPFiPvS_ES_S_E"
-    },
-    {
-     "referenced_type" : "_ZTIPFiPvS_E"
-    },
-    {
-     "referenced_type" : "_ZTIPv"
-    }
-   ],
-   "return_type" : "_ZTIv",
-   "source_file" : "external/boringssl/src/include/openssl/stack.h"
-  },
-  {
-   "function_name" : "OPENSSL_sk_delete_ptr",
-   "linker_set_key" : "OPENSSL_sk_delete_ptr",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP8stack_st"
-    },
-    {
-     "referenced_type" : "_ZTIPKv"
-    }
-   ],
-   "return_type" : "_ZTIPv",
-   "source_file" : "external/boringssl/src/include/openssl/stack.h"
-  },
-  {
-   "function_name" : "OPENSSL_sk_dup",
-   "linker_set_key" : "OPENSSL_sk_dup",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPK8stack_st"
-    }
-   ],
-   "return_type" : "_ZTIP8stack_st",
-   "source_file" : "external/boringssl/src/include/openssl/stack.h"
-  },
-  {
-   "function_name" : "OPENSSL_sk_find",
-   "linker_set_key" : "OPENSSL_sk_find",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPK8stack_st"
-    },
-    {
-     "referenced_type" : "_ZTIPj"
-    },
-    {
-     "referenced_type" : "_ZTIPKv"
-    },
-    {
-     "referenced_type" : "_ZTIPFiPFiPKPKvS2_ES0_S0_E"
-    }
-   ],
-   "return_type" : "_ZTIi",
-   "source_file" : "external/boringssl/src/include/openssl/stack.h"
-  },
-  {
-   "function_name" : "OPENSSL_sk_free",
-   "linker_set_key" : "OPENSSL_sk_free",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP8stack_st"
-    }
-   ],
-   "return_type" : "_ZTIv",
-   "source_file" : "external/boringssl/src/include/openssl/stack.h"
-  },
-  {
-   "function_name" : "OPENSSL_sk_insert",
-   "linker_set_key" : "OPENSSL_sk_insert",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP8stack_st"
-    },
-    {
-     "referenced_type" : "_ZTIPv"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    }
-   ],
-   "return_type" : "_ZTIj",
-   "source_file" : "external/boringssl/src/include/openssl/stack.h"
-  },
-  {
-   "function_name" : "OPENSSL_sk_is_sorted",
-   "linker_set_key" : "OPENSSL_sk_is_sorted",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPK8stack_st"
-    }
-   ],
-   "return_type" : "_ZTIi",
-   "source_file" : "external/boringssl/src/include/openssl/stack.h"
-  },
-  {
-   "function_name" : "OPENSSL_sk_new",
-   "linker_set_key" : "OPENSSL_sk_new",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPFiPKPKvS2_E"
-    }
-   ],
-   "return_type" : "_ZTIP8stack_st",
-   "source_file" : "external/boringssl/src/include/openssl/stack.h"
-  },
-  {
-   "function_name" : "OPENSSL_sk_new_null",
-   "linker_set_key" : "OPENSSL_sk_new_null",
-   "return_type" : "_ZTIP8stack_st",
-   "source_file" : "external/boringssl/src/include/openssl/stack.h"
-  },
-  {
-   "function_name" : "OPENSSL_sk_num",
-   "linker_set_key" : "OPENSSL_sk_num",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPK8stack_st"
-    }
-   ],
-   "return_type" : "_ZTIj",
-   "source_file" : "external/boringssl/src/include/openssl/stack.h"
-  },
-  {
-   "function_name" : "OPENSSL_sk_pop",
-   "linker_set_key" : "OPENSSL_sk_pop",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP8stack_st"
-    }
-   ],
-   "return_type" : "_ZTIPv",
-   "source_file" : "external/boringssl/src/include/openssl/stack.h"
-  },
-  {
-   "function_name" : "OPENSSL_sk_pop_free_ex",
-   "linker_set_key" : "OPENSSL_sk_pop_free_ex",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP8stack_st"
-    },
-    {
-     "referenced_type" : "_ZTIPFvPFvPvES_E"
-    },
-    {
-     "referenced_type" : "_ZTIPFvPvE"
-    }
-   ],
-   "return_type" : "_ZTIv",
-   "source_file" : "external/boringssl/src/include/openssl/stack.h"
-  },
-  {
-   "function_name" : "OPENSSL_sk_push",
-   "linker_set_key" : "OPENSSL_sk_push",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP8stack_st"
-    },
-    {
-     "referenced_type" : "_ZTIPv"
-    }
-   ],
-   "return_type" : "_ZTIj",
-   "source_file" : "external/boringssl/src/include/openssl/stack.h"
-  },
-  {
-   "function_name" : "OPENSSL_sk_set",
-   "linker_set_key" : "OPENSSL_sk_set",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP8stack_st"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "referenced_type" : "_ZTIPv"
-    }
-   ],
-   "return_type" : "_ZTIPv",
-   "source_file" : "external/boringssl/src/include/openssl/stack.h"
-  },
-  {
-   "function_name" : "OPENSSL_sk_set_cmp_func",
-   "linker_set_key" : "OPENSSL_sk_set_cmp_func",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP8stack_st"
-    },
-    {
-     "referenced_type" : "_ZTIPFiPKPKvS2_E"
-    }
-   ],
-   "return_type" : "_ZTIPFiPKPKvS2_E",
-   "source_file" : "external/boringssl/src/include/openssl/stack.h"
-  },
-  {
-   "function_name" : "OPENSSL_sk_shift",
-   "linker_set_key" : "OPENSSL_sk_shift",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP8stack_st"
-    }
-   ],
-   "return_type" : "_ZTIPv",
-   "source_file" : "external/boringssl/src/include/openssl/stack.h"
-  },
-  {
-   "function_name" : "OPENSSL_sk_sort",
-   "linker_set_key" : "OPENSSL_sk_sort",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP8stack_st"
-    },
-    {
-     "referenced_type" : "_ZTIPFiPFiPKPKvS2_ES0_S0_E"
-    }
-   ],
-   "return_type" : "_ZTIv",
-   "source_file" : "external/boringssl/src/include/openssl/stack.h"
-  },
-  {
-   "function_name" : "OPENSSL_sk_value",
-   "linker_set_key" : "OPENSSL_sk_value",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPK8stack_st"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    }
-   ],
-   "return_type" : "_ZTIPv",
-   "source_file" : "external/boringssl/src/include/openssl/stack.h"
-  },
-  {
-   "function_name" : "OPENSSL_sk_zero",
-   "linker_set_key" : "OPENSSL_sk_zero",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP8stack_st"
-    }
-   ],
-   "return_type" : "_ZTIv",
-   "source_file" : "external/boringssl/src/include/openssl/stack.h"
   },
   {
    "function_name" : "OPENSSL_strcasecmp",
@@ -27786,10 +27234,10 @@
      "referenced_type" : "_ZTIPFiPK15x509_purpose_stPK7x509_stiE"
     },
     {
-     "referenced_type" : "_ZTIPKc"
+     "referenced_type" : "_ZTIPc"
     },
     {
-     "referenced_type" : "_ZTIPKc"
+     "referenced_type" : "_ZTIPc"
     },
     {
      "referenced_type" : "_ZTIPv"
@@ -27858,7 +27306,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIPKc"
+     "referenced_type" : "_ZTIPc"
     }
    ],
    "return_type" : "_ZTIi",
@@ -29874,7 +29322,7 @@
      "referenced_type" : "_ZTIPFiP13x509_trust_stP7x509_stiE"
     },
     {
-     "referenced_type" : "_ZTIPKc"
+     "referenced_type" : "_ZTIPc"
     },
     {
      "referenced_type" : "_ZTIi"
@@ -30663,7 +30111,7 @@
      "referenced_type" : "_ZTIPK14asn1_string_st"
     },
     {
-     "referenced_type" : "_ZTIPKl"
+     "referenced_type" : "_ZTIPl"
     }
    ],
    "return_type" : "_ZTIi",
@@ -31908,7 +31356,7 @@
      "referenced_type" : "_ZTIl"
     },
     {
-     "referenced_type" : "_ZTIPKl"
+     "referenced_type" : "_ZTIPl"
     }
    ],
    "return_type" : "_ZTIP14asn1_string_st",
@@ -31929,7 +31377,7 @@
      "referenced_type" : "_ZTIl"
     },
     {
-     "referenced_type" : "_ZTIPKl"
+     "referenced_type" : "_ZTIPl"
     }
    ],
    "return_type" : "_ZTIP14asn1_string_st",
@@ -36283,6 +35731,114 @@
    "source_file" : "external/boringssl/src/include/openssl/x509v3.h"
   },
   {
+   "function_name" : "sk_deep_copy",
+   "linker_set_key" : "sk_deep_copy",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK8stack_st"
+    },
+    {
+     "referenced_type" : "_ZTIPFPvPFS_PKvES1_E"
+    },
+    {
+     "referenced_type" : "_ZTIPFPvPKvE"
+    },
+    {
+     "referenced_type" : "_ZTIPFvPFvPvES_E"
+    },
+    {
+     "referenced_type" : "_ZTIPFvPvE"
+    }
+   ],
+   "return_type" : "_ZTIP8stack_st",
+   "source_file" : "external/boringssl/src/include/openssl/stack.h"
+  },
+  {
+   "function_name" : "sk_delete",
+   "linker_set_key" : "sk_delete",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP8stack_st"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIPv",
+   "source_file" : "external/boringssl/src/include/openssl/stack.h"
+  },
+  {
+   "function_name" : "sk_delete_if",
+   "linker_set_key" : "sk_delete_if",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP8stack_st"
+    },
+    {
+     "referenced_type" : "_ZTIPFiPFiPvS_ES_S_E"
+    },
+    {
+     "referenced_type" : "_ZTIPFiPvS_E"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/boringssl/src/include/openssl/stack.h"
+  },
+  {
+   "function_name" : "sk_delete_ptr",
+   "linker_set_key" : "sk_delete_ptr",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP8stack_st"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    }
+   ],
+   "return_type" : "_ZTIPv",
+   "source_file" : "external/boringssl/src/include/openssl/stack.h"
+  },
+  {
+   "function_name" : "sk_dup",
+   "linker_set_key" : "sk_dup",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK8stack_st"
+    }
+   ],
+   "return_type" : "_ZTIP8stack_st",
+   "source_file" : "external/boringssl/src/include/openssl/stack.h"
+  },
+  {
+   "function_name" : "sk_find",
+   "linker_set_key" : "sk_find",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK8stack_st"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "referenced_type" : "_ZTIPFiPFiPKPKvS2_ES2_S2_E"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "external/boringssl/src/include/openssl/stack.h"
+  },
+  {
    "function_name" : "sk_free",
    "linker_set_key" : "sk_free",
    "parameters" :
@@ -36292,6 +35848,48 @@
     }
    ],
    "return_type" : "_ZTIv",
+   "source_file" : "external/boringssl/src/include/openssl/stack.h"
+  },
+  {
+   "function_name" : "sk_insert",
+   "linker_set_key" : "sk_insert",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP8stack_st"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "external/boringssl/src/include/openssl/stack.h"
+  },
+  {
+   "function_name" : "sk_is_sorted",
+   "linker_set_key" : "sk_is_sorted",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK8stack_st"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "external/boringssl/src/include/openssl/stack.h"
+  },
+  {
+   "function_name" : "sk_new",
+   "linker_set_key" : "sk_new",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPFiPKPKvS2_E"
+    }
+   ],
+   "return_type" : "_ZTIP8stack_st",
    "source_file" : "external/boringssl/src/include/openssl/stack.h"
   },
   {
@@ -36373,6 +35971,66 @@
    "source_file" : "external/boringssl/src/include/openssl/stack.h"
   },
   {
+   "function_name" : "sk_set",
+   "linker_set_key" : "sk_set",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP8stack_st"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIPv",
+   "source_file" : "external/boringssl/src/include/openssl/stack.h"
+  },
+  {
+   "function_name" : "sk_set_cmp_func",
+   "linker_set_key" : "sk_set_cmp_func",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP8stack_st"
+    },
+    {
+     "referenced_type" : "_ZTIPFiPKPKvS2_E"
+    }
+   ],
+   "return_type" : "_ZTIPFiPKPKvS2_E",
+   "source_file" : "external/boringssl/src/include/openssl/stack.h"
+  },
+  {
+   "function_name" : "sk_shift",
+   "linker_set_key" : "sk_shift",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP8stack_st"
+    }
+   ],
+   "return_type" : "_ZTIPv",
+   "source_file" : "external/boringssl/src/include/openssl/stack.h"
+  },
+  {
+   "function_name" : "sk_sort",
+   "linker_set_key" : "sk_sort",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP8stack_st"
+    },
+    {
+     "referenced_type" : "_ZTIPFiPFiPKPKvS2_ES2_S2_E"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/boringssl/src/include/openssl/stack.h"
+  },
+  {
    "function_name" : "sk_value",
    "linker_set_key" : "sk_value",
    "parameters" :
@@ -36385,6 +36043,18 @@
     }
    ],
    "return_type" : "_ZTIPv",
+   "source_file" : "external/boringssl/src/include/openssl/stack.h"
+  },
+  {
+   "function_name" : "sk_zero",
+   "linker_set_key" : "sk_zero",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP8stack_st"
+    }
+   ],
+   "return_type" : "_ZTIv",
    "source_file" : "external/boringssl/src/include/openssl/stack.h"
   },
   {
@@ -37218,6 +36888,24 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIP14bn_blinding_st",
+   "name" : "bn_blinding_st *",
+   "referenced_type" : "_ZTI14bn_blinding_st",
+   "self_type" : "_ZTIP14bn_blinding_st",
+   "size" : 4,
+   "source_file" : "external/boringssl/src/include/openssl/rsa.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP14bn_mont_ctx_st",
+   "name" : "bn_mont_ctx_st *",
+   "referenced_type" : "_ZTI14bn_mont_ctx_st",
+   "self_type" : "_ZTIP14bn_mont_ctx_st",
+   "size" : 4,
+   "source_file" : "external/boringssl/src/include/openssl/dsa.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIP14private_key_st",
    "name" : "private_key_st *",
    "referenced_type" : "_ZTI14private_key_st",
@@ -37332,15 +37020,6 @@
    "self_type" : "_ZTIP15x509_revoked_st",
    "size" : 4,
    "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIP16EC_builtin_curve",
-   "name" : "EC_builtin_curve *",
-   "referenced_type" : "_ZTI16EC_builtin_curve",
-   "self_type" : "_ZTIP16EC_builtin_curve",
-   "size" : 4,
-   "source_file" : "external/boringssl/src/include/openssl/ec.h"
   },
   {
    "alignment" : 4,
@@ -38235,10 +37914,10 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPFiPFiPKPKvS2_ES0_S0_E",
-   "name" : "int (*)(int (*)(const void *const *, const void *const *), const void *, const void *)",
-   "referenced_type" : "_ZTIFiPFiPKPKvS2_ES0_S0_E",
-   "self_type" : "_ZTIPFiPFiPKPKvS2_ES0_S0_E",
+   "linker_set_key" : "_ZTIPFiPFiPKPKvS2_ES2_S2_E",
+   "name" : "int (*)(int (*)(const void *const *, const void *const *), const void *const *, const void *const *)",
+   "referenced_type" : "_ZTIFiPFiPKPKvS2_ES2_S2_E",
+   "self_type" : "_ZTIPFiPFiPKPKvS2_ES2_S2_E",
    "size" : 4,
    "source_file" : "external/boringssl/src/include/openssl/stack.h"
   },
@@ -38383,15 +38062,6 @@
    "name" : "int (*)(int, ASN1_VALUE_st **, const ASN1_ITEM_st *, void *)",
    "referenced_type" : "_ZTIFiiPP13ASN1_VALUE_stPK12ASN1_ITEM_stPvE",
    "self_type" : "_ZTIPFiiPP13ASN1_VALUE_stPK12ASN1_ITEM_stPvE",
-   "size" : 4,
-   "source_file" : "external/boringssl/src/include/openssl/asn1t.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPFiiPP13ASN1_VALUE_stPK12ASN1_ITEM_stPvE",
-   "name" : "int (*)(int, ASN1_VALUE_st **, const ASN1_ITEM_st *, void *)",
-   "referenced_type" : "_ZTIFiiPP13ASN1_VALUE_stPK12ASN1_ITEM_stPvE#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_x86_x86_64_shared/obj/external/boringssl/src/crypto/pkcs8/pkcs8_x509.sdump",
-   "self_type" : "_ZTIPFiiPP13ASN1_VALUE_stPK12ASN1_ITEM_stPvE#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_x86_x86_64_shared/obj/external/boringssl/src/crypto/pkcs8/pkcs8_x509.sdump",
    "size" : 4,
    "source_file" : "external/boringssl/src/include/openssl/asn1t.h"
   },
@@ -38661,15 +38331,6 @@
    "linker_set_key" : "_ZTIPK12ASN1_ITEM_st",
    "name" : "const ASN1_ITEM_st *",
    "referenced_type" : "_ZTIK12ASN1_ITEM_st",
-   "self_type" : "_ZTIPK12ASN1_ITEM_st",
-   "size" : 4,
-   "source_file" : "external/boringssl/src/include/openssl/asn1t.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK12ASN1_ITEM_st",
-   "name" : "const ASN1_ITEM_st *",
-   "referenced_type" : "_ZTIK12ASN1_ITEM_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_x86_x86_64_shared/obj/external/boringssl/src/crypto/pkcs8/pkcs8_x509.sdump",
    "self_type" : "_ZTIPK12ASN1_ITEM_st",
    "size" : 4,
    "source_file" : "external/boringssl/src/include/openssl/asn1t.h"
@@ -39459,21 +39120,12 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPKl",
-   "name" : "const long *",
-   "referenced_type" : "_ZTIKl",
-   "self_type" : "_ZTIPKl",
-   "size" : 4,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIPKv",
    "name" : "const void *",
    "referenced_type" : "_ZTIKv",
    "self_type" : "_ZTIPKv",
    "size" : 4,
-   "source_file" : "external/boringssl/src/include/openssl/asn1t.h"
+   "source_file" : "external/boringssl/src/include/openssl/stack.h"
   },
   {
    "alignment" : 4,
@@ -39672,6 +39324,15 @@
    "self_type" : "_ZTIPP14asn1_string_st",
    "size" : 4,
    "source_file" : "external/boringssl/src/include/openssl/asn1.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPP14bn_blinding_st",
+   "name" : "bn_blinding_st **",
+   "referenced_type" : "_ZTIP14bn_blinding_st",
+   "self_type" : "_ZTIPP14bn_blinding_st",
+   "size" : 4,
+   "source_file" : "external/boringssl/src/include/openssl/rsa.h"
   },
   {
    "alignment" : 4,
@@ -40076,7 +39737,7 @@
    "referenced_type" : "_ZTIPv",
    "self_type" : "_ZTIPPv",
    "size" : 4,
-   "source_file" : "external/boringssl/src/include/openssl/dsa.h"
+   "source_file" : "external/boringssl/src/include/openssl/stack.h"
   },
   {
    "alignment" : 4,
@@ -40148,7 +39809,7 @@
    "referenced_type" : "_ZTIv",
    "self_type" : "_ZTIPv",
    "size" : 4,
-   "source_file" : "external/boringssl/src/include/openssl/bio.h"
+   "source_file" : "external/boringssl/src/include/openssl/stack.h"
   },
   {
    "alignment" : 4,
@@ -40228,7 +39889,7 @@
    "name" : "const ec_group_st",
    "referenced_type" : "_ZTI11ec_group_st",
    "self_type" : "_ZTIK11ec_group_st",
-   "size" : 480,
+   "size" : 344,
    "source_file" : "external/boringssl/src/include/openssl/ec.h"
   },
   {
@@ -40550,7 +40211,7 @@
    "name" : "const evp_hpke_ctx_st",
    "referenced_type" : "_ZTI15evp_hpke_ctx_st",
    "self_type" : "_ZTIK15evp_hpke_ctx_st",
-   "size" : 684,
+   "size" : 700,
    "source_file" : "external/boringssl/src/include/openssl/hpke.h"
   },
   {
@@ -40570,7 +40231,7 @@
    "name" : "const evp_hpke_kem_st",
    "referenced_type" : "_ZTI15evp_hpke_kem_st",
    "self_type" : "_ZTIK15evp_hpke_kem_st",
-   "size" : 44,
+   "size" : 36,
    "source_file" : "external/boringssl/src/include/openssl/hpke.h"
   },
   {
@@ -40970,15 +40631,17 @@
    "name" : "const dsa_st",
    "referenced_type" : "_ZTI6dsa_st",
    "self_type" : "_ZTIK6dsa_st",
-   "size" : 76,
+   "size" : 84,
    "source_file" : "external/boringssl/src/include/openssl/dsa.h"
   },
   {
+   "alignment" : 4,
    "is_const" : true,
    "linker_set_key" : "_ZTIK6rsa_st",
    "name" : "const rsa_st",
    "referenced_type" : "_ZTI6rsa_st",
    "self_type" : "_ZTIK6rsa_st",
+   "size" : 140,
    "source_file" : "external/boringssl/src/include/openssl/rsa.h"
   },
   {
@@ -41100,22 +40763,12 @@
    "source_file" : "external/boringssl/src/include/openssl/bio.h"
   },
   {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKl",
-   "name" : "const long",
-   "referenced_type" : "_ZTIl",
-   "self_type" : "_ZTIKl",
-   "size" : 4,
-   "source_file" : "external/boringssl/src/include/openssl/x509.h"
-  },
-  {
    "is_const" : true,
    "linker_set_key" : "_ZTIKv",
    "name" : "const void",
    "referenced_type" : "_ZTIv",
    "self_type" : "_ZTIKv",
-   "source_file" : "external/boringssl/src/include/openssl/asn1t.h"
+   "source_file" : "external/boringssl/src/include/openssl/stack.h"
   },
   {
    "alignment" : 4,
@@ -41344,42 +40997,6 @@
    "name" : "ASN1_AUX_st",
    "referenced_type" : "_ZTI11ASN1_AUX_st",
    "self_type" : "_ZTI11ASN1_AUX_st",
-   "size" : 20,
-   "source_file" : "external/boringssl/src/include/openssl/asn1t.h"
-  },
-  {
-   "alignment" : 4,
-   "fields" :
-   [
-    {
-     "field_name" : "app_data",
-     "referenced_type" : "_ZTIPv"
-    },
-    {
-     "field_name" : "flags",
-     "field_offset" : 32,
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "field_name" : "ref_offset",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "asn1_cb",
-     "field_offset" : 96,
-     "referenced_type" : "_ZTIPFiiPP13ASN1_VALUE_stPK12ASN1_ITEM_stPvE#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_x86_x86_64_shared/obj/external/boringssl/src/crypto/pkcs8/pkcs8_x509.sdump"
-    },
-    {
-     "field_name" : "enc_offset",
-     "field_offset" : 128,
-     "referenced_type" : "_ZTIi"
-    }
-   ],
-   "linker_set_key" : "_ZTI11ASN1_AUX_st",
-   "name" : "ASN1_AUX_st",
-   "referenced_type" : "_ZTI11ASN1_AUX_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_x86_x86_64_shared/obj/external/boringssl/src/crypto/pkcs8/pkcs8_x509.sdump",
-   "self_type" : "_ZTI11ASN1_AUX_st#ODR:out/soong/.intermediates/external/boringssl/libcrypto/android_vendor.34_x86_x86_64_shared/obj/external/boringssl/src/crypto/pkcs8/pkcs8_x509.sdump",
    "size" : 20,
    "source_file" : "external/boringssl/src/include/openssl/asn1t.h"
   },
@@ -42553,7 +42170,7 @@
     },
     {
      "field_name" : "tag_len",
-     "field_offset" : 4544,
+     "field_offset" : 4672,
      "referenced_type" : "_ZTIh"
     }
    ],
@@ -42561,7 +42178,7 @@
    "name" : "evp_aead_ctx_st",
    "referenced_type" : "_ZTI15evp_aead_ctx_st",
    "self_type" : "_ZTI15evp_aead_ctx_st",
-   "size" : 572,
+   "size" : 588,
    "source_file" : "external/boringssl/src/include/openssl/aead.h"
   },
   {
@@ -42589,22 +42206,22 @@
     },
     {
      "field_name" : "base_nonce",
-     "field_offset" : 4672,
+     "field_offset" : 4800,
      "referenced_type" : "_ZTIA24_h"
     },
     {
      "field_name" : "exporter_secret",
-     "field_offset" : 4864,
+     "field_offset" : 4992,
      "referenced_type" : "_ZTIA64_h"
     },
     {
      "field_name" : "seq",
-     "field_offset" : 5376,
+     "field_offset" : 5504,
      "referenced_type" : "_ZTIy"
     },
     {
      "field_name" : "is_sender",
-     "field_offset" : 5440,
+     "field_offset" : 5568,
      "referenced_type" : "_ZTIi"
     }
    ],
@@ -42612,7 +42229,7 @@
    "name" : "evp_hpke_ctx_st",
    "referenced_type" : "_ZTI15evp_hpke_ctx_st",
    "self_type" : "_ZTI15evp_hpke_ctx_st",
-   "size" : 684,
+   "size" : 700,
    "source_file" : "external/boringssl/src/include/openssl/hpke.h"
   },
   {
@@ -42905,7 +42522,7 @@
     {
      "field_name" : "block",
      "field_offset" : 640,
-     "referenced_type" : "_ZTIA128_h"
+     "referenced_type" : "_ZTIN16blake2b_state_stUt_E"
     },
     {
      "field_name" : "block_used",
@@ -43435,7 +43052,7 @@
    [
     {
      "field_name" : "opaque",
-     "referenced_type" : "_ZTIA564_h"
+     "referenced_type" : "_ZTIA580_h"
     },
     {
      "field_name" : "alignment",
@@ -43447,7 +43064,7 @@
    "record_kind" : "union",
    "referenced_type" : "_ZTI21evp_aead_ctx_st_state",
    "self_type" : "_ZTI21evp_aead_ctx_st_state",
-   "size" : 564,
+   "size" : 580,
    "source_file" : "external/boringssl/src/include/openssl/aead.h"
   },
   {
@@ -43630,6 +43247,249 @@
    "self_type" : "_ZTI6cbs_st",
    "size" : 8,
    "source_file" : "external/boringssl/src/include/openssl/bytestring.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "version",
+     "referenced_type" : "_ZTIl"
+    },
+    {
+     "field_name" : "p",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIP9bignum_st"
+    },
+    {
+     "field_name" : "q",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIP9bignum_st"
+    },
+    {
+     "field_name" : "g",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIP9bignum_st"
+    },
+    {
+     "field_name" : "pub_key",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIP9bignum_st"
+    },
+    {
+     "field_name" : "priv_key",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTIP9bignum_st"
+    },
+    {
+     "field_name" : "flags",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "method_mont_lock",
+     "field_offset" : 224,
+     "referenced_type" : "_ZTI16pthread_rwlock_t"
+    },
+    {
+     "field_name" : "method_mont_p",
+     "field_offset" : 544,
+     "referenced_type" : "_ZTIP14bn_mont_ctx_st"
+    },
+    {
+     "field_name" : "method_mont_q",
+     "field_offset" : 576,
+     "referenced_type" : "_ZTIP14bn_mont_ctx_st"
+    },
+    {
+     "field_name" : "references",
+     "field_offset" : 608,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "ex_data",
+     "field_offset" : 640,
+     "referenced_type" : "_ZTI17crypto_ex_data_st"
+    }
+   ],
+   "linker_set_key" : "_ZTI6dsa_st",
+   "name" : "dsa_st",
+   "referenced_type" : "_ZTI6dsa_st",
+   "self_type" : "_ZTI6dsa_st",
+   "size" : 84,
+   "source_file" : "external/boringssl/src/include/openssl/dsa.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "meth",
+     "referenced_type" : "_ZTIP11rsa_meth_st"
+    },
+    {
+     "field_name" : "n",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIP9bignum_st"
+    },
+    {
+     "field_name" : "e",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIP9bignum_st"
+    },
+    {
+     "field_name" : "d",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIP9bignum_st"
+    },
+    {
+     "field_name" : "p",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIP9bignum_st"
+    },
+    {
+     "field_name" : "q",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTIP9bignum_st"
+    },
+    {
+     "field_name" : "dmp1",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIP9bignum_st"
+    },
+    {
+     "field_name" : "dmq1",
+     "field_offset" : 224,
+     "referenced_type" : "_ZTIP9bignum_st"
+    },
+    {
+     "field_name" : "iqmp",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTIP9bignum_st"
+    },
+    {
+     "field_name" : "ex_data",
+     "field_offset" : 288,
+     "referenced_type" : "_ZTI17crypto_ex_data_st"
+    },
+    {
+     "field_name" : "references",
+     "field_offset" : 320,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "flags",
+     "field_offset" : 352,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "lock",
+     "field_offset" : 384,
+     "referenced_type" : "_ZTI16pthread_rwlock_t"
+    },
+    {
+     "field_name" : "mont_n",
+     "field_offset" : 704,
+     "referenced_type" : "_ZTIP14bn_mont_ctx_st"
+    },
+    {
+     "field_name" : "mont_p",
+     "field_offset" : 736,
+     "referenced_type" : "_ZTIP14bn_mont_ctx_st"
+    },
+    {
+     "field_name" : "mont_q",
+     "field_offset" : 768,
+     "referenced_type" : "_ZTIP14bn_mont_ctx_st"
+    },
+    {
+     "field_name" : "d_fixed",
+     "field_offset" : 800,
+     "referenced_type" : "_ZTIP9bignum_st"
+    },
+    {
+     "field_name" : "dmp1_fixed",
+     "field_offset" : 832,
+     "referenced_type" : "_ZTIP9bignum_st"
+    },
+    {
+     "field_name" : "dmq1_fixed",
+     "field_offset" : 864,
+     "referenced_type" : "_ZTIP9bignum_st"
+    },
+    {
+     "field_name" : "inv_small_mod_large_mont",
+     "field_offset" : 896,
+     "referenced_type" : "_ZTIP9bignum_st"
+    },
+    {
+     "field_name" : "num_blindings",
+     "field_offset" : 928,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "blindings",
+     "field_offset" : 960,
+     "referenced_type" : "_ZTIPP14bn_blinding_st"
+    },
+    {
+     "field_name" : "blindings_inuse",
+     "field_offset" : 992,
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "field_name" : "blinding_fork_generation",
+     "field_offset" : 1024,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "private_key_frozen",
+     "field_offset" : 1088,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI6rsa_st",
+   "name" : "rsa_st",
+   "referenced_type" : "_ZTI6rsa_st",
+   "self_type" : "_ZTI6rsa_st",
+   "size" : 140,
+   "source_file" : "external/boringssl/src/include/openssl/rsa.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "num",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "data",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPPv"
+    },
+    {
+     "field_name" : "sorted",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "num_alloc",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "comp",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIPFiPKPKvS2_E"
+    }
+   ],
+   "linker_set_key" : "_ZTI8stack_st",
+   "name" : "stack_st",
+   "referenced_type" : "_ZTI8stack_st",
+   "self_type" : "_ZTI8stack_st",
+   "size" : 20,
+   "source_file" : "external/boringssl/src/include/openssl/stack.h"
   },
   {
    "alignment" : 4,
@@ -43914,6 +43774,28 @@
    "self_type" : "_ZTIN16KYBER_public_keyUt_E",
    "size" : 6208,
    "source_file" : "external/boringssl/src/include/openssl/kyber.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "bytes",
+     "referenced_type" : "_ZTIA128_h"
+    },
+    {
+     "field_name" : "words",
+     "referenced_type" : "_ZTIA16_y"
+    }
+   ],
+   "is_anonymous" : true,
+   "linker_set_key" : "_ZTIN16blake2b_state_stUt_E",
+   "name" : "blake2b_state_st::(unnamed)",
+   "record_kind" : "union",
+   "referenced_type" : "_ZTIN16blake2b_state_stUt_E",
+   "self_type" : "_ZTIN16blake2b_state_stUt_E",
+   "size" : 128,
+   "source_file" : "external/boringssl/src/include/openssl/blake2.h"
   },
   {
    "alignment" : 2,

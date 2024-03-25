@@ -152,9 +152,6 @@
    "name" : "_ZN7android2os9dumpstate14RunCommandToFdEiRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS2_6vectorIS8_NS6_IS8_EEEERKNS1_14CommandOptionsE"
   },
   {
-   "name" : "_ZN7android2os9dumpstate16PropertiesHelper11IsStrictRunEv"
-  },
-  {
    "name" : "_ZN7android2os9dumpstate16PropertiesHelper11IsUserBuildEv"
   },
   {
@@ -202,9 +199,6 @@
   },
   {
    "name" : "_ZN7android2os9dumpstate16PropertiesHelper11build_type_E"
-  },
-  {
-   "name" : "_ZN7android2os9dumpstate16PropertiesHelper11strict_run_E"
   },
   {
    "name" : "_ZN7android2os9dumpstate16PropertiesHelper13parallel_run_E"
@@ -579,12 +573,6 @@
    "source_file" : "frameworks/native/cmds/dumpstate/DumpstateUtil.h"
   },
   {
-   "function_name" : "android::os::dumpstate::PropertiesHelper::IsStrictRun",
-   "linker_set_key" : "_ZN7android2os9dumpstate16PropertiesHelper11IsStrictRunEv",
-   "return_type" : "_ZTIb",
-   "source_file" : "frameworks/native/cmds/dumpstate/DumpstateUtil.h"
-  },
-  {
    "function_name" : "android::os::dumpstate::PropertiesHelper::IsUserBuild",
    "linker_set_key" : "_ZN7android2os9dumpstate16PropertiesHelper11IsUserBuildEv",
    "return_type" : "_ZTIb",
@@ -719,13 +707,6 @@
    "linker_set_key" : "_ZN7android2os9dumpstate16PropertiesHelper11build_type_E",
    "name" : "android::os::dumpstate::PropertiesHelper::build_type_",
    "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
-   "source_file" : "frameworks/native/cmds/dumpstate/DumpstateUtil.h"
-  },
-  {
-   "access" : "private",
-   "linker_set_key" : "_ZN7android2os9dumpstate16PropertiesHelper11strict_run_E",
-   "name" : "android::os::dumpstate::PropertiesHelper::strict_run_",
-   "referenced_type" : "_ZTIi",
    "source_file" : "frameworks/native/cmds/dumpstate/DumpstateUtil.h"
   },
   {
