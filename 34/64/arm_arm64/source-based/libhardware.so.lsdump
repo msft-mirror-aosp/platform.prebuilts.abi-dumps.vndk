@@ -16,7 +16,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIA12_j",
    "size" : 48,
-   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -25,7 +25,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIA25_j",
    "size" : 100,
-   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -936,7 +936,7 @@
    "referenced_type" : "_ZTIFiP11hw_device_tE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiP11hw_device_tE",
-   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -957,7 +957,7 @@
    "referenced_type" : "_ZTIFiPK11hw_module_tPKcPP11hw_device_tE",
    "return_type" : "_ZTIi",
    "self_type" : "_ZTIFiPK11hw_module_tPKcPP11hw_device_tE",
-   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   }
  ],
  "functions" :
@@ -975,7 +975,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
    "function_name" : "hw_get_module_by_class",
@@ -993,7 +993,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   }
  ],
  "global_vars" : [],
@@ -1007,7 +1007,7 @@
    "referenced_type" : "_ZTI11hw_device_t",
    "self_type" : "_ZTIP11hw_device_t",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -1016,7 +1016,7 @@
    "referenced_type" : "_ZTI11hw_module_t",
    "self_type" : "_ZTIP11hw_module_t",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -1034,7 +1034,7 @@
    "referenced_type" : "_ZTI19hw_module_methods_t",
    "self_type" : "_ZTIP19hw_module_methods_t",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -1043,7 +1043,7 @@
    "referenced_type" : "_ZTIFiP11hw_device_tE",
    "self_type" : "_ZTIPFiP11hw_device_tE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -1052,7 +1052,7 @@
    "referenced_type" : "_ZTIFiPK11hw_module_tPKcPP11hw_device_tE",
    "self_type" : "_ZTIPFiPK11hw_module_tPKcPP11hw_device_tE",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -1061,7 +1061,7 @@
    "referenced_type" : "_ZTIK11hw_module_t",
    "self_type" : "_ZTIPK11hw_module_t",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -1070,7 +1070,7 @@
    "referenced_type" : "_ZTIKc",
    "self_type" : "_ZTIPKc",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -1079,7 +1079,7 @@
    "referenced_type" : "_ZTIP11hw_device_t",
    "self_type" : "_ZTIPP11hw_device_t",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -1088,7 +1088,7 @@
    "referenced_type" : "_ZTIPK11hw_module_t",
    "self_type" : "_ZTIPPK11hw_module_t",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -1119,7 +1119,7 @@
    "referenced_type" : "_ZTI11hw_module_t",
    "self_type" : "_ZTIK11hw_module_t",
    "size" : 128,
-   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
    "alignment" : 1,
@@ -1129,7 +1129,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIKc",
    "size" : 1,
-   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   }
  ],
  "record_types" :
@@ -1168,7 +1168,7 @@
    "referenced_type" : "_ZTI11hw_device_t",
    "self_type" : "_ZTI11hw_device_t",
    "size" : 64,
-   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -1224,7 +1224,7 @@
    "referenced_type" : "_ZTI11hw_module_t",
    "self_type" : "_ZTI11hw_module_t",
    "size" : 128,
-   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
    "alignment" : 4,
@@ -1415,7 +1415,7 @@
    "referenced_type" : "_ZTI19hw_module_methods_t",
    "self_type" : "_ZTI19hw_module_methods_t",
    "size" : 4,
-   "source_file" : "hardware/libhardware/include_all/hardware/hardware.h"
+   "source_file" : "hardware/libhardware/include/hardware/hardware.h"
   },
   {
    "alignment" : 4,
