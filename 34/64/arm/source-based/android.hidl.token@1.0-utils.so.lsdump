@@ -5946,12 +5946,6 @@
     },
     {
      "access" : "private",
-     "field_name" : "mServiceFuzzing",
-     "field_offset" : 408,
-     "referenced_type" : "_ZTIb"
-    },
-    {
-     "access" : "private",
      "field_name" : "mOwner",
      "field_offset" : 416,
      "referenced_type" : "_ZTIPFvPKhjPKyjE"

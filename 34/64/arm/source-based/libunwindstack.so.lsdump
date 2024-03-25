@@ -101,6 +101,24 @@
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UcontextRiscv64.h"
   },
   {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIA45_j",
+   "name" : "unsigned int[45]",
+   "referenced_type" : "_ZTIj",
+   "self_type" : "_ZTIA45_j",
+   "size" : 180,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UserMips.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIA45_y",
+   "name" : "unsigned long long[45]",
+   "referenced_type" : "_ZTIy",
+   "self_type" : "_ZTIA45_y",
+   "size" : 360,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UserMips64.h"
+  },
+  {
    "alignment" : 8,
    "linker_set_key" : "_ZTIA64_y",
    "name" : "unsigned long long[64]",
@@ -227,379 +245,412 @@
  "elf_functions" :
  [
   {
-   "name" : "_RNvCsc3gp0nclRww_14rustc_demangle12try_demangle"
+   "name" : "_RNvCs5OIsIcU3KsB_14rustc_demangle12try_demangle"
   },
   {
-   "name" : "_RNvCsc3gp0nclRww_14rustc_demangle8demangle"
+   "name" : "_RNvCs5OIsIcU3KsB_14rustc_demangle8demangle"
   },
   {
-   "name" : "_RNvMNtCsigYXxsQj60g_4core4charNtB2_13EscapeUnicode3new"
+   "name" : "_RNvMNtNtCsgEvhZdlx7kS_3std10sys_common16thread_local_keyNtB2_9StaticKey9lazy_init"
   },
   {
-   "name" : "_RNvMNtNtCs51HVTe8mXkC_3std10sys_common16thread_local_keyNtB2_9StaticKey9lazy_init"
+   "name" : "_RNvMNtNtCshYZxXgsOdMC_4core3str5lossyNtB2_9Utf8Chunk5valid"
   },
   {
-   "name" : "_RNvMNtNtCsigYXxsQj60g_4core3str5lossyNtB2_9Utf8Chunk5valid"
+   "name" : "_RNvMNtNtCshYZxXgsOdMC_4core3str5lossyNtB2_9Utf8Chunk7invalid"
   },
   {
-   "name" : "_RNvMNtNtCsigYXxsQj60g_4core3str5lossyNtB2_9Utf8Chunk7invalid"
+   "name" : "_RNvMNtNtCshYZxXgsOdMC_4core5panic10panic_infoNtB2_9PanicInfo10can_unwind"
   },
   {
-   "name" : "_RNvMNtNtCsigYXxsQj60g_4core5panic10panic_infoNtB2_9PanicInfo10can_unwind"
+   "name" : "_RNvMNtNtCshYZxXgsOdMC_4core5panic10panic_infoNtB2_9PanicInfo7message"
   },
   {
-   "name" : "_RNvMNtNtCsigYXxsQj60g_4core5panic10panic_infoNtB2_9PanicInfo7message"
+   "name" : "_RNvMNtNtCshYZxXgsOdMC_4core5panic10panic_infoNtB2_9PanicInfo7payload"
   },
   {
-   "name" : "_RNvMNtNtCsigYXxsQj60g_4core5panic10panic_infoNtB2_9PanicInfo7payload"
+   "name" : "_RNvMNtNtCshYZxXgsOdMC_4core5panic10panic_infoNtB2_9PanicInfo8location"
   },
   {
-   "name" : "_RNvMNtNtCsigYXxsQj60g_4core5panic10panic_infoNtB2_9PanicInfo8location"
+   "name" : "_RNvMNtNtNtNtCsgEvhZdlx7kS_3std3sys4unix5locks11futex_mutexNtB2_5Mutex14lock_contended"
   },
   {
-   "name" : "_RNvMNtNtNtNtCs51HVTe8mXkC_3std3sys4unix5locks11futex_mutexNtB2_5Mutex14lock_contended"
+   "name" : "_RNvMNtNtNtNtCsgEvhZdlx7kS_3std3sys4unix5locks12futex_rwlockNtB2_6RwLock14read_contended"
   },
   {
-   "name" : "_RNvMNtNtNtNtCs51HVTe8mXkC_3std3sys4unix5locks12futex_rwlockNtB2_6RwLock14read_contended"
+   "name" : "_RNvMNtNtNtNtCsgEvhZdlx7kS_3std3sys4unix5locks12futex_rwlockNtB2_6RwLock22wake_writer_or_readers"
   },
   {
-   "name" : "_RNvMNtNtNtNtCs51HVTe8mXkC_3std3sys4unix5locks12futex_rwlockNtB2_6RwLock22wake_writer_or_readers"
+   "name" : "_RNvMs0_NtNtCshYZxXgsOdMC_4core3str5lossyNtB5_10Utf8Chunks3new"
   },
   {
-   "name" : "_RNvMs0_NtNtCsigYXxsQj60g_4core3str5lossyNtB5_10Utf8Chunks3new"
+   "name" : "_RNvMs1_NtCshYZxXgsOdMC_4core3fmtNtB5_10ArgumentV110from_usize"
   },
   {
-   "name" : "_RNvMs1_NtNtCsigYXxsQj60g_4core3fmt8buildersNtB5_11DebugStruct5field"
+   "name" : "_RNvMs1_NtNtCshYZxXgsOdMC_4core3fmt8buildersNtB5_11DebugStruct5field"
   },
   {
-   "name" : "_RNvMs1_NtNtCsigYXxsQj60g_4core3fmt8buildersNtB5_11DebugStruct6finish"
+   "name" : "_RNvMs1_NtNtCshYZxXgsOdMC_4core3fmt8buildersNtB5_11DebugStruct6finish"
   },
   {
-   "name" : "_RNvMs4_NtNtCsigYXxsQj60g_4core3ffi5c_strNtB5_4CStr6to_str"
+   "name" : "_RNvMs3_NtNtCshYZxXgsOdMC_4core3ffi5c_strNtB5_4CStr6to_str"
   },
   {
-   "name" : "_RNvMs4_NtNtCsigYXxsQj60g_4core3fmt8buildersNtB5_8DebugSet5entry"
+   "name" : "_RNvMs4_NtNtCshYZxXgsOdMC_4core3fmt8buildersNtB5_8DebugSet5entry"
   },
   {
-   "name" : "_RNvMs5_NtCsigYXxsQj60g_4core3fmtNtB5_9Formatter10debug_list"
+   "name" : "_RNvMs5_NtNtCshYZxXgsOdMC_4core3fmt8buildersNtB5_9DebugList5entry"
   },
   {
-   "name" : "_RNvMs5_NtCsigYXxsQj60g_4core3fmtNtB5_9Formatter12debug_struct"
+   "name" : "_RNvMs5_NtNtCshYZxXgsOdMC_4core3fmt8buildersNtB5_9DebugList6finish"
   },
   {
-   "name" : "_RNvMs5_NtCsigYXxsQj60g_4core3fmtNtB5_9Formatter12pad_integral"
+   "name" : "_RNvMs7_NtCshYZxXgsOdMC_4core3fmtNtB5_9Formatter10debug_list"
   },
   {
-   "name" : "_RNvMs5_NtCsigYXxsQj60g_4core3fmtNtB5_9Formatter15debug_lower_hex"
+   "name" : "_RNvMs7_NtCshYZxXgsOdMC_4core3fmtNtB5_9Formatter12debug_struct"
   },
   {
-   "name" : "_RNvMs5_NtCsigYXxsQj60g_4core3fmtNtB5_9Formatter15debug_upper_hex"
+   "name" : "_RNvMs7_NtCshYZxXgsOdMC_4core3fmtNtB5_9Formatter12pad_integral"
   },
   {
-   "name" : "_RNvMs5_NtCsigYXxsQj60g_4core3fmtNtB5_9Formatter3pad"
+   "name" : "_RNvMs7_NtCshYZxXgsOdMC_4core3fmtNtB5_9Formatter15debug_lower_hex"
   },
   {
-   "name" : "_RNvMs5_NtCsigYXxsQj60g_4core3fmtNtB5_9Formatter9alternate"
+   "name" : "_RNvMs7_NtCshYZxXgsOdMC_4core3fmtNtB5_9Formatter15debug_upper_hex"
   },
   {
-   "name" : "_RNvMs5_NtCsigYXxsQj60g_4core3fmtNtB5_9Formatter9write_fmt"
+   "name" : "_RNvMs7_NtCshYZxXgsOdMC_4core3fmtNtB5_9Formatter3pad"
   },
   {
-   "name" : "_RNvMs5_NtCsigYXxsQj60g_4core3fmtNtB5_9Formatter9write_str"
+   "name" : "_RNvMs7_NtCshYZxXgsOdMC_4core3fmtNtB5_9Formatter9alternate"
   },
   {
-   "name" : "_RNvMs5_NtNtCsigYXxsQj60g_4core3fmt8buildersNtB5_9DebugList5entry"
+   "name" : "_RNvMs7_NtCshYZxXgsOdMC_4core3fmtNtB5_9Formatter9write_fmt"
   },
   {
-   "name" : "_RNvMs5_NtNtCsigYXxsQj60g_4core3fmt8buildersNtB5_9DebugList6finish"
+   "name" : "_RNvMs7_NtCshYZxXgsOdMC_4core3fmtNtB5_9Formatter9write_str"
   },
   {
-   "name" : "_RNvMs6_NtCsigYXxsQj60g_4core3numm14from_str_radix"
+   "name" : "_RNvMs7_NtCshYZxXgsOdMC_4core3numm14from_str_radix"
   },
   {
-   "name" : "_RNvMs8_NtCs51HVTe8mXkC_3std4pathNtB5_10Components7as_path"
+   "name" : "_RNvMs8_NtCsgEvhZdlx7kS_3std4pathNtB5_10Components7as_path"
   },
   {
-   "name" : "_RNvMs8_NtCsigYXxsQj60g_4core4charNtB5_11EscapeDebug12from_unicode"
+   "name" : "_RNvMsZ_NtCsgEvhZdlx7kS_3std4pathNtB5_4Path13__strip_prefix"
   },
   {
-   "name" : "_RNvMs8_NtCsigYXxsQj60g_4core4charNtB5_11EscapeDebug5clear"
+   "name" : "_RNvMsr_NtNtCshYZxXgsOdMC_4core3str7patternNtB5_11StrSearcher3new"
   },
   {
-   "name" : "_RNvMs8_NtCsigYXxsQj60g_4core4charNtB5_11EscapeDebug9backslash"
+   "name" : "_RNvNtCsd9gH7jzOxdF_6unwind9libunwind13__Unwind_GetGR"
   },
   {
-   "name" : "_RNvMs8_NtCsigYXxsQj60g_4core4charNtB5_11EscapeDebug9printable"
+   "name" : "_RNvNtCsd9gH7jzOxdF_6unwind9libunwind13__Unwind_SetGR"
   },
   {
-   "name" : "_RNvMsZ_NtCs51HVTe8mXkC_3std4pathNtB5_4Path13__strip_prefix"
+   "name" : "_RNvNtCsd9gH7jzOxdF_6unwind9libunwind13__Unwind_SetIP"
   },
   {
-   "name" : "_RNvMsr_NtNtCsigYXxsQj60g_4core3str7patternNtB5_11StrSearcher3new"
+   "name" : "_RNvNtCsd9gH7jzOxdF_6unwind9libunwind17__Unwind_GetIPInfo"
   },
   {
-   "name" : "_RNvNtCs51HVTe8mXkC_3std3env11current_dir"
+   "name" : "_RNvNtCse8HI3UYfCwz_5alloc4sync32arcinner_layout_for_value_layout"
   },
   {
-   "name" : "_RNvNtCs51HVTe8mXkC_3std5alloc8rust_oom"
+   "name" : "_RNvNtCse8HI3UYfCwz_5alloc5alloc18handle_alloc_error"
   },
   {
-   "name" : "_RNvNtCs51HVTe8mXkC_3std7process5abort"
+   "name" : "_RNvNtCse8HI3UYfCwz_5alloc7raw_vec17capacity_overflow"
   },
   {
-   "name" : "_RNvNtCs51HVTe8mXkC_3std9panicking12default_hook"
+   "name" : "_RNvNtCsgEvhZdlx7kS_3std3env11current_dir"
   },
   {
-   "name" : "_RNvNtCs51HVTe8mXkC_3std9panicking20rust_panic_with_hook"
+   "name" : "_RNvNtCsgEvhZdlx7kS_3std5alloc8rust_oom"
   },
   {
-   "name" : "_RNvNtCs8l6Tmkn1WCW_5alloc4sync32arcinner_layout_for_value_layout"
+   "name" : "_RNvNtCsgEvhZdlx7kS_3std7process5abort"
   },
   {
-   "name" : "_RNvNtCs8l6Tmkn1WCW_5alloc5alloc18handle_alloc_error"
+   "name" : "_RNvNtCsgEvhZdlx7kS_3std9panicking12default_hook"
   },
   {
-   "name" : "_RNvNtCs8l6Tmkn1WCW_5alloc7raw_vec17capacity_overflow"
+   "name" : "_RNvNtCsgEvhZdlx7kS_3std9panicking20rust_panic_with_hook"
   },
   {
-   "name" : "_RNvNtCsdc1qLhREGSP_6unwind9libunwind13__Unwind_GetGR"
+   "name" : "_RNvNtCshYZxXgsOdMC_4core3fmt17pointer_fmt_inner"
   },
   {
-   "name" : "_RNvNtCsdc1qLhREGSP_6unwind9libunwind13__Unwind_SetGR"
+   "name" : "_RNvNtCshYZxXgsOdMC_4core3fmt5write"
   },
   {
-   "name" : "_RNvNtCsdc1qLhREGSP_6unwind9libunwind13__Unwind_SetIP"
+   "name" : "_RNvNtCshYZxXgsOdMC_4core3str16slice_error_fail"
   },
   {
-   "name" : "_RNvNtCsdc1qLhREGSP_6unwind9libunwind17__Unwind_GetIPInfo"
+   "name" : "_RNvNtCshYZxXgsOdMC_4core3str19slice_error_fail_rt"
   },
   {
-   "name" : "_RNvNtCsigYXxsQj60g_4core3fmt17pointer_fmt_inner"
+   "name" : "_RNvNtCshYZxXgsOdMC_4core6result13unwrap_failed"
   },
   {
-   "name" : "_RNvNtCsigYXxsQj60g_4core3fmt5write"
+   "name" : "_RNvNtCshYZxXgsOdMC_4core9panicking18panic_bounds_check"
   },
   {
-   "name" : "_RNvNtCsigYXxsQj60g_4core3str16slice_error_fail"
+   "name" : "_RNvNtCshYZxXgsOdMC_4core9panicking19assert_failed_inner"
   },
   {
-   "name" : "_RNvNtCsigYXxsQj60g_4core3str19slice_error_fail_rt"
+   "name" : "_RNvNtCshYZxXgsOdMC_4core9panicking5panic"
   },
   {
-   "name" : "_RNvNtCsigYXxsQj60g_4core6result13unwrap_failed"
+   "name" : "_RNvNtCshYZxXgsOdMC_4core9panicking9panic_fmt"
   },
   {
-   "name" : "_RNvNtCsigYXxsQj60g_4core9panicking18panic_bounds_check"
+   "name" : "_RNvNtNtCsgEvhZdlx7kS_3std3sys4unix14abort_internal"
   },
   {
-   "name" : "_RNvNtCsigYXxsQj60g_4core9panicking19assert_failed_inner"
+   "name" : "_RNvNtNtCsgEvhZdlx7kS_3std3sys4unix17decode_error_kind"
   },
   {
-   "name" : "_RNvNtCsigYXxsQj60g_4core9panicking5panic"
+   "name" : "_RNvNtNtCsgEvhZdlx7kS_3std9panicking11panic_count17is_zero_slow_path"
   },
   {
-   "name" : "_RNvNtCsigYXxsQj60g_4core9panicking9panic_fmt"
+   "name" : "_RNvNtNtCshYZxXgsOdMC_4core3str5count14do_count_chars"
   },
   {
-   "name" : "_RNvNtNtCs51HVTe8mXkC_3std3sys4unix14abort_internal"
+   "name" : "_RNvNtNtCshYZxXgsOdMC_4core3str5count23char_count_general_case"
   },
   {
-   "name" : "_RNvNtNtCs51HVTe8mXkC_3std3sys4unix17decode_error_kind"
+   "name" : "_RNvNtNtCshYZxXgsOdMC_4core3str6traits23str_index_overflow_fail"
   },
   {
-   "name" : "_RNvNtNtCs51HVTe8mXkC_3std9panicking11panic_count17is_zero_slow_path"
+   "name" : "_RNvNtNtCshYZxXgsOdMC_4core3str8converts9from_utf8"
   },
   {
-   "name" : "_RNvNtNtCsigYXxsQj60g_4core3str5count14do_count_chars"
+   "name" : "_RNvNtNtCshYZxXgsOdMC_4core5slice5index22slice_index_order_fail"
   },
   {
-   "name" : "_RNvNtNtCsigYXxsQj60g_4core3str5count23char_count_general_case"
+   "name" : "_RNvNtNtCshYZxXgsOdMC_4core5slice5index24slice_end_index_len_fail"
   },
   {
-   "name" : "_RNvNtNtCsigYXxsQj60g_4core3str6traits23str_index_overflow_fail"
+   "name" : "_RNvNtNtCshYZxXgsOdMC_4core5slice5index26slice_start_index_len_fail"
   },
   {
-   "name" : "_RNvNtNtCsigYXxsQj60g_4core3str8converts9from_utf8"
+   "name" : "_RNvNtNtCshYZxXgsOdMC_4core5slice6memchr14memchr_aligned"
   },
   {
-   "name" : "_RNvNtNtCsigYXxsQj60g_4core5slice5index22slice_index_order_fail"
+   "name" : "_RNvNtNtCshYZxXgsOdMC_4core7unicode9printable12is_printable"
   },
   {
-   "name" : "_RNvNtNtCsigYXxsQj60g_4core5slice5index24slice_end_index_len_fail"
+   "name" : "_RNvNtNtNtCsgEvhZdlx7kS_3std3sys6common5alloc16realloc_fallback"
   },
   {
-   "name" : "_RNvNtNtCsigYXxsQj60g_4core5slice5index26slice_start_index_len_fail"
+   "name" : "_RNvNtNtNtCshYZxXgsOdMC_4core7unicode12unicode_data15grapheme_extend6lookup"
   },
   {
-   "name" : "_RNvNtNtCsigYXxsQj60g_4core5slice6memchr14memchr_aligned"
+   "name" : "_RNvNtNtNtCshYZxXgsOdMC_4core7unicode12unicode_data2cc6lookup"
   },
   {
-   "name" : "_RNvNtNtCsigYXxsQj60g_4core7unicode9printable12is_printable"
+   "name" : "_RNvNvMs3_NtNtCshYZxXgsOdMC_4core3ffi5c_strNtB7_4CStr8from_ptr9strlen_rt"
   },
   {
-   "name" : "_RNvNtNtNtCs51HVTe8mXkC_3std3sys6common5alloc16realloc_fallback"
+   "name" : "_RNvNvNtCse8HI3UYfCwz_5alloc5alloc18handle_alloc_error8rt_error"
   },
   {
-   "name" : "_RNvNtNtNtCsigYXxsQj60g_4core7unicode12unicode_data15grapheme_extend6lookup"
+   "name" : "_RNvXNtCs5OIsIcU3KsB_14rustc_demangle6legacyNtB2_8DemangleNtNtCshYZxXgsOdMC_4core3fmt7Display3fmt"
   },
   {
-   "name" : "_RNvNtNtNtCsigYXxsQj60g_4core7unicode12unicode_data2cc6lookup"
+   "name" : "_RNvXNtCsjhy8uZQdWLM_14rustc_demangle6legacyNtB2_8DemangleNtNtCshYZxXgsOdMC_4core3fmt7Display3fmt"
   },
   {
-   "name" : "_RNvNvMs4_NtNtCsigYXxsQj60g_4core3ffi5c_strNtB7_4CStr8from_ptr9strlen_rt"
+   "name" : "_RNvXNvNtNtCsgEvhZdlx7kS_3std10sys_common9backtrace6__printNtB2_16DisplayBacktraceNtNtCshYZxXgsOdMC_4core3fmt7Display3fmt"
   },
   {
-   "name" : "_RNvNvNtCs8l6Tmkn1WCW_5alloc5alloc18handle_alloc_error8rt_error"
+   "name" : "_RNvXs0_NtCs5OIsIcU3KsB_14rustc_demangle2v0NtB5_5IdentNtNtCshYZxXgsOdMC_4core3fmt7Display3fmt"
   },
   {
-   "name" : "_RNvXNtCs3jb9llYclZH_14rustc_demangle6legacyNtB2_8DemangleNtNtCsigYXxsQj60g_4core3fmt7Display3fmt"
+   "name" : "_RNvXs0_NtCsjhy8uZQdWLM_14rustc_demangle2v0NtB5_5IdentNtNtCshYZxXgsOdMC_4core3fmt7Display3fmt"
   },
   {
-   "name" : "_RNvXNtCsc3gp0nclRww_14rustc_demangle6legacyNtB2_8DemangleNtNtCsigYXxsQj60g_4core3fmt7Display3fmt"
+   "name" : "_RNvXs0_NtNtCshYZxXgsOdMC_4core3fmt8buildersNtB5_10PadAdapterNtB7_5Write9write_str"
   },
   {
-   "name" : "_RNvXNvNtNtCs51HVTe8mXkC_3std10sys_common9backtrace6__printNtB2_16DisplayBacktraceNtNtCsigYXxsQj60g_4core3fmt7Display3fmt"
+   "name" : "_RNvXs0_NtNtCshYZxXgsOdMC_4core5panic8locationNtB5_8LocationNtNtB9_3fmt7Display3fmt"
   },
   {
-   "name" : "_RNvXs0_NtCs3jb9llYclZH_14rustc_demangle2v0NtB5_5IdentNtNtCsigYXxsQj60g_4core3fmt7Display3fmt"
+   "name" : "_RNvXs0_NvNtCsgEvhZdlx7kS_3std9panicking19begin_panic_handlerNtB5_15StrPanicPayloadNtNtCshYZxXgsOdMC_4core5panic7BoxMeUp3get"
   },
   {
-   "name" : "_RNvXs0_NtCsc3gp0nclRww_14rustc_demangle2v0NtB5_5IdentNtNtCsigYXxsQj60g_4core3fmt7Display3fmt"
+   "name" : "_RNvXs0_NvNtCsgEvhZdlx7kS_3std9panicking19begin_panic_handlerNtB5_15StrPanicPayloadNtNtCshYZxXgsOdMC_4core5panic7BoxMeUp8take_box"
   },
   {
-   "name" : "_RNvXs0_NtNtCsigYXxsQj60g_4core3fmt8buildersNtB5_10PadAdapterNtB7_5Write9write_str"
+   "name" : "_RNvXs10_NtNtCshYZxXgsOdMC_4core3fmt3numxNtB8_8LowerHex3fmt"
   },
   {
-   "name" : "_RNvXs0_NtNtCsigYXxsQj60g_4core5panic8locationNtB5_8LocationNtNtB9_3fmt7Display3fmt"
+   "name" : "_RNvXs14_NtNtCshYZxXgsOdMC_4core3fmt3numyNtB8_8LowerHex3fmt"
   },
   {
-   "name" : "_RNvXs0_NvNtCs51HVTe8mXkC_3std9panicking19begin_panic_handlerNtB5_15StrPanicPayloadNtNtCsigYXxsQj60g_4core5panic7BoxMeUp3get"
+   "name" : "_RNvXs1_Cs5OIsIcU3KsB_14rustc_demangleNtB5_8DemangleNtNtCshYZxXgsOdMC_4core3fmt7Display3fmt"
   },
   {
-   "name" : "_RNvXs0_NvNtCs51HVTe8mXkC_3std9panicking19begin_panic_handlerNtB5_15StrPanicPayloadNtNtCsigYXxsQj60g_4core5panic7BoxMeUp8take_box"
+   "name" : "_RNvXs1_Csjhy8uZQdWLM_14rustc_demangleNtB5_8DemangleNtNtCshYZxXgsOdMC_4core3fmt7Display3fmt"
   },
   {
-   "name" : "_RNvXs10_NtNtCsigYXxsQj60g_4core3fmt3numxNtB8_8LowerHex3fmt"
+   "name" : "_RNvXs1_NtNtCshYZxXgsOdMC_4core3str5lossyNtB5_10Utf8ChunksNtNtNtNtB9_4iter6traits8iterator8Iterator4next"
   },
   {
-   "name" : "_RNvXs14_NtNtCsigYXxsQj60g_4core3fmt3numyNtB8_8LowerHex3fmt"
+   "name" : "_RNvXs1_NtNtNtCsgEvhZdlx7kS_3std3sys4unix5stdioNtB5_6StdoutNtNtBb_2io5Write5flush"
   },
   {
-   "name" : "_RNvXs1_Cs3jb9llYclZH_14rustc_demangleNtB5_8DemangleNtNtCsigYXxsQj60g_4core3fmt7Display3fmt"
+   "name" : "_RNvXs2_NtCshYZxXgsOdMC_4core4charNtB5_13EscapeDefaultNtNtNtNtB7_4iter6traits8iterator8Iterator4next"
   },
   {
-   "name" : "_RNvXs1_Csc3gp0nclRww_14rustc_demangleNtB5_8DemangleNtNtCsigYXxsQj60g_4core3fmt7Display3fmt"
+   "name" : "_RNvXs2_NtNtNtCshYZxXgsOdMC_4core3fmt3num3implNtB9_7Display3fmt"
   },
   {
-   "name" : "_RNvXs1_NtNtCsigYXxsQj60g_4core3str5lossyNtB5_10Utf8ChunksNtNtNtNtB9_4iter6traits8iterator8Iterator4next"
+   "name" : "_RNvXs3_NtNtCsgEvhZdlx7kS_3std12backtrace_rs9symbolizeNtB5_10SymbolNameNtNtCshYZxXgsOdMC_4core3fmt7Display3fmt"
   },
   {
-   "name" : "_RNvXs2_NtNtNtCsigYXxsQj60g_4core3fmt3num3implNtB9_7Display3fmt"
+   "name" : "_RNvXs3_NtNtNtCsgEvhZdlx7kS_3std3sys4unix5stdioNtB5_6StderrNtNtBb_2io5Write14write_vectored"
   },
   {
-   "name" : "_RNvXs3_NtCsigYXxsQj60g_4core3fmtNtB5_9ArgumentsNtB5_7Display3fmt"
+   "name" : "_RNvXs3_NtNtNtCsgEvhZdlx7kS_3std3sys4unix5stdioNtB5_6StderrNtNtBb_2io5Write5write"
   },
   {
-   "name" : "_RNvXs3_NtNtCs51HVTe8mXkC_3std12backtrace_rs9symbolizeNtB5_10SymbolNameNtNtCsigYXxsQj60g_4core3fmt7Display3fmt"
+   "name" : "_RNvXs3_NtNtNtCshYZxXgsOdMC_4core3fmt3num3impmNtB9_7Display3fmt"
   },
   {
-   "name" : "_RNvXs3_NtNtNtCs51HVTe8mXkC_3std3sys4unix5stdioNtB5_6StderrNtNtBb_2io5Write14write_vectored"
+   "name" : "_RNvXs5_NtCshYZxXgsOdMC_4core3fmtNtB5_9ArgumentsNtB5_7Display3fmt"
   },
   {
-   "name" : "_RNvXs3_NtNtNtCs51HVTe8mXkC_3std3sys4unix5stdioNtB5_6StderrNtNtBb_2io5Write5flush"
+   "name" : "_RNvXs5_NtNtNtCshYZxXgsOdMC_4core3fmt3num3impjNtB9_7Display3fmt"
   },
   {
-   "name" : "_RNvXs3_NtNtNtCs51HVTe8mXkC_3std3sys4unix5stdioNtB5_6StderrNtNtBb_2io5Write5write"
+   "name" : "_RNvXs6_NtCshYZxXgsOdMC_4core4charNtB5_11EscapeDebugNtNtNtNtB7_4iter6traits8iterator8Iterator4next"
   },
   {
-   "name" : "_RNvXs3_NtNtNtCsigYXxsQj60g_4core3fmt3num3impmNtB9_7Display3fmt"
+   "name" : "_RNvXs7_Cs5OIsIcU3KsB_14rustc_demangleNtB5_18SizeLimitExhaustedNtNtCshYZxXgsOdMC_4core3fmt5Debug3fmt"
   },
   {
-   "name" : "_RNvXs5_NtNtNtCsigYXxsQj60g_4core3fmt3num3impjNtB9_7Display3fmt"
+   "name" : "_RNvXs7_Csjhy8uZQdWLM_14rustc_demangleNtB5_18SizeLimitExhaustedNtNtCshYZxXgsOdMC_4core3fmt5Debug3fmt"
   },
   {
-   "name" : "_RNvXs6_NtCsigYXxsQj60g_4core3fmtNtB5_9FormatterNtB5_5Write10write_char"
+   "name" : "_RNvXs7_NtNtNtCshYZxXgsOdMC_4core3fmt3num3impyNtB9_7Display3fmt"
   },
   {
-   "name" : "_RNvXs6_NtCsigYXxsQj60g_4core3fmtNtB5_9FormatterNtB5_5Write9write_str"
+   "name" : "_RNvXs8_NtCshYZxXgsOdMC_4core3fmtNtB5_9FormatterNtB5_5Write10write_char"
   },
   {
-   "name" : "_RNvXs7_Cs3jb9llYclZH_14rustc_demangleNtB5_18SizeLimitExhaustedNtNtCsigYXxsQj60g_4core3fmt5Debug3fmt"
+   "name" : "_RNvXs8_NtCshYZxXgsOdMC_4core3fmtNtB5_9FormatterNtB5_5Write9write_str"
   },
   {
-   "name" : "_RNvXs7_Csc3gp0nclRww_14rustc_demangleNtB5_18SizeLimitExhaustedNtNtCsigYXxsQj60g_4core3fmt5Debug3fmt"
+   "name" : "_RNvXsC_NtNtCshYZxXgsOdMC_4core3fmt3numaNtB7_8LowerHex3fmt"
   },
   {
-   "name" : "_RNvXs7_NtNtNtCsigYXxsQj60g_4core3fmt3num3impyNtB9_7Display3fmt"
+   "name" : "_RNvXsD_NtNtCshYZxXgsOdMC_4core3fmt3numaNtB7_8UpperHex3fmt"
   },
   {
-   "name" : "_RNvXsC_NtNtCsigYXxsQj60g_4core3fmt3numaNtB7_8LowerHex3fmt"
+   "name" : "_RNvXsG_NtCshYZxXgsOdMC_4core3fmtNtB5_5ErrorNtB5_5Debug3fmt"
   },
   {
-   "name" : "_RNvXsD_NtNtCsigYXxsQj60g_4core3fmt3numaNtB7_8UpperHex3fmt"
+   "name" : "_RNvXsG_NtNtCshYZxXgsOdMC_4core3fmt3numhNtB7_8LowerHex3fmt"
   },
   {
-   "name" : "_RNvXsE_NtCsigYXxsQj60g_4core3fmtNtB5_5ErrorNtB5_5Debug3fmt"
+   "name" : "_RNvXsH_NtNtCshYZxXgsOdMC_4core3fmt3numhNtB7_8UpperHex3fmt"
   },
   {
-   "name" : "_RNvXsG_NtNtCsigYXxsQj60g_4core3fmt3numhNtB7_8LowerHex3fmt"
+   "name" : "_RNvXsS_NtNtCshYZxXgsOdMC_4core3fmt3numlNtB7_8LowerHex3fmt"
   },
   {
-   "name" : "_RNvXsH_NtNtCsigYXxsQj60g_4core3fmt3numhNtB7_8UpperHex3fmt"
+   "name" : "_RNvXsT_NtNtCshYZxXgsOdMC_4core3fmt3numlNtB7_8UpperHex3fmt"
   },
   {
-   "name" : "_RNvXsS_NtNtCsigYXxsQj60g_4core3fmt3numlNtB7_8LowerHex3fmt"
+   "name" : "_RNvXs_NtNtCsgEvhZdlx7kS_3std6thread5localNtB4_11AccessErrorNtNtCshYZxXgsOdMC_4core3fmt5Debug3fmt"
   },
   {
-   "name" : "_RNvXsT_NtNtCsigYXxsQj60g_4core3fmt3numlNtB7_8UpperHex3fmt"
+   "name" : "_RNvXs_NtNtCshYZxXgsOdMC_4core5panic10panic_infoNtB4_9PanicInfoNtNtB8_3fmt7Display3fmt"
   },
   {
-   "name" : "_RNvXs_NtNtCs51HVTe8mXkC_3std6thread5localNtB4_11AccessErrorNtNtCsigYXxsQj60g_4core3fmt5Debug3fmt"
+   "name" : "_RNvXs_NtNtNtCsgEvhZdlx7kS_3std3sys4unix6os_strNtB4_5SliceNtNtCshYZxXgsOdMC_4core3fmt7Display3fmt"
   },
   {
-   "name" : "_RNvXs_NtNtCsigYXxsQj60g_4core5panic10panic_infoNtB4_9PanicInfoNtNtB8_3fmt7Display3fmt"
+   "name" : "_RNvXs_NtNtNtCshYZxXgsOdMC_4core3fmt3num3imphNtB8_7Display3fmt"
   },
   {
-   "name" : "_RNvXs_NtNtNtCs51HVTe8mXkC_3std3sys4unix6os_strNtB4_5SliceNtNtCsigYXxsQj60g_4core3fmt7Display3fmt"
+   "name" : "_RNvXs_NvNtCsgEvhZdlx7kS_3std9panicking19begin_panic_handlerNtB4_12PanicPayloadNtNtCshYZxXgsOdMC_4core5panic7BoxMeUp3get"
   },
   {
-   "name" : "_RNvXs_NtNtNtCsigYXxsQj60g_4core3fmt3num3imphNtB8_7Display3fmt"
+   "name" : "_RNvXs_NvNtCsgEvhZdlx7kS_3std9panicking19begin_panic_handlerNtB4_12PanicPayloadNtNtCshYZxXgsOdMC_4core5panic7BoxMeUp8take_box"
   },
   {
-   "name" : "_RNvXs_NvNtCs51HVTe8mXkC_3std9panicking19begin_panic_handlerNtB4_12PanicPayloadNtNtCsigYXxsQj60g_4core5panic7BoxMeUp3get"
+   "name" : "_RNvXsd_NtNtCshYZxXgsOdMC_4core3num5errorNtB5_13ParseIntErrorNtNtB9_3fmt5Debug3fmt"
   },
   {
-   "name" : "_RNvXs_NvNtCs51HVTe8mXkC_3std9panicking19begin_panic_handlerNtB4_12PanicPayloadNtNtCsigYXxsQj60g_4core5panic7BoxMeUp8take_box"
+   "name" : "_RNvXse_NtCshYZxXgsOdMC_4core3fmteNtB5_5Debug3fmt"
   },
   {
-   "name" : "_RNvXsc_NtCsigYXxsQj60g_4core3fmteNtB5_5Debug3fmt"
+   "name" : "_RNvXse_NtNtCshYZxXgsOdMC_4core5alloc6layoutNtB5_11LayoutErrorNtNtB9_3fmt5Debug3fmt"
   },
   {
-   "name" : "_RNvXsc_NtNtCsigYXxsQj60g_4core3num5errorNtB5_13ParseIntErrorNtNtB9_3fmt5Debug3fmt"
+   "name" : "_RNvXsf_NtCshYZxXgsOdMC_4core3fmteNtB5_7Display3fmt"
   },
   {
-   "name" : "_RNvXsd_NtCsigYXxsQj60g_4core3fmteNtB5_7Display3fmt"
+   "name" : "_RNvXsg_NtCshYZxXgsOdMC_4core3fmtcNtB5_5Debug3fmt"
   },
   {
-   "name" : "_RNvXse_NtCsigYXxsQj60g_4core3fmtcNtB5_5Debug3fmt"
+   "name" : "_RNvXsg_NtCshYZxXgsOdMC_4core4cellNtB5_14BorrowMutErrorNtNtB7_3fmt5Debug3fmt"
   },
   {
-   "name" : "_RNvXse_NtNtCsigYXxsQj60g_4core5alloc6layoutNtB5_11LayoutErrorNtNtB9_3fmt5Debug3fmt"
+   "name" : "_RNvXsh_NtCshYZxXgsOdMC_4core3fmtcNtB5_7Display3fmt"
   },
   {
-   "name" : "_RNvXsf_NtCsigYXxsQj60g_4core3fmtcNtB5_7Display3fmt"
+   "name" : "_RNvXsi_NtCsgEvhZdlx7kS_3std4pathNtB5_10ComponentsNtNtNtNtCshYZxXgsOdMC_4core4iter6traits8iterator8Iterator4next"
   },
   {
-   "name" : "_RNvXsh_NtCsigYXxsQj60g_4core4cellNtB5_14BorrowMutErrorNtNtB7_3fmt5Debug3fmt"
-  },
-  {
-   "name" : "_RNvXsi_NtCs51HVTe8mXkC_3std4pathNtB5_10ComponentsNtNtNtNtCsigYXxsQj60g_4core4iter6traits8iterator8Iterator4next"
-  },
-  {
-   "name" : "_RNvXso_NtCsigYXxsQj60g_4core3numjNtNtNtB7_3str6traits7FromStr8from_str"
+   "name" : "_RNvXsp_NtCshYZxXgsOdMC_4core3numjNtNtNtB7_3str6traits7FromStr8from_str"
   },
   {
    "name" : "_ZN11unwindstack10BufferMaps5ParseEv"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsMips6416IterateRegistersENSt3__18functionIFvPKcyEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsMips6418CreateFromUcontextEPv"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsMips6419StepIfSignalHandlerEyPNS_3ElfEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsMips6422SetPcFromReturnAddressEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsMips642pcEv"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsMips642spEv"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsMips644ArchEv"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsMips644ReadEPv"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsMips645CloneEv"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsMips646set_pcEy"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsMips646set_spEy"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsMips64C1Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack10RegsMips64C2Ev"
   },
   {
    "name" : "_ZN11unwindstack10RegsX86_6415SetFromUcontextEPNS_17x86_64_ucontext_tE"
@@ -2490,6 +2541,45 @@
    "name" : "_ZN11unwindstack8MemoryXzD2Ev"
   },
   {
+   "name" : "_ZN11unwindstack8RegsMips16IterateRegistersENSt3__18functionIFvPKcyEEE"
+  },
+  {
+   "name" : "_ZN11unwindstack8RegsMips18CreateFromUcontextEPv"
+  },
+  {
+   "name" : "_ZN11unwindstack8RegsMips19StepIfSignalHandlerEyPNS_3ElfEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack8RegsMips22SetPcFromReturnAddressEPNS_6MemoryE"
+  },
+  {
+   "name" : "_ZN11unwindstack8RegsMips2pcEv"
+  },
+  {
+   "name" : "_ZN11unwindstack8RegsMips2spEv"
+  },
+  {
+   "name" : "_ZN11unwindstack8RegsMips4ArchEv"
+  },
+  {
+   "name" : "_ZN11unwindstack8RegsMips4ReadEPv"
+  },
+  {
+   "name" : "_ZN11unwindstack8RegsMips5CloneEv"
+  },
+  {
+   "name" : "_ZN11unwindstack8RegsMips6set_pcEy"
+  },
+  {
+   "name" : "_ZN11unwindstack8RegsMips6set_spEy"
+  },
+  {
+   "name" : "_ZN11unwindstack8RegsMipsC1Ev"
+  },
+  {
+   "name" : "_ZN11unwindstack8RegsMipsC2Ev"
+  },
+  {
    "name" : "_ZN11unwindstack8Unwinder11FillInFrameERNSt3__110shared_ptrINS_7MapInfoEEEPNS_3ElfEyy"
   },
   {
@@ -3242,13 +3332,10 @@
  "elf_objects" :
  [
   {
-   "name" : "_RNvNtCs51HVTe8mXkC_3std9panicking4HOOK"
+   "name" : "_RNvNtCsgEvhZdlx7kS_3std9panicking4HOOK"
   },
   {
-   "name" : "_RNvNtNtCs51HVTe8mXkC_3std9panicking11panic_count18GLOBAL_PANIC_COUNT"
-  },
-  {
-   "name" : "_RNvNtNtCsigYXxsQj60g_4core3fmt2rt12USIZE_MARKER"
+   "name" : "_RNvNtNtCsgEvhZdlx7kS_3std9panicking11panic_count18GLOBAL_PANIC_COUNT"
   },
   {
    "binding" : "weak",
@@ -3315,6 +3402,9 @@
   },
   {
    "name" : "_ZTVN11unwindstack10BufferMapsE"
+  },
+  {
+   "name" : "_ZTVN11unwindstack10RegsMips64E"
   },
   {
    "name" : "_ZTVN11unwindstack10RegsX86_64E"
@@ -3508,6 +3598,9 @@
    "name" : "_ZTVN11unwindstack8RegsImplIyEE"
   },
   {
+   "name" : "_ZTVN11unwindstack8RegsMipsE"
+  },
+  {
    "name" : "_ZTVN11unwindstack8UnwinderE"
   },
   {
@@ -3571,9 +3664,6 @@
   },
   {
    "name" : "__rust_alloc_error_handler_should_panic"
-  },
-  {
-   "name" : "__rust_no_alloc_shim_is_unstable"
   }
  ],
  "enum_types" :
@@ -3743,6 +3833,48 @@
    "size" : 8,
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/Error.h",
    "underlying_type" : "_ZTIy"
+  },
+  {
+   "alignment" : 2,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 6,
+     "name" : "unwindstack::MIPS32_EF_R0"
+    },
+    {
+     "enum_field_value" : 40,
+     "name" : "unwindstack::MIPS32_EF_CP0_EPC"
+    }
+   ],
+   "linker_set_key" : "_ZTIN11unwindstack13Mips32UserRegE",
+   "name" : "unwindstack::Mips32UserReg",
+   "referenced_type" : "_ZTIN11unwindstack13Mips32UserRegE",
+   "self_type" : "_ZTIN11unwindstack13Mips32UserRegE",
+   "size" : 2,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UserMips.h",
+   "underlying_type" : "_ZTIt"
+  },
+  {
+   "alignment" : 2,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "unwindstack::MIPS64_EF_R0"
+    },
+    {
+     "enum_field_value" : 34,
+     "name" : "unwindstack::MIPS64_EF_CP0_EPC"
+    }
+   ],
+   "linker_set_key" : "_ZTIN11unwindstack13Mips64UserRegE",
+   "name" : "unwindstack::Mips64UserReg",
+   "referenced_type" : "_ZTIN11unwindstack13Mips64UserRegE",
+   "self_type" : "_ZTIN11unwindstack13Mips64UserRegE",
+   "size" : 2,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UserMips64.h",
+   "underlying_type" : "_ZTIt"
   },
   {
    "alignment" : 1,
@@ -4075,6 +4207,163 @@
    "underlying_type" : "_ZTIt"
   },
   {
+   "alignment" : 2,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "unwindstack::MIPS_REG_R0"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "unwindstack::MIPS_REG_R1"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "unwindstack::MIPS_REG_R2"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "unwindstack::MIPS_REG_R3"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "unwindstack::MIPS_REG_R4"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "unwindstack::MIPS_REG_R5"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "unwindstack::MIPS_REG_R6"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "unwindstack::MIPS_REG_R7"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "unwindstack::MIPS_REG_R8"
+    },
+    {
+     "enum_field_value" : 9,
+     "name" : "unwindstack::MIPS_REG_R9"
+    },
+    {
+     "enum_field_value" : 10,
+     "name" : "unwindstack::MIPS_REG_R10"
+    },
+    {
+     "enum_field_value" : 11,
+     "name" : "unwindstack::MIPS_REG_R11"
+    },
+    {
+     "enum_field_value" : 12,
+     "name" : "unwindstack::MIPS_REG_R12"
+    },
+    {
+     "enum_field_value" : 13,
+     "name" : "unwindstack::MIPS_REG_R13"
+    },
+    {
+     "enum_field_value" : 14,
+     "name" : "unwindstack::MIPS_REG_R14"
+    },
+    {
+     "enum_field_value" : 15,
+     "name" : "unwindstack::MIPS_REG_R15"
+    },
+    {
+     "enum_field_value" : 16,
+     "name" : "unwindstack::MIPS_REG_R16"
+    },
+    {
+     "enum_field_value" : 17,
+     "name" : "unwindstack::MIPS_REG_R17"
+    },
+    {
+     "enum_field_value" : 18,
+     "name" : "unwindstack::MIPS_REG_R18"
+    },
+    {
+     "enum_field_value" : 19,
+     "name" : "unwindstack::MIPS_REG_R19"
+    },
+    {
+     "enum_field_value" : 20,
+     "name" : "unwindstack::MIPS_REG_R20"
+    },
+    {
+     "enum_field_value" : 21,
+     "name" : "unwindstack::MIPS_REG_R21"
+    },
+    {
+     "enum_field_value" : 22,
+     "name" : "unwindstack::MIPS_REG_R22"
+    },
+    {
+     "enum_field_value" : 23,
+     "name" : "unwindstack::MIPS_REG_R23"
+    },
+    {
+     "enum_field_value" : 24,
+     "name" : "unwindstack::MIPS_REG_R24"
+    },
+    {
+     "enum_field_value" : 25,
+     "name" : "unwindstack::MIPS_REG_R25"
+    },
+    {
+     "enum_field_value" : 26,
+     "name" : "unwindstack::MIPS_REG_R26"
+    },
+    {
+     "enum_field_value" : 27,
+     "name" : "unwindstack::MIPS_REG_R27"
+    },
+    {
+     "enum_field_value" : 28,
+     "name" : "unwindstack::MIPS_REG_R28"
+    },
+    {
+     "enum_field_value" : 29,
+     "name" : "unwindstack::MIPS_REG_R29"
+    },
+    {
+     "enum_field_value" : 30,
+     "name" : "unwindstack::MIPS_REG_R30"
+    },
+    {
+     "enum_field_value" : 31,
+     "name" : "unwindstack::MIPS_REG_R31"
+    },
+    {
+     "enum_field_value" : 32,
+     "name" : "unwindstack::MIPS_REG_PC"
+    },
+    {
+     "enum_field_value" : 33,
+     "name" : "unwindstack::MIPS_REG_LAST"
+    },
+    {
+     "enum_field_value" : 29,
+     "name" : "unwindstack::MIPS_REG_SP"
+    },
+    {
+     "enum_field_value" : 31,
+     "name" : "unwindstack::MIPS_REG_RA"
+    }
+   ],
+   "linker_set_key" : "_ZTIN11unwindstack7MipsRegE",
+   "name" : "unwindstack::MipsReg",
+   "referenced_type" : "_ZTIN11unwindstack7MipsRegE",
+   "self_type" : "_ZTIN11unwindstack7MipsRegE",
+   "size" : 2,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/MachineMips.h",
+   "underlying_type" : "_ZTIt"
+  },
+  {
    "alignment" : 1,
    "enum_fields" :
    [
@@ -4100,6 +4389,14 @@
     },
     {
      "enum_field_value" : 5,
+     "name" : "unwindstack::ARCH_MIPS"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "unwindstack::ARCH_MIPS64"
+    },
+    {
+     "enum_field_value" : 7,
      "name" : "unwindstack::ARCH_RISCV64"
     }
    ],
@@ -4367,6 +4664,163 @@
    [
     {
      "enum_field_value" : 0,
+     "name" : "unwindstack::MIPS64_REG_R0"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "unwindstack::MIPS64_REG_R1"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "unwindstack::MIPS64_REG_R2"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "unwindstack::MIPS64_REG_R3"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "unwindstack::MIPS64_REG_R4"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "unwindstack::MIPS64_REG_R5"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "unwindstack::MIPS64_REG_R6"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "unwindstack::MIPS64_REG_R7"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "unwindstack::MIPS64_REG_R8"
+    },
+    {
+     "enum_field_value" : 9,
+     "name" : "unwindstack::MIPS64_REG_R9"
+    },
+    {
+     "enum_field_value" : 10,
+     "name" : "unwindstack::MIPS64_REG_R10"
+    },
+    {
+     "enum_field_value" : 11,
+     "name" : "unwindstack::MIPS64_REG_R11"
+    },
+    {
+     "enum_field_value" : 12,
+     "name" : "unwindstack::MIPS64_REG_R12"
+    },
+    {
+     "enum_field_value" : 13,
+     "name" : "unwindstack::MIPS64_REG_R13"
+    },
+    {
+     "enum_field_value" : 14,
+     "name" : "unwindstack::MIPS64_REG_R14"
+    },
+    {
+     "enum_field_value" : 15,
+     "name" : "unwindstack::MIPS64_REG_R15"
+    },
+    {
+     "enum_field_value" : 16,
+     "name" : "unwindstack::MIPS64_REG_R16"
+    },
+    {
+     "enum_field_value" : 17,
+     "name" : "unwindstack::MIPS64_REG_R17"
+    },
+    {
+     "enum_field_value" : 18,
+     "name" : "unwindstack::MIPS64_REG_R18"
+    },
+    {
+     "enum_field_value" : 19,
+     "name" : "unwindstack::MIPS64_REG_R19"
+    },
+    {
+     "enum_field_value" : 20,
+     "name" : "unwindstack::MIPS64_REG_R20"
+    },
+    {
+     "enum_field_value" : 21,
+     "name" : "unwindstack::MIPS64_REG_R21"
+    },
+    {
+     "enum_field_value" : 22,
+     "name" : "unwindstack::MIPS64_REG_R22"
+    },
+    {
+     "enum_field_value" : 23,
+     "name" : "unwindstack::MIPS64_REG_R23"
+    },
+    {
+     "enum_field_value" : 24,
+     "name" : "unwindstack::MIPS64_REG_R24"
+    },
+    {
+     "enum_field_value" : 25,
+     "name" : "unwindstack::MIPS64_REG_R25"
+    },
+    {
+     "enum_field_value" : 26,
+     "name" : "unwindstack::MIPS64_REG_R26"
+    },
+    {
+     "enum_field_value" : 27,
+     "name" : "unwindstack::MIPS64_REG_R27"
+    },
+    {
+     "enum_field_value" : 28,
+     "name" : "unwindstack::MIPS64_REG_R28"
+    },
+    {
+     "enum_field_value" : 29,
+     "name" : "unwindstack::MIPS64_REG_R29"
+    },
+    {
+     "enum_field_value" : 30,
+     "name" : "unwindstack::MIPS64_REG_R30"
+    },
+    {
+     "enum_field_value" : 31,
+     "name" : "unwindstack::MIPS64_REG_R31"
+    },
+    {
+     "enum_field_value" : 32,
+     "name" : "unwindstack::MIPS64_REG_PC"
+    },
+    {
+     "enum_field_value" : 33,
+     "name" : "unwindstack::MIPS64_REG_LAST"
+    },
+    {
+     "enum_field_value" : 29,
+     "name" : "unwindstack::MIPS64_REG_SP"
+    },
+    {
+     "enum_field_value" : 31,
+     "name" : "unwindstack::MIPS64_REG_RA"
+    }
+   ],
+   "linker_set_key" : "_ZTIN11unwindstack9Mips64RegE",
+   "name" : "unwindstack::Mips64Reg",
+   "referenced_type" : "_ZTIN11unwindstack9Mips64RegE",
+   "self_type" : "_ZTIN11unwindstack9Mips64RegE",
+   "size" : 2,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/MachineMips64.h",
+   "underlying_type" : "_ZTIt"
+  },
+  {
+   "alignment" : 2,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
      "name" : "unwindstack::X86_64_REG_RAX"
     },
     {
@@ -4470,6 +4924,194 @@
    ],
    "return_type" : "_ZTIb",
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/Maps.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsMips64::IterateRegisters",
+   "linker_set_key" : "_ZN11unwindstack10RegsMips6416IterateRegistersENSt3__18functionIFvPKcyEEE",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack10RegsMips64E"
+    },
+    {
+     "referenced_type" : "_ZTINSt3__18functionIFvPKcyEEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips64.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsMips64::CreateFromUcontext",
+   "linker_set_key" : "_ZN11unwindstack10RegsMips6418CreateFromUcontextEPv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIPN11unwindstack4RegsE",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips64.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsMips64::StepIfSignalHandler",
+   "linker_set_key" : "_ZN11unwindstack10RegsMips6419StepIfSignalHandlerEyPNS_3ElfEPNS_6MemoryE",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack10RegsMips64E"
+    },
+    {
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "referenced_type" : "_ZTIPN11unwindstack3ElfE"
+    },
+    {
+     "referenced_type" : "_ZTIPN11unwindstack6MemoryE"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips64.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsMips64::SetPcFromReturnAddress",
+   "linker_set_key" : "_ZN11unwindstack10RegsMips6422SetPcFromReturnAddressEPNS_6MemoryE",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack10RegsMips64E"
+    },
+    {
+     "referenced_type" : "_ZTIPN11unwindstack6MemoryE"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips64.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsMips64::pc",
+   "linker_set_key" : "_ZN11unwindstack10RegsMips642pcEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack10RegsMips64E"
+    }
+   ],
+   "return_type" : "_ZTIy",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips64.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsMips64::sp",
+   "linker_set_key" : "_ZN11unwindstack10RegsMips642spEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack10RegsMips64E"
+    }
+   ],
+   "return_type" : "_ZTIy",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips64.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsMips64::Arch",
+   "linker_set_key" : "_ZN11unwindstack10RegsMips644ArchEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack10RegsMips64E"
+    }
+   ],
+   "return_type" : "_ZTIN11unwindstack8ArchEnumE",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips64.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsMips64::Read",
+   "linker_set_key" : "_ZN11unwindstack10RegsMips644ReadEPv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIPN11unwindstack4RegsE",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips64.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsMips64::Clone",
+   "linker_set_key" : "_ZN11unwindstack10RegsMips645CloneEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack10RegsMips64E"
+    }
+   ],
+   "return_type" : "_ZTIPN11unwindstack4RegsE",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips64.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsMips64::set_pc",
+   "linker_set_key" : "_ZN11unwindstack10RegsMips646set_pcEy",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack10RegsMips64E"
+    },
+    {
+     "referenced_type" : "_ZTIy"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips64.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsMips64::set_sp",
+   "linker_set_key" : "_ZN11unwindstack10RegsMips646set_spEy",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack10RegsMips64E"
+    },
+    {
+     "referenced_type" : "_ZTIy"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips64.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsMips64::RegsMips64",
+   "linker_set_key" : "_ZN11unwindstack10RegsMips64C1Ev",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack10RegsMips64E"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips64.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsMips64::RegsMips64",
+   "linker_set_key" : "_ZN11unwindstack10RegsMips64C2Ev",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack10RegsMips64E"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips64.h"
   },
   {
    "function_name" : "unwindstack::RegsX86_64::SetFromUcontext",
@@ -7203,6 +7845,194 @@
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsX86.h"
   },
   {
+   "function_name" : "unwindstack::RegsMips::IterateRegisters",
+   "linker_set_key" : "_ZN11unwindstack8RegsMips16IterateRegistersENSt3__18functionIFvPKcyEEE",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack8RegsMipsE"
+    },
+    {
+     "referenced_type" : "_ZTINSt3__18functionIFvPKcyEEE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsMips::CreateFromUcontext",
+   "linker_set_key" : "_ZN11unwindstack8RegsMips18CreateFromUcontextEPv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIPN11unwindstack4RegsE",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsMips::StepIfSignalHandler",
+   "linker_set_key" : "_ZN11unwindstack8RegsMips19StepIfSignalHandlerEyPNS_3ElfEPNS_6MemoryE",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack8RegsMipsE"
+    },
+    {
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "referenced_type" : "_ZTIPN11unwindstack3ElfE"
+    },
+    {
+     "referenced_type" : "_ZTIPN11unwindstack6MemoryE"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsMips::SetPcFromReturnAddress",
+   "linker_set_key" : "_ZN11unwindstack8RegsMips22SetPcFromReturnAddressEPNS_6MemoryE",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack8RegsMipsE"
+    },
+    {
+     "referenced_type" : "_ZTIPN11unwindstack6MemoryE"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsMips::pc",
+   "linker_set_key" : "_ZN11unwindstack8RegsMips2pcEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack8RegsMipsE"
+    }
+   ],
+   "return_type" : "_ZTIy",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsMips::sp",
+   "linker_set_key" : "_ZN11unwindstack8RegsMips2spEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack8RegsMipsE"
+    }
+   ],
+   "return_type" : "_ZTIy",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsMips::Arch",
+   "linker_set_key" : "_ZN11unwindstack8RegsMips4ArchEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack8RegsMipsE"
+    }
+   ],
+   "return_type" : "_ZTIN11unwindstack8ArchEnumE",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsMips::Read",
+   "linker_set_key" : "_ZN11unwindstack8RegsMips4ReadEPv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIPN11unwindstack4RegsE",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsMips::Clone",
+   "linker_set_key" : "_ZN11unwindstack8RegsMips5CloneEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack8RegsMipsE"
+    }
+   ],
+   "return_type" : "_ZTIPN11unwindstack4RegsE",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsMips::set_pc",
+   "linker_set_key" : "_ZN11unwindstack8RegsMips6set_pcEy",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack8RegsMipsE"
+    },
+    {
+     "referenced_type" : "_ZTIy"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsMips::set_sp",
+   "linker_set_key" : "_ZN11unwindstack8RegsMips6set_spEy",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack8RegsMipsE"
+    },
+    {
+     "referenced_type" : "_ZTIy"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsMips::RegsMips",
+   "linker_set_key" : "_ZN11unwindstack8RegsMipsC1Ev",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack8RegsMipsE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips.h"
+  },
+  {
+   "function_name" : "unwindstack::RegsMips::RegsMips",
+   "linker_set_key" : "_ZN11unwindstack8RegsMipsC2Ev",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN11unwindstack8RegsMipsE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips.h"
+  },
+  {
    "access" : "protected",
    "function_name" : "unwindstack::Unwinder::FillInFrame",
    "linker_set_key" : "_ZN11unwindstack8Unwinder11FillInFrameERNSt3__110shared_ptrINS_7MapInfoEEEPNS_3ElfEyy",
@@ -8135,6 +8965,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIPN11unwindstack10RegsMips64E",
+   "name" : "unwindstack::RegsMips64 *",
+   "referenced_type" : "_ZTIN11unwindstack10RegsMips64E",
+   "self_type" : "_ZTIPN11unwindstack10RegsMips64E",
+   "size" : 4,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips64.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPN11unwindstack10RegsX86_64E",
    "name" : "unwindstack::RegsX86_64 *",
    "referenced_type" : "_ZTIN11unwindstack10RegsX86_64E",
@@ -8492,6 +9331,15 @@
    "self_type" : "_ZTIPN11unwindstack8RegsImplIyEE",
    "size" : 4,
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/Regs.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN11unwindstack8RegsMipsE",
+   "name" : "unwindstack::RegsMips *",
+   "referenced_type" : "_ZTIN11unwindstack8RegsMipsE",
+   "self_type" : "_ZTIPN11unwindstack8RegsMipsE",
+   "size" : 4,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips.h"
   },
   {
    "alignment" : 4,
@@ -9002,6 +9850,82 @@
    "self_type" : "_ZTIN11unwindstack10ElfTypes64E",
    "size" : 1,
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/ElfInterface.h"
+  },
+  {
+   "alignment" : 8,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTIN11unwindstack8RegsImplIyEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN11unwindstack10RegsMips64E",
+   "name" : "unwindstack::RegsMips64",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN11unwindstack10RegsMips64E",
+   "self_type" : "_ZTIN11unwindstack10RegsMips64E",
+   "size" : 40,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips64.h",
+   "vtable_components" :
+   [
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN11unwindstack10RegsMips64E"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN11unwindstack10RegsMips64D1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN11unwindstack10RegsMips64D0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack10RegsMips644ArchEv"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack8RegsImplIyE7RawDataEv"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack10RegsMips642pcEv"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack10RegsMips642spEv"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack10RegsMips646set_pcEy"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack10RegsMips646set_spEy"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack4Regs11fallback_pcEv"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack4Regs20ResetPseudoRegistersEv"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack4Regs17SetPseudoRegisterEty"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack4Regs17GetPseudoRegisterEtPy"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack10RegsMips6419StepIfSignalHandlerEyPNS_3ElfEPNS_6MemoryE"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack10RegsMips6422SetPcFromReturnAddressEPNS_6MemoryE"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack10RegsMips6416IterateRegistersENSt3__18functionIFvPKcyEEE"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack10RegsMips645CloneEv"
+    }
+   ]
   },
   {
    "alignment" : 8,
@@ -9734,6 +10658,32 @@
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/SharedString.h"
   },
   {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "ss_sp",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "ss_size",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "ss_flags",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "linker_set_key" : "_ZTIN11unwindstack12mips_stack_tE",
+   "name" : "unwindstack::mips_stack_t",
+   "referenced_type" : "_ZTIN11unwindstack12mips_stack_tE",
+   "self_type" : "_ZTIN11unwindstack12mips_stack_tE",
+   "size" : 12,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UcontextMips.h"
+  },
+  {
    "alignment" : 8,
    "fields" :
    [
@@ -10070,6 +11020,48 @@
    "self_type" : "_ZTIN11unwindstack14arm_ucontext_tE",
    "size" : 104,
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UcontextArm.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "ss_sp",
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "ss_size",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "ss_flags",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "linker_set_key" : "_ZTIN11unwindstack14mips64_stack_tE",
+   "name" : "unwindstack::mips64_stack_t",
+   "referenced_type" : "_ZTIN11unwindstack14mips64_stack_tE",
+   "self_type" : "_ZTIN11unwindstack14mips64_stack_tE",
+   "size" : 24,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UcontextMips64.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "regs",
+     "referenced_type" : "_ZTIA45_j"
+    }
+   ],
+   "linker_set_key" : "_ZTIN11unwindstack14mips_user_regsE",
+   "name" : "unwindstack::mips_user_regs",
+   "referenced_type" : "_ZTIN11unwindstack14mips_user_regsE",
+   "self_type" : "_ZTIN11unwindstack14mips_user_regsE",
+   "size" : 180,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UserMips.h"
   },
   {
    "alignment" : 8,
@@ -10470,6 +11462,68 @@
    "self_type" : "_ZTIN11unwindstack15arm64_user_regsE",
    "size" : 272,
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UserArm64.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "sc_regmask",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "sc_status",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "sc_pc",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "sc_regs",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIA32_y"
+    }
+   ],
+   "linker_set_key" : "_ZTIN11unwindstack15mips_mcontext_tE",
+   "name" : "unwindstack::mips_mcontext_t",
+   "referenced_type" : "_ZTIN11unwindstack15mips_mcontext_tE",
+   "self_type" : "_ZTIN11unwindstack15mips_mcontext_tE",
+   "size" : 272,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UcontextMips.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "uc_flags",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "uc_link",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "uc_stack",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIN11unwindstack12mips_stack_tE"
+    },
+    {
+     "field_name" : "uc_mcontext",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIN11unwindstack15mips_mcontext_tE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN11unwindstack15mips_ucontext_tE",
+   "name" : "unwindstack::mips_ucontext_t",
+   "referenced_type" : "_ZTIN11unwindstack15mips_ucontext_tE",
+   "self_type" : "_ZTIN11unwindstack15mips_ucontext_tE",
+   "size" : 296,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UcontextMips.h"
   },
   {
    "alignment" : 8,
@@ -10875,6 +11929,22 @@
    "fields" :
    [
     {
+     "field_name" : "regs",
+     "referenced_type" : "_ZTIA45_y"
+    }
+   ],
+   "linker_set_key" : "_ZTIN11unwindstack16mips64_user_regsE",
+   "name" : "unwindstack::mips64_user_regs",
+   "referenced_type" : "_ZTIN11unwindstack16mips64_user_regsE",
+   "self_type" : "_ZTIN11unwindstack16mips64_user_regsE",
+   "size" : 360,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UserMips64.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
      "field_name" : "sig",
      "referenced_type" : "_ZTIy"
     }
@@ -11031,6 +12101,103 @@
    "self_type" : "_ZTIN11unwindstack16x86_64_user_regsE",
    "size" : 216,
    "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UserX86_64.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "sc_regs",
+     "referenced_type" : "_ZTIA32_y"
+    },
+    {
+     "field_name" : "sc_fpregs",
+     "field_offset" : 2048,
+     "referenced_type" : "_ZTIA32_y"
+    },
+    {
+     "field_name" : "sc_mdhi",
+     "field_offset" : 4096,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "sc_hi1",
+     "field_offset" : 4160,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "sc_hi2",
+     "field_offset" : 4224,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "sc_hi3",
+     "field_offset" : 4288,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "sc_mdlo",
+     "field_offset" : 4352,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "sc_lo1",
+     "field_offset" : 4416,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "sc_lo2",
+     "field_offset" : 4480,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "sc_lo3",
+     "field_offset" : 4544,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "sc_pc",
+     "field_offset" : 4608,
+     "referenced_type" : "_ZTIy"
+    }
+   ],
+   "linker_set_key" : "_ZTIN11unwindstack17mips64_mcontext_tE",
+   "name" : "unwindstack::mips64_mcontext_t",
+   "referenced_type" : "_ZTIN11unwindstack17mips64_mcontext_tE",
+   "self_type" : "_ZTIN11unwindstack17mips64_mcontext_tE",
+   "size" : 584,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UcontextMips64.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "uc_flags",
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "uc_link",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "field_name" : "uc_stack",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIN11unwindstack14mips64_stack_tE"
+    },
+    {
+     "field_name" : "uc_mcontext",
+     "field_offset" : 320,
+     "referenced_type" : "_ZTIN11unwindstack17mips64_mcontext_tE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN11unwindstack17mips64_ucontext_tE",
+   "name" : "unwindstack::mips64_ucontext_t",
+   "referenced_type" : "_ZTIN11unwindstack17mips64_ucontext_tE",
+   "self_type" : "_ZTIN11unwindstack17mips64_ucontext_tE",
+   "size" : 624,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/UcontextMips64.h"
   },
   {
    "alignment" : 8,
@@ -12615,6 +13782,82 @@
     {
      "is_pure" : true,
      "mangled_component_name" : "_ZN11unwindstack4Regs5CloneEv"
+    }
+   ]
+  },
+  {
+   "alignment" : 8,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTIN11unwindstack8RegsImplIjEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN11unwindstack8RegsMipsE",
+   "name" : "unwindstack::RegsMips",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN11unwindstack8RegsMipsE",
+   "self_type" : "_ZTIN11unwindstack8RegsMipsE",
+   "size" : 40,
+   "source_file" : "system/unwinding/libunwindstack/include/unwindstack/RegsMips.h",
+   "vtable_components" :
+   [
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN11unwindstack8RegsMipsE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN11unwindstack8RegsMipsD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN11unwindstack8RegsMipsD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack8RegsMips4ArchEv"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack8RegsImplIjE7RawDataEv"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack8RegsMips2pcEv"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack8RegsMips2spEv"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack8RegsMips6set_pcEy"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack8RegsMips6set_spEy"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack4Regs11fallback_pcEv"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack4Regs20ResetPseudoRegistersEv"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack4Regs17SetPseudoRegisterEty"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack4Regs17GetPseudoRegisterEtPy"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack8RegsMips19StepIfSignalHandlerEyPNS_3ElfEPNS_6MemoryE"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack8RegsMips22SetPcFromReturnAddressEPNS_6MemoryE"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack8RegsMips16IterateRegistersENSt3__18functionIFvPKcyEEE"
+    },
+    {
+     "mangled_component_name" : "_ZN11unwindstack8RegsMips5CloneEv"
     }
    ]
   },
