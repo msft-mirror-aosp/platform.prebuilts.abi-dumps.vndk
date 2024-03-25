@@ -211,8 +211,8 @@
    "is_of_unknown_bound" : true,
    "linker_set_key" : "_ZTIA_25OMX_COMPONENTREGISTERTYPE",
    "name" : "OMX_COMPONENTREGISTERTYPE[]",
-   "referenced_type" : "_ZTI25OMX_COMPONENTREGISTERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
-   "self_type" : "_ZTIA_25OMX_COMPONENTREGISTERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTI25OMX_COMPONENTREGISTERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
+   "self_type" : "_ZTIA_25OMX_COMPONENTREGISTERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
    "source_file" : "frameworks/native/headers/media_plugin/media/openmax/OMX_Core.h"
   },
   {
@@ -649,9 +649,6 @@
   },
   {
    "name" : "_ZN7android22OmxGraphicBufferSource14onOmxExecutingEv"
-  },
-  {
-   "name" : "_ZN7android22OmxGraphicBufferSource9configureERKNS_2spINS_15IOmxNodeWrapperEEEiijjj"
   },
   {
    "name" : "_ZN7android22OmxGraphicBufferSource9configureERKNS_2spINS_15IOmxNodeWrapperEEEiijjm"
@@ -8770,10 +8767,6 @@
     },
     {
      "enum_field_value" : 10,
-     "name" : "android::ColorUtils::kColorStandardDisplay_P3"
-    },
-    {
-     "enum_field_value" : 10,
      "name" : "android::ColorUtils::kColorStandardDCI_P3"
     },
     {
@@ -9126,10 +9119,6 @@
      "name" : "android::ColorAspects::StandardFilm"
     },
     {
-     "enum_field_value" : 10,
-     "name" : "android::ColorAspects::StandardDisplayP3"
-    },
-    {
      "enum_field_value" : 255,
      "name" : "android::ColorAspects::StandardOther"
     }
@@ -9238,14 +9227,6 @@
     {
      "enum_field_value" : 6,
      "name" : "android::ColorAspects::PrimariesBT2020"
-    },
-    {
-     "enum_field_value" : 7,
-     "name" : "android::ColorAspects::PrimariesRP431"
-    },
-    {
-     "enum_field_value" : 8,
-     "name" : "android::ColorAspects::PrimariesEG432"
     },
     {
      "enum_field_value" : 255,
@@ -14022,7 +14003,7 @@
      "referenced_type" : "_ZTIj"
     },
     {
-     "referenced_type" : "_ZTIP16OMX_CALLBACKTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
+     "referenced_type" : "_ZTIP16OMX_CALLBACKTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
     },
     {
      "referenced_type" : "_ZTIj"
@@ -14043,7 +14024,7 @@
      "referenced_type" : "_ZTIj"
     },
     {
-     "referenced_type" : "_ZTIP20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump"
+     "referenced_type" : "_ZTIP20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump"
     }
    ],
    "referenced_type" : "_ZTIF13OMX_ERRORTYPEjP20OMX_BUFFERHEADERTYPEE",
@@ -14061,7 +14042,7 @@
      "referenced_type" : "_ZTIj"
     },
     {
-     "referenced_type" : "_ZTIPP20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
+     "referenced_type" : "_ZTIPP20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
     },
     {
      "referenced_type" : "_ZTIj"
@@ -14088,7 +14069,7 @@
      "referenced_type" : "_ZTIj"
     },
     {
-     "referenced_type" : "_ZTIPP20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
+     "referenced_type" : "_ZTIPP20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
     },
     {
      "referenced_type" : "_ZTIj"
@@ -14115,7 +14096,7 @@
      "referenced_type" : "_ZTIj"
     },
     {
-     "referenced_type" : "_ZTIPP20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
+     "referenced_type" : "_ZTIPP20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
     },
     {
      "referenced_type" : "_ZTIj"
@@ -14247,7 +14228,7 @@
      "referenced_type" : "_ZTIj"
     },
     {
-     "referenced_type" : "_ZTIP20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump"
+     "referenced_type" : "_ZTIP20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump"
     }
    ],
    "referenced_type" : "_ZTIF13OMX_ERRORTYPEjjP20OMX_BUFFERHEADERTYPEE",
@@ -15724,37 +15705,6 @@
     }
    ],
    "return_type" : "_ZTIN7android6binder6StatusE",
-   "source_file" : "frameworks/av/media/libstagefright/omx/include/media/stagefright/omx/OmxGraphicBufferSource.h"
-  },
-  {
-   "function_name" : "android::OmxGraphicBufferSource::configure",
-   "linker_set_key" : "_ZN7android22OmxGraphicBufferSource9configureERKNS_2spINS_15IOmxNodeWrapperEEEiijjj",
-   "parameters" :
-   [
-    {
-     "is_this_ptr" : true,
-     "referenced_type" : "_ZTIPN7android22OmxGraphicBufferSourceE"
-    },
-    {
-     "referenced_type" : "_ZTIRKN7android2spINS_15IOmxNodeWrapperEEE"
-    },
-    {
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    }
-   ],
-   "return_type" : "_ZTIi",
    "source_file" : "frameworks/av/media/libstagefright/omx/include/media/stagefright/omx/OmxGraphicBufferSource.h"
   },
   {
@@ -20422,8 +20372,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIP16OMX_CALLBACKTYPE",
    "name" : "OMX_CALLBACKTYPE *",
-   "referenced_type" : "_ZTI16OMX_CALLBACKTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
-   "self_type" : "_ZTIP16OMX_CALLBACKTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTI16OMX_CALLBACKTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
+   "self_type" : "_ZTIP16OMX_CALLBACKTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
    "size" : 8,
    "source_file" : "frameworks/native/headers/media_plugin/media/openmax/OMX_Component.h"
   },
@@ -20476,8 +20426,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIP20OMX_BUFFERHEADERTYPE",
    "name" : "OMX_BUFFERHEADERTYPE *",
-   "referenced_type" : "_ZTI20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
-   "self_type" : "_ZTIP20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTI20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
+   "self_type" : "_ZTIP20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
    "size" : 8,
    "source_file" : "frameworks/native/headers/media_plugin/media/openmax/OMX_Core.h"
   },
@@ -21079,8 +21029,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIPKN7android15OMXNodeInstanceE",
    "name" : "const android::OMXNodeInstance *",
-   "referenced_type" : "_ZTIKN7android15OMXNodeInstanceE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
-   "self_type" : "_ZTIPKN7android15OMXNodeInstanceE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTIKN7android15OMXNodeInstanceE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "self_type" : "_ZTIPKN7android15OMXNodeInstanceE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
    "size" : 8,
    "source_file" : "frameworks/av/media/libstagefright/omx/include/media/stagefright/omx/OMXNodeInstance.h"
   },
@@ -21943,8 +21893,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIPN7android15OMXNodeInstanceE",
    "name" : "android::OMXNodeInstance *",
-   "referenced_type" : "_ZTIN7android15OMXNodeInstanceE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
-   "self_type" : "_ZTIPN7android15OMXNodeInstanceE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTIN7android15OMXNodeInstanceE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "self_type" : "_ZTIPN7android15OMXNodeInstanceE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
    "size" : 8,
    "source_file" : "system/core/libutils/include/utils/KeyedVector.h"
   },
@@ -22987,8 +22937,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIPN7android8hardware5media3omx4V1_014implementation3OmxE",
    "name" : "android::hardware::media::omx::V1_0::implementation::Omx *",
-   "referenced_type" : "_ZTIN7android8hardware5media3omx4V1_014implementation3OmxE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
-   "self_type" : "_ZTIPN7android8hardware5media3omx4V1_014implementation3OmxE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTIN7android8hardware5media3omx4V1_014implementation3OmxE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "self_type" : "_ZTIPN7android8hardware5media3omx4V1_014implementation3OmxE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
    "size" : 8,
    "source_file" : "frameworks/av/media/libstagefright/omx/include/media/stagefright/omx/OMXNodeInstance.h"
   },
@@ -23167,8 +23117,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIPP20OMX_BUFFERHEADERTYPE",
    "name" : "OMX_BUFFERHEADERTYPE **",
-   "referenced_type" : "_ZTIP20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
-   "self_type" : "_ZTIPP20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTIP20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
+   "self_type" : "_ZTIPP20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
    "size" : 8,
    "source_file" : "frameworks/native/headers/media_plugin/media/openmax/OMX_Component.h"
   },
@@ -23553,8 +23503,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIKN7android15OMXNodeInstanceE",
    "name" : "const android::OMXNodeInstance",
-   "referenced_type" : "_ZTIN7android15OMXNodeInstanceE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
-   "self_type" : "_ZTIKN7android15OMXNodeInstanceE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTIN7android15OMXNodeInstanceE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "self_type" : "_ZTIKN7android15OMXNodeInstanceE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
    "size" : 672,
    "source_file" : "frameworks/av/media/libstagefright/omx/include/media/stagefright/omx/OMXNodeInstance.h"
   },
@@ -24586,8 +24536,8 @@
    ],
    "linker_set_key" : "_ZTI12OMX_MARKTYPE",
    "name" : "OMX_MARKTYPE",
-   "referenced_type" : "_ZTI12OMX_MARKTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
-   "self_type" : "_ZTI12OMX_MARKTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTI12OMX_MARKTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
+   "self_type" : "_ZTI12OMX_MARKTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
    "size" : 8,
    "source_file" : "frameworks/native/headers/media_plugin/media/openmax/OMX_Types.h"
   },
@@ -24787,8 +24737,8 @@
    ],
    "linker_set_key" : "_ZTI16OMX_CALLBACKTYPE",
    "name" : "OMX_CALLBACKTYPE",
-   "referenced_type" : "_ZTI16OMX_CALLBACKTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
-   "self_type" : "_ZTI16OMX_CALLBACKTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTI16OMX_CALLBACKTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
+   "self_type" : "_ZTI16OMX_CALLBACKTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
    "size" : 24,
    "source_file" : "frameworks/native/headers/media_plugin/media/openmax/OMX_Core.h"
   },
@@ -25050,8 +25000,8 @@
    ],
    "linker_set_key" : "_ZTI17OMX_COMPONENTTYPE",
    "name" : "OMX_COMPONENTTYPE",
-   "referenced_type" : "_ZTI17OMX_COMPONENTTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
-   "self_type" : "_ZTI17OMX_COMPONENTTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTI17OMX_COMPONENTTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "self_type" : "_ZTI17OMX_COMPONENTTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
    "size" : 160,
    "source_file" : "frameworks/native/headers/media_plugin/media/openmax/OMX_Component.h"
   },
@@ -25484,8 +25434,8 @@
    ],
    "linker_set_key" : "_ZTI20OMX_BUFFERHEADERTYPE",
    "name" : "OMX_BUFFERHEADERTYPE",
-   "referenced_type" : "_ZTI20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
-   "self_type" : "_ZTI20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTI20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
+   "self_type" : "_ZTI20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
    "size" : 80,
    "source_file" : "frameworks/native/headers/media_plugin/media/openmax/OMX_Core.h"
   },
@@ -27757,8 +27707,8 @@
    ],
    "linker_set_key" : "_ZTI25OMX_COMPONENTREGISTERTYPE",
    "name" : "OMX_COMPONENTREGISTERTYPE",
-   "referenced_type" : "_ZTI25OMX_COMPONENTREGISTERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
-   "self_type" : "_ZTI25OMX_COMPONENTREGISTERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTI25OMX_COMPONENTREGISTERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
+   "self_type" : "_ZTI25OMX_COMPONENTREGISTERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
    "size" : 16,
    "source_file" : "frameworks/native/headers/media_plugin/media/openmax/OMX_Core.h"
   },
@@ -27943,8 +27893,8 @@
    ],
    "linker_set_key" : "_ZTI25OMX_PARAM_CONTENTPIPETYPE",
    "name" : "OMX_PARAM_CONTENTPIPETYPE",
-   "referenced_type" : "_ZTI25OMX_PARAM_CONTENTPIPETYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
-   "self_type" : "_ZTI25OMX_PARAM_CONTENTPIPETYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTI25OMX_PARAM_CONTENTPIPETYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "self_type" : "_ZTI25OMX_PARAM_CONTENTPIPETYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
    "size" : 12,
    "source_file" : "frameworks/native/headers/media_plugin/media/openmax/OMX_Component.h"
   },
@@ -29266,8 +29216,8 @@
    ],
    "linker_set_key" : "_ZTI27OMX_CONFIG_METADATAITEMTYPE",
    "name" : "OMX_CONFIG_METADATAITEMTYPE",
-   "referenced_type" : "_ZTI27OMX_CONFIG_METADATAITEMTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
-   "self_type" : "_ZTI27OMX_CONFIG_METADATAITEMTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTI27OMX_CONFIG_METADATAITEMTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "self_type" : "_ZTI27OMX_CONFIG_METADATAITEMTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
    "size" : 180,
    "source_file" : "frameworks/native/headers/media_plugin/media/openmax/OMX_Component.h"
   },
@@ -29554,8 +29504,8 @@
    ],
    "linker_set_key" : "_ZTI28OMX_AUDIO_PORTDEFINITIONTYPE",
    "name" : "OMX_AUDIO_PORTDEFINITIONTYPE",
-   "referenced_type" : "_ZTI28OMX_AUDIO_PORTDEFINITIONTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
-   "self_type" : "_ZTI28OMX_AUDIO_PORTDEFINITIONTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTI28OMX_AUDIO_PORTDEFINITIONTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "self_type" : "_ZTI28OMX_AUDIO_PORTDEFINITIONTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
    "size" : 16,
    "source_file" : "frameworks/native/headers/media_plugin/media/openmax/OMX_Audio.h"
   },
@@ -29742,8 +29692,8 @@
    ],
    "linker_set_key" : "_ZTI28OMX_IMAGE_PORTDEFINITIONTYPE",
    "name" : "OMX_IMAGE_PORTDEFINITIONTYPE",
-   "referenced_type" : "_ZTI28OMX_IMAGE_PORTDEFINITIONTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
-   "self_type" : "_ZTI28OMX_IMAGE_PORTDEFINITIONTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTI28OMX_IMAGE_PORTDEFINITIONTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "self_type" : "_ZTI28OMX_IMAGE_PORTDEFINITIONTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
    "size" : 40,
    "source_file" : "frameworks/native/headers/media_plugin/media/openmax/OMX_Image.h"
   },
@@ -29982,7 +29932,7 @@
     {
      "field_name" : "format",
      "field_offset" : 320,
-     "referenced_type" : "_ZTIN28OMX_PARAM_PORTDEFINITIONTYPEUt_E#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
+     "referenced_type" : "_ZTIN28OMX_PARAM_PORTDEFINITIONTYPEUt_E#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
     },
     {
      "field_name" : "bBuffersContiguous",
@@ -29997,8 +29947,8 @@
    ],
    "linker_set_key" : "_ZTI28OMX_PARAM_PORTDEFINITIONTYPE",
    "name" : "OMX_PARAM_PORTDEFINITIONTYPE",
-   "referenced_type" : "_ZTI28OMX_PARAM_PORTDEFINITIONTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
-   "self_type" : "_ZTI28OMX_PARAM_PORTDEFINITIONTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTI28OMX_PARAM_PORTDEFINITIONTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "self_type" : "_ZTI28OMX_PARAM_PORTDEFINITIONTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
    "size" : 96,
    "source_file" : "frameworks/native/headers/media_plugin/media/openmax/OMX_Component.h"
   },
@@ -30196,8 +30146,8 @@
    ],
    "linker_set_key" : "_ZTI28OMX_VIDEO_PORTDEFINITIONTYPE",
    "name" : "OMX_VIDEO_PORTDEFINITIONTYPE",
-   "referenced_type" : "_ZTI28OMX_VIDEO_PORTDEFINITIONTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
-   "self_type" : "_ZTI28OMX_VIDEO_PORTDEFINITIONTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTI28OMX_VIDEO_PORTDEFINITIONTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "self_type" : "_ZTI28OMX_VIDEO_PORTDEFINITIONTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
    "size" : 48,
    "source_file" : "frameworks/native/headers/media_plugin/media/openmax/OMX_Video.h"
   },
@@ -30554,8 +30504,8 @@
    ],
    "linker_set_key" : "_ZTI30OMX_CONFIG_CONTAINERNODEIDTYPE",
    "name" : "OMX_CONFIG_CONTAINERNODEIDTYPE",
-   "referenced_type" : "_ZTI30OMX_CONFIG_CONTAINERNODEIDTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
-   "self_type" : "_ZTI30OMX_CONFIG_CONTAINERNODEIDTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTI30OMX_CONFIG_CONTAINERNODEIDTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "self_type" : "_ZTI30OMX_CONFIG_CONTAINERNODEIDTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
    "size" : 32,
    "source_file" : "frameworks/native/headers/media_plugin/media/openmax/OMX_Component.h"
   },
@@ -32177,8 +32127,8 @@
    ],
    "linker_set_key" : "_ZTI36OMX_TIME_CONFIG_MEDIATIMEREQUESTTYPE",
    "name" : "OMX_TIME_CONFIG_MEDIATIMEREQUESTTYPE",
-   "referenced_type" : "_ZTI36OMX_TIME_CONFIG_MEDIATIMEREQUESTTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
-   "self_type" : "_ZTI36OMX_TIME_CONFIG_MEDIATIMEREQUESTTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTI36OMX_TIME_CONFIG_MEDIATIMEREQUESTTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "self_type" : "_ZTI36OMX_TIME_CONFIG_MEDIATIMEREQUESTTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
    "size" : 32,
    "source_file" : "frameworks/native/headers/media_plugin/media/openmax/OMX_Other.h"
   },
@@ -32279,8 +32229,8 @@
    ],
    "linker_set_key" : "_ZTI37OMX_AUDIO_PARAM_MIDILOADUSERSOUNDTYPE",
    "name" : "OMX_AUDIO_PARAM_MIDILOADUSERSOUNDTYPE",
-   "referenced_type" : "_ZTI37OMX_AUDIO_PARAM_MIDILOADUSERSOUNDTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
-   "self_type" : "_ZTI37OMX_AUDIO_PARAM_MIDILOADUSERSOUNDTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTI37OMX_AUDIO_PARAM_MIDILOADUSERSOUNDTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "self_type" : "_ZTI37OMX_AUDIO_PARAM_MIDILOADUSERSOUNDTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
    "size" : 32,
    "source_file" : "frameworks/native/headers/media_plugin/media/openmax/OMX_Audio.h"
   },
@@ -32927,15 +32877,15 @@
    [
     {
      "field_name" : "audio",
-     "referenced_type" : "_ZTI28OMX_AUDIO_PORTDEFINITIONTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
+     "referenced_type" : "_ZTI28OMX_AUDIO_PORTDEFINITIONTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
     },
     {
      "field_name" : "video",
-     "referenced_type" : "_ZTI28OMX_VIDEO_PORTDEFINITIONTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
+     "referenced_type" : "_ZTI28OMX_VIDEO_PORTDEFINITIONTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
     },
     {
      "field_name" : "image",
-     "referenced_type" : "_ZTI28OMX_IMAGE_PORTDEFINITIONTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
+     "referenced_type" : "_ZTI28OMX_IMAGE_PORTDEFINITIONTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
     },
     {
      "field_name" : "other",
@@ -32946,8 +32896,8 @@
    "linker_set_key" : "_ZTIN28OMX_PARAM_PORTDEFINITIONTYPEUt_E",
    "name" : "OMX_PARAM_PORTDEFINITIONTYPE::(unnamed)",
    "record_kind" : "union",
-   "referenced_type" : "_ZTIN28OMX_PARAM_PORTDEFINITIONTYPEUt_E#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
-   "self_type" : "_ZTIN28OMX_PARAM_PORTDEFINITIONTYPEUt_E#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTIN28OMX_PARAM_PORTDEFINITIONTYPEUt_E#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "self_type" : "_ZTIN28OMX_PARAM_PORTDEFINITIONTYPEUt_E#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
    "size" : 48,
    "source_file" : "frameworks/native/headers/media_plugin/media/openmax/OMX_Component.h"
   },
@@ -33535,13 +33485,13 @@
    "linker_set_key" : "_ZTIN7android11KeyedVectorIP20OMX_BUFFERHEADERTYPEjEE",
    "name" : "android::KeyedVector<OMX_BUFFERHEADERTYPE *, unsigned int>",
    "record_kind" : "class",
-   "referenced_type" : "_ZTIN7android11KeyedVectorIP20OMX_BUFFERHEADERTYPEjEE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
-   "self_type" : "_ZTIN7android11KeyedVectorIP20OMX_BUFFERHEADERTYPEjEE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTIN7android11KeyedVectorIP20OMX_BUFFERHEADERTYPEjEE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "self_type" : "_ZTIN7android11KeyedVectorIP20OMX_BUFFERHEADERTYPEjEE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
    "size" : 40,
    "source_file" : "system/core/libutils/include/utils/KeyedVector.h",
    "template_args" :
    [
-    "_ZTIP20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
+    "_ZTIP20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump",
     "_ZTIj"
    ]
   },
@@ -33581,13 +33531,13 @@
    "linker_set_key" : "_ZTIN7android11KeyedVectorIPNS_15OMXNodeInstanceENS_2wpINS_4hidl4base4V1_05IBaseEEEEE",
    "name" : "android::KeyedVector<android::OMXNodeInstance *, android::wp<android::hidl::base::V1_0::IBase>>",
    "record_kind" : "class",
-   "referenced_type" : "_ZTIN7android11KeyedVectorIPNS_15OMXNodeInstanceENS_2wpINS_4hidl4base4V1_05IBaseEEEEE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
-   "self_type" : "_ZTIN7android11KeyedVectorIPNS_15OMXNodeInstanceENS_2wpINS_4hidl4base4V1_05IBaseEEEEE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTIN7android11KeyedVectorIPNS_15OMXNodeInstanceENS_2wpINS_4hidl4base4V1_05IBaseEEEEE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "self_type" : "_ZTIN7android11KeyedVectorIPNS_15OMXNodeInstanceENS_2wpINS_4hidl4base4V1_05IBaseEEEEE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
    "size" : 40,
    "source_file" : "system/core/libutils/include/utils/KeyedVector.h",
    "template_args" :
    [
-    "_ZTIPN7android15OMXNodeInstanceE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+    "_ZTIPN7android15OMXNodeInstanceE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
     "_ZTIN7android2wpINS_4hidl4base4V1_05IBaseEEE"
    ]
   },
@@ -33673,14 +33623,14 @@
    "linker_set_key" : "_ZTIN7android11KeyedVectorIjP20OMX_BUFFERHEADERTYPEEE",
    "name" : "android::KeyedVector<unsigned int, OMX_BUFFERHEADERTYPE *>",
    "record_kind" : "class",
-   "referenced_type" : "_ZTIN7android11KeyedVectorIjP20OMX_BUFFERHEADERTYPEEE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
-   "self_type" : "_ZTIN7android11KeyedVectorIjP20OMX_BUFFERHEADERTYPEEE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTIN7android11KeyedVectorIjP20OMX_BUFFERHEADERTYPEEE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "self_type" : "_ZTIN7android11KeyedVectorIjP20OMX_BUFFERHEADERTYPEEE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
    "size" : 40,
    "source_file" : "system/core/libutils/include/utils/KeyedVector.h",
    "template_args" :
    [
     "_ZTIj",
-    "_ZTIP20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump"
+    "_ZTIP20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump"
    ]
   },
   {
@@ -34671,13 +34621,13 @@
    "linker_set_key" : "_ZTIN7android12SortedVectorIP20OMX_BUFFERHEADERTYPEEE",
    "name" : "android::SortedVector<OMX_BUFFERHEADERTYPE *>",
    "record_kind" : "class",
-   "referenced_type" : "_ZTIN7android12SortedVectorIP20OMX_BUFFERHEADERTYPEEE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
-   "self_type" : "_ZTIN7android12SortedVectorIP20OMX_BUFFERHEADERTYPEEE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTIN7android12SortedVectorIP20OMX_BUFFERHEADERTYPEEE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "self_type" : "_ZTIN7android12SortedVectorIP20OMX_BUFFERHEADERTYPEEE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
    "size" : 40,
    "source_file" : "system/core/libutils/include/utils/SortedVector.h",
    "template_args" :
    [
-    "_ZTIP20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump"
+    "_ZTIP20OMX_BUFFERHEADERTYPE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/OmxGraphicBufferSource.sdump"
    ],
    "vtable_components" :
    [
@@ -35715,7 +35665,7 @@
      "access" : "private",
      "field_name" : "mOwner",
      "field_offset" : 576,
-     "referenced_type" : "_ZTIPN7android8hardware5media3omx4V1_014implementation3OmxE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
+     "referenced_type" : "_ZTIPN7android8hardware5media3omx4V1_014implementation3OmxE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
     },
     {
      "access" : "private",
@@ -35805,13 +35755,13 @@
      "access" : "private",
      "field_name" : "mBufferIDToBufferHeader",
      "field_offset" : 2368,
-     "referenced_type" : "_ZTIN7android11KeyedVectorIjP20OMX_BUFFERHEADERTYPEEE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
+     "referenced_type" : "_ZTIN7android11KeyedVectorIjP20OMX_BUFFERHEADERTYPEEE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
     },
     {
      "access" : "private",
      "field_name" : "mBufferHeaderToBufferID",
      "field_offset" : 2688,
-     "referenced_type" : "_ZTIN7android11KeyedVectorIP20OMX_BUFFERHEADERTYPEjEE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
+     "referenced_type" : "_ZTIN7android11KeyedVectorIP20OMX_BUFFERHEADERTYPEjEE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
     },
     {
      "access" : "private",
@@ -35907,13 +35857,13 @@
      "access" : "private",
      "field_name" : "mInputBuffersWithCodec",
      "field_offset" : 4480,
-     "referenced_type" : "_ZTIN7android12SortedVectorIP20OMX_BUFFERHEADERTYPEEE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
+     "referenced_type" : "_ZTIN7android12SortedVectorIP20OMX_BUFFERHEADERTYPEEE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
     },
     {
      "access" : "private",
      "field_name" : "mOutputBuffersWithCodec",
      "field_offset" : 4800,
-     "referenced_type" : "_ZTIN7android12SortedVectorIP20OMX_BUFFERHEADERTYPEEE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
+     "referenced_type" : "_ZTIN7android12SortedVectorIP20OMX_BUFFERHEADERTYPEEE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
     },
     {
      "access" : "private",
@@ -35924,8 +35874,8 @@
    ],
    "linker_set_key" : "_ZTIN7android15OMXNodeInstanceE",
    "name" : "android::OMXNodeInstance",
-   "referenced_type" : "_ZTIN7android15OMXNodeInstanceE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
-   "self_type" : "_ZTIN7android15OMXNodeInstanceE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTIN7android15OMXNodeInstanceE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "self_type" : "_ZTIN7android15OMXNodeInstanceE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
    "size" : 672,
    "source_file" : "frameworks/av/media/libstagefright/omx/include/media/stagefright/omx/OMXNodeInstance.h",
    "vtable_components" :
@@ -43347,7 +43297,7 @@
      "access" : "protected",
      "field_name" : "mNode2Observer",
      "field_offset" : 832,
-     "referenced_type" : "_ZTIN7android11KeyedVectorIPNS_15OMXNodeInstanceENS_2wpINS_4hidl4base4V1_05IBaseEEEEE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
+     "referenced_type" : "_ZTIN7android11KeyedVectorIPNS_15OMXNodeInstanceENS_2wpINS_4hidl4base4V1_05IBaseEEEEE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump"
     },
     {
      "access" : "protected",
@@ -43358,8 +43308,8 @@
    ],
    "linker_set_key" : "_ZTIN7android8hardware5media3omx4V1_014implementation3OmxE",
    "name" : "android::hardware::media::omx::V1_0::implementation::Omx",
-   "referenced_type" : "_ZTIN7android8hardware5media3omx4V1_014implementation3OmxE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
-   "self_type" : "_ZTIN7android8hardware5media3omx4V1_014implementation3OmxE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.34_arm64_armv8-a_shared/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "referenced_type" : "_ZTIN7android8hardware5media3omx4V1_014implementation3OmxE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
+   "self_type" : "_ZTIN7android8hardware5media3omx4V1_014implementation3OmxE#ODR:out/soong/.intermediates/frameworks/av/media/libstagefright/omx/libstagefright_omx/android_vendor.UpsideDownCake_arm64_armv8-a_shared/obj/frameworks/av/media/libstagefright/omx/1.0/WGraphicBufferSource.sdump",
    "size" : 176,
    "source_file" : "frameworks/av/media/libstagefright/omx/include/media/stagefright/omx/1.0/Omx.h",
    "vtable_components" :
@@ -45387,15 +45337,6 @@
    "name" : "android::sp<android::hidl::base::V1_0::IBase> &&",
    "referenced_type" : "_ZTIN7android2spINS_4hidl4base4V1_05IBaseEEE",
    "self_type" : "_ZTION7android2spINS_4hidl4base4V1_05IBaseEEE",
-   "size" : 8,
-   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTION7android2spINS_5FenceEEE",
-   "name" : "android::sp<android::Fence> &&",
-   "referenced_type" : "_ZTIN7android2spINS_5FenceEEE",
-   "self_type" : "_ZTION7android2spINS_5FenceEEE",
    "size" : 8,
    "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
   },

@@ -2861,11 +2861,11 @@
      "name" : "android::hardware::graphics::common::V1_0::BufferUsage::GPU_DATA_BUFFER"
     },
     {
-     "enum_field_value" : 4026531840,
+     "enum_field_value" : -268435456,
      "name" : "android::hardware::graphics::common::V1_0::BufferUsage::VENDOR_MASK"
     },
     {
-     "enum_field_value" : 18446462598732840960,
+     "enum_field_value" : 0,
      "name" : "android::hardware::graphics::common::V1_0::BufferUsage::VENDOR_MASK_HI"
     }
    ],
@@ -3452,11 +3452,11 @@
      "name" : "android::hardware::graphics::common::V1_1::BufferUsage::GPU_DATA_BUFFER"
     },
     {
-     "enum_field_value" : 4026531840,
+     "enum_field_value" : -268435456,
      "name" : "android::hardware::graphics::common::V1_1::BufferUsage::VENDOR_MASK"
     },
     {
-     "enum_field_value" : 18446462598732840960,
+     "enum_field_value" : 0,
      "name" : "android::hardware::graphics::common::V1_1::BufferUsage::VENDOR_MASK_HI"
     },
     {
@@ -4037,11 +4037,11 @@
      "name" : "android::hardware::graphics::common::V1_2::BufferUsage::GPU_DATA_BUFFER"
     },
     {
-     "enum_field_value" : 4026531840,
+     "enum_field_value" : -268435456,
      "name" : "android::hardware::graphics::common::V1_2::BufferUsage::VENDOR_MASK"
     },
     {
-     "enum_field_value" : 18446462598732840960,
+     "enum_field_value" : 0,
      "name" : "android::hardware::graphics::common::V1_2::BufferUsage::VENDOR_MASK_HI"
     },
     {
