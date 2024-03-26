@@ -719,9 +719,6 @@
    "name" : "xmlCtxtResetPush"
   },
   {
-   "name" : "xmlCtxtSetMaxAmplification"
-  },
-  {
    "name" : "xmlCtxtUseOptions"
   },
   {
@@ -1406,9 +1403,6 @@
    "name" : "xmlMemShow"
   },
   {
-   "name" : "xmlMemSize"
-  },
-  {
    "name" : "xmlMemStrdupLoc"
   },
   {
@@ -1920,9 +1914,6 @@
   },
   {
    "name" : "xmlParserInputBufferCreateStatic"
-  },
-  {
-   "name" : "xmlParserInputBufferCreateString"
   },
   {
    "name" : "xmlParserInputBufferGrow"
@@ -3009,9 +3000,6 @@
   },
   {
    "name" : "xmlTextReaderSetErrorHandler"
-  },
-  {
-   "name" : "xmlTextReaderSetMaxAmplification"
   },
   {
    "name" : "xmlTextReaderSetParserProp"
@@ -5402,43 +5390,6 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : 0,
-     "name" : "XML_ENC_ERR_SUCCESS"
-    },
-    {
-     "enum_field_value" : -1,
-     "name" : "XML_ENC_ERR_SPACE"
-    },
-    {
-     "enum_field_value" : -2,
-     "name" : "XML_ENC_ERR_INPUT"
-    },
-    {
-     "enum_field_value" : -3,
-     "name" : "XML_ENC_ERR_PARTIAL"
-    },
-    {
-     "enum_field_value" : -4,
-     "name" : "XML_ENC_ERR_INTERNAL"
-    },
-    {
-     "enum_field_value" : -5,
-     "name" : "XML_ENC_ERR_MEMORY"
-    }
-   ],
-   "linker_set_key" : "_ZTI15xmlCharEncError",
-   "name" : "xmlCharEncError",
-   "referenced_type" : "_ZTI15xmlCharEncError",
-   "self_type" : "_ZTI15xmlCharEncError",
-   "size" : 4,
-   "source_file" : "external/libxml2/include/libxml/encoding.h",
-   "underlying_type" : "_ZTIi"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
      "enum_field_value" : -1,
      "name" : "XML_CHAR_ENCODING_ERROR"
     },
@@ -6019,10 +5970,6 @@
     {
      "enum_field_value" : 112,
      "name" : "XML_ERR_COMMENT_ABRUPTLY_ENDED"
-    },
-    {
-     "enum_field_value" : 113,
-     "name" : "XML_WAR_ENCODING_MISMATCH"
     },
     {
      "enum_field_value" : 200,
@@ -9544,10 +9491,6 @@
     {
      "enum_field_value" : 16,
      "name" : "XML_PARSER_PUBLIC_LITERAL"
-    },
-    {
-     "enum_field_value" : 17,
-     "name" : "XML_PARSER_XML_DECL"
     }
    ],
    "linker_set_key" : "_ZTI19xmlParserInputState",
@@ -14028,21 +13971,6 @@
    "source_file" : "external/libxml2/include/libxml/parser.h"
   },
   {
-   "function_name" : "xmlCtxtSetMaxAmplification",
-   "linker_set_key" : "xmlCtxtSetMaxAmplification",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP14_xmlParserCtxt"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    }
-   ],
-   "return_type" : "_ZTIv",
-   "source_file" : "external/libxml2/include/libxml/parser.h"
-  },
-  {
    "function_name" : "xmlCtxtUseOptions",
    "linker_set_key" : "xmlCtxtUseOptions",
    "parameters" :
@@ -17292,18 +17220,6 @@
    "source_file" : "external/libxml2/include/libxml/xmlmemory.h"
   },
   {
-   "function_name" : "xmlMemSize",
-   "linker_set_key" : "xmlMemSize",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPv"
-    }
-   ],
-   "return_type" : "_ZTIm",
-   "source_file" : "external/libxml2/include/libxml/xmlmemory.h"
-  },
-  {
    "function_name" : "xmlMemStrdupLoc",
    "linker_set_key" : "xmlMemStrdupLoc",
    "parameters" :
@@ -19825,18 +19741,6 @@
    ],
    "return_type" : "_ZTIP21_xmlParserInputBuffer",
    "source_file" : "external/libxml2/include/libxml/xmlIO.h"
-  },
-  {
-   "function_name" : "xmlParserInputBufferCreateString",
-   "linker_set_key" : "xmlParserInputBufferCreateString",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPKh"
-    }
-   ],
-   "return_type" : "_ZTIP21_xmlParserInputBuffer",
-   "source_file" : "external/libxml2/include/private/io.h"
   },
   {
    "function_name" : "xmlParserInputBufferGrow",
@@ -22715,7 +22619,7 @@
   {
    "function_name" : "xmlSchemaInitTypes",
    "linker_set_key" : "xmlSchemaInitTypes",
-   "return_type" : "_ZTIi",
+   "return_type" : "_ZTIv",
    "source_file" : "external/libxml2/include/libxml/xmlschemastypes.h"
   },
   {
@@ -25497,21 +25401,6 @@
     },
     {
      "referenced_type" : "_ZTIPv"
-    }
-   ],
-   "return_type" : "_ZTIv",
-   "source_file" : "external/libxml2/include/libxml/xmlreader.h"
-  },
-  {
-   "function_name" : "xmlTextReaderSetMaxAmplification",
-   "linker_set_key" : "xmlTextReaderSetMaxAmplification",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP14_xmlTextReader"
-    },
-    {
-     "referenced_type" : "_ZTIj"
     }
    ],
    "return_type" : "_ZTIv",
@@ -35401,18 +35290,13 @@
      "field_name" : "nbWarnings",
      "field_offset" : 6064,
      "referenced_type" : "_ZTIt"
-    },
-    {
-     "field_name" : "maxAmpl",
-     "field_offset" : 6080,
-     "referenced_type" : "_ZTIj"
     }
    ],
    "linker_set_key" : "_ZTI14_xmlParserCtxt",
    "name" : "_xmlParserCtxt",
    "referenced_type" : "_ZTI14_xmlParserCtxt",
    "self_type" : "_ZTI14_xmlParserCtxt",
-   "size" : 768,
+   "size" : 760,
    "source_file" : "external/libxml2/include/libxml/parser.h"
   },
   {
@@ -36096,7 +35980,7 @@
      "referenced_type" : "_ZTIPKh"
     },
     {
-     "field_name" : "flags",
+     "field_name" : "standalone",
      "field_offset" : 768,
      "referenced_type" : "_ZTIi"
     },

@@ -1502,7 +1502,7 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : 9223372036854775808,
+     "enum_field_value" : 0,
      "name" : "fmt::detail::is_unpacked_bit"
     }
    ],
@@ -1553,7 +1553,7 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : 4611686018427387904,
+     "enum_field_value" : 0,
      "name" : "fmt::detail::has_named_args_bit"
     }
    ],

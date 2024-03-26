@@ -24051,7 +24051,7 @@
    [
     {
      "field_name" : "mpNode",
-     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/module/foundation/libstagefright_foundation/android_vendor.34_arm_armv7-a-neon_static/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/module/foundation/ALooper.sdump"
+     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/module/foundation/libstagefright_foundation/android_vendor.34_arm_armv7-a-neon_static/obj/frameworks/av/media/module/foundation/ALooper.sdump"
     }
    ],
    "linker_set_key" : "_ZTIN7android4ListINS_7ALooper5EventEE13_ListIteratorIS2_NS3_18NON_CONST_ITERATOREEE",
@@ -24093,13 +24093,13 @@
      "access" : "private",
      "field_name" : "mpPrev",
      "field_offset" : 128,
-     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/module/foundation/libstagefright_foundation/android_vendor.34_arm_armv7-a-neon_static/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/module/foundation/ALooper.sdump"
+     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/module/foundation/libstagefright_foundation/android_vendor.34_arm_armv7-a-neon_static/obj/frameworks/av/media/module/foundation/ALooper.sdump"
     },
     {
      "access" : "private",
      "field_name" : "mpNext",
      "field_offset" : 160,
-     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/module/foundation/libstagefright_foundation/android_vendor.34_arm_armv7-a-neon_static/e560d7b19ebf7276b3e850d3d346dec8/obj/frameworks/av/media/module/foundation/ALooper.sdump"
+     "referenced_type" : "_ZTIPN7android4ListINS_7ALooper5EventEE5_NodeE#ODR:out/soong/.intermediates/frameworks/av/media/module/foundation/libstagefright_foundation/android_vendor.34_arm_armv7-a-neon_static/obj/frameworks/av/media/module/foundation/ALooper.sdump"
     }
    ],
    "linker_set_key" : "_ZTIN7android4ListINS_7ALooper5EventEE5_NodeE",
