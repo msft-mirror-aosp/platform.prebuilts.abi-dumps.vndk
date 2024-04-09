@@ -1,9 +1,4 @@
 {
-  "global": {
-    "flags": {
-      "advice_only": true
-    }
-  },
   "libbinder": [
     {
       "target_version": "current",
@@ -27,6 +22,20 @@
         "allow_adding_removing_weak_symbols": true
       }
     }
+  ],
+  "libnativewindow": [
+    {
+      "target_version": "current",
+      "ignore_linker_set_keys": [
+        "_ZN7android34AHardwareBuffer_isValidPixelFormatEj",
+      ],
+    },
+    {
+      "target_version": "202404",
+      "ignore_linker_set_keys": [
+        "_ZN7android34AHardwareBuffer_isValidPixelFormatEj",
+      ],
+    },
   ],
   "libui": [
     {
