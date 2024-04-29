@@ -1,0 +1,108 @@
+{
+ "array_types" : [],
+ "builtin_types" :
+ [
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIc",
+   "name" : "char",
+   "size" : 1
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIi",
+   "name" : "int",
+   "size" : 4
+  },
+  {
+   "linker_set_key" : "_ZTIv",
+   "name" : "void"
+  }
+ ],
+ "elf_functions" :
+ [
+  {
+   "name" : "AApexInfo_create"
+  },
+  {
+   "name" : "AApexInfo_destroy"
+  },
+  {
+   "name" : "AApexInfo_getName"
+  },
+  {
+   "name" : "AApexInfo_getVersion"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" :
+ [
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "AAPEXINFO_OK"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "AAPEXINFO_NO_APEX"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "AAPEXINFO_ERROR_EXECUTABLE_PATH"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "AAPEXINFO_INVALID_APEX"
+    }
+   ],
+   "linker_set_key" : "_ZTI14AApexInfoError",
+   "name" : "AApexInfoError",
+   "size" : 4,
+   "source_file" : "system/apex/libs/libapexsupport/include/android/apexsupport.h",
+   "underlying_type" : "_ZTIi"
+  }
+ ],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKc",
+   "name" : "const char *",
+   "referenced_type" : "_ZTIKc",
+   "size" : 8,
+   "source_file" : "system/apex/libs/libapexsupport/include/android/apexsupport.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPv",
+   "name" : "void *",
+   "referenced_type" : "_ZTIv",
+   "size" : 8,
+   "source_file" : "system/apex/libs/libapexsupport/include/android/apexsupport.h"
+  }
+ ],
+ "qualified_types" :
+ [
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKc",
+   "name" : "const char",
+   "referenced_type" : "_ZTIc",
+   "size" : 1,
+   "source_file" : "system/apex/libs/libapexsupport/include/android/apexsupport.h"
+  }
+ ],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

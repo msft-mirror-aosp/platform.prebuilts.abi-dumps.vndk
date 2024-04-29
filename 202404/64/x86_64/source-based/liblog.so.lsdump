@@ -1,0 +1,244 @@
+{
+ "array_types" : [],
+ "builtin_types" :
+ [
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIa",
+   "name" : "signed char",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIb",
+   "name" : "bool",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIc",
+   "name" : "char",
+   "size" : 1
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIf",
+   "name" : "float",
+   "size" : 4
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIh",
+   "name" : "unsigned char",
+   "size" : 1
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIi",
+   "name" : "int",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIj",
+   "name" : "unsigned int",
+   "size" : 4
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIl",
+   "name" : "long",
+   "size" : 8
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIm",
+   "name" : "unsigned long",
+   "size" : 8
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIt",
+   "name" : "unsigned short",
+   "size" : 2
+  },
+  {
+   "linker_set_key" : "_ZTIv",
+   "name" : "void"
+  }
+ ],
+ "elf_functions" :
+ [
+  {
+   "name" : "__android_log_assert"
+  },
+  {
+   "name" : "__android_log_buf_print"
+  },
+  {
+   "name" : "__android_log_buf_write"
+  },
+  {
+   "name" : "__android_log_call_aborter"
+  },
+  {
+   "name" : "__android_log_default_aborter"
+  },
+  {
+   "name" : "__android_log_error_write"
+  },
+  {
+   "name" : "__android_log_get_minimum_priority"
+  },
+  {
+   "name" : "__android_log_is_debuggable"
+  },
+  {
+   "name" : "__android_log_is_loggable"
+  },
+  {
+   "name" : "__android_log_is_loggable_len"
+  },
+  {
+   "name" : "__android_log_logd_logger"
+  },
+  {
+   "name" : "__android_log_print"
+  },
+  {
+   "name" : "__android_log_set_aborter"
+  },
+  {
+   "name" : "__android_log_set_default_tag"
+  },
+  {
+   "name" : "__android_log_set_logger"
+  },
+  {
+   "name" : "__android_log_set_minimum_priority"
+  },
+  {
+   "name" : "__android_log_stderr_logger"
+  },
+  {
+   "name" : "__android_log_vprint"
+  },
+  {
+   "name" : "__android_log_write"
+  },
+  {
+   "name" : "__android_log_write_log_message"
+  },
+  {
+   "name" : "android_log_destroy"
+  },
+  {
+   "name" : "android_log_id_to_name"
+  },
+  {
+   "name" : "android_log_parser_reset"
+  },
+  {
+   "name" : "android_log_reset"
+  },
+  {
+   "name" : "android_log_write_float32"
+  },
+  {
+   "name" : "android_log_write_int32"
+  },
+  {
+   "name" : "android_log_write_int64"
+  },
+  {
+   "name" : "android_log_write_list"
+  },
+  {
+   "name" : "android_log_write_list_begin"
+  },
+  {
+   "name" : "android_log_write_list_end"
+  },
+  {
+   "name" : "android_log_write_string8"
+  },
+  {
+   "name" : "android_log_write_string8_len"
+  },
+  {
+   "name" : "android_logger_clear"
+  },
+  {
+   "name" : "android_logger_get_id"
+  },
+  {
+   "name" : "android_logger_get_log_readable_size"
+  },
+  {
+   "name" : "android_logger_get_log_size"
+  },
+  {
+   "name" : "android_logger_get_log_version"
+  },
+  {
+   "name" : "android_logger_get_prune_list"
+  },
+  {
+   "name" : "android_logger_get_statistics"
+  },
+  {
+   "name" : "android_logger_list_alloc"
+  },
+  {
+   "name" : "android_logger_list_alloc_time"
+  },
+  {
+   "name" : "android_logger_list_free"
+  },
+  {
+   "name" : "android_logger_list_open"
+  },
+  {
+   "name" : "android_logger_list_read"
+  },
+  {
+   "name" : "android_logger_open"
+  },
+  {
+   "name" : "android_logger_set_log_size"
+  },
+  {
+   "name" : "android_logger_set_prune_list"
+  },
+  {
+   "name" : "android_name_to_log_id"
+  },
+  {
+   "name" : "create_android_logger"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}
