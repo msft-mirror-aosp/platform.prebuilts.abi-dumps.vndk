@@ -1,4 +1,9 @@
 {
+  "global": {
+    "flags": {
+      "allow_extensions": true
+    }
+  },
   "libbinder": [
     {
       "target_version": "current",
