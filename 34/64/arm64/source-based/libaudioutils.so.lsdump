@@ -1971,14 +1971,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIjPKNS_5arrayINS2_IfLm5EEELm3EEEEENS_22__unordered_map_hasherIjS7_NS_4hashIjEELb1EEENS_21__unordered_map_equalIjS7_NS_8equal_toIjEELb1EEENS_9allocatorIS7_EEE25__emplace_unique_key_argsIjJRKNS_4pairIKjS6_EEEEENSK_INS_15__hash_iteratorIPNS_11__hash_nodeIS7_PvEEEEbEERKT_DpOT0_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__112__hash_tableINS_17__hash_value_typeIjPKNS_5arrayINS2_IfLm5EEELm3EEEEENS_22__unordered_map_hasherIjS7_NS_4hashIjEELb1EEENS_21__unordered_map_equalIjS7_NS_8equal_toIjEELb1EEENS_9allocatorIS7_EEE8__rehashEm"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZNSt3__112basic_stringIhNS_11char_traitsIhEENS_9allocatorIhEEE21__grow_by_and_replaceEmmmmmmPKh"
   },
   {
@@ -3186,7 +3178,7 @@
      "name" : "VX_AUDIO_FORMAT_LC3"
     },
     {
-     "enum_field_value" : 4294967295,
+     "enum_field_value" : -1,
      "name" : "AUDIO_FORMAT_INVALID"
     },
     {
@@ -3424,119 +3416,119 @@
      "name" : "AUDIO_DEVICE_OUT_DEFAULT"
     },
     {
-     "enum_field_value" : 2147483649,
+     "enum_field_value" : -2147483647,
      "name" : "AUDIO_DEVICE_IN_COMMUNICATION"
     },
     {
-     "enum_field_value" : 2147483650,
+     "enum_field_value" : -2147483646,
      "name" : "AUDIO_DEVICE_IN_AMBIENT"
     },
     {
-     "enum_field_value" : 2147483652,
+     "enum_field_value" : -2147483644,
      "name" : "AUDIO_DEVICE_IN_BUILTIN_MIC"
     },
     {
-     "enum_field_value" : 2147483656,
+     "enum_field_value" : -2147483640,
      "name" : "AUDIO_DEVICE_IN_BLUETOOTH_SCO_HEADSET"
     },
     {
-     "enum_field_value" : 2147483664,
+     "enum_field_value" : -2147483632,
      "name" : "AUDIO_DEVICE_IN_WIRED_HEADSET"
     },
     {
-     "enum_field_value" : 2147483680,
+     "enum_field_value" : -2147483616,
      "name" : "AUDIO_DEVICE_IN_HDMI"
     },
     {
-     "enum_field_value" : 2147483712,
+     "enum_field_value" : -2147483584,
      "name" : "AUDIO_DEVICE_IN_TELEPHONY_RX"
     },
     {
-     "enum_field_value" : 2147483776,
+     "enum_field_value" : -2147483520,
      "name" : "AUDIO_DEVICE_IN_BACK_MIC"
     },
     {
-     "enum_field_value" : 2147483904,
+     "enum_field_value" : -2147483392,
      "name" : "AUDIO_DEVICE_IN_REMOTE_SUBMIX"
     },
     {
-     "enum_field_value" : 2147484160,
+     "enum_field_value" : -2147483136,
      "name" : "AUDIO_DEVICE_IN_ANLG_DOCK_HEADSET"
     },
     {
-     "enum_field_value" : 2147484672,
+     "enum_field_value" : -2147482624,
      "name" : "AUDIO_DEVICE_IN_DGTL_DOCK_HEADSET"
     },
     {
-     "enum_field_value" : 2147485696,
+     "enum_field_value" : -2147481600,
      "name" : "AUDIO_DEVICE_IN_USB_ACCESSORY"
     },
     {
-     "enum_field_value" : 2147487744,
+     "enum_field_value" : -2147479552,
      "name" : "AUDIO_DEVICE_IN_USB_DEVICE"
     },
     {
-     "enum_field_value" : 2147491840,
+     "enum_field_value" : -2147475456,
      "name" : "AUDIO_DEVICE_IN_FM_TUNER"
     },
     {
-     "enum_field_value" : 2147500032,
+     "enum_field_value" : -2147467264,
      "name" : "AUDIO_DEVICE_IN_TV_TUNER"
     },
     {
-     "enum_field_value" : 2147516416,
+     "enum_field_value" : -2147450880,
      "name" : "AUDIO_DEVICE_IN_LINE"
     },
     {
-     "enum_field_value" : 2147549184,
+     "enum_field_value" : -2147418112,
      "name" : "AUDIO_DEVICE_IN_SPDIF"
     },
     {
-     "enum_field_value" : 2147614720,
+     "enum_field_value" : -2147352576,
      "name" : "AUDIO_DEVICE_IN_BLUETOOTH_A2DP"
     },
     {
-     "enum_field_value" : 2147745792,
+     "enum_field_value" : -2147221504,
      "name" : "AUDIO_DEVICE_IN_LOOPBACK"
     },
     {
-     "enum_field_value" : 2148007936,
+     "enum_field_value" : -2146959360,
      "name" : "AUDIO_DEVICE_IN_IP"
     },
     {
-     "enum_field_value" : 2148532224,
+     "enum_field_value" : -2146435072,
      "name" : "AUDIO_DEVICE_IN_BUS"
     },
     {
-     "enum_field_value" : 2164260864,
+     "enum_field_value" : -2130706432,
      "name" : "AUDIO_DEVICE_IN_PROXY"
     },
     {
-     "enum_field_value" : 2181038080,
+     "enum_field_value" : -2113929216,
      "name" : "AUDIO_DEVICE_IN_USB_HEADSET"
     },
     {
-     "enum_field_value" : 2214592512,
+     "enum_field_value" : -2080374784,
      "name" : "AUDIO_DEVICE_IN_BLUETOOTH_BLE"
     },
     {
-     "enum_field_value" : 2281701376,
+     "enum_field_value" : -2013265920,
      "name" : "AUDIO_DEVICE_IN_HDMI_ARC"
     },
     {
-     "enum_field_value" : 2281701377,
+     "enum_field_value" : -2013265919,
      "name" : "AUDIO_DEVICE_IN_HDMI_EARC"
     },
     {
-     "enum_field_value" : 2415919104,
+     "enum_field_value" : -1879048192,
      "name" : "AUDIO_DEVICE_IN_ECHO_REFERENCE"
     },
     {
-     "enum_field_value" : 2684354560,
+     "enum_field_value" : -1610612736,
      "name" : "AUDIO_DEVICE_IN_BLE_HEADSET"
     },
     {
-     "enum_field_value" : 3221225472,
+     "enum_field_value" : -1073741824,
      "name" : "AUDIO_DEVICE_IN_DEFAULT"
     },
     {
@@ -3548,15 +3540,15 @@
      "name" : "AUDIO_DEVICE_OUT_STUB"
     },
     {
-     "enum_field_value" : 2147483712,
+     "enum_field_value" : -2147483584,
      "name" : "AUDIO_DEVICE_IN_VOICE_CALL"
     },
     {
-     "enum_field_value" : 2147483680,
+     "enum_field_value" : -2147483616,
      "name" : "AUDIO_DEVICE_IN_AUX_DIGITAL"
     },
     {
-     "enum_field_value" : 3221225472,
+     "enum_field_value" : -1073741824,
      "name" : "AUDIO_DEVICE_IN_STUB"
     }
    ],
@@ -4359,15 +4351,15 @@
      "name" : "AUDIO_DEVICE_OUT_ALL_USB"
     },
     {
-     "enum_field_value" : 3743416319,
+     "enum_field_value" : -551550977,
      "name" : "AUDIO_DEVICE_IN_ALL"
     },
     {
-     "enum_field_value" : 2147483656,
+     "enum_field_value" : -2147483640,
      "name" : "AUDIO_DEVICE_IN_ALL_SCO"
     },
     {
-     "enum_field_value" : 2181044224,
+     "enum_field_value" : -2113923072,
      "name" : "AUDIO_DEVICE_IN_ALL_USB"
     },
     {
@@ -4849,99 +4841,99 @@
      "name" : "AUDIO_CHANNEL_IN_VOICE_CALL_MONO"
     },
     {
-     "enum_field_value" : 2147483649,
+     "enum_field_value" : -2147483647,
      "name" : "AUDIO_CHANNEL_INDEX_MASK_1"
     },
     {
-     "enum_field_value" : 2147483651,
+     "enum_field_value" : -2147483645,
      "name" : "AUDIO_CHANNEL_INDEX_MASK_2"
     },
     {
-     "enum_field_value" : 2147483655,
+     "enum_field_value" : -2147483641,
      "name" : "AUDIO_CHANNEL_INDEX_MASK_3"
     },
     {
-     "enum_field_value" : 2147483663,
+     "enum_field_value" : -2147483633,
      "name" : "AUDIO_CHANNEL_INDEX_MASK_4"
     },
     {
-     "enum_field_value" : 2147483679,
+     "enum_field_value" : -2147483617,
      "name" : "AUDIO_CHANNEL_INDEX_MASK_5"
     },
     {
-     "enum_field_value" : 2147483711,
+     "enum_field_value" : -2147483585,
      "name" : "AUDIO_CHANNEL_INDEX_MASK_6"
     },
     {
-     "enum_field_value" : 2147483775,
+     "enum_field_value" : -2147483521,
      "name" : "AUDIO_CHANNEL_INDEX_MASK_7"
     },
     {
-     "enum_field_value" : 2147483903,
+     "enum_field_value" : -2147483393,
      "name" : "AUDIO_CHANNEL_INDEX_MASK_8"
     },
     {
-     "enum_field_value" : 2147484159,
+     "enum_field_value" : -2147483137,
      "name" : "AUDIO_CHANNEL_INDEX_MASK_9"
     },
     {
-     "enum_field_value" : 2147484671,
+     "enum_field_value" : -2147482625,
      "name" : "AUDIO_CHANNEL_INDEX_MASK_10"
     },
     {
-     "enum_field_value" : 2147485695,
+     "enum_field_value" : -2147481601,
      "name" : "AUDIO_CHANNEL_INDEX_MASK_11"
     },
     {
-     "enum_field_value" : 2147487743,
+     "enum_field_value" : -2147479553,
      "name" : "AUDIO_CHANNEL_INDEX_MASK_12"
     },
     {
-     "enum_field_value" : 2147491839,
+     "enum_field_value" : -2147475457,
      "name" : "AUDIO_CHANNEL_INDEX_MASK_13"
     },
     {
-     "enum_field_value" : 2147500031,
+     "enum_field_value" : -2147467265,
      "name" : "AUDIO_CHANNEL_INDEX_MASK_14"
     },
     {
-     "enum_field_value" : 2147516415,
+     "enum_field_value" : -2147450881,
      "name" : "AUDIO_CHANNEL_INDEX_MASK_15"
     },
     {
-     "enum_field_value" : 2147549183,
+     "enum_field_value" : -2147418113,
      "name" : "AUDIO_CHANNEL_INDEX_MASK_16"
     },
     {
-     "enum_field_value" : 2147614719,
+     "enum_field_value" : -2147352577,
      "name" : "AUDIO_CHANNEL_INDEX_MASK_17"
     },
     {
-     "enum_field_value" : 2147745791,
+     "enum_field_value" : -2147221505,
      "name" : "AUDIO_CHANNEL_INDEX_MASK_18"
     },
     {
-     "enum_field_value" : 2148007935,
+     "enum_field_value" : -2146959361,
      "name" : "AUDIO_CHANNEL_INDEX_MASK_19"
     },
     {
-     "enum_field_value" : 2148532223,
+     "enum_field_value" : -2146435073,
      "name" : "AUDIO_CHANNEL_INDEX_MASK_20"
     },
     {
-     "enum_field_value" : 2149580799,
+     "enum_field_value" : -2145386497,
      "name" : "AUDIO_CHANNEL_INDEX_MASK_21"
     },
     {
-     "enum_field_value" : 2151677951,
+     "enum_field_value" : -2143289345,
      "name" : "AUDIO_CHANNEL_INDEX_MASK_22"
     },
     {
-     "enum_field_value" : 2155872255,
+     "enum_field_value" : -2139095041,
      "name" : "AUDIO_CHANNEL_INDEX_MASK_23"
     },
     {
-     "enum_field_value" : 2164260863,
+     "enum_field_value" : -2130706433,
      "name" : "AUDIO_CHANNEL_INDEX_MASK_24"
     },
     {
@@ -4957,7 +4949,7 @@
      "name" : "AUDIO_CHANNEL_IN_ALL"
     },
     {
-     "enum_field_value" : 3221225472,
+     "enum_field_value" : -1073741824,
      "name" : "AUDIO_CHANNEL_INVALID"
     }
    ],
@@ -5679,7 +5671,7 @@
      "name" : "AUDIO_CHANNEL_COUNT_MAX"
     },
     {
-     "enum_field_value" : 2147483648,
+     "enum_field_value" : -2147483648,
      "name" : "AUDIO_CHANNEL_INDEX_HDR"
     }
    ],
@@ -5754,7 +5746,7 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : 2147483648,
+     "enum_field_value" : -2147483648,
      "name" : "AUDIO_DEVICE_BIT_IN"
     },
     {
@@ -5775,7 +5767,7 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : 4278190080,
+     "enum_field_value" : -16777216,
      "name" : "AUDIO_FORMAT_MAIN_MASK"
     },
     {
@@ -14889,7 +14881,7 @@
   {
    "access" : "private",
    "linker_set_key" : "_ZN7android11audio_utils12BiquadFilterIfLb1ENS0_7details25DefaultBiquadConstOptionsEE12mFilterFuncsE",
-   "name" : "android::audio_utils::BiquadFilter<>::mFilterFuncs",
+   "name" : "android::audio_utils::BiquadFilter<float, true>::mFilterFuncs",
    "referenced_type" : "_ZTIKNSt3__15arrayIPFvPfPKfmmmS1_S3_mN7android11audio_utils7details13FILTER_OPTIONEELm32EEE",
    "source_file" : "system/media/audio_utils/include/audio_utils/BiquadFilter.h"
   },
@@ -16528,7 +16520,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPN7android11audio_utils16BiquadStateSpaceI13__Float32x4_tfLb0EEE",
-   "name" : "android::audio_utils::BiquadStateSpace<__attribute__((neon_vector_type(4))) float, float> *",
+   "name" : "android::audio_utils::BiquadStateSpace<__attribute__((neon_vector_type(4))) float, float, false> *",
    "referenced_type" : "_ZTIN7android11audio_utils16BiquadStateSpaceI13__Float32x4_tfLb0EEE",
    "self_type" : "_ZTIPN7android11audio_utils16BiquadStateSpaceI13__Float32x4_tfLb0EEE",
    "size" : 8,
@@ -16537,7 +16529,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPN7android11audio_utils16BiquadStateSpaceI13float32x4x2_tfLb0EEE",
-   "name" : "android::audio_utils::BiquadStateSpace<float32x4x2_t, float> *",
+   "name" : "android::audio_utils::BiquadStateSpace<float32x4x2_t, float, false> *",
    "referenced_type" : "_ZTIN7android11audio_utils16BiquadStateSpaceI13float32x4x2_tfLb0EEE",
    "self_type" : "_ZTIPN7android11audio_utils16BiquadStateSpaceI13float32x4x2_tfLb0EEE",
    "size" : 8,
@@ -16546,7 +16538,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPN7android11audio_utils16BiquadStateSpaceI13float32x4x4_tfLb0EEE",
-   "name" : "android::audio_utils::BiquadStateSpace<float32x4x4_t, float> *",
+   "name" : "android::audio_utils::BiquadStateSpace<float32x4x4_t, float, false> *",
    "referenced_type" : "_ZTIN7android11audio_utils16BiquadStateSpaceI13float32x4x4_tfLb0EEE",
    "self_type" : "_ZTIPN7android11audio_utils16BiquadStateSpaceI13float32x4x4_tfLb0EEE",
    "size" : 8,
@@ -16663,7 +16655,7 @@
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIPN7android11audio_utils16BiquadStateSpaceIffLb0EEE",
-   "name" : "android::audio_utils::BiquadStateSpace<float, float> *",
+   "name" : "android::audio_utils::BiquadStateSpace<float, float, false> *",
    "referenced_type" : "_ZTIN7android11audio_utils16BiquadStateSpaceIffLb0EEE",
    "self_type" : "_ZTIPN7android11audio_utils16BiquadStateSpaceIffLb0EEE",
    "size" : 8,
@@ -21372,7 +21364,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN7android11audio_utils16BiquadStateSpaceI13__Float32x4_tfLb0EEE",
-   "name" : "android::audio_utils::BiquadStateSpace<__attribute__((neon_vector_type(4))) float, float>",
+   "name" : "android::audio_utils::BiquadStateSpace<__attribute__((neon_vector_type(4))) float, float, false>",
    "referenced_type" : "_ZTIN7android11audio_utils16BiquadStateSpaceI13__Float32x4_tfLb0EEE",
    "self_type" : "_ZTIN7android11audio_utils16BiquadStateSpaceI13__Float32x4_tfLb0EEE",
    "size" : 64,
@@ -21398,7 +21390,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN7android11audio_utils16BiquadStateSpaceI13float32x4x2_tfLb0EEE",
-   "name" : "android::audio_utils::BiquadStateSpace<float32x4x2_t, float>",
+   "name" : "android::audio_utils::BiquadStateSpace<float32x4x2_t, float, false>",
    "referenced_type" : "_ZTIN7android11audio_utils16BiquadStateSpaceI13float32x4x2_tfLb0EEE",
    "self_type" : "_ZTIN7android11audio_utils16BiquadStateSpaceI13float32x4x2_tfLb0EEE",
    "size" : 96,
@@ -21424,7 +21416,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN7android11audio_utils16BiquadStateSpaceI13float32x4x4_tfLb0EEE",
-   "name" : "android::audio_utils::BiquadStateSpace<float32x4x4_t, float>",
+   "name" : "android::audio_utils::BiquadStateSpace<float32x4x4_t, float, false>",
    "referenced_type" : "_ZTIN7android11audio_utils16BiquadStateSpaceI13float32x4x4_tfLb0EEE",
    "self_type" : "_ZTIN7android11audio_utils16BiquadStateSpaceI13float32x4x4_tfLb0EEE",
    "size" : 160,
@@ -21762,7 +21754,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN7android11audio_utils16BiquadStateSpaceIffLb0EEE",
-   "name" : "android::audio_utils::BiquadStateSpace<float, float>",
+   "name" : "android::audio_utils::BiquadStateSpace<float, float, false>",
    "referenced_type" : "_ZTIN7android11audio_utils16BiquadStateSpaceIffLb0EEE",
    "self_type" : "_ZTIN7android11audio_utils16BiquadStateSpaceIffLb0EEE",
    "size" : 28,
