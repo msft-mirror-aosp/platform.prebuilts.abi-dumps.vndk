@@ -1,0 +1,4778 @@
+{
+ "array_types" : [],
+ "builtin_types" :
+ [
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIc",
+   "name" : "char",
+   "size" : 1
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTId",
+   "name" : "double",
+   "size" : 8
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIf",
+   "name" : "float",
+   "size" : 4
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIh",
+   "name" : "unsigned char",
+   "size" : 1
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIi",
+   "name" : "int",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIj",
+   "name" : "unsigned int",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIl",
+   "name" : "long",
+   "size" : 4
+  },
+  {
+   "linker_set_key" : "_ZTIv",
+   "name" : "void"
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIx",
+   "name" : "long long",
+   "size" : 8
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIy",
+   "name" : "unsigned long long",
+   "size" : 8
+  }
+ ],
+ "elf_functions" :
+ [
+  {
+   "name" : "glActiveTexture"
+  },
+  {
+   "name" : "glAttachShader"
+  },
+  {
+   "name" : "glBeginPerfMonitorAMD"
+  },
+  {
+   "name" : "glBindAttribLocation"
+  },
+  {
+   "name" : "glBindBuffer"
+  },
+  {
+   "name" : "glBindFramebuffer"
+  },
+  {
+   "name" : "glBindRenderbuffer"
+  },
+  {
+   "name" : "glBindTexture"
+  },
+  {
+   "name" : "glBindVertexArrayOES"
+  },
+  {
+   "name" : "glBlendColor"
+  },
+  {
+   "name" : "glBlendEquation"
+  },
+  {
+   "name" : "glBlendEquationSeparate"
+  },
+  {
+   "name" : "glBlendFunc"
+  },
+  {
+   "name" : "glBlendFuncSeparate"
+  },
+  {
+   "name" : "glBufferData"
+  },
+  {
+   "name" : "glBufferSubData"
+  },
+  {
+   "name" : "glCheckFramebufferStatus"
+  },
+  {
+   "name" : "glClear"
+  },
+  {
+   "name" : "glClearColor"
+  },
+  {
+   "name" : "glClearDepthf"
+  },
+  {
+   "name" : "glClearStencil"
+  },
+  {
+   "name" : "glColorMask"
+  },
+  {
+   "name" : "glCompileShader"
+  },
+  {
+   "name" : "glCompressedTexImage2D"
+  },
+  {
+   "name" : "glCompressedTexImage3DOES"
+  },
+  {
+   "name" : "glCompressedTexSubImage2D"
+  },
+  {
+   "name" : "glCompressedTexSubImage3DOES"
+  },
+  {
+   "name" : "glCopyTexImage2D"
+  },
+  {
+   "name" : "glCopyTexSubImage2D"
+  },
+  {
+   "name" : "glCopyTexSubImage3DOES"
+  },
+  {
+   "name" : "glCoverageMaskNV"
+  },
+  {
+   "name" : "glCoverageOperationNV"
+  },
+  {
+   "name" : "glCreateProgram"
+  },
+  {
+   "name" : "glCreateShader"
+  },
+  {
+   "name" : "glCullFace"
+  },
+  {
+   "name" : "glDeleteBuffers"
+  },
+  {
+   "name" : "glDeleteFencesNV"
+  },
+  {
+   "name" : "glDeleteFramebuffers"
+  },
+  {
+   "name" : "glDeletePerfMonitorsAMD"
+  },
+  {
+   "name" : "glDeleteProgram"
+  },
+  {
+   "name" : "glDeleteRenderbuffers"
+  },
+  {
+   "name" : "glDeleteShader"
+  },
+  {
+   "name" : "glDeleteTextures"
+  },
+  {
+   "name" : "glDeleteVertexArraysOES"
+  },
+  {
+   "name" : "glDepthFunc"
+  },
+  {
+   "name" : "glDepthMask"
+  },
+  {
+   "name" : "glDepthRangef"
+  },
+  {
+   "name" : "glDetachShader"
+  },
+  {
+   "name" : "glDisable"
+  },
+  {
+   "name" : "glDisableDriverControlQCOM"
+  },
+  {
+   "name" : "glDisableVertexAttribArray"
+  },
+  {
+   "name" : "glDiscardFramebufferEXT"
+  },
+  {
+   "name" : "glDrawArrays"
+  },
+  {
+   "name" : "glDrawElements"
+  },
+  {
+   "name" : "glEGLImageTargetRenderbufferStorageOES"
+  },
+  {
+   "name" : "glEGLImageTargetTexture2DOES"
+  },
+  {
+   "name" : "glEnable"
+  },
+  {
+   "name" : "glEnableDriverControlQCOM"
+  },
+  {
+   "name" : "glEnableVertexAttribArray"
+  },
+  {
+   "name" : "glEndPerfMonitorAMD"
+  },
+  {
+   "name" : "glEndTilingQCOM"
+  },
+  {
+   "name" : "glExtGetBufferPointervQCOM"
+  },
+  {
+   "name" : "glExtGetBuffersQCOM"
+  },
+  {
+   "name" : "glExtGetFramebuffersQCOM"
+  },
+  {
+   "name" : "glExtGetProgramBinarySourceQCOM"
+  },
+  {
+   "name" : "glExtGetProgramsQCOM"
+  },
+  {
+   "name" : "glExtGetRenderbuffersQCOM"
+  },
+  {
+   "name" : "glExtGetShadersQCOM"
+  },
+  {
+   "name" : "glExtGetTexLevelParameterivQCOM"
+  },
+  {
+   "name" : "glExtGetTexSubImageQCOM"
+  },
+  {
+   "name" : "glExtGetTexturesQCOM"
+  },
+  {
+   "name" : "glExtIsProgramBinaryQCOM"
+  },
+  {
+   "name" : "glExtTexObjectStateOverrideiQCOM"
+  },
+  {
+   "name" : "glFinish"
+  },
+  {
+   "name" : "glFinishFenceNV"
+  },
+  {
+   "name" : "glFlush"
+  },
+  {
+   "name" : "glFramebufferRenderbuffer"
+  },
+  {
+   "name" : "glFramebufferTexture2D"
+  },
+  {
+   "name" : "glFramebufferTexture2DMultisampleEXT"
+  },
+  {
+   "name" : "glFramebufferTexture2DMultisampleIMG"
+  },
+  {
+   "name" : "glFramebufferTexture3DOES"
+  },
+  {
+   "name" : "glFrontFace"
+  },
+  {
+   "name" : "glGenBuffers"
+  },
+  {
+   "name" : "glGenFencesNV"
+  },
+  {
+   "name" : "glGenFramebuffers"
+  },
+  {
+   "name" : "glGenPerfMonitorsAMD"
+  },
+  {
+   "name" : "glGenRenderbuffers"
+  },
+  {
+   "name" : "glGenTextures"
+  },
+  {
+   "name" : "glGenVertexArraysOES"
+  },
+  {
+   "name" : "glGenerateMipmap"
+  },
+  {
+   "name" : "glGetActiveAttrib"
+  },
+  {
+   "name" : "glGetActiveUniform"
+  },
+  {
+   "name" : "glGetAttachedShaders"
+  },
+  {
+   "name" : "glGetAttribLocation"
+  },
+  {
+   "name" : "glGetBooleanv"
+  },
+  {
+   "name" : "glGetBufferParameteriv"
+  },
+  {
+   "name" : "glGetBufferPointervOES"
+  },
+  {
+   "name" : "glGetDriverControlStringQCOM"
+  },
+  {
+   "name" : "glGetDriverControlsQCOM"
+  },
+  {
+   "name" : "glGetError"
+  },
+  {
+   "name" : "glGetFenceivNV"
+  },
+  {
+   "name" : "glGetFloatv"
+  },
+  {
+   "name" : "glGetFramebufferAttachmentParameteriv"
+  },
+  {
+   "name" : "glGetIntegerv"
+  },
+  {
+   "name" : "glGetPerfMonitorCounterDataAMD"
+  },
+  {
+   "name" : "glGetPerfMonitorCounterInfoAMD"
+  },
+  {
+   "name" : "glGetPerfMonitorCounterStringAMD"
+  },
+  {
+   "name" : "glGetPerfMonitorCountersAMD"
+  },
+  {
+   "name" : "glGetPerfMonitorGroupStringAMD"
+  },
+  {
+   "name" : "glGetPerfMonitorGroupsAMD"
+  },
+  {
+   "name" : "glGetProgramBinaryOES"
+  },
+  {
+   "name" : "glGetProgramInfoLog"
+  },
+  {
+   "name" : "glGetProgramiv"
+  },
+  {
+   "name" : "glGetRenderbufferParameteriv"
+  },
+  {
+   "name" : "glGetShaderInfoLog"
+  },
+  {
+   "name" : "glGetShaderPrecisionFormat"
+  },
+  {
+   "name" : "glGetShaderSource"
+  },
+  {
+   "name" : "glGetShaderiv"
+  },
+  {
+   "name" : "glGetString"
+  },
+  {
+   "name" : "glGetTexParameterfv"
+  },
+  {
+   "name" : "glGetTexParameteriv"
+  },
+  {
+   "name" : "glGetUniformLocation"
+  },
+  {
+   "name" : "glGetUniformfv"
+  },
+  {
+   "name" : "glGetUniformiv"
+  },
+  {
+   "name" : "glGetVertexAttribPointerv"
+  },
+  {
+   "name" : "glGetVertexAttribfv"
+  },
+  {
+   "name" : "glGetVertexAttribiv"
+  },
+  {
+   "name" : "glHint"
+  },
+  {
+   "name" : "glIsBuffer"
+  },
+  {
+   "name" : "glIsEnabled"
+  },
+  {
+   "name" : "glIsFenceNV"
+  },
+  {
+   "name" : "glIsFramebuffer"
+  },
+  {
+   "name" : "glIsProgram"
+  },
+  {
+   "name" : "glIsRenderbuffer"
+  },
+  {
+   "name" : "glIsShader"
+  },
+  {
+   "name" : "glIsTexture"
+  },
+  {
+   "name" : "glIsVertexArrayOES"
+  },
+  {
+   "name" : "glLineWidth"
+  },
+  {
+   "name" : "glLinkProgram"
+  },
+  {
+   "name" : "glMapBufferOES"
+  },
+  {
+   "name" : "glMultiDrawArraysEXT"
+  },
+  {
+   "name" : "glMultiDrawElementsEXT"
+  },
+  {
+   "name" : "glPixelStorei"
+  },
+  {
+   "name" : "glPolygonOffset"
+  },
+  {
+   "name" : "glProgramBinaryOES"
+  },
+  {
+   "name" : "glReadPixels"
+  },
+  {
+   "name" : "glReleaseShaderCompiler"
+  },
+  {
+   "name" : "glRenderbufferStorage"
+  },
+  {
+   "name" : "glRenderbufferStorageMultisampleEXT"
+  },
+  {
+   "name" : "glRenderbufferStorageMultisampleIMG"
+  },
+  {
+   "name" : "glSampleCoverage"
+  },
+  {
+   "name" : "glScissor"
+  },
+  {
+   "name" : "glSelectPerfMonitorCountersAMD"
+  },
+  {
+   "name" : "glSetFenceNV"
+  },
+  {
+   "name" : "glShaderBinary"
+  },
+  {
+   "name" : "glShaderSource"
+  },
+  {
+   "name" : "glStartTilingQCOM"
+  },
+  {
+   "name" : "glStencilFunc"
+  },
+  {
+   "name" : "glStencilFuncSeparate"
+  },
+  {
+   "name" : "glStencilMask"
+  },
+  {
+   "name" : "glStencilMaskSeparate"
+  },
+  {
+   "name" : "glStencilOp"
+  },
+  {
+   "name" : "glStencilOpSeparate"
+  },
+  {
+   "name" : "glTestFenceNV"
+  },
+  {
+   "name" : "glTexImage2D"
+  },
+  {
+   "name" : "glTexImage3DOES"
+  },
+  {
+   "name" : "glTexParameterf"
+  },
+  {
+   "name" : "glTexParameterfv"
+  },
+  {
+   "name" : "glTexParameteri"
+  },
+  {
+   "name" : "glTexParameteriv"
+  },
+  {
+   "name" : "glTexSubImage2D"
+  },
+  {
+   "name" : "glTexSubImage3DOES"
+  },
+  {
+   "name" : "glUniform1f"
+  },
+  {
+   "name" : "glUniform1fv"
+  },
+  {
+   "name" : "glUniform1i"
+  },
+  {
+   "name" : "glUniform1iv"
+  },
+  {
+   "name" : "glUniform2f"
+  },
+  {
+   "name" : "glUniform2fv"
+  },
+  {
+   "name" : "glUniform2i"
+  },
+  {
+   "name" : "glUniform2iv"
+  },
+  {
+   "name" : "glUniform3f"
+  },
+  {
+   "name" : "glUniform3fv"
+  },
+  {
+   "name" : "glUniform3i"
+  },
+  {
+   "name" : "glUniform3iv"
+  },
+  {
+   "name" : "glUniform4f"
+  },
+  {
+   "name" : "glUniform4fv"
+  },
+  {
+   "name" : "glUniform4i"
+  },
+  {
+   "name" : "glUniform4iv"
+  },
+  {
+   "name" : "glUniformMatrix2fv"
+  },
+  {
+   "name" : "glUniformMatrix3fv"
+  },
+  {
+   "name" : "glUniformMatrix4fv"
+  },
+  {
+   "name" : "glUnmapBufferOES"
+  },
+  {
+   "name" : "glUseProgram"
+  },
+  {
+   "name" : "glValidateProgram"
+  },
+  {
+   "name" : "glVertexAttrib1f"
+  },
+  {
+   "name" : "glVertexAttrib1fv"
+  },
+  {
+   "name" : "glVertexAttrib2f"
+  },
+  {
+   "name" : "glVertexAttrib2fv"
+  },
+  {
+   "name" : "glVertexAttrib3f"
+  },
+  {
+   "name" : "glVertexAttrib3fv"
+  },
+  {
+   "name" : "glVertexAttrib4f"
+  },
+  {
+   "name" : "glVertexAttrib4fv"
+  },
+  {
+   "name" : "glVertexAttribPointer"
+  },
+  {
+   "name" : "glViewport"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" :
+ [
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "KHRONOS_FALSE"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "KHRONOS_TRUE"
+    },
+    {
+     "enum_field_value" : 2147483647,
+     "name" : "KHRONOS_BOOLEAN_ENUM_FORCE_SIZE"
+    }
+   ],
+   "linker_set_key" : "_ZTI22khronos_boolean_enum_t",
+   "name" : "khronos_boolean_enum_t",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/KHR/khrplatform.h",
+   "underlying_type" : "_ZTIj"
+  }
+ ],
+ "function_types" :
+ [
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvjjjjiPKcPKvE",
+   "name" : "void (unsigned int, unsigned int, unsigned int, unsigned int, int, const char *, const void *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvvE",
+   "name" : "void ()",
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  }
+ ],
+ "functions" :
+ [
+  {
+   "function_name" : "glActiveTexture",
+   "linker_set_key" : "glActiveTexture",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glAttachShader",
+   "linker_set_key" : "glAttachShader",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glBeginPerfMonitorAMD",
+   "linker_set_key" : "glBeginPerfMonitorAMD",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "function_name" : "glBindAttribLocation",
+   "linker_set_key" : "glBindAttribLocation",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glBindBuffer",
+   "linker_set_key" : "glBindBuffer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glBindFramebuffer",
+   "linker_set_key" : "glBindFramebuffer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glBindRenderbuffer",
+   "linker_set_key" : "glBindRenderbuffer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glBindTexture",
+   "linker_set_key" : "glBindTexture",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glBindVertexArrayOES",
+   "linker_set_key" : "glBindVertexArrayOES",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glBlendColor",
+   "linker_set_key" : "glBlendColor",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glBlendEquation",
+   "linker_set_key" : "glBlendEquation",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glBlendEquationSeparate",
+   "linker_set_key" : "glBlendEquationSeparate",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glBlendFunc",
+   "linker_set_key" : "glBlendFunc",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glBlendFuncSeparate",
+   "linker_set_key" : "glBlendFuncSeparate",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glBufferData",
+   "linker_set_key" : "glBufferData",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glBufferSubData",
+   "linker_set_key" : "glBufferSubData",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glCheckFramebufferStatus",
+   "linker_set_key" : "glCheckFramebufferStatus",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glClear",
+   "linker_set_key" : "glClear",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glClearColor",
+   "linker_set_key" : "glClearColor",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glClearDepthf",
+   "linker_set_key" : "glClearDepthf",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glClearStencil",
+   "linker_set_key" : "glClearStencil",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glColorMask",
+   "linker_set_key" : "glColorMask",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIh"
+    },
+    {
+     "referenced_type" : "_ZTIh"
+    },
+    {
+     "referenced_type" : "_ZTIh"
+    },
+    {
+     "referenced_type" : "_ZTIh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glCompileShader",
+   "linker_set_key" : "glCompileShader",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glCompressedTexImage2D",
+   "linker_set_key" : "glCompressedTexImage2D",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glCompressedTexImage3DOES",
+   "linker_set_key" : "glCompressedTexImage3DOES",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "function_name" : "glCompressedTexSubImage2D",
+   "linker_set_key" : "glCompressedTexSubImage2D",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glCompressedTexSubImage3DOES",
+   "linker_set_key" : "glCompressedTexSubImage3DOES",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "function_name" : "glCopyTexImage2D",
+   "linker_set_key" : "glCopyTexImage2D",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glCopyTexSubImage2D",
+   "linker_set_key" : "glCopyTexSubImage2D",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glCopyTexSubImage3DOES",
+   "linker_set_key" : "glCopyTexSubImage3DOES",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "function_name" : "glCoverageMaskNV",
+   "linker_set_key" : "glCoverageMaskNV",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "function_name" : "glCoverageOperationNV",
+   "linker_set_key" : "glCoverageOperationNV",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "function_name" : "glCreateProgram",
+   "linker_set_key" : "glCreateProgram",
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glCreateShader",
+   "linker_set_key" : "glCreateShader",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glCullFace",
+   "linker_set_key" : "glCullFace",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glDeleteBuffers",
+   "linker_set_key" : "glDeleteBuffers",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glDeleteFencesNV",
+   "linker_set_key" : "glDeleteFencesNV",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glDeleteFramebuffers",
+   "linker_set_key" : "glDeleteFramebuffers",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glDeletePerfMonitorsAMD",
+   "linker_set_key" : "glDeletePerfMonitorsAMD",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "function_name" : "glDeleteProgram",
+   "linker_set_key" : "glDeleteProgram",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glDeleteRenderbuffers",
+   "linker_set_key" : "glDeleteRenderbuffers",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glDeleteShader",
+   "linker_set_key" : "glDeleteShader",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glDeleteTextures",
+   "linker_set_key" : "glDeleteTextures",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glDeleteVertexArraysOES",
+   "linker_set_key" : "glDeleteVertexArraysOES",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glDepthFunc",
+   "linker_set_key" : "glDepthFunc",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glDepthMask",
+   "linker_set_key" : "glDepthMask",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glDepthRangef",
+   "linker_set_key" : "glDepthRangef",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glDetachShader",
+   "linker_set_key" : "glDetachShader",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glDisable",
+   "linker_set_key" : "glDisable",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glDisableDriverControlQCOM",
+   "linker_set_key" : "glDisableDriverControlQCOM",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glDisableVertexAttribArray",
+   "linker_set_key" : "glDisableVertexAttribArray",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glDiscardFramebufferEXT",
+   "linker_set_key" : "glDiscardFramebufferEXT",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glDrawArrays",
+   "linker_set_key" : "glDrawArrays",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glDrawElements",
+   "linker_set_key" : "glDrawElements",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glEGLImageTargetRenderbufferStorageOES",
+   "linker_set_key" : "glEGLImageTargetRenderbufferStorageOES",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glEGLImageTargetTexture2DOES",
+   "linker_set_key" : "glEGLImageTargetTexture2DOES",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glEnable",
+   "linker_set_key" : "glEnable",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glEnableDriverControlQCOM",
+   "linker_set_key" : "glEnableDriverControlQCOM",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glEnableVertexAttribArray",
+   "linker_set_key" : "glEnableVertexAttribArray",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glEndPerfMonitorAMD",
+   "linker_set_key" : "glEndPerfMonitorAMD",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "function_name" : "glEndTilingQCOM",
+   "linker_set_key" : "glEndTilingQCOM",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glExtGetBufferPointervQCOM",
+   "linker_set_key" : "glExtGetBufferPointervQCOM",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glExtGetBuffersQCOM",
+   "linker_set_key" : "glExtGetBuffersQCOM",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glExtGetFramebuffersQCOM",
+   "linker_set_key" : "glExtGetFramebuffersQCOM",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glExtGetProgramBinarySourceQCOM",
+   "linker_set_key" : "glExtGetProgramBinarySourceQCOM",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPc"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glExtGetProgramsQCOM",
+   "linker_set_key" : "glExtGetProgramsQCOM",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glExtGetRenderbuffersQCOM",
+   "linker_set_key" : "glExtGetRenderbuffersQCOM",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glExtGetShadersQCOM",
+   "linker_set_key" : "glExtGetShadersQCOM",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glExtGetTexLevelParameterivQCOM",
+   "linker_set_key" : "glExtGetTexLevelParameterivQCOM",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glExtGetTexSubImageQCOM",
+   "linker_set_key" : "glExtGetTexSubImageQCOM",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glExtGetTexturesQCOM",
+   "linker_set_key" : "glExtGetTexturesQCOM",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glExtIsProgramBinaryQCOM",
+   "linker_set_key" : "glExtIsProgramBinaryQCOM",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIh",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glExtTexObjectStateOverrideiQCOM",
+   "linker_set_key" : "glExtTexObjectStateOverrideiQCOM",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glFinish",
+   "linker_set_key" : "glFinish",
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glFinishFenceNV",
+   "linker_set_key" : "glFinishFenceNV",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glFlush",
+   "linker_set_key" : "glFlush",
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glFramebufferRenderbuffer",
+   "linker_set_key" : "glFramebufferRenderbuffer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glFramebufferTexture2D",
+   "linker_set_key" : "glFramebufferTexture2D",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glFramebufferTexture2DMultisampleEXT",
+   "linker_set_key" : "glFramebufferTexture2DMultisampleEXT",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glFramebufferTexture2DMultisampleIMG",
+   "linker_set_key" : "glFramebufferTexture2DMultisampleIMG",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glFramebufferTexture3DOES",
+   "linker_set_key" : "glFramebufferTexture3DOES",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "function_name" : "glFrontFace",
+   "linker_set_key" : "glFrontFace",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glGenBuffers",
+   "linker_set_key" : "glGenBuffers",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glGenFencesNV",
+   "linker_set_key" : "glGenFencesNV",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glGenFramebuffers",
+   "linker_set_key" : "glGenFramebuffers",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glGenPerfMonitorsAMD",
+   "linker_set_key" : "glGenPerfMonitorsAMD",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "function_name" : "glGenRenderbuffers",
+   "linker_set_key" : "glGenRenderbuffers",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glGenTextures",
+   "linker_set_key" : "glGenTextures",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glGenVertexArraysOES",
+   "linker_set_key" : "glGenVertexArraysOES",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glGenerateMipmap",
+   "linker_set_key" : "glGenerateMipmap",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glGetActiveAttrib",
+   "linker_set_key" : "glGetActiveAttrib",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIPc"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glGetActiveUniform",
+   "linker_set_key" : "glGetActiveUniform",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIPc"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glGetAttachedShaders",
+   "linker_set_key" : "glGetAttachedShaders",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glGetAttribLocation",
+   "linker_set_key" : "glGetAttribLocation",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glGetBooleanv",
+   "linker_set_key" : "glGetBooleanv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glGetBufferParameteriv",
+   "linker_set_key" : "glGetBufferParameteriv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glGetBufferPointervOES",
+   "linker_set_key" : "glGetBufferPointervOES",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glGetDriverControlStringQCOM",
+   "linker_set_key" : "glGetDriverControlStringQCOM",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPc"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glGetDriverControlsQCOM",
+   "linker_set_key" : "glGetDriverControlsQCOM",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glGetError",
+   "linker_set_key" : "glGetError",
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glGetFenceivNV",
+   "linker_set_key" : "glGetFenceivNV",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glGetFloatv",
+   "linker_set_key" : "glGetFloatv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glGetFramebufferAttachmentParameteriv",
+   "linker_set_key" : "glGetFramebufferAttachmentParameteriv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glGetIntegerv",
+   "linker_set_key" : "glGetIntegerv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glGetPerfMonitorCounterDataAMD",
+   "linker_set_key" : "glGetPerfMonitorCounterDataAMD",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "function_name" : "glGetPerfMonitorCounterInfoAMD",
+   "linker_set_key" : "glGetPerfMonitorCounterInfoAMD",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "function_name" : "glGetPerfMonitorCounterStringAMD",
+   "linker_set_key" : "glGetPerfMonitorCounterStringAMD",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPc"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "function_name" : "glGetPerfMonitorCountersAMD",
+   "linker_set_key" : "glGetPerfMonitorCountersAMD",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "function_name" : "glGetPerfMonitorGroupStringAMD",
+   "linker_set_key" : "glGetPerfMonitorGroupStringAMD",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPc"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "function_name" : "glGetPerfMonitorGroupsAMD",
+   "linker_set_key" : "glGetPerfMonitorGroupsAMD",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "function_name" : "glGetProgramBinaryOES",
+   "linker_set_key" : "glGetProgramBinaryOES",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "function_name" : "glGetProgramInfoLog",
+   "linker_set_key" : "glGetProgramInfoLog",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPc"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glGetProgramiv",
+   "linker_set_key" : "glGetProgramiv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glGetRenderbufferParameteriv",
+   "linker_set_key" : "glGetRenderbufferParameteriv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glGetShaderInfoLog",
+   "linker_set_key" : "glGetShaderInfoLog",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPc"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glGetShaderPrecisionFormat",
+   "linker_set_key" : "glGetShaderPrecisionFormat",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glGetShaderSource",
+   "linker_set_key" : "glGetShaderSource",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPc"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glGetShaderiv",
+   "linker_set_key" : "glGetShaderiv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glGetString",
+   "linker_set_key" : "glGetString",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIPKh",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glGetTexParameterfv",
+   "linker_set_key" : "glGetTexParameterfv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glGetTexParameteriv",
+   "linker_set_key" : "glGetTexParameteriv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glGetUniformLocation",
+   "linker_set_key" : "glGetUniformLocation",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glGetUniformfv",
+   "linker_set_key" : "glGetUniformfv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glGetUniformiv",
+   "linker_set_key" : "glGetUniformiv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glGetVertexAttribPointerv",
+   "linker_set_key" : "glGetVertexAttribPointerv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPPv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glGetVertexAttribfv",
+   "linker_set_key" : "glGetVertexAttribfv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glGetVertexAttribiv",
+   "linker_set_key" : "glGetVertexAttribiv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glHint",
+   "linker_set_key" : "glHint",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glIsBuffer",
+   "linker_set_key" : "glIsBuffer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIh",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glIsEnabled",
+   "linker_set_key" : "glIsEnabled",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIh",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glIsFenceNV",
+   "linker_set_key" : "glIsFenceNV",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIh",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glIsFramebuffer",
+   "linker_set_key" : "glIsFramebuffer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIh",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glIsProgram",
+   "linker_set_key" : "glIsProgram",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIh",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glIsRenderbuffer",
+   "linker_set_key" : "glIsRenderbuffer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIh",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glIsShader",
+   "linker_set_key" : "glIsShader",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIh",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glIsTexture",
+   "linker_set_key" : "glIsTexture",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIh",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glIsVertexArrayOES",
+   "linker_set_key" : "glIsVertexArrayOES",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIh",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glLineWidth",
+   "linker_set_key" : "glLineWidth",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glLinkProgram",
+   "linker_set_key" : "glLinkProgram",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glMapBufferOES",
+   "linker_set_key" : "glMapBufferOES",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIPv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glMultiDrawArraysEXT",
+   "linker_set_key" : "glMultiDrawArraysEXT",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glMultiDrawElementsEXT",
+   "linker_set_key" : "glMultiDrawElementsEXT",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKPKv"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glPixelStorei",
+   "linker_set_key" : "glPixelStorei",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glPolygonOffset",
+   "linker_set_key" : "glPolygonOffset",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glProgramBinaryOES",
+   "linker_set_key" : "glProgramBinaryOES",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "function_name" : "glReadPixels",
+   "linker_set_key" : "glReadPixels",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glReleaseShaderCompiler",
+   "linker_set_key" : "glReleaseShaderCompiler",
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glRenderbufferStorage",
+   "linker_set_key" : "glRenderbufferStorage",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glRenderbufferStorageMultisampleEXT",
+   "linker_set_key" : "glRenderbufferStorageMultisampleEXT",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glRenderbufferStorageMultisampleIMG",
+   "linker_set_key" : "glRenderbufferStorageMultisampleIMG",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glSampleCoverage",
+   "linker_set_key" : "glSampleCoverage",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "referenced_type" : "_ZTIh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glScissor",
+   "linker_set_key" : "glScissor",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glSelectPerfMonitorCountersAMD",
+   "linker_set_key" : "glSelectPerfMonitorCountersAMD",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "function_name" : "glSetFenceNV",
+   "linker_set_key" : "glSetFenceNV",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glShaderBinary",
+   "linker_set_key" : "glShaderBinary",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glShaderSource",
+   "linker_set_key" : "glShaderSource",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glStartTilingQCOM",
+   "linker_set_key" : "glStartTilingQCOM",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glStencilFunc",
+   "linker_set_key" : "glStencilFunc",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glStencilFuncSeparate",
+   "linker_set_key" : "glStencilFuncSeparate",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glStencilMask",
+   "linker_set_key" : "glStencilMask",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glStencilMaskSeparate",
+   "linker_set_key" : "glStencilMaskSeparate",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glStencilOp",
+   "linker_set_key" : "glStencilOp",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glStencilOpSeparate",
+   "linker_set_key" : "glStencilOpSeparate",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glTestFenceNV",
+   "linker_set_key" : "glTestFenceNV",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIh",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glTexImage2D",
+   "linker_set_key" : "glTexImage2D",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glTexImage3DOES",
+   "linker_set_key" : "glTexImage3DOES",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "function_name" : "glTexParameterf",
+   "linker_set_key" : "glTexParameterf",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glTexParameterfv",
+   "linker_set_key" : "glTexParameterfv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glTexParameteri",
+   "linker_set_key" : "glTexParameteri",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glTexParameteriv",
+   "linker_set_key" : "glTexParameteriv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glTexSubImage2D",
+   "linker_set_key" : "glTexSubImage2D",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "function_name" : "glTexSubImage3DOES",
+   "linker_set_key" : "glTexSubImage3DOES",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "function_name" : "glUniform1f",
+   "linker_set_key" : "glUniform1f",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glUniform1fv",
+   "linker_set_key" : "glUniform1fv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glUniform1i",
+   "linker_set_key" : "glUniform1i",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glUniform1iv",
+   "linker_set_key" : "glUniform1iv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glUniform2f",
+   "linker_set_key" : "glUniform2f",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glUniform2fv",
+   "linker_set_key" : "glUniform2fv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glUniform2i",
+   "linker_set_key" : "glUniform2i",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glUniform2iv",
+   "linker_set_key" : "glUniform2iv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glUniform3f",
+   "linker_set_key" : "glUniform3f",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glUniform3fv",
+   "linker_set_key" : "glUniform3fv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glUniform3i",
+   "linker_set_key" : "glUniform3i",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glUniform3iv",
+   "linker_set_key" : "glUniform3iv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glUniform4f",
+   "linker_set_key" : "glUniform4f",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glUniform4fv",
+   "linker_set_key" : "glUniform4fv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glUniform4i",
+   "linker_set_key" : "glUniform4i",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glUniform4iv",
+   "linker_set_key" : "glUniform4iv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glUniformMatrix2fv",
+   "linker_set_key" : "glUniformMatrix2fv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIh"
+    },
+    {
+     "referenced_type" : "_ZTIPKf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glUniformMatrix3fv",
+   "linker_set_key" : "glUniformMatrix3fv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIh"
+    },
+    {
+     "referenced_type" : "_ZTIPKf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glUniformMatrix4fv",
+   "linker_set_key" : "glUniformMatrix4fv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIh"
+    },
+    {
+     "referenced_type" : "_ZTIPKf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glUnmapBufferOES",
+   "linker_set_key" : "glUnmapBufferOES",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIh",
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "function_name" : "glUseProgram",
+   "linker_set_key" : "glUseProgram",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glValidateProgram",
+   "linker_set_key" : "glValidateProgram",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glVertexAttrib1f",
+   "linker_set_key" : "glVertexAttrib1f",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glVertexAttrib1fv",
+   "linker_set_key" : "glVertexAttrib1fv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glVertexAttrib2f",
+   "linker_set_key" : "glVertexAttrib2f",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glVertexAttrib2fv",
+   "linker_set_key" : "glVertexAttrib2fv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glVertexAttrib3f",
+   "linker_set_key" : "glVertexAttrib3f",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glVertexAttrib3fv",
+   "linker_set_key" : "glVertexAttrib3fv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glVertexAttrib4f",
+   "linker_set_key" : "glVertexAttrib4f",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glVertexAttrib4fv",
+   "linker_set_key" : "glVertexAttrib4fv",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glVertexAttribPointer",
+   "linker_set_key" : "glVertexAttribPointer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIh"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "function_name" : "glViewport",
+   "linker_set_key" : "glViewport",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  }
+ ],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" :
+ [
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP8__GLsync",
+   "name" : "__GLsync *",
+   "referenced_type" : "_ZTI8__GLsync",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFvjjjjiPKcPKvE",
+   "name" : "void (*)(unsigned int, unsigned int, unsigned int, unsigned int, int, const char *, const void *)",
+   "referenced_type" : "_ZTIFvjjjjiPKcPKvE",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFvvE",
+   "name" : "void (*)()",
+   "referenced_type" : "_ZTIFvvE",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKPKc",
+   "name" : "const char *const *",
+   "referenced_type" : "_ZTIKPKc",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKPKv",
+   "name" : "const void *const *",
+   "referenced_type" : "_ZTIKPKv",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKc",
+   "name" : "const char *",
+   "referenced_type" : "_ZTIKc",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKd",
+   "name" : "const double *",
+   "referenced_type" : "_ZTIKd",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKf",
+   "name" : "const float *",
+   "referenced_type" : "_ZTIKf",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKh",
+   "name" : "const unsigned char *",
+   "referenced_type" : "_ZTIKh",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKi",
+   "name" : "const int *",
+   "referenced_type" : "_ZTIKi",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKj",
+   "name" : "const unsigned int *",
+   "referenced_type" : "_ZTIKj",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKv",
+   "name" : "const void *",
+   "referenced_type" : "_ZTIKv",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKx",
+   "name" : "const long long *",
+   "referenced_type" : "_ZTIKx",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKy",
+   "name" : "const unsigned long long *",
+   "referenced_type" : "_ZTIKy",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPPKc",
+   "name" : "const char **",
+   "referenced_type" : "_ZTIPKc",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPPv",
+   "name" : "void **",
+   "referenced_type" : "_ZTIPv",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPc",
+   "name" : "char *",
+   "referenced_type" : "_ZTIc",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPf",
+   "name" : "float *",
+   "referenced_type" : "_ZTIf",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPh",
+   "name" : "unsigned char *",
+   "referenced_type" : "_ZTIh",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPi",
+   "name" : "int *",
+   "referenced_type" : "_ZTIi",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPj",
+   "name" : "unsigned int *",
+   "referenced_type" : "_ZTIj",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPv",
+   "name" : "void *",
+   "referenced_type" : "_ZTIv",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPx",
+   "name" : "long long *",
+   "referenced_type" : "_ZTIx",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPy",
+   "name" : "unsigned long long *",
+   "referenced_type" : "_ZTIy",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  }
+ ],
+ "qualified_types" :
+ [
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKPKc",
+   "name" : "const char *const",
+   "referenced_type" : "_ZTIPKc",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKPKv",
+   "name" : "const void *const",
+   "referenced_type" : "_ZTIPKv",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES/glext.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKc",
+   "name" : "const char",
+   "referenced_type" : "_ZTIc",
+   "size" : 1,
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKd",
+   "name" : "const double",
+   "referenced_type" : "_ZTId",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKf",
+   "name" : "const float",
+   "referenced_type" : "_ZTIf",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKh",
+   "name" : "const unsigned char",
+   "referenced_type" : "_ZTIh",
+   "size" : 1,
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKi",
+   "name" : "const int",
+   "referenced_type" : "_ZTIi",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKj",
+   "name" : "const unsigned int",
+   "referenced_type" : "_ZTIj",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKv",
+   "name" : "const void",
+   "referenced_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/GLES/gl.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKx",
+   "name" : "const long long",
+   "referenced_type" : "_ZTIx",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKy",
+   "name" : "const unsigned long long",
+   "referenced_type" : "_ZTIy",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/include/GLES2/gl2ext.h"
+  }
+ ],
+ "record_types" :
+ [
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "pData",
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "iWidth",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "iHeight",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "iStride",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "linker_set_key" : "_ZTI17EGLClientPixmapHI",
+   "name" : "EGLClientPixmapHI",
+   "size" : 16,
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  }
+ ],
+ "rvalue_reference_types" : []
+}

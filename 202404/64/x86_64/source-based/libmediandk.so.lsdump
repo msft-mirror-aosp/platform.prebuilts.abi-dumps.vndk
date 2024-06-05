@@ -1,0 +1,6211 @@
+{
+ "array_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIA0_9PsshEntry",
+   "name" : "PsshEntry[0]",
+   "referenced_type" : "_ZTI9PsshEntry",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIA16_h",
+   "name" : "unsigned char[16]",
+   "referenced_type" : "_ZTIh",
+   "size" : 16,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  }
+ ],
+ "builtin_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIDn",
+   "name" : "std::nullptr_t",
+   "size" : 8
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIDs",
+   "name" : "char16_t",
+   "size" : 2
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIa",
+   "name" : "signed char",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIb",
+   "name" : "bool",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIc",
+   "name" : "char",
+   "size" : 1
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTId",
+   "name" : "double",
+   "size" : 8
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIf",
+   "name" : "float",
+   "size" : 4
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIh",
+   "name" : "unsigned char",
+   "size" : 1
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIi",
+   "name" : "int",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIj",
+   "name" : "unsigned int",
+   "size" : 4
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIl",
+   "name" : "long",
+   "size" : 8
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIm",
+   "name" : "unsigned long",
+   "size" : 8
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIs",
+   "name" : "short",
+   "size" : 2
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIt",
+   "name" : "unsigned short",
+   "size" : 2
+  },
+  {
+   "linker_set_key" : "_ZTIv",
+   "name" : "void"
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIx",
+   "name" : "long long",
+   "size" : 8
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIy",
+   "name" : "unsigned long long",
+   "size" : 8
+  }
+ ],
+ "elf_functions" :
+ [
+  {
+   "name" : "AImageReader_acquireLatestImage"
+  },
+  {
+   "name" : "AImageReader_acquireLatestImageAsync"
+  },
+  {
+   "name" : "AImageReader_acquireNextImage"
+  },
+  {
+   "name" : "AImageReader_acquireNextImageAsync"
+  },
+  {
+   "name" : "AImageReader_delete"
+  },
+  {
+   "name" : "AImageReader_getFormat"
+  },
+  {
+   "name" : "AImageReader_getHeight"
+  },
+  {
+   "name" : "AImageReader_getMaxImages"
+  },
+  {
+   "name" : "AImageReader_getWidth"
+  },
+  {
+   "name" : "AImageReader_getWindow"
+  },
+  {
+   "name" : "AImageReader_getWindowNativeHandle"
+  },
+  {
+   "name" : "AImageReader_new"
+  },
+  {
+   "name" : "AImageReader_newWithDataSpace"
+  },
+  {
+   "name" : "AImageReader_newWithUsage"
+  },
+  {
+   "name" : "AImageReader_setBufferRemovedListener"
+  },
+  {
+   "name" : "AImageReader_setImageListener"
+  },
+  {
+   "name" : "AImage_delete"
+  },
+  {
+   "name" : "AImage_deleteAsync"
+  },
+  {
+   "name" : "AImage_getCropRect"
+  },
+  {
+   "name" : "AImage_getDataSpace"
+  },
+  {
+   "name" : "AImage_getFormat"
+  },
+  {
+   "name" : "AImage_getHardwareBuffer"
+  },
+  {
+   "name" : "AImage_getHeight"
+  },
+  {
+   "name" : "AImage_getNumberOfPlanes"
+  },
+  {
+   "name" : "AImage_getPlaneData"
+  },
+  {
+   "name" : "AImage_getPlanePixelStride"
+  },
+  {
+   "name" : "AImage_getPlaneRowStride"
+  },
+  {
+   "name" : "AImage_getTimestamp"
+  },
+  {
+   "name" : "AImage_getWidth"
+  },
+  {
+   "name" : "AMediaCodecActionCode_isRecoverable"
+  },
+  {
+   "name" : "AMediaCodecActionCode_isTransient"
+  },
+  {
+   "name" : "AMediaCodecCryptoInfo_delete"
+  },
+  {
+   "name" : "AMediaCodecCryptoInfo_getClearBytes"
+  },
+  {
+   "name" : "AMediaCodecCryptoInfo_getEncryptedBytes"
+  },
+  {
+   "name" : "AMediaCodecCryptoInfo_getIV"
+  },
+  {
+   "name" : "AMediaCodecCryptoInfo_getKey"
+  },
+  {
+   "name" : "AMediaCodecCryptoInfo_getMode"
+  },
+  {
+   "name" : "AMediaCodecCryptoInfo_getNumSubSamples"
+  },
+  {
+   "name" : "AMediaCodecCryptoInfo_new"
+  },
+  {
+   "name" : "AMediaCodecCryptoInfo_setPattern"
+  },
+  {
+   "name" : "AMediaCodec_configure"
+  },
+  {
+   "name" : "AMediaCodec_createCodecByName"
+  },
+  {
+   "name" : "AMediaCodec_createDecoderByType"
+  },
+  {
+   "name" : "AMediaCodec_createEncoderByType"
+  },
+  {
+   "name" : "AMediaCodec_createInputSurface"
+  },
+  {
+   "name" : "AMediaCodec_createPersistentInputSurface"
+  },
+  {
+   "name" : "AMediaCodec_delete"
+  },
+  {
+   "name" : "AMediaCodec_dequeueInputBuffer"
+  },
+  {
+   "name" : "AMediaCodec_dequeueOutputBuffer"
+  },
+  {
+   "name" : "AMediaCodec_flush"
+  },
+  {
+   "name" : "AMediaCodec_getBufferFormat"
+  },
+  {
+   "name" : "AMediaCodec_getInputBuffer"
+  },
+  {
+   "name" : "AMediaCodec_getInputFormat"
+  },
+  {
+   "name" : "AMediaCodec_getName"
+  },
+  {
+   "name" : "AMediaCodec_getOutputBuffer"
+  },
+  {
+   "name" : "AMediaCodec_getOutputFormat"
+  },
+  {
+   "name" : "AMediaCodec_queueInputBuffer"
+  },
+  {
+   "name" : "AMediaCodec_queueSecureInputBuffer"
+  },
+  {
+   "name" : "AMediaCodec_releaseCrypto"
+  },
+  {
+   "name" : "AMediaCodec_releaseName"
+  },
+  {
+   "name" : "AMediaCodec_releaseOutputBuffer"
+  },
+  {
+   "name" : "AMediaCodec_releaseOutputBufferAtTime"
+  },
+  {
+   "name" : "AMediaCodec_setAsyncNotifyCallback"
+  },
+  {
+   "name" : "AMediaCodec_setInputSurface"
+  },
+  {
+   "name" : "AMediaCodec_setOnFrameRenderedCallback"
+  },
+  {
+   "name" : "AMediaCodec_setOutputSurface"
+  },
+  {
+   "name" : "AMediaCodec_setParameters"
+  },
+  {
+   "name" : "AMediaCodec_signalEndOfInputStream"
+  },
+  {
+   "name" : "AMediaCodec_start"
+  },
+  {
+   "name" : "AMediaCodec_stop"
+  },
+  {
+   "name" : "AMediaCrypto_delete"
+  },
+  {
+   "name" : "AMediaCrypto_isCryptoSchemeSupported"
+  },
+  {
+   "name" : "AMediaCrypto_new"
+  },
+  {
+   "name" : "AMediaCrypto_requiresSecureDecoderComponent"
+  },
+  {
+   "name" : "AMediaDataSource_close"
+  },
+  {
+   "name" : "AMediaDataSource_delete"
+  },
+  {
+   "name" : "AMediaDataSource_new"
+  },
+  {
+   "name" : "AMediaDataSource_newUri"
+  },
+  {
+   "name" : "AMediaDataSource_setClose"
+  },
+  {
+   "name" : "AMediaDataSource_setGetAvailableSize"
+  },
+  {
+   "name" : "AMediaDataSource_setGetSize"
+  },
+  {
+   "name" : "AMediaDataSource_setReadAt"
+  },
+  {
+   "name" : "AMediaDataSource_setUserdata"
+  },
+  {
+   "name" : "AMediaDrm_closeSession"
+  },
+  {
+   "name" : "AMediaDrm_createByUUID"
+  },
+  {
+   "name" : "AMediaDrm_decrypt"
+  },
+  {
+   "name" : "AMediaDrm_encrypt"
+  },
+  {
+   "name" : "AMediaDrm_getKeyRequest"
+  },
+  {
+   "name" : "AMediaDrm_getKeyRequestWithDefaultUrlAndType"
+  },
+  {
+   "name" : "AMediaDrm_getPropertyByteArray"
+  },
+  {
+   "name" : "AMediaDrm_getPropertyString"
+  },
+  {
+   "name" : "AMediaDrm_getProvisionRequest"
+  },
+  {
+   "name" : "AMediaDrm_getSecureStops"
+  },
+  {
+   "name" : "AMediaDrm_isCryptoSchemeSupported"
+  },
+  {
+   "name" : "AMediaDrm_openSession"
+  },
+  {
+   "name" : "AMediaDrm_provideKeyResponse"
+  },
+  {
+   "name" : "AMediaDrm_provideProvisionResponse"
+  },
+  {
+   "name" : "AMediaDrm_queryKeyStatus"
+  },
+  {
+   "name" : "AMediaDrm_release"
+  },
+  {
+   "name" : "AMediaDrm_releaseSecureStops"
+  },
+  {
+   "name" : "AMediaDrm_removeKeys"
+  },
+  {
+   "name" : "AMediaDrm_restoreKeys"
+  },
+  {
+   "name" : "AMediaDrm_setOnEventListener"
+  },
+  {
+   "name" : "AMediaDrm_setOnExpirationUpdateListener"
+  },
+  {
+   "name" : "AMediaDrm_setOnKeysChangeListener"
+  },
+  {
+   "name" : "AMediaDrm_setPropertyByteArray"
+  },
+  {
+   "name" : "AMediaDrm_setPropertyString"
+  },
+  {
+   "name" : "AMediaDrm_sign"
+  },
+  {
+   "name" : "AMediaDrm_verify"
+  },
+  {
+   "name" : "AMediaExtractor_advance"
+  },
+  {
+   "name" : "AMediaExtractor_delete"
+  },
+  {
+   "name" : "AMediaExtractor_getCachedDuration"
+  },
+  {
+   "name" : "AMediaExtractor_getFileFormat"
+  },
+  {
+   "name" : "AMediaExtractor_getPsshInfo"
+  },
+  {
+   "name" : "AMediaExtractor_getSampleCryptoInfo"
+  },
+  {
+   "name" : "AMediaExtractor_getSampleFlags"
+  },
+  {
+   "name" : "AMediaExtractor_getSampleFormat"
+  },
+  {
+   "name" : "AMediaExtractor_getSampleSize"
+  },
+  {
+   "name" : "AMediaExtractor_getSampleTime"
+  },
+  {
+   "name" : "AMediaExtractor_getSampleTrackIndex"
+  },
+  {
+   "name" : "AMediaExtractor_getTrackCount"
+  },
+  {
+   "name" : "AMediaExtractor_getTrackFormat"
+  },
+  {
+   "name" : "AMediaExtractor_new"
+  },
+  {
+   "name" : "AMediaExtractor_readSampleData"
+  },
+  {
+   "name" : "AMediaExtractor_seekTo"
+  },
+  {
+   "name" : "AMediaExtractor_selectTrack"
+  },
+  {
+   "name" : "AMediaExtractor_setDataSource"
+  },
+  {
+   "name" : "AMediaExtractor_setDataSourceCustom"
+  },
+  {
+   "name" : "AMediaExtractor_setDataSourceFd"
+  },
+  {
+   "name" : "AMediaExtractor_unselectTrack"
+  },
+  {
+   "name" : "AMediaFormat_clear"
+  },
+  {
+   "name" : "AMediaFormat_copy"
+  },
+  {
+   "name" : "AMediaFormat_delete"
+  },
+  {
+   "name" : "AMediaFormat_getBuffer"
+  },
+  {
+   "name" : "AMediaFormat_getDouble"
+  },
+  {
+   "name" : "AMediaFormat_getFloat"
+  },
+  {
+   "name" : "AMediaFormat_getInt32"
+  },
+  {
+   "name" : "AMediaFormat_getInt64"
+  },
+  {
+   "name" : "AMediaFormat_getRect"
+  },
+  {
+   "name" : "AMediaFormat_getSize"
+  },
+  {
+   "name" : "AMediaFormat_getString"
+  },
+  {
+   "name" : "AMediaFormat_new"
+  },
+  {
+   "name" : "AMediaFormat_setBuffer"
+  },
+  {
+   "name" : "AMediaFormat_setDouble"
+  },
+  {
+   "name" : "AMediaFormat_setFloat"
+  },
+  {
+   "name" : "AMediaFormat_setInt32"
+  },
+  {
+   "name" : "AMediaFormat_setInt64"
+  },
+  {
+   "name" : "AMediaFormat_setRect"
+  },
+  {
+   "name" : "AMediaFormat_setSize"
+  },
+  {
+   "name" : "AMediaFormat_setString"
+  },
+  {
+   "name" : "AMediaFormat_toString"
+  },
+  {
+   "name" : "AMediaMuxer_addTrack"
+  },
+  {
+   "name" : "AMediaMuxer_append"
+  },
+  {
+   "name" : "AMediaMuxer_delete"
+  },
+  {
+   "name" : "AMediaMuxer_getTrackCount"
+  },
+  {
+   "name" : "AMediaMuxer_getTrackFormat"
+  },
+  {
+   "name" : "AMediaMuxer_new"
+  },
+  {
+   "name" : "AMediaMuxer_setLocation"
+  },
+  {
+   "name" : "AMediaMuxer_setOrientationHint"
+  },
+  {
+   "name" : "AMediaMuxer_start"
+  },
+  {
+   "name" : "AMediaMuxer_stop"
+  },
+  {
+   "name" : "AMediaMuxer_writeSampleData"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "name" : "AMEDIACODEC_KEY_HDR10_PLUS_INFO"
+  },
+  {
+   "name" : "AMEDIACODEC_KEY_LOW_LATENCY"
+  },
+  {
+   "name" : "AMEDIACODEC_KEY_OFFSET_TIME"
+  },
+  {
+   "name" : "AMEDIACODEC_KEY_REQUEST_SYNC_FRAME"
+  },
+  {
+   "name" : "AMEDIACODEC_KEY_SUSPEND"
+  },
+  {
+   "name" : "AMEDIACODEC_KEY_SUSPEND_TIME"
+  },
+  {
+   "name" : "AMEDIACODEC_KEY_VIDEO_BITRATE"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_AAC_DRC_ATTENUATION_FACTOR"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_AAC_DRC_BOOST_FACTOR"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_AAC_DRC_HEAVY_COMPRESSION"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_AAC_DRC_TARGET_REFERENCE_LEVEL"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_AAC_ENCODED_TARGET_LEVEL"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_AAC_MAX_OUTPUT_CHANNEL_COUNT"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_AAC_PROFILE"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_AAC_SBR_MODE"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_ALBUM"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_ALBUMART"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_ALBUMARTIST"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_ALLOW_FRAME_DROP"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_ARTIST"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_AUDIO_PRESENTATION_INFO"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_AUDIO_SESSION_ID"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_AUTHOR"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_BITRATE_MODE"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_BITS_PER_SAMPLE"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_BIT_RATE"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_CAPTURE_RATE"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_CDTRACKNUMBER"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_CHANNEL_COUNT"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_CHANNEL_MASK"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_COLOR_FORMAT"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_COLOR_RANGE"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_COLOR_STANDARD"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_COLOR_TRANSFER"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_COMPILATION"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_COMPLEXITY"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_COMPOSER"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_CREATE_INPUT_SURFACE_SUSPENDED"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_CRYPTO_DEFAULT_IV_SIZE"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_CRYPTO_ENCRYPTED_BYTE_BLOCK"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_CRYPTO_ENCRYPTED_SIZES"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_CRYPTO_IV"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_CRYPTO_KEY"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_CRYPTO_MODE"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_CRYPTO_PLAIN_SIZES"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_CRYPTO_SKIP_BYTE_BLOCK"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_CSD"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_CSD_0"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_CSD_1"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_CSD_2"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_CSD_AVC"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_CSD_HEVC"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_D263"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_DATE"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_DISCNUMBER"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_DISPLAY_CROP"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_DISPLAY_HEIGHT"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_DISPLAY_WIDTH"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_DURATION"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_ENCODER_DELAY"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_ENCODER_PADDING"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_ESDS"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_EXIF_OFFSET"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_EXIF_SIZE"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_FLAC_COMPRESSION_LEVEL"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_FRAME_COUNT"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_FRAME_RATE"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_GENRE"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_GRID_COLUMNS"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_GRID_ROWS"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_HAPTIC_CHANNEL_COUNT"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_HDR10_PLUS_INFO"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_HDR_STATIC_INFO"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_HEIGHT"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_ICC_PROFILE"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_INTRA_REFRESH_PERIOD"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_IS_ADTS"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_IS_AUTOSELECT"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_IS_DEFAULT"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_IS_FORCED_SUBTITLE"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_IS_SYNC_FRAME"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_I_FRAME_INTERVAL"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_LANGUAGE"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_LAST_SAMPLE_INDEX_IN_CHUNK"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_LATENCY"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_LEVEL"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_LOCATION"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_LOOP"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_LOW_LATENCY"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_LYRICIST"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_MANUFACTURER"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_MAX_BIT_RATE"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_MAX_B_FRAMES"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_MAX_FPS_TO_ENCODER"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_MAX_HEIGHT"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_MAX_INPUT_SIZE"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_MAX_PTS_GAP_TO_ENCODER"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_MAX_WIDTH"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_MIME"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_MPEG2_STREAM_HEADER"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_MPEGH_COMPATIBLE_SETS"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_MPEGH_PROFILE_LEVEL_INDICATION"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_MPEGH_REFERENCE_CHANNEL_LAYOUT"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_MPEG_USER_DATA"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_OPERATING_RATE"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_PCM_BIG_ENDIAN"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_PCM_ENCODING"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_PRIORITY"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_PROFILE"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_PSSH"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_PUSH_BLANK_BUFFERS_ON_STOP"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_REPEAT_PREVIOUS_FRAME_AFTER"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_ROTATION"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_SAMPLE_FILE_OFFSET"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_SAMPLE_RATE"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_SAMPLE_TIME_BEFORE_APPEND"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_SAR_HEIGHT"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_SAR_WIDTH"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_SEI"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_SLICE_HEIGHT"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_SLOW_MOTION_MARKERS"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_STRIDE"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_TARGET_TIME"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_TEMPORAL_LAYERING"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_TEMPORAL_LAYER_COUNT"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_TEMPORAL_LAYER_ID"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_TEXT_FORMAT_DATA"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_THUMBNAIL_CSD_AV1C"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_THUMBNAIL_CSD_HEVC"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_THUMBNAIL_HEIGHT"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_THUMBNAIL_TIME"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_THUMBNAIL_WIDTH"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_TILE_HEIGHT"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_TILE_WIDTH"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_TIME_US"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_TITLE"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_TRACK_ID"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_TRACK_INDEX"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_VALID_SAMPLES"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_WIDTH"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_XMP_OFFSET"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_XMP_SIZE"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_YEAR"
+  }
+ ],
+ "enum_types" :
+ [
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "AMEDIAMUXER_APPEND_IGNORE_LAST_VIDEO_GOP"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "AMEDIAMUXER_APPEND_TO_EXISTING_DATA"
+    }
+   ],
+   "linker_set_key" : "_ZTI10AppendMode",
+   "name" : "AppendMode",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaMuxer.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "AMEDIAMUXER_OUTPUT_FORMAT_MPEG_4"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "AMEDIAMUXER_OUTPUT_FORMAT_WEBM"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "AMEDIAMUXER_OUTPUT_FORMAT_THREE_GPP"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "AMEDIAMUXER_OUTPUT_FORMAT_HEIF"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "AMEDIAMUXER_OUTPUT_FORMAT_OGG"
+    }
+   ],
+   "linker_set_key" : "_ZTI12OutputFormat",
+   "name" : "OutputFormat",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaMuxer.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "AIMAGE_FORMAT_RGBA_8888"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "AIMAGE_FORMAT_RGBX_8888"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "AIMAGE_FORMAT_RGB_888"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "AIMAGE_FORMAT_RGB_565"
+    },
+    {
+     "enum_field_value" : 22,
+     "name" : "AIMAGE_FORMAT_RGBA_FP16"
+    },
+    {
+     "enum_field_value" : 35,
+     "name" : "AIMAGE_FORMAT_YUV_420_888"
+    },
+    {
+     "enum_field_value" : 256,
+     "name" : "AIMAGE_FORMAT_JPEG"
+    },
+    {
+     "enum_field_value" : 32,
+     "name" : "AIMAGE_FORMAT_RAW16"
+    },
+    {
+     "enum_field_value" : 36,
+     "name" : "AIMAGE_FORMAT_RAW_PRIVATE"
+    },
+    {
+     "enum_field_value" : 37,
+     "name" : "AIMAGE_FORMAT_RAW10"
+    },
+    {
+     "enum_field_value" : 38,
+     "name" : "AIMAGE_FORMAT_RAW12"
+    },
+    {
+     "enum_field_value" : 1144402265,
+     "name" : "AIMAGE_FORMAT_DEPTH16"
+    },
+    {
+     "enum_field_value" : 257,
+     "name" : "AIMAGE_FORMAT_DEPTH_POINT_CLOUD"
+    },
+    {
+     "enum_field_value" : 34,
+     "name" : "AIMAGE_FORMAT_PRIVATE"
+    },
+    {
+     "enum_field_value" : 538982489,
+     "name" : "AIMAGE_FORMAT_Y8"
+    },
+    {
+     "enum_field_value" : 1212500294,
+     "name" : "AIMAGE_FORMAT_HEIC"
+    },
+    {
+     "enum_field_value" : 1768253795,
+     "name" : "AIMAGE_FORMAT_DEPTH_JPEG"
+    }
+   ],
+   "linker_set_key" : "_ZTI14AIMAGE_FORMATS",
+   "name" : "AIMAGE_FORMATS",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImage.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "AMEDIA_OK"
+    },
+    {
+     "enum_field_value" : 1100,
+     "name" : "AMEDIACODEC_ERROR_INSUFFICIENT_RESOURCE"
+    },
+    {
+     "enum_field_value" : 1101,
+     "name" : "AMEDIACODEC_ERROR_RECLAIMED"
+    },
+    {
+     "enum_field_value" : -10000,
+     "name" : "AMEDIA_ERROR_BASE"
+    },
+    {
+     "enum_field_value" : -10000,
+     "name" : "AMEDIA_ERROR_UNKNOWN"
+    },
+    {
+     "enum_field_value" : -10001,
+     "name" : "AMEDIA_ERROR_MALFORMED"
+    },
+    {
+     "enum_field_value" : -10002,
+     "name" : "AMEDIA_ERROR_UNSUPPORTED"
+    },
+    {
+     "enum_field_value" : -10003,
+     "name" : "AMEDIA_ERROR_INVALID_OBJECT"
+    },
+    {
+     "enum_field_value" : -10004,
+     "name" : "AMEDIA_ERROR_INVALID_PARAMETER"
+    },
+    {
+     "enum_field_value" : -10005,
+     "name" : "AMEDIA_ERROR_INVALID_OPERATION"
+    },
+    {
+     "enum_field_value" : -10006,
+     "name" : "AMEDIA_ERROR_END_OF_STREAM"
+    },
+    {
+     "enum_field_value" : -10007,
+     "name" : "AMEDIA_ERROR_IO"
+    },
+    {
+     "enum_field_value" : -10008,
+     "name" : "AMEDIA_ERROR_WOULD_BLOCK"
+    },
+    {
+     "enum_field_value" : -20000,
+     "name" : "AMEDIA_DRM_ERROR_BASE"
+    },
+    {
+     "enum_field_value" : -20001,
+     "name" : "AMEDIA_DRM_NOT_PROVISIONED"
+    },
+    {
+     "enum_field_value" : -20002,
+     "name" : "AMEDIA_DRM_RESOURCE_BUSY"
+    },
+    {
+     "enum_field_value" : -20003,
+     "name" : "AMEDIA_DRM_DEVICE_REVOKED"
+    },
+    {
+     "enum_field_value" : -20004,
+     "name" : "AMEDIA_DRM_SHORT_BUFFER"
+    },
+    {
+     "enum_field_value" : -20005,
+     "name" : "AMEDIA_DRM_SESSION_NOT_OPENED"
+    },
+    {
+     "enum_field_value" : -20006,
+     "name" : "AMEDIA_DRM_TAMPER_DETECTED"
+    },
+    {
+     "enum_field_value" : -20007,
+     "name" : "AMEDIA_DRM_VERIFY_FAILED"
+    },
+    {
+     "enum_field_value" : -20008,
+     "name" : "AMEDIA_DRM_NEED_KEY"
+    },
+    {
+     "enum_field_value" : -20009,
+     "name" : "AMEDIA_DRM_LICENSE_EXPIRED"
+    },
+    {
+     "enum_field_value" : -30000,
+     "name" : "AMEDIA_IMGREADER_ERROR_BASE"
+    },
+    {
+     "enum_field_value" : -30001,
+     "name" : "AMEDIA_IMGREADER_NO_BUFFER_AVAILABLE"
+    },
+    {
+     "enum_field_value" : -30002,
+     "name" : "AMEDIA_IMGREADER_MAX_IMAGES_ACQUIRED"
+    },
+    {
+     "enum_field_value" : -30003,
+     "name" : "AMEDIA_IMGREADER_CANNOT_LOCK_IMAGE"
+    },
+    {
+     "enum_field_value" : -30004,
+     "name" : "AMEDIA_IMGREADER_CANNOT_UNLOCK_IMAGE"
+    },
+    {
+     "enum_field_value" : -30005,
+     "name" : "AMEDIA_IMGREADER_IMAGE_NOT_LOCKED"
+    }
+   ],
+   "linker_set_key" : "_ZTI14media_status_t",
+   "name" : "media_status_t",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaError.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "KEY_TYPE_STREAMING"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "KEY_TYPE_OFFLINE"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "KEY_TYPE_RELEASE"
+    }
+   ],
+   "linker_set_key" : "_ZTI16AMediaDrmKeyType",
+   "name" : "AMediaDrmKeyType",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "AMEDIACODECRYPTOINFO_MODE_CLEAR"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "AMEDIACODECRYPTOINFO_MODE_AES_CTR"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "AMEDIACODECRYPTOINFO_MODE_AES_WV"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "AMEDIACODECRYPTOINFO_MODE_AES_CBC"
+    }
+   ],
+   "linker_set_key" : "_ZTI17cryptoinfo_mode_t",
+   "name" : "cryptoinfo_mode_t",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "EVENT_PROVISION_REQUIRED"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "EVENT_KEY_REQUIRED"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "EVENT_KEY_EXPIRED"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "EVENT_VENDOR_DEFINED"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "EVENT_SESSION_RECLAIMED"
+    }
+   ],
+   "linker_set_key" : "_ZTI18AMediaDrmEventType",
+   "name" : "AMediaDrmEventType",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "KEY_STATUS_TYPE_USABLE"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "KEY_STATUS_TYPE_EXPIRED"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "KEY_STATUS_TYPE_OUTPUTNOTALLOWED"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "KEY_STATUS_TYPE_STATUSPENDING"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "KEY_STATUS_TYPE_INTERNALERROR"
+    }
+   ],
+   "linker_set_key" : "_ZTI19AMediaKeyStatusType",
+   "name" : "AMediaKeyStatusType",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "KEY_REQUEST_TYPE_INITIAL"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "KEY_REQUEST_TYPE_RENEWAL"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "KEY_REQUEST_TYPE_RELEASE"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "KEY_REQUEST_TYPE_NONE"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "KEY_REQUEST_TYPE_UPDATE"
+    }
+   ],
+   "linker_set_key" : "_ZTI23AMediaDrmKeyRequestType",
+   "name" : "AMediaDrmKeyRequestType",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : -1,
+     "name" : "AMEDIACODEC_CALLING_UID"
+    },
+    {
+     "enum_field_value" : -1,
+     "name" : "AMEDIACODEC_CALLING_PID"
+    }
+   ],
+   "linker_set_key" : "_ZTI24$AMEDIACODEC_CALLING_PID",
+   "name" : "(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/ndk/include_platform/media/NdkMediaCodecPlatform.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "AMEDIACODEC_CONFIGURE_FLAG_ENCODE"
+    },
+    {
+     "enum_field_value" : -3,
+     "name" : "AMEDIACODEC_INFO_OUTPUT_BUFFERS_CHANGED"
+    },
+    {
+     "enum_field_value" : -2,
+     "name" : "AMEDIACODEC_INFO_OUTPUT_FORMAT_CHANGED"
+    },
+    {
+     "enum_field_value" : -1,
+     "name" : "AMEDIACODEC_INFO_TRY_AGAIN_LATER"
+    }
+   ],
+   "linker_set_key" : "_ZTI34$AMEDIACODEC_CONFIGURE_FLAG_ENCODE",
+   "name" : "(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "AMEDIACODEC_BUFFER_FLAG_KEY_FRAME"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "AMEDIACODEC_BUFFER_FLAG_CODEC_CONFIG"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "AMEDIACODEC_BUFFER_FLAG_END_OF_STREAM"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "AMEDIACODEC_BUFFER_FLAG_PARTIAL_FRAME"
+    },
+    {
+     "enum_field_value" : 16,
+     "name" : "AMEDIACODEC_BUFFER_FLAG_MUXER_DATA"
+    },
+    {
+     "enum_field_value" : 32,
+     "name" : "AMEDIACODEC_BUFFER_FLAG_DECODE_ONLY"
+    }
+   ],
+   "linker_set_key" : "_ZTI37$AMEDIACODEC_BUFFER_FLAG_CODEC_CONFIG",
+   "name" : "(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "AMEDIAEXTRACTOR_SAMPLE_FLAG_SYNC"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "AMEDIAEXTRACTOR_SAMPLE_FLAG_ENCRYPTED"
+    }
+   ],
+   "linker_set_key" : "_ZTI38$AMEDIAEXTRACTOR_SAMPLE_FLAG_ENCRYPTED",
+   "name" : "(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "AMEDIAEXTRACTOR_SEEK_PREVIOUS_SYNC"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "AMEDIAEXTRACTOR_SEEK_NEXT_SYNC"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "AMEDIAEXTRACTOR_SEEK_CLOSEST_SYNC"
+    }
+   ],
+   "linker_set_key" : "_ZTI8SeekMode",
+   "name" : "SeekMode",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h",
+   "underlying_type" : "_ZTIj"
+  }
+ ],
+ "function_types" :
+ [
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFlPvE",
+   "name" : "long (void *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIl",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFlPvlE",
+   "name" : "long (void *, long)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    }
+   ],
+   "return_type" : "_ZTIl",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFlPvlS_mE",
+   "name" : "long (void *, long, void *, unsigned long)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIl",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvP11AMediaCodecPv14media_status_tiPKcE",
+   "name" : "void (AMediaCodec *, void *, media_status_t, int, const char *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTI14media_status_t"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvP11AMediaCodecPvP12AMediaFormatE",
+   "name" : "void (AMediaCodec *, void *, AMediaFormat *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIP12AMediaFormat"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvP11AMediaCodecPviE",
+   "name" : "void (AMediaCodec *, void *, int)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvP11AMediaCodecPviP21AMediaCodecBufferInfoE",
+   "name" : "void (AMediaCodec *, void *, int, AMediaCodecBufferInfo *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIP21AMediaCodecBufferInfo"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvP11AMediaCodecPvllE",
+   "name" : "void (AMediaCodec *, void *, long, long)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvP9AMediaDrmPK18AMediaDrmByteArray18AMediaDrmEventTypeiPKhmE",
+   "name" : "void (AMediaDrm *, const AMediaDrmByteArray *, AMediaDrmEventType, int, const unsigned char *, unsigned long)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    },
+    {
+     "referenced_type" : "_ZTIPK18AMediaDrmByteArray"
+    },
+    {
+     "referenced_type" : "_ZTI18AMediaDrmEventType"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvP9AMediaDrmPK18AMediaDrmByteArrayPK18AMediaDrmKeyStatusmbE",
+   "name" : "void (AMediaDrm *, const AMediaDrmByteArray *, const AMediaDrmKeyStatus *, unsigned long, bool)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    },
+    {
+     "referenced_type" : "_ZTIPK18AMediaDrmByteArray"
+    },
+    {
+     "referenced_type" : "_ZTIPK18AMediaDrmKeyStatus"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvP9AMediaDrmPK18AMediaDrmByteArraylE",
+   "name" : "void (AMediaDrm *, const AMediaDrmByteArray *, long)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    },
+    {
+     "referenced_type" : "_ZTIPK18AMediaDrmByteArray"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvPvE",
+   "name" : "void (void *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvPvP12AImageReaderE",
+   "name" : "void (void *, AImageReader *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIP12AImageReader"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvPvP12AImageReaderP15AHardwareBufferE",
+   "name" : "void (void *, AImageReader *, AHardwareBuffer *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIP12AImageReader"
+    },
+    {
+     "referenced_type" : "_ZTIP15AHardwareBuffer"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  }
+ ],
+ "functions" :
+ [
+  {
+   "function_name" : "AImageReader_acquireLatestImage",
+   "linker_set_key" : "AImageReader_acquireLatestImage",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AImageReader"
+    },
+    {
+     "referenced_type" : "_ZTIPP6AImage"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "function_name" : "AImageReader_acquireLatestImageAsync",
+   "linker_set_key" : "AImageReader_acquireLatestImageAsync",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AImageReader"
+    },
+    {
+     "referenced_type" : "_ZTIPP6AImage"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "function_name" : "AImageReader_acquireNextImage",
+   "linker_set_key" : "AImageReader_acquireNextImage",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AImageReader"
+    },
+    {
+     "referenced_type" : "_ZTIPP6AImage"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "function_name" : "AImageReader_acquireNextImageAsync",
+   "linker_set_key" : "AImageReader_acquireNextImageAsync",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AImageReader"
+    },
+    {
+     "referenced_type" : "_ZTIPP6AImage"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "function_name" : "AImageReader_delete",
+   "linker_set_key" : "AImageReader_delete",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AImageReader"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "function_name" : "AImageReader_getFormat",
+   "linker_set_key" : "AImageReader_getFormat",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK12AImageReader"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "function_name" : "AImageReader_getHeight",
+   "linker_set_key" : "AImageReader_getHeight",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK12AImageReader"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "function_name" : "AImageReader_getMaxImages",
+   "linker_set_key" : "AImageReader_getMaxImages",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK12AImageReader"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "function_name" : "AImageReader_getWidth",
+   "linker_set_key" : "AImageReader_getWidth",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK12AImageReader"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "function_name" : "AImageReader_getWindow",
+   "linker_set_key" : "AImageReader_getWindow",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AImageReader"
+    },
+    {
+     "referenced_type" : "_ZTIPP13ANativeWindow"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "function_name" : "AImageReader_new",
+   "linker_set_key" : "AImageReader_new",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPP12AImageReader"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "function_name" : "AImageReader_newWithDataSpace",
+   "linker_set_key" : "AImageReader_newWithDataSpace",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPP12AImageReader"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "function_name" : "AImageReader_newWithUsage",
+   "linker_set_key" : "AImageReader_newWithUsage",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPP12AImageReader"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "function_name" : "AImageReader_setBufferRemovedListener",
+   "linker_set_key" : "AImageReader_setBufferRemovedListener",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AImageReader"
+    },
+    {
+     "referenced_type" : "_ZTIP34AImageReader_BufferRemovedListener"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "function_name" : "AImageReader_setImageListener",
+   "linker_set_key" : "AImageReader_setImageListener",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AImageReader"
+    },
+    {
+     "referenced_type" : "_ZTIP26AImageReader_ImageListener"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "function_name" : "AImage_delete",
+   "linker_set_key" : "AImage_delete",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP6AImage"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImage.h"
+  },
+  {
+   "function_name" : "AImage_deleteAsync",
+   "linker_set_key" : "AImage_deleteAsync",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP6AImage"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImage.h"
+  },
+  {
+   "function_name" : "AImage_getCropRect",
+   "linker_set_key" : "AImage_getCropRect",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK6AImage"
+    },
+    {
+     "referenced_type" : "_ZTIP14AImageCropRect"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImage.h"
+  },
+  {
+   "function_name" : "AImage_getDataSpace",
+   "linker_set_key" : "AImage_getDataSpace",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK6AImage"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImage.h"
+  },
+  {
+   "function_name" : "AImage_getFormat",
+   "linker_set_key" : "AImage_getFormat",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK6AImage"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImage.h"
+  },
+  {
+   "function_name" : "AImage_getHardwareBuffer",
+   "linker_set_key" : "AImage_getHardwareBuffer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK6AImage"
+    },
+    {
+     "referenced_type" : "_ZTIPP15AHardwareBuffer"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImage.h"
+  },
+  {
+   "function_name" : "AImage_getHeight",
+   "linker_set_key" : "AImage_getHeight",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK6AImage"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImage.h"
+  },
+  {
+   "function_name" : "AImage_getNumberOfPlanes",
+   "linker_set_key" : "AImage_getNumberOfPlanes",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK6AImage"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImage.h"
+  },
+  {
+   "function_name" : "AImage_getPlaneData",
+   "linker_set_key" : "AImage_getPlaneData",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK6AImage"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPPh"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImage.h"
+  },
+  {
+   "function_name" : "AImage_getPlanePixelStride",
+   "linker_set_key" : "AImage_getPlanePixelStride",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK6AImage"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImage.h"
+  },
+  {
+   "function_name" : "AImage_getPlaneRowStride",
+   "linker_set_key" : "AImage_getPlaneRowStride",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK6AImage"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImage.h"
+  },
+  {
+   "function_name" : "AImage_getTimestamp",
+   "linker_set_key" : "AImage_getTimestamp",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK6AImage"
+    },
+    {
+     "referenced_type" : "_ZTIPl"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImage.h"
+  },
+  {
+   "function_name" : "AImage_getWidth",
+   "linker_set_key" : "AImage_getWidth",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK6AImage"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImage.h"
+  },
+  {
+   "function_name" : "AMediaCodecActionCode_isRecoverable",
+   "linker_set_key" : "AMediaCodecActionCode_isRecoverable",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodecActionCode_isTransient",
+   "linker_set_key" : "AMediaCodecActionCode_isTransient",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodecCryptoInfo_delete",
+   "linker_set_key" : "AMediaCodecCryptoInfo_delete",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP21AMediaCodecCryptoInfo"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodecCryptoInfo_getClearBytes",
+   "linker_set_key" : "AMediaCodecCryptoInfo_getClearBytes",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP21AMediaCodecCryptoInfo"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodecCryptoInfo_getEncryptedBytes",
+   "linker_set_key" : "AMediaCodecCryptoInfo_getEncryptedBytes",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP21AMediaCodecCryptoInfo"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodecCryptoInfo_getIV",
+   "linker_set_key" : "AMediaCodecCryptoInfo_getIV",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP21AMediaCodecCryptoInfo"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodecCryptoInfo_getKey",
+   "linker_set_key" : "AMediaCodecCryptoInfo_getKey",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP21AMediaCodecCryptoInfo"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodecCryptoInfo_getMode",
+   "linker_set_key" : "AMediaCodecCryptoInfo_getMode",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP21AMediaCodecCryptoInfo"
+    }
+   ],
+   "return_type" : "_ZTI17cryptoinfo_mode_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodecCryptoInfo_getNumSubSamples",
+   "linker_set_key" : "AMediaCodecCryptoInfo_getNumSubSamples",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP21AMediaCodecCryptoInfo"
+    }
+   ],
+   "return_type" : "_ZTIm",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodecCryptoInfo_new",
+   "linker_set_key" : "AMediaCodecCryptoInfo_new",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTI17cryptoinfo_mode_t"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    }
+   ],
+   "return_type" : "_ZTIP21AMediaCodecCryptoInfo",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodecCryptoInfo_setPattern",
+   "linker_set_key" : "AMediaCodecCryptoInfo_setPattern",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP21AMediaCodecCryptoInfo"
+    },
+    {
+     "referenced_type" : "_ZTIP20cryptoinfo_pattern_t"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_configure",
+   "linker_set_key" : "AMediaCodec_configure",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    },
+    {
+     "referenced_type" : "_ZTIPK12AMediaFormat"
+    },
+    {
+     "referenced_type" : "_ZTIP13ANativeWindow"
+    },
+    {
+     "referenced_type" : "_ZTIP12AMediaCrypto"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_createCodecByName",
+   "linker_set_key" : "AMediaCodec_createCodecByName",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIP11AMediaCodec",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_createDecoderByType",
+   "linker_set_key" : "AMediaCodec_createDecoderByType",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIP11AMediaCodec",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_createEncoderByType",
+   "linker_set_key" : "AMediaCodec_createEncoderByType",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIP11AMediaCodec",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_createInputSurface",
+   "linker_set_key" : "AMediaCodec_createInputSurface",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    },
+    {
+     "referenced_type" : "_ZTIPP13ANativeWindow"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_createPersistentInputSurface",
+   "linker_set_key" : "AMediaCodec_createPersistentInputSurface",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPP13ANativeWindow"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_delete",
+   "linker_set_key" : "AMediaCodec_delete",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_dequeueInputBuffer",
+   "linker_set_key" : "AMediaCodec_dequeueInputBuffer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    }
+   ],
+   "return_type" : "_ZTIl",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_dequeueOutputBuffer",
+   "linker_set_key" : "AMediaCodec_dequeueOutputBuffer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    },
+    {
+     "referenced_type" : "_ZTIP21AMediaCodecBufferInfo"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    }
+   ],
+   "return_type" : "_ZTIl",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_flush",
+   "linker_set_key" : "AMediaCodec_flush",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_getBufferFormat",
+   "linker_set_key" : "AMediaCodec_getBufferFormat",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIP12AMediaFormat",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_getInputBuffer",
+   "linker_set_key" : "AMediaCodec_getInputBuffer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    }
+   ],
+   "return_type" : "_ZTIPh",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_getInputFormat",
+   "linker_set_key" : "AMediaCodec_getInputFormat",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    }
+   ],
+   "return_type" : "_ZTIP12AMediaFormat",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_getName",
+   "linker_set_key" : "AMediaCodec_getName",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    },
+    {
+     "referenced_type" : "_ZTIPPc"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_getOutputBuffer",
+   "linker_set_key" : "AMediaCodec_getOutputBuffer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    }
+   ],
+   "return_type" : "_ZTIPh",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_getOutputFormat",
+   "linker_set_key" : "AMediaCodec_getOutputFormat",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    }
+   ],
+   "return_type" : "_ZTIP12AMediaFormat",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_queueInputBuffer",
+   "linker_set_key" : "AMediaCodec_queueInputBuffer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_queueSecureInputBuffer",
+   "linker_set_key" : "AMediaCodec_queueSecureInputBuffer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    },
+    {
+     "referenced_type" : "_ZTIP21AMediaCodecCryptoInfo"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_releaseCrypto",
+   "linker_set_key" : "AMediaCodec_releaseCrypto",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_releaseName",
+   "linker_set_key" : "AMediaCodec_releaseName",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    },
+    {
+     "referenced_type" : "_ZTIPc"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_releaseOutputBuffer",
+   "linker_set_key" : "AMediaCodec_releaseOutputBuffer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_releaseOutputBufferAtTime",
+   "linker_set_key" : "AMediaCodec_releaseOutputBufferAtTime",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_setAsyncNotifyCallback",
+   "linker_set_key" : "AMediaCodec_setAsyncNotifyCallback",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    },
+    {
+     "referenced_type" : "_ZTI32AMediaCodecOnAsyncNotifyCallback"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_setInputSurface",
+   "linker_set_key" : "AMediaCodec_setInputSurface",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    },
+    {
+     "referenced_type" : "_ZTIP13ANativeWindow"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_setOnFrameRenderedCallback",
+   "linker_set_key" : "AMediaCodec_setOnFrameRenderedCallback",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    },
+    {
+     "referenced_type" : "_ZTIPFvP11AMediaCodecPvllE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_setOutputSurface",
+   "linker_set_key" : "AMediaCodec_setOutputSurface",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    },
+    {
+     "referenced_type" : "_ZTIP13ANativeWindow"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_setParameters",
+   "linker_set_key" : "AMediaCodec_setParameters",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    },
+    {
+     "referenced_type" : "_ZTIPK12AMediaFormat"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_signalEndOfInputStream",
+   "linker_set_key" : "AMediaCodec_signalEndOfInputStream",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_start",
+   "linker_set_key" : "AMediaCodec_start",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_stop",
+   "linker_set_key" : "AMediaCodec_stop",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaCodec"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCrypto_delete",
+   "linker_set_key" : "AMediaCrypto_delete",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AMediaCrypto"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCrypto.h"
+  },
+  {
+   "function_name" : "AMediaCrypto_isCryptoSchemeSupported",
+   "linker_set_key" : "AMediaCrypto_isCryptoSchemeSupported",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKh"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCrypto.h"
+  },
+  {
+   "function_name" : "AMediaCrypto_new",
+   "linker_set_key" : "AMediaCrypto_new",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIP12AMediaCrypto",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCrypto.h"
+  },
+  {
+   "function_name" : "AMediaCrypto_requiresSecureDecoderComponent",
+   "linker_set_key" : "AMediaCrypto_requiresSecureDecoderComponent",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCrypto.h"
+  },
+  {
+   "function_name" : "AMediaDataSource_close",
+   "linker_set_key" : "AMediaDataSource_close",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP16AMediaDataSource"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
+  },
+  {
+   "function_name" : "AMediaDataSource_delete",
+   "linker_set_key" : "AMediaDataSource_delete",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP16AMediaDataSource"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
+  },
+  {
+   "function_name" : "AMediaDataSource_new",
+   "linker_set_key" : "AMediaDataSource_new",
+   "return_type" : "_ZTIP16AMediaDataSource",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
+  },
+  {
+   "function_name" : "AMediaDataSource_newUri",
+   "linker_set_key" : "AMediaDataSource_newUri",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKPKc"
+    }
+   ],
+   "return_type" : "_ZTIP16AMediaDataSource",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
+  },
+  {
+   "function_name" : "AMediaDataSource_setClose",
+   "linker_set_key" : "AMediaDataSource_setClose",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP16AMediaDataSource"
+    },
+    {
+     "referenced_type" : "_ZTIPFvPvE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
+  },
+  {
+   "function_name" : "AMediaDataSource_setGetAvailableSize",
+   "linker_set_key" : "AMediaDataSource_setGetAvailableSize",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP16AMediaDataSource"
+    },
+    {
+     "referenced_type" : "_ZTIPFlPvlE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
+  },
+  {
+   "function_name" : "AMediaDataSource_setGetSize",
+   "linker_set_key" : "AMediaDataSource_setGetSize",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP16AMediaDataSource"
+    },
+    {
+     "referenced_type" : "_ZTIPFlPvE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
+  },
+  {
+   "function_name" : "AMediaDataSource_setReadAt",
+   "linker_set_key" : "AMediaDataSource_setReadAt",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP16AMediaDataSource"
+    },
+    {
+     "referenced_type" : "_ZTIPFlPvlS_mE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
+  },
+  {
+   "function_name" : "AMediaDataSource_setUserdata",
+   "linker_set_key" : "AMediaDataSource_setUserdata",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP16AMediaDataSource"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
+  },
+  {
+   "function_name" : "AMediaDrm_closeSession",
+   "linker_set_key" : "AMediaDrm_closeSession",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    },
+    {
+     "referenced_type" : "_ZTIPK18AMediaDrmByteArray"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_createByUUID",
+   "linker_set_key" : "AMediaDrm_createByUUID",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKh"
+    }
+   ],
+   "return_type" : "_ZTIP9AMediaDrm",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_decrypt",
+   "linker_set_key" : "AMediaDrm_decrypt",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    },
+    {
+     "referenced_type" : "_ZTIPK18AMediaDrmByteArray"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_encrypt",
+   "linker_set_key" : "AMediaDrm_encrypt",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    },
+    {
+     "referenced_type" : "_ZTIPK18AMediaDrmByteArray"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_getKeyRequest",
+   "linker_set_key" : "AMediaDrm_getKeyRequest",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    },
+    {
+     "referenced_type" : "_ZTIPK18AMediaDrmByteArray"
+    },
+    {
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTI16AMediaDrmKeyType"
+    },
+    {
+     "referenced_type" : "_ZTIPK21AMediaDrmKeyValuePair"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIPPKh"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_getKeyRequestWithDefaultUrlAndType",
+   "linker_set_key" : "AMediaDrm_getKeyRequestWithDefaultUrlAndType",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    },
+    {
+     "referenced_type" : "_ZTIPK18AMediaDrmByteArray"
+    },
+    {
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTI16AMediaDrmKeyType"
+    },
+    {
+     "referenced_type" : "_ZTIPK21AMediaDrmKeyValuePair"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIPPKh"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    },
+    {
+     "referenced_type" : "_ZTIPPKc"
+    },
+    {
+     "referenced_type" : "_ZTIP23AMediaDrmKeyRequestType"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_getPropertyByteArray",
+   "linker_set_key" : "AMediaDrm_getPropertyByteArray",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIP18AMediaDrmByteArray"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_getPropertyString",
+   "linker_set_key" : "AMediaDrm_getPropertyString",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPPKc"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_getProvisionRequest",
+   "linker_set_key" : "AMediaDrm_getProvisionRequest",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    },
+    {
+     "referenced_type" : "_ZTIPPKh"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    },
+    {
+     "referenced_type" : "_ZTIPPKc"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_getSecureStops",
+   "linker_set_key" : "AMediaDrm_getSecureStops",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    },
+    {
+     "referenced_type" : "_ZTIP18AMediaDrmByteArray"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_isCryptoSchemeSupported",
+   "linker_set_key" : "AMediaDrm_isCryptoSchemeSupported",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_openSession",
+   "linker_set_key" : "AMediaDrm_openSession",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    },
+    {
+     "referenced_type" : "_ZTIP18AMediaDrmByteArray"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_provideKeyResponse",
+   "linker_set_key" : "AMediaDrm_provideKeyResponse",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    },
+    {
+     "referenced_type" : "_ZTIPK18AMediaDrmByteArray"
+    },
+    {
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIP18AMediaDrmByteArray"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_provideProvisionResponse",
+   "linker_set_key" : "AMediaDrm_provideProvisionResponse",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    },
+    {
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_queryKeyStatus",
+   "linker_set_key" : "AMediaDrm_queryKeyStatus",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    },
+    {
+     "referenced_type" : "_ZTIPK18AMediaDrmByteArray"
+    },
+    {
+     "referenced_type" : "_ZTIP21AMediaDrmKeyValuePair"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_release",
+   "linker_set_key" : "AMediaDrm_release",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_releaseSecureStops",
+   "linker_set_key" : "AMediaDrm_releaseSecureStops",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    },
+    {
+     "referenced_type" : "_ZTIPK18AMediaDrmByteArray"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_removeKeys",
+   "linker_set_key" : "AMediaDrm_removeKeys",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    },
+    {
+     "referenced_type" : "_ZTIPK18AMediaDrmByteArray"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_restoreKeys",
+   "linker_set_key" : "AMediaDrm_restoreKeys",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    },
+    {
+     "referenced_type" : "_ZTIPK18AMediaDrmByteArray"
+    },
+    {
+     "referenced_type" : "_ZTIPK18AMediaDrmByteArray"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_setOnEventListener",
+   "linker_set_key" : "AMediaDrm_setOnEventListener",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    },
+    {
+     "referenced_type" : "_ZTIPFvP9AMediaDrmPK18AMediaDrmByteArray18AMediaDrmEventTypeiPKhmE"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_setOnExpirationUpdateListener",
+   "linker_set_key" : "AMediaDrm_setOnExpirationUpdateListener",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    },
+    {
+     "referenced_type" : "_ZTIPFvP9AMediaDrmPK18AMediaDrmByteArraylE"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_setOnKeysChangeListener",
+   "linker_set_key" : "AMediaDrm_setOnKeysChangeListener",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    },
+    {
+     "referenced_type" : "_ZTIPFvP9AMediaDrmPK18AMediaDrmByteArrayPK18AMediaDrmKeyStatusmbE"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_setPropertyByteArray",
+   "linker_set_key" : "AMediaDrm_setPropertyByteArray",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_setPropertyString",
+   "linker_set_key" : "AMediaDrm_setPropertyString",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_sign",
+   "linker_set_key" : "AMediaDrm_sign",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    },
+    {
+     "referenced_type" : "_ZTIPK18AMediaDrmByteArray"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaDrm_verify",
+   "linker_set_key" : "AMediaDrm_verify",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP9AMediaDrm"
+    },
+    {
+     "referenced_type" : "_ZTIPK18AMediaDrmByteArray"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "function_name" : "AMediaExtractor_advance",
+   "linker_set_key" : "AMediaExtractor_advance",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15AMediaExtractor"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "function_name" : "AMediaExtractor_delete",
+   "linker_set_key" : "AMediaExtractor_delete",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15AMediaExtractor"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "function_name" : "AMediaExtractor_getCachedDuration",
+   "linker_set_key" : "AMediaExtractor_getCachedDuration",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15AMediaExtractor"
+    }
+   ],
+   "return_type" : "_ZTIl",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "function_name" : "AMediaExtractor_getFileFormat",
+   "linker_set_key" : "AMediaExtractor_getFileFormat",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15AMediaExtractor"
+    }
+   ],
+   "return_type" : "_ZTIP12AMediaFormat",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "function_name" : "AMediaExtractor_getPsshInfo",
+   "linker_set_key" : "AMediaExtractor_getPsshInfo",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15AMediaExtractor"
+    }
+   ],
+   "return_type" : "_ZTIP8PsshInfo",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "function_name" : "AMediaExtractor_getSampleCryptoInfo",
+   "linker_set_key" : "AMediaExtractor_getSampleCryptoInfo",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15AMediaExtractor"
+    }
+   ],
+   "return_type" : "_ZTIP21AMediaCodecCryptoInfo",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "function_name" : "AMediaExtractor_getSampleFlags",
+   "linker_set_key" : "AMediaExtractor_getSampleFlags",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15AMediaExtractor"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "function_name" : "AMediaExtractor_getSampleFormat",
+   "linker_set_key" : "AMediaExtractor_getSampleFormat",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15AMediaExtractor"
+    },
+    {
+     "referenced_type" : "_ZTIP12AMediaFormat"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "function_name" : "AMediaExtractor_getSampleSize",
+   "linker_set_key" : "AMediaExtractor_getSampleSize",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15AMediaExtractor"
+    }
+   ],
+   "return_type" : "_ZTIl",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "function_name" : "AMediaExtractor_getSampleTime",
+   "linker_set_key" : "AMediaExtractor_getSampleTime",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15AMediaExtractor"
+    }
+   ],
+   "return_type" : "_ZTIl",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "function_name" : "AMediaExtractor_getSampleTrackIndex",
+   "linker_set_key" : "AMediaExtractor_getSampleTrackIndex",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15AMediaExtractor"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "function_name" : "AMediaExtractor_getTrackCount",
+   "linker_set_key" : "AMediaExtractor_getTrackCount",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15AMediaExtractor"
+    }
+   ],
+   "return_type" : "_ZTIm",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "function_name" : "AMediaExtractor_getTrackFormat",
+   "linker_set_key" : "AMediaExtractor_getTrackFormat",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15AMediaExtractor"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIP12AMediaFormat",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "function_name" : "AMediaExtractor_new",
+   "linker_set_key" : "AMediaExtractor_new",
+   "return_type" : "_ZTIP15AMediaExtractor",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "function_name" : "AMediaExtractor_readSampleData",
+   "linker_set_key" : "AMediaExtractor_readSampleData",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15AMediaExtractor"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIl",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "function_name" : "AMediaExtractor_seekTo",
+   "linker_set_key" : "AMediaExtractor_seekTo",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15AMediaExtractor"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    },
+    {
+     "referenced_type" : "_ZTI8SeekMode"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "function_name" : "AMediaExtractor_selectTrack",
+   "linker_set_key" : "AMediaExtractor_selectTrack",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15AMediaExtractor"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "function_name" : "AMediaExtractor_setDataSource",
+   "linker_set_key" : "AMediaExtractor_setDataSource",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15AMediaExtractor"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "function_name" : "AMediaExtractor_setDataSourceCustom",
+   "linker_set_key" : "AMediaExtractor_setDataSourceCustom",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15AMediaExtractor"
+    },
+    {
+     "referenced_type" : "_ZTIP16AMediaDataSource"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "function_name" : "AMediaExtractor_setDataSourceFd",
+   "linker_set_key" : "AMediaExtractor_setDataSourceFd",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15AMediaExtractor"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "function_name" : "AMediaExtractor_unselectTrack",
+   "linker_set_key" : "AMediaExtractor_unselectTrack",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15AMediaExtractor"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "function_name" : "AMediaFormat_clear",
+   "linker_set_key" : "AMediaFormat_clear",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AMediaFormat"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "function_name" : "AMediaFormat_copy",
+   "linker_set_key" : "AMediaFormat_copy",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AMediaFormat"
+    },
+    {
+     "referenced_type" : "_ZTIP12AMediaFormat"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "function_name" : "AMediaFormat_delete",
+   "linker_set_key" : "AMediaFormat_delete",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AMediaFormat"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "function_name" : "AMediaFormat_getBuffer",
+   "linker_set_key" : "AMediaFormat_getBuffer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AMediaFormat"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPPv"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "function_name" : "AMediaFormat_getDouble",
+   "linker_set_key" : "AMediaFormat_getDouble",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AMediaFormat"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPd"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "function_name" : "AMediaFormat_getFloat",
+   "linker_set_key" : "AMediaFormat_getFloat",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AMediaFormat"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPf"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "function_name" : "AMediaFormat_getInt32",
+   "linker_set_key" : "AMediaFormat_getInt32",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AMediaFormat"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "function_name" : "AMediaFormat_getInt64",
+   "linker_set_key" : "AMediaFormat_getInt64",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AMediaFormat"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPl"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "function_name" : "AMediaFormat_getRect",
+   "linker_set_key" : "AMediaFormat_getRect",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AMediaFormat"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "function_name" : "AMediaFormat_getSize",
+   "linker_set_key" : "AMediaFormat_getSize",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AMediaFormat"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "function_name" : "AMediaFormat_getString",
+   "linker_set_key" : "AMediaFormat_getString",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AMediaFormat"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPPKc"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "function_name" : "AMediaFormat_new",
+   "linker_set_key" : "AMediaFormat_new",
+   "return_type" : "_ZTIP12AMediaFormat",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "function_name" : "AMediaFormat_setBuffer",
+   "linker_set_key" : "AMediaFormat_setBuffer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AMediaFormat"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "function_name" : "AMediaFormat_setDouble",
+   "linker_set_key" : "AMediaFormat_setDouble",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AMediaFormat"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTId"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "function_name" : "AMediaFormat_setFloat",
+   "linker_set_key" : "AMediaFormat_setFloat",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AMediaFormat"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "function_name" : "AMediaFormat_setInt32",
+   "linker_set_key" : "AMediaFormat_setInt32",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AMediaFormat"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "function_name" : "AMediaFormat_setInt64",
+   "linker_set_key" : "AMediaFormat_setInt64",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AMediaFormat"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "function_name" : "AMediaFormat_setRect",
+   "linker_set_key" : "AMediaFormat_setRect",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AMediaFormat"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "function_name" : "AMediaFormat_setSize",
+   "linker_set_key" : "AMediaFormat_setSize",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AMediaFormat"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "function_name" : "AMediaFormat_setString",
+   "linker_set_key" : "AMediaFormat_setString",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AMediaFormat"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "function_name" : "AMediaFormat_toString",
+   "linker_set_key" : "AMediaFormat_toString",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP12AMediaFormat"
+    }
+   ],
+   "return_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "function_name" : "AMediaMuxer_addTrack",
+   "linker_set_key" : "AMediaMuxer_addTrack",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaMuxer"
+    },
+    {
+     "referenced_type" : "_ZTIPK12AMediaFormat"
+    }
+   ],
+   "return_type" : "_ZTIl",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaMuxer.h"
+  },
+  {
+   "function_name" : "AMediaMuxer_append",
+   "linker_set_key" : "AMediaMuxer_append",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTI10AppendMode"
+    }
+   ],
+   "return_type" : "_ZTIP11AMediaMuxer",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaMuxer.h"
+  },
+  {
+   "function_name" : "AMediaMuxer_delete",
+   "linker_set_key" : "AMediaMuxer_delete",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaMuxer"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaMuxer.h"
+  },
+  {
+   "function_name" : "AMediaMuxer_getTrackCount",
+   "linker_set_key" : "AMediaMuxer_getTrackCount",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaMuxer"
+    }
+   ],
+   "return_type" : "_ZTIl",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaMuxer.h"
+  },
+  {
+   "function_name" : "AMediaMuxer_getTrackFormat",
+   "linker_set_key" : "AMediaMuxer_getTrackFormat",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaMuxer"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIP12AMediaFormat",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaMuxer.h"
+  },
+  {
+   "function_name" : "AMediaMuxer_new",
+   "linker_set_key" : "AMediaMuxer_new",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTI12OutputFormat"
+    }
+   ],
+   "return_type" : "_ZTIP11AMediaMuxer",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaMuxer.h"
+  },
+  {
+   "function_name" : "AMediaMuxer_setLocation",
+   "linker_set_key" : "AMediaMuxer_setLocation",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaMuxer"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaMuxer.h"
+  },
+  {
+   "function_name" : "AMediaMuxer_setOrientationHint",
+   "linker_set_key" : "AMediaMuxer_setOrientationHint",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaMuxer"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaMuxer.h"
+  },
+  {
+   "function_name" : "AMediaMuxer_start",
+   "linker_set_key" : "AMediaMuxer_start",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaMuxer"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaMuxer.h"
+  },
+  {
+   "function_name" : "AMediaMuxer_stop",
+   "linker_set_key" : "AMediaMuxer_stop",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaMuxer"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaMuxer.h"
+  },
+  {
+   "function_name" : "AMediaMuxer_writeSampleData",
+   "linker_set_key" : "AMediaMuxer_writeSampleData",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AMediaMuxer"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIPK21AMediaCodecBufferInfo"
+    }
+   ],
+   "return_type" : "_ZTI14media_status_t",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaMuxer.h"
+  }
+ ],
+ "global_vars" :
+ [
+  {
+   "linker_set_key" : "AMEDIACODEC_KEY_HDR10_PLUS_INFO",
+   "name" : "AMEDIACODEC_KEY_HDR10_PLUS_INFO",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "linker_set_key" : "AMEDIACODEC_KEY_LOW_LATENCY",
+   "name" : "AMEDIACODEC_KEY_LOW_LATENCY",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "linker_set_key" : "AMEDIACODEC_KEY_OFFSET_TIME",
+   "name" : "AMEDIACODEC_KEY_OFFSET_TIME",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "linker_set_key" : "AMEDIACODEC_KEY_REQUEST_SYNC_FRAME",
+   "name" : "AMEDIACODEC_KEY_REQUEST_SYNC_FRAME",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "linker_set_key" : "AMEDIACODEC_KEY_SUSPEND",
+   "name" : "AMEDIACODEC_KEY_SUSPEND",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "linker_set_key" : "AMEDIACODEC_KEY_SUSPEND_TIME",
+   "name" : "AMEDIACODEC_KEY_SUSPEND_TIME",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "linker_set_key" : "AMEDIACODEC_KEY_VIDEO_BITRATE",
+   "name" : "AMEDIACODEC_KEY_VIDEO_BITRATE",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_AAC_DRC_ATTENUATION_FACTOR",
+   "name" : "AMEDIAFORMAT_KEY_AAC_DRC_ATTENUATION_FACTOR",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_AAC_DRC_BOOST_FACTOR",
+   "name" : "AMEDIAFORMAT_KEY_AAC_DRC_BOOST_FACTOR",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_AAC_DRC_HEAVY_COMPRESSION",
+   "name" : "AMEDIAFORMAT_KEY_AAC_DRC_HEAVY_COMPRESSION",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_AAC_DRC_TARGET_REFERENCE_LEVEL",
+   "name" : "AMEDIAFORMAT_KEY_AAC_DRC_TARGET_REFERENCE_LEVEL",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_AAC_ENCODED_TARGET_LEVEL",
+   "name" : "AMEDIAFORMAT_KEY_AAC_ENCODED_TARGET_LEVEL",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_AAC_MAX_OUTPUT_CHANNEL_COUNT",
+   "name" : "AMEDIAFORMAT_KEY_AAC_MAX_OUTPUT_CHANNEL_COUNT",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_AAC_PROFILE",
+   "name" : "AMEDIAFORMAT_KEY_AAC_PROFILE",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_AAC_SBR_MODE",
+   "name" : "AMEDIAFORMAT_KEY_AAC_SBR_MODE",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_ALBUM",
+   "name" : "AMEDIAFORMAT_KEY_ALBUM",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_ALBUMART",
+   "name" : "AMEDIAFORMAT_KEY_ALBUMART",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_ALBUMARTIST",
+   "name" : "AMEDIAFORMAT_KEY_ALBUMARTIST",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_ALLOW_FRAME_DROP",
+   "name" : "AMEDIAFORMAT_KEY_ALLOW_FRAME_DROP",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_ARTIST",
+   "name" : "AMEDIAFORMAT_KEY_ARTIST",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_AUDIO_PRESENTATION_INFO",
+   "name" : "AMEDIAFORMAT_KEY_AUDIO_PRESENTATION_INFO",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_AUDIO_SESSION_ID",
+   "name" : "AMEDIAFORMAT_KEY_AUDIO_SESSION_ID",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_AUTHOR",
+   "name" : "AMEDIAFORMAT_KEY_AUTHOR",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_BITRATE_MODE",
+   "name" : "AMEDIAFORMAT_KEY_BITRATE_MODE",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_BITS_PER_SAMPLE",
+   "name" : "AMEDIAFORMAT_KEY_BITS_PER_SAMPLE",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_BIT_RATE",
+   "name" : "AMEDIAFORMAT_KEY_BIT_RATE",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_CAPTURE_RATE",
+   "name" : "AMEDIAFORMAT_KEY_CAPTURE_RATE",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_CDTRACKNUMBER",
+   "name" : "AMEDIAFORMAT_KEY_CDTRACKNUMBER",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_CHANNEL_COUNT",
+   "name" : "AMEDIAFORMAT_KEY_CHANNEL_COUNT",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_CHANNEL_MASK",
+   "name" : "AMEDIAFORMAT_KEY_CHANNEL_MASK",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_COLOR_FORMAT",
+   "name" : "AMEDIAFORMAT_KEY_COLOR_FORMAT",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_COLOR_RANGE",
+   "name" : "AMEDIAFORMAT_KEY_COLOR_RANGE",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_COLOR_STANDARD",
+   "name" : "AMEDIAFORMAT_KEY_COLOR_STANDARD",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_COLOR_TRANSFER",
+   "name" : "AMEDIAFORMAT_KEY_COLOR_TRANSFER",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_COMPILATION",
+   "name" : "AMEDIAFORMAT_KEY_COMPILATION",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_COMPLEXITY",
+   "name" : "AMEDIAFORMAT_KEY_COMPLEXITY",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_COMPOSER",
+   "name" : "AMEDIAFORMAT_KEY_COMPOSER",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_CREATE_INPUT_SURFACE_SUSPENDED",
+   "name" : "AMEDIAFORMAT_KEY_CREATE_INPUT_SURFACE_SUSPENDED",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_CRYPTO_DEFAULT_IV_SIZE",
+   "name" : "AMEDIAFORMAT_KEY_CRYPTO_DEFAULT_IV_SIZE",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_CRYPTO_ENCRYPTED_BYTE_BLOCK",
+   "name" : "AMEDIAFORMAT_KEY_CRYPTO_ENCRYPTED_BYTE_BLOCK",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_CRYPTO_ENCRYPTED_SIZES",
+   "name" : "AMEDIAFORMAT_KEY_CRYPTO_ENCRYPTED_SIZES",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_CRYPTO_IV",
+   "name" : "AMEDIAFORMAT_KEY_CRYPTO_IV",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_CRYPTO_KEY",
+   "name" : "AMEDIAFORMAT_KEY_CRYPTO_KEY",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_CRYPTO_MODE",
+   "name" : "AMEDIAFORMAT_KEY_CRYPTO_MODE",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_CRYPTO_PLAIN_SIZES",
+   "name" : "AMEDIAFORMAT_KEY_CRYPTO_PLAIN_SIZES",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_CRYPTO_SKIP_BYTE_BLOCK",
+   "name" : "AMEDIAFORMAT_KEY_CRYPTO_SKIP_BYTE_BLOCK",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_CSD",
+   "name" : "AMEDIAFORMAT_KEY_CSD",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_CSD_0",
+   "name" : "AMEDIAFORMAT_KEY_CSD_0",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_CSD_1",
+   "name" : "AMEDIAFORMAT_KEY_CSD_1",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_CSD_2",
+   "name" : "AMEDIAFORMAT_KEY_CSD_2",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_CSD_AVC",
+   "name" : "AMEDIAFORMAT_KEY_CSD_AVC",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_CSD_HEVC",
+   "name" : "AMEDIAFORMAT_KEY_CSD_HEVC",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_D263",
+   "name" : "AMEDIAFORMAT_KEY_D263",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_DATE",
+   "name" : "AMEDIAFORMAT_KEY_DATE",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_DISCNUMBER",
+   "name" : "AMEDIAFORMAT_KEY_DISCNUMBER",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_DISPLAY_CROP",
+   "name" : "AMEDIAFORMAT_KEY_DISPLAY_CROP",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_DISPLAY_HEIGHT",
+   "name" : "AMEDIAFORMAT_KEY_DISPLAY_HEIGHT",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_DISPLAY_WIDTH",
+   "name" : "AMEDIAFORMAT_KEY_DISPLAY_WIDTH",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_DURATION",
+   "name" : "AMEDIAFORMAT_KEY_DURATION",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_ENCODER_DELAY",
+   "name" : "AMEDIAFORMAT_KEY_ENCODER_DELAY",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_ENCODER_PADDING",
+   "name" : "AMEDIAFORMAT_KEY_ENCODER_PADDING",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_ESDS",
+   "name" : "AMEDIAFORMAT_KEY_ESDS",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_EXIF_OFFSET",
+   "name" : "AMEDIAFORMAT_KEY_EXIF_OFFSET",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_EXIF_SIZE",
+   "name" : "AMEDIAFORMAT_KEY_EXIF_SIZE",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_FLAC_COMPRESSION_LEVEL",
+   "name" : "AMEDIAFORMAT_KEY_FLAC_COMPRESSION_LEVEL",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_FRAME_COUNT",
+   "name" : "AMEDIAFORMAT_KEY_FRAME_COUNT",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_FRAME_RATE",
+   "name" : "AMEDIAFORMAT_KEY_FRAME_RATE",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_GENRE",
+   "name" : "AMEDIAFORMAT_KEY_GENRE",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_GRID_COLUMNS",
+   "name" : "AMEDIAFORMAT_KEY_GRID_COLUMNS",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_GRID_ROWS",
+   "name" : "AMEDIAFORMAT_KEY_GRID_ROWS",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_HAPTIC_CHANNEL_COUNT",
+   "name" : "AMEDIAFORMAT_KEY_HAPTIC_CHANNEL_COUNT",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_HDR10_PLUS_INFO",
+   "name" : "AMEDIAFORMAT_KEY_HDR10_PLUS_INFO",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_HDR_STATIC_INFO",
+   "name" : "AMEDIAFORMAT_KEY_HDR_STATIC_INFO",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_HEIGHT",
+   "name" : "AMEDIAFORMAT_KEY_HEIGHT",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_ICC_PROFILE",
+   "name" : "AMEDIAFORMAT_KEY_ICC_PROFILE",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_INTRA_REFRESH_PERIOD",
+   "name" : "AMEDIAFORMAT_KEY_INTRA_REFRESH_PERIOD",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_IS_ADTS",
+   "name" : "AMEDIAFORMAT_KEY_IS_ADTS",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_IS_AUTOSELECT",
+   "name" : "AMEDIAFORMAT_KEY_IS_AUTOSELECT",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_IS_DEFAULT",
+   "name" : "AMEDIAFORMAT_KEY_IS_DEFAULT",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_IS_FORCED_SUBTITLE",
+   "name" : "AMEDIAFORMAT_KEY_IS_FORCED_SUBTITLE",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_IS_SYNC_FRAME",
+   "name" : "AMEDIAFORMAT_KEY_IS_SYNC_FRAME",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_I_FRAME_INTERVAL",
+   "name" : "AMEDIAFORMAT_KEY_I_FRAME_INTERVAL",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_LANGUAGE",
+   "name" : "AMEDIAFORMAT_KEY_LANGUAGE",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_LAST_SAMPLE_INDEX_IN_CHUNK",
+   "name" : "AMEDIAFORMAT_KEY_LAST_SAMPLE_INDEX_IN_CHUNK",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_LATENCY",
+   "name" : "AMEDIAFORMAT_KEY_LATENCY",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_LEVEL",
+   "name" : "AMEDIAFORMAT_KEY_LEVEL",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_LOCATION",
+   "name" : "AMEDIAFORMAT_KEY_LOCATION",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_LOOP",
+   "name" : "AMEDIAFORMAT_KEY_LOOP",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_LOW_LATENCY",
+   "name" : "AMEDIAFORMAT_KEY_LOW_LATENCY",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_LYRICIST",
+   "name" : "AMEDIAFORMAT_KEY_LYRICIST",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_MANUFACTURER",
+   "name" : "AMEDIAFORMAT_KEY_MANUFACTURER",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_MAX_BIT_RATE",
+   "name" : "AMEDIAFORMAT_KEY_MAX_BIT_RATE",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_MAX_B_FRAMES",
+   "name" : "AMEDIAFORMAT_KEY_MAX_B_FRAMES",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_MAX_FPS_TO_ENCODER",
+   "name" : "AMEDIAFORMAT_KEY_MAX_FPS_TO_ENCODER",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_MAX_HEIGHT",
+   "name" : "AMEDIAFORMAT_KEY_MAX_HEIGHT",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_MAX_INPUT_SIZE",
+   "name" : "AMEDIAFORMAT_KEY_MAX_INPUT_SIZE",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_MAX_PTS_GAP_TO_ENCODER",
+   "name" : "AMEDIAFORMAT_KEY_MAX_PTS_GAP_TO_ENCODER",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_MAX_WIDTH",
+   "name" : "AMEDIAFORMAT_KEY_MAX_WIDTH",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_MIME",
+   "name" : "AMEDIAFORMAT_KEY_MIME",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_MPEG2_STREAM_HEADER",
+   "name" : "AMEDIAFORMAT_KEY_MPEG2_STREAM_HEADER",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_MPEGH_COMPATIBLE_SETS",
+   "name" : "AMEDIAFORMAT_KEY_MPEGH_COMPATIBLE_SETS",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_MPEGH_PROFILE_LEVEL_INDICATION",
+   "name" : "AMEDIAFORMAT_KEY_MPEGH_PROFILE_LEVEL_INDICATION",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_MPEGH_REFERENCE_CHANNEL_LAYOUT",
+   "name" : "AMEDIAFORMAT_KEY_MPEGH_REFERENCE_CHANNEL_LAYOUT",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_MPEG_USER_DATA",
+   "name" : "AMEDIAFORMAT_KEY_MPEG_USER_DATA",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_OPERATING_RATE",
+   "name" : "AMEDIAFORMAT_KEY_OPERATING_RATE",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_PCM_BIG_ENDIAN",
+   "name" : "AMEDIAFORMAT_KEY_PCM_BIG_ENDIAN",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_PCM_ENCODING",
+   "name" : "AMEDIAFORMAT_KEY_PCM_ENCODING",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_PRIORITY",
+   "name" : "AMEDIAFORMAT_KEY_PRIORITY",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_PROFILE",
+   "name" : "AMEDIAFORMAT_KEY_PROFILE",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_PSSH",
+   "name" : "AMEDIAFORMAT_KEY_PSSH",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_PUSH_BLANK_BUFFERS_ON_STOP",
+   "name" : "AMEDIAFORMAT_KEY_PUSH_BLANK_BUFFERS_ON_STOP",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_REPEAT_PREVIOUS_FRAME_AFTER",
+   "name" : "AMEDIAFORMAT_KEY_REPEAT_PREVIOUS_FRAME_AFTER",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_ROTATION",
+   "name" : "AMEDIAFORMAT_KEY_ROTATION",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_SAMPLE_FILE_OFFSET",
+   "name" : "AMEDIAFORMAT_KEY_SAMPLE_FILE_OFFSET",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_SAMPLE_RATE",
+   "name" : "AMEDIAFORMAT_KEY_SAMPLE_RATE",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_SAMPLE_TIME_BEFORE_APPEND",
+   "name" : "AMEDIAFORMAT_KEY_SAMPLE_TIME_BEFORE_APPEND",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_SAR_HEIGHT",
+   "name" : "AMEDIAFORMAT_KEY_SAR_HEIGHT",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_SAR_WIDTH",
+   "name" : "AMEDIAFORMAT_KEY_SAR_WIDTH",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_SEI",
+   "name" : "AMEDIAFORMAT_KEY_SEI",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_SLICE_HEIGHT",
+   "name" : "AMEDIAFORMAT_KEY_SLICE_HEIGHT",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_SLOW_MOTION_MARKERS",
+   "name" : "AMEDIAFORMAT_KEY_SLOW_MOTION_MARKERS",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_STRIDE",
+   "name" : "AMEDIAFORMAT_KEY_STRIDE",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_TARGET_TIME",
+   "name" : "AMEDIAFORMAT_KEY_TARGET_TIME",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_TEMPORAL_LAYERING",
+   "name" : "AMEDIAFORMAT_KEY_TEMPORAL_LAYERING",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_TEMPORAL_LAYER_COUNT",
+   "name" : "AMEDIAFORMAT_KEY_TEMPORAL_LAYER_COUNT",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_TEMPORAL_LAYER_ID",
+   "name" : "AMEDIAFORMAT_KEY_TEMPORAL_LAYER_ID",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_TEXT_FORMAT_DATA",
+   "name" : "AMEDIAFORMAT_KEY_TEXT_FORMAT_DATA",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_THUMBNAIL_CSD_AV1C",
+   "name" : "AMEDIAFORMAT_KEY_THUMBNAIL_CSD_AV1C",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_THUMBNAIL_CSD_HEVC",
+   "name" : "AMEDIAFORMAT_KEY_THUMBNAIL_CSD_HEVC",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_THUMBNAIL_HEIGHT",
+   "name" : "AMEDIAFORMAT_KEY_THUMBNAIL_HEIGHT",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_THUMBNAIL_TIME",
+   "name" : "AMEDIAFORMAT_KEY_THUMBNAIL_TIME",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_THUMBNAIL_WIDTH",
+   "name" : "AMEDIAFORMAT_KEY_THUMBNAIL_WIDTH",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_TILE_HEIGHT",
+   "name" : "AMEDIAFORMAT_KEY_TILE_HEIGHT",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_TILE_WIDTH",
+   "name" : "AMEDIAFORMAT_KEY_TILE_WIDTH",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_TIME_US",
+   "name" : "AMEDIAFORMAT_KEY_TIME_US",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_TITLE",
+   "name" : "AMEDIAFORMAT_KEY_TITLE",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_TRACK_ID",
+   "name" : "AMEDIAFORMAT_KEY_TRACK_ID",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_TRACK_INDEX",
+   "name" : "AMEDIAFORMAT_KEY_TRACK_INDEX",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_VALID_SAMPLES",
+   "name" : "AMEDIAFORMAT_KEY_VALID_SAMPLES",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_WIDTH",
+   "name" : "AMEDIAFORMAT_KEY_WIDTH",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_XMP_OFFSET",
+   "name" : "AMEDIAFORMAT_KEY_XMP_OFFSET",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_XMP_SIZE",
+   "name" : "AMEDIAFORMAT_KEY_XMP_SIZE",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_YEAR",
+   "name" : "AMEDIAFORMAT_KEY_YEAR",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  }
+ ],
+ "lvalue_reference_types" : [],
+ "pointer_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP11AMediaCodec",
+   "name" : "AMediaCodec *",
+   "referenced_type" : "_ZTI11AMediaCodec",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP11AMediaMuxer",
+   "name" : "AMediaMuxer *",
+   "referenced_type" : "_ZTI11AMediaMuxer",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaMuxer.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP12AMediaCrypto",
+   "name" : "AMediaCrypto *",
+   "referenced_type" : "_ZTI12AMediaCrypto",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP12AMediaFormat",
+   "name" : "AMediaFormat *",
+   "referenced_type" : "_ZTI12AMediaFormat",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP13ANativeWindow",
+   "name" : "ANativeWindow *",
+   "referenced_type" : "_ZTI13ANativeWindow",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP14AImageCropRect",
+   "name" : "AImageCropRect *",
+   "referenced_type" : "_ZTI14AImageCropRect",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImage.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP15AHardwareBuffer",
+   "name" : "AHardwareBuffer *",
+   "referenced_type" : "_ZTI15AHardwareBuffer",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImage.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP15AMediaExtractor",
+   "name" : "AMediaExtractor *",
+   "referenced_type" : "_ZTI15AMediaExtractor",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP16AMediaDataSource",
+   "name" : "AMediaDataSource *",
+   "referenced_type" : "_ZTI16AMediaDataSource",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP18AMediaDrmByteArray",
+   "name" : "AMediaDrmByteArray *",
+   "referenced_type" : "_ZTI18AMediaDrmByteArray",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP20cryptoinfo_pattern_t",
+   "name" : "cryptoinfo_pattern_t *",
+   "referenced_type" : "_ZTI20cryptoinfo_pattern_t",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP21AMediaCodecBufferInfo",
+   "name" : "AMediaCodecBufferInfo *",
+   "referenced_type" : "_ZTI21AMediaCodecBufferInfo",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP21AMediaCodecCryptoInfo",
+   "name" : "AMediaCodecCryptoInfo *",
+   "referenced_type" : "_ZTI21AMediaCodecCryptoInfo",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP21AMediaDrmKeyValuePair",
+   "name" : "AMediaDrmKeyValuePair *",
+   "referenced_type" : "_ZTI21AMediaDrmKeyValuePair",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP23AMediaDrmKeyRequestType",
+   "name" : "AMediaDrmKeyRequestType *",
+   "referenced_type" : "_ZTI23AMediaDrmKeyRequestType",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP26AImageReader_ImageListener",
+   "name" : "AImageReader_ImageListener *",
+   "referenced_type" : "_ZTI26AImageReader_ImageListener",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP34AImageReader_BufferRemovedListener",
+   "name" : "AImageReader_BufferRemovedListener *",
+   "referenced_type" : "_ZTI34AImageReader_BufferRemovedListener",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP6AImage",
+   "name" : "AImage *",
+   "referenced_type" : "_ZTI6AImage",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImage.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP8PsshInfo",
+   "name" : "PsshInfo *",
+   "referenced_type" : "_ZTI8PsshInfo",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP9AMediaDrm",
+   "name" : "AMediaDrm *",
+   "referenced_type" : "_ZTI9AMediaDrm",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPFlPvE",
+   "name" : "long (*)(void *)",
+   "referenced_type" : "_ZTIFlPvE",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPFlPvlE",
+   "name" : "long (*)(void *, long)",
+   "referenced_type" : "_ZTIFlPvlE",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPFlPvlS_mE",
+   "name" : "long (*)(void *, long, void *, unsigned long)",
+   "referenced_type" : "_ZTIFlPvlS_mE",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPFvP11AMediaCodecPv14media_status_tiPKcE",
+   "name" : "void (*)(AMediaCodec *, void *, media_status_t, int, const char *)",
+   "referenced_type" : "_ZTIFvP11AMediaCodecPv14media_status_tiPKcE",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPFvP11AMediaCodecPvP12AMediaFormatE",
+   "name" : "void (*)(AMediaCodec *, void *, AMediaFormat *)",
+   "referenced_type" : "_ZTIFvP11AMediaCodecPvP12AMediaFormatE",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPFvP11AMediaCodecPviE",
+   "name" : "void (*)(AMediaCodec *, void *, int)",
+   "referenced_type" : "_ZTIFvP11AMediaCodecPviE",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPFvP11AMediaCodecPviP21AMediaCodecBufferInfoE",
+   "name" : "void (*)(AMediaCodec *, void *, int, AMediaCodecBufferInfo *)",
+   "referenced_type" : "_ZTIFvP11AMediaCodecPviP21AMediaCodecBufferInfoE",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPFvP11AMediaCodecPvllE",
+   "name" : "void (*)(AMediaCodec *, void *, long, long)",
+   "referenced_type" : "_ZTIFvP11AMediaCodecPvllE",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPFvP9AMediaDrmPK18AMediaDrmByteArray18AMediaDrmEventTypeiPKhmE",
+   "name" : "void (*)(AMediaDrm *, const AMediaDrmByteArray *, AMediaDrmEventType, int, const unsigned char *, unsigned long)",
+   "referenced_type" : "_ZTIFvP9AMediaDrmPK18AMediaDrmByteArray18AMediaDrmEventTypeiPKhmE",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPFvP9AMediaDrmPK18AMediaDrmByteArrayPK18AMediaDrmKeyStatusmbE",
+   "name" : "void (*)(AMediaDrm *, const AMediaDrmByteArray *, const AMediaDrmKeyStatus *, unsigned long, bool)",
+   "referenced_type" : "_ZTIFvP9AMediaDrmPK18AMediaDrmByteArrayPK18AMediaDrmKeyStatusmbE",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPFvP9AMediaDrmPK18AMediaDrmByteArraylE",
+   "name" : "void (*)(AMediaDrm *, const AMediaDrmByteArray *, long)",
+   "referenced_type" : "_ZTIFvP9AMediaDrmPK18AMediaDrmByteArraylE",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPFvPvE",
+   "name" : "void (*)(void *)",
+   "referenced_type" : "_ZTIFvPvE",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDataSource.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPFvPvP12AImageReaderE",
+   "name" : "void (*)(void *, AImageReader *)",
+   "referenced_type" : "_ZTIFvPvP12AImageReaderE",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPFvPvP12AImageReaderP15AHardwareBufferE",
+   "name" : "void (*)(void *, AImageReader *, AHardwareBuffer *)",
+   "referenced_type" : "_ZTIFvPvP12AImageReaderP15AHardwareBufferE",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK12AImageReader",
+   "name" : "const AImageReader *",
+   "referenced_type" : "_ZTIK12AImageReader",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK12AMediaFormat",
+   "name" : "const AMediaFormat *",
+   "referenced_type" : "_ZTIK12AMediaFormat",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK18AMediaDrmByteArray",
+   "name" : "const AMediaDrmByteArray *",
+   "referenced_type" : "_ZTIK18AMediaDrmByteArray",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK18AMediaDrmKeyStatus",
+   "name" : "const AMediaDrmKeyStatus *",
+   "referenced_type" : "_ZTIK18AMediaDrmKeyStatus",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK21AMediaCodecBufferInfo",
+   "name" : "const AMediaCodecBufferInfo *",
+   "referenced_type" : "_ZTIK21AMediaCodecBufferInfo",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaMuxer.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK21AMediaDrmKeyValuePair",
+   "name" : "const AMediaDrmKeyValuePair *",
+   "referenced_type" : "_ZTIK21AMediaDrmKeyValuePair",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK6AImage",
+   "name" : "const AImage *",
+   "referenced_type" : "_ZTIK6AImage",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImage.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKc",
+   "name" : "const char *",
+   "referenced_type" : "_ZTIKc",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKh",
+   "name" : "const unsigned char *",
+   "referenced_type" : "_ZTIKh",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCrypto.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKv",
+   "name" : "const void *",
+   "referenced_type" : "_ZTIKv",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCrypto.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPP12AImageReader",
+   "name" : "AImageReader **",
+   "referenced_type" : "_ZTIP12AImageReader",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPP13ANativeWindow",
+   "name" : "ANativeWindow **",
+   "referenced_type" : "_ZTIP13ANativeWindow",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPP15AHardwareBuffer",
+   "name" : "AHardwareBuffer **",
+   "referenced_type" : "_ZTIP15AHardwareBuffer",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImage.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPP6AImage",
+   "name" : "AImage **",
+   "referenced_type" : "_ZTIP6AImage",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPPKc",
+   "name" : "const char **",
+   "referenced_type" : "_ZTIPKc",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPPKh",
+   "name" : "const unsigned char **",
+   "referenced_type" : "_ZTIPKh",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPPc",
+   "name" : "char **",
+   "referenced_type" : "_ZTIPc",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPPh",
+   "name" : "unsigned char **",
+   "referenced_type" : "_ZTIPh",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImage.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPPv",
+   "name" : "void **",
+   "referenced_type" : "_ZTIPv",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPc",
+   "name" : "char *",
+   "referenced_type" : "_ZTIc",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPd",
+   "name" : "double *",
+   "referenced_type" : "_ZTId",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPf",
+   "name" : "float *",
+   "referenced_type" : "_ZTIf",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPh",
+   "name" : "unsigned char *",
+   "referenced_type" : "_ZTIh",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPi",
+   "name" : "int *",
+   "referenced_type" : "_ZTIi",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPl",
+   "name" : "long *",
+   "referenced_type" : "_ZTIl",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPm",
+   "name" : "unsigned long *",
+   "referenced_type" : "_ZTIm",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPv",
+   "name" : "void *",
+   "referenced_type" : "_ZTIv",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  }
+ ],
+ "qualified_types" :
+ [
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK12AImageReader",
+   "name" : "const AImageReader",
+   "referenced_type" : "_ZTI12AImageReader",
+   "size" : 216,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK12AMediaFormat",
+   "name" : "const AMediaFormat",
+   "referenced_type" : "_ZTI12AMediaFormat",
+   "size" : 56,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK18AMediaDrmByteArray",
+   "name" : "const AMediaDrmByteArray",
+   "referenced_type" : "_ZTI18AMediaDrmByteArray",
+   "size" : 16,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK18AMediaDrmKeyStatus",
+   "name" : "const AMediaDrmKeyStatus",
+   "referenced_type" : "_ZTI18AMediaDrmKeyStatus",
+   "size" : 24,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK21AMediaCodecBufferInfo",
+   "name" : "const AMediaCodecBufferInfo",
+   "referenced_type" : "_ZTI21AMediaCodecBufferInfo",
+   "size" : 24,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaMuxer.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK21AMediaDrmKeyValuePair",
+   "name" : "const AMediaDrmKeyValuePair",
+   "referenced_type" : "_ZTI21AMediaDrmKeyValuePair",
+   "size" : 16,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK6AImage",
+   "name" : "const AImage",
+   "referenced_type" : "_ZTI6AImage",
+   "size" : 112,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImage.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKc",
+   "name" : "const char",
+   "referenced_type" : "_ZTIc",
+   "size" : 1,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKh",
+   "name" : "const unsigned char",
+   "referenced_type" : "_ZTIh",
+   "size" : 1,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCrypto.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKv",
+   "name" : "const void",
+   "referenced_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCrypto.h"
+  }
+ ],
+ "record_types" :
+ [
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "left",
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "top",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "right",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "bottom",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "linker_set_key" : "_ZTI14AImageCropRect",
+   "name" : "AImageCropRect",
+   "size" : 16,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImage.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "ptr",
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "field_name" : "length",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "linker_set_key" : "_ZTI18AMediaDrmByteArray",
+   "name" : "AMediaDrmByteArray",
+   "size" : 16,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "keyId",
+     "referenced_type" : "_ZTI18AMediaDrmByteArray"
+    },
+    {
+     "field_name" : "keyType",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTI19AMediaKeyStatusType"
+    }
+   ],
+   "linker_set_key" : "_ZTI18AMediaDrmKeyStatus",
+   "name" : "AMediaDrmKeyStatus",
+   "size" : 24,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "encryptBlocks",
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "skipBlocks",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "linker_set_key" : "_ZTI20cryptoinfo_pattern_t",
+   "name" : "cryptoinfo_pattern_t",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "offset",
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "size",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "presentationTimeUs",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIl"
+    },
+    {
+     "field_name" : "flags",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI21AMediaCodecBufferInfo",
+   "name" : "AMediaCodecBufferInfo",
+   "size" : 24,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "mKey",
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "field_name" : "mValue",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "linker_set_key" : "_ZTI21AMediaDrmKeyValuePair",
+   "name" : "AMediaDrmKeyValuePair",
+   "size" : 16,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaDrm.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "context",
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "onImageAvailable",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIPFvPvP12AImageReaderE"
+    }
+   ],
+   "linker_set_key" : "_ZTI26AImageReader_ImageListener",
+   "name" : "AImageReader_ImageListener",
+   "size" : 16,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "onAsyncInputAvailable",
+     "referenced_type" : "_ZTIPFvP11AMediaCodecPviE"
+    },
+    {
+     "field_name" : "onAsyncOutputAvailable",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIPFvP11AMediaCodecPviP21AMediaCodecBufferInfoE"
+    },
+    {
+     "field_name" : "onAsyncFormatChanged",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIPFvP11AMediaCodecPvP12AMediaFormatE"
+    },
+    {
+     "field_name" : "onAsyncError",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIPFvP11AMediaCodecPv14media_status_tiPKcE"
+    }
+   ],
+   "linker_set_key" : "_ZTI32AMediaCodecOnAsyncNotifyCallback",
+   "name" : "AMediaCodecOnAsyncNotifyCallback",
+   "size" : 32,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "context",
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "onBufferRemoved",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIPFvPvP12AImageReaderP15AHardwareBufferE"
+    }
+   ],
+   "linker_set_key" : "_ZTI34AImageReader_BufferRemovedListener",
+   "name" : "AImageReader_BufferRemovedListener",
+   "size" : 16,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkImageReader.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "numentries",
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "field_name" : "entries",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIA0_9PsshEntry"
+    }
+   ],
+   "linker_set_key" : "_ZTI8PsshInfo",
+   "name" : "PsshInfo",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "uuid",
+     "referenced_type" : "_ZTIA16_h"
+    },
+    {
+     "field_name" : "datalen",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "field_name" : "data",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "linker_set_key" : "_ZTI9PsshEntry",
+   "name" : "PsshEntry",
+   "size" : 32,
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaExtractor.h"
+  }
+ ],
+ "rvalue_reference_types" : []
+}
