@@ -1,0 +1,58 @@
+{
+ "array_types" : [],
+ "builtin_types" :
+ [
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIi",
+   "name" : "int",
+   "size" : 4
+  }
+ ],
+ "elf_functions" :
+ [
+  {
+   "name" : "AVendorSupport_getSdkApiLevelOf"
+  },
+  {
+   "name" : "AVendorSupport_getVendorApiLevelOf"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" :
+ [
+  {
+   "function_name" : "AVendorSupport_getSdkApiLevelOf",
+   "linker_set_key" : "AVendorSupport_getSdkApiLevelOf",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "system/core/libvendorsupport/include/vendorsupport/api_level.h"
+  },
+  {
+   "function_name" : "AVendorSupport_getVendorApiLevelOf",
+   "linker_set_key" : "AVendorSupport_getVendorApiLevelOf",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "system/core/libvendorsupport/include/vendorsupport/api_level.h"
+  }
+ ],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}
