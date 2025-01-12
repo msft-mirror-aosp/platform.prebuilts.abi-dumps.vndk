@@ -32,12 +32,14 @@
     {
       "target_version": "current",
       "ignore_linker_set_keys": [
+        "_ZN7android28AHardwareBuffer_getDataSpaceEP15AHardwareBuffer",
         "_ZN7android34AHardwareBuffer_isValidPixelFormatEj",
       ],
     },
     {
       "target_version": "202404",
       "ignore_linker_set_keys": [
+        "_ZN7android28AHardwareBuffer_getDataSpaceEP15AHardwareBuffer",
         "_ZN7android34AHardwareBuffer_isValidPixelFormatEj",
       ],
     },
