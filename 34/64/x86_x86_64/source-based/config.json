@@ -12,6 +12,14 @@
       }
     }
   ],
+  "libc": [
+    {
+      "target_version": "current",
+      "ignore_linker_set_keys": [
+        "_ZTI3FTS"
+      ]
+    }
+  ],
   "libc++": [
     {
       "target_version": "current",
